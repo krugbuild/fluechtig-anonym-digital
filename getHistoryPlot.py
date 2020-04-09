@@ -63,5 +63,6 @@ addHistoryData(G, getHistoryXML('https://en.wikipedia.org/w/index.php?title=Hong
 #nx.draw_kamada_kawai(G, with_labels=True, node_size=300)
 nx.draw_networkx(G)
 
+
 plt.savefig("graph.png")
 plt.show()
