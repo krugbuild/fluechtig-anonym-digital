@@ -32,22 +32,56 @@ def getHistoryXML(url):
 def addHistoryData(graph, history):
     # als Title wird der Teil vor dem : ermittelt und als node übernommen
     title = history.xpath('/article/title')[0].text.rsplit(": ", 1)[0]
-    graph.add_node(title)
+    # farbe je nach Sprachversion
+    if history.xpath('/article/language')[0].text == 'zh':
+        graph.add_node(title, color = "red", value = 200)
+    elif history.xpath('/article/language')[0].text == 'en':
+        graph.add_node(title, color = "blue", value = 200)
     # User als nodes hinzufügen
     for user in history.xpath('/article/versions/version/user'):
-        graph.add_node(user.text)
+        graph.add_node(user.text, value = 100)
     # Versionen als edges hinzufügen
     for version in history.xpath('/article/versions/version'):
-        graph.add_edge(title, version.xpath('./user')[0].text, timestamp=version.xpath('./user')[0].text)
+        graph.add_edge(title, version.xpath('./user')[0].text, timestamp=version.xpath('./timestamp')[0].text)
 # =============================================================================
     
 netGraph = Network(height='750pt', width='100%', bgcolor="#222222", font_color="white")        
 netGraph.barnes_hut()
 #netGraph.show_buttons(filter_='physics')                   
                    
-addHistoryData(netGraph, getHistoryXML('https://en.wikipedia.org/w/index.php?title=1989_Tiananmen_Square_protests&action=history&limit=100'))
-addHistoryData(netGraph, getHistoryXML('https://en.wikipedia.org/w/index.php?title=Taiwan&action=history&limit=100'))
-addHistoryData(netGraph, getHistoryXML('https://en.wikipedia.org/w/index.php?title=Hong_Kong&action=history&limit=100'))
-addHistoryData(netGraph, getHistoryXML('https://zh.wikipedia.org/w/index.php?title=%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B&action=history&limit=100'))
+addHistoryData(netGraph, getHistoryXML('https://en.wikipedia.org/w/index.php?title=1989_Tiananmen_Square_protests&action=history&limit=1000'))
+addHistoryData(netGraph, getHistoryXML('https://en.wikipedia.org/w/index.php?title=Taiwan&action=history&limit=1000'))
+addHistoryData(netGraph, getHistoryXML('https://en.wikipedia.org/w/index.php?title=Hong_Kong&action=history&limit=1000'))
+# taiwan
+addHistoryData(netGraph, getHistoryXML('https://zh.wikipedia.org/w/index.php?title=%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B&action=history&limit=1000'))
+# tiananmen
+addHistoryData(netGraph, getHistoryXML('https://zh.wikipedia.org/w/index.php?title=%E5%85%AD%E5%9B%9B%E4%BA%8B%E4%BB%B6&action=history&limit=1000'))
+# hong kong
+addHistoryData(netGraph, getHistoryXML('https://zh.wikipedia.org/w/index.php?title=%E9%A6%99%E6%B8%AF&action=history&limit=1000'))
+
 
 netGraph.show('networkmap.html')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
