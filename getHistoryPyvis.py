@@ -34,19 +34,20 @@ def addHistoryData(graph, history):
     title = history.xpath('/article/title')[0].text.rsplit(": ", 1)[0]
     # farbe je nach Sprachversion
     if history.xpath('/article/language')[0].text == 'zh':
-        graph.add_node(title, color = "red", value = 200)
+        graph.add_node(title, color = "red", value = 100)
     elif history.xpath('/article/language')[0].text == 'en':
-        graph.add_node(title, color = "blue", value = 200)
+        graph.add_node(title, color = "blue", value = 100)
     # User als nodes hinzufügen
     for user in history.xpath('/article/versions/version/user'):
-        graph.add_node(user.text, value = 100)
+        graph.add_node(user.text, value = 10)
     # Versionen als edges hinzufügen
     for version in history.xpath('/article/versions/version'):
+      
         graph.add_edge(title, version.xpath('./user')[0].text, timestamp=version.xpath('./timestamp')[0].text)
 # =============================================================================
     
 netGraph = Network(height='750pt', width='100%', bgcolor="#222222", font_color="white")        
-netGraph.barnes_hut()
+#netGraph.barnes_hut()
 #netGraph.show_buttons(filter_='physics')                   
                    
 addHistoryData(netGraph, getHistoryXML('https://en.wikipedia.org/w/index.php?title=1989_Tiananmen_Square_protests&action=history&limit=1000'))
@@ -59,6 +60,7 @@ addHistoryData(netGraph, getHistoryXML('https://zh.wikipedia.org/w/index.php?tit
 # hong kong
 addHistoryData(netGraph, getHistoryXML('https://zh.wikipedia.org/w/index.php?title=%E9%A6%99%E6%B8%AF&action=history&limit=1000'))
 
+stuff = netGraph.edges
 
 netGraph.show('networkmap.html')
 
