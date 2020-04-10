@@ -42,8 +42,9 @@ def addHistoryData(graph, history):
         graph.add_node(user.text, value = 10)
     # Versionen als edges hinzufügen
     for version in history.xpath('/article/versions/version'):
-      
+        
         graph.add_edge(title, version.xpath('./user')[0].text, timestamp=version.xpath('./timestamp')[0].text)
+        graph.edges.index(['from',title])
 # =============================================================================
     
 netGraph = Network(height='750pt', width='100%', bgcolor="#222222", font_color="white")        
@@ -59,8 +60,6 @@ addHistoryData(netGraph, getHistoryXML('https://zh.wikipedia.org/w/index.php?tit
 addHistoryData(netGraph, getHistoryXML('https://zh.wikipedia.org/w/index.php?title=%E5%85%AD%E5%9B%9B%E4%BA%8B%E4%BB%B6&action=history&limit=1000'))
 # hong kong
 addHistoryData(netGraph, getHistoryXML('https://zh.wikipedia.org/w/index.php?title=%E9%A6%99%E6%B8%AF&action=history&limit=1000'))
-
-stuff = netGraph.edges
 
 netGraph.show('networkmap.html')
 
