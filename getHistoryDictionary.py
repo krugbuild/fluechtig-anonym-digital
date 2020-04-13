@@ -60,6 +60,11 @@ def addHistoryData_list(nodes, edges, history):
 
 # =============================================================================
     
+# dictionary 
+# nodes {name(title/user), lang, type(article/user),  }
+# edges {user, article, timestamp, id}
+    
+    
 def countOccurences(nodes, edges):
     temp_list = list()
     for node in nodes:
