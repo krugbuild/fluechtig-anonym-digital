@@ -164,24 +164,40 @@ def createGephiExport(nodes, edges):
 
 # =============================================================================    
 
+def readDataCSV(nodes, edges):
+    with open('nodes.csv', 'r', newline='') as csvfile:
+        reader = csv.reader(csvfile)
+        print(next(reader))
+        for row in reader:
+            nodes.append({"name":row[0], "lang":row[1], "type":row[2]})
+    with open('edges.csv', 'r', newline='') as csvfile:
+        reader = csv.reader(csvfile)
+        print(next(reader))
+        for row in reader:
+            edges.append({"user":row[0], "article":row[1], "timestamp":row[2], "id":row[3]})
+
+# =============================================================================    
+
+
 nodes = list()
 edges = list()
 
 # Articles Abrufen und als XML speichern. NB Limit anpassen
 # en article
-addArticleData(nodes, edges, getXMLdata('https://en.wikipedia.org/w/index.php?title=1989_Tiananmen_Square_protests&action=history&limit=500', 'history.xsl'))
-addArticleData(nodes, edges, getXMLdata('https://en.wikipedia.org/w/index.php?title=Hong_Kong&action=history&limit=500', 'history.xsl'))
-# zh article
-addArticleData(nodes, edges, getXMLdata('https://zh.wikipedia.org/w/index.php?title=%E5%85%AD%E5%9B%9B%E4%BA%8B%E4%BB%B6&action=history&limit=500', 'history.xsl'))
-addArticleData(nodes, edges, getXMLdata('https://zh.wikipedia.org/w/index.php?title=%E9%A6%99%E6%B8%AF&action=history&limit=500', 'history.xsl'))
+#addArticleData(nodes, edges, getXMLdata('https://en.wikipedia.org/w/index.php?title=1989_Tiananmen_Square_protests&action=history&limit=500', 'history.xsl'))
+#addArticleData(nodes, edges, getXMLdata('https://en.wikipedia.org/w/index.php?title=Hong_Kong&action=history&limit=500', 'history.xsl'))
+## zh article
+#addArticleData(nodes, edges, getXMLdata('https://zh.wikipedia.org/w/index.php?title=%E5%85%AD%E5%9B%9B%E4%BA%8B%E4%BB%B6&action=history&limit=500', 'history.xsl'))
+#addArticleData(nodes, edges, getXMLdata('https://zh.wikipedia.org/w/index.php?title=%E9%A6%99%E6%B8%AF&action=history&limit=500', 'history.xsl'))
+#
+## zugehörige user-netzwerke ermitteln
+#for node in nodes:
+#    if node["type"] == "user":
+#        # Aufruf je Sprachversion, NB &target=USERNAME muss als letztes Element notiert sein (sonst liefert das Schema nichts)
+#        addUserData(nodes, edges, getXMLdata('https://en.wikipedia.org/w/index.php?title=Special:Contributions&limit=100&target=' + node["name"], 'user.xsl'))
+#        addUserData(nodes, edges, getXMLdata('https://zh.wikipedia.org/w/index.php?title=Special:用户贡献&limit=100&target=' + node["name"], 'user.xsl'))
 
-# zugehörige user-netzwerke ermitteln
-for node in nodes:
-    if node["type"] == "user":
-        # Aufruf je Sprachversion, NB &target=USERNAME muss als letztes Element notiert sein (sonst liefert das Schema nichts)
-        addUserData(nodes, edges, getXMLdata('https://en.wikipedia.org/w/index.php?title=Special:Contributions&limit=100&target=' + node["name"], 'user.xsl'))
-        addUserData(nodes, edges, getXMLdata('https://zh.wikipedia.org/w/index.php?title=Special:用户贡献&limit=100&target=' + node["name"], 'user.xsl'))
-        
+readDataCSV(nodes, edges)
 #createNetxNetwork(nodes, edges)
 #createGephiExport(nodes, edges)
 createPyvisNetwork(nodes, edges)
