@@ -1,0 +1,910 @@
+
+<!DOCTYPE html>
+<html class="client-nojs" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>User contributions for BabelStone - Wikipedia</title>
+<script>document.documentElement.className="client-js";RLCONF={"wgBreakFrames":!1,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgRequestId":"XpbBKgpAIC8AAIcsNCEAAACI","wgCSPNonce":!1,"wgCanonicalNamespace":"Special","wgCanonicalSpecialPageName":"Contributions","wgNamespaceNumber":-1,"wgPageName":"Special:Contributions/BabelStone","wgTitle":"Contributions/BabelStone","wgCurRevisionId":0,"wgRevisionId":0,"wgArticleId":0,"wgIsArticle":!1,"wgIsRedirect":!1,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgRelevantPageName":"Special:Contributions/BabelStone","wgRelevantArticleId":0,"wgIsProbablyEditable":!1,"wgRelevantPageIsProbablyEditable":!1,"wgRelevantUserName":"BabelStone","wgMediaViewerOnClick":!0,
+"wgMediaViewerEnabledByDefault":!0,"wgPopupsReferencePreviews":!1,"wgPopupsConflictsWithNavPopupGadget":!1,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en"},"wgMFDisplayWikibaseDescriptions":{"search":!0,"nearby":!0,"watchlist":!0,"tagline":!1},"wgWMESchemaEditAttemptStepOversample":!1,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralAuthMobileDomain":!1,"wgEditSubmitButtonLabelPublish":!0,"oresData":{"951004296":{"damaging":0.009},"950944802":{"damaging":0.007},"950939805":{"damaging":0.006},"950873497":{"damaging":0.006},"950747333":{"damaging":0.01},"950746812":{"damaging":0.026},"950746408":{"damaging":0.013},"950392217":{"damaging":0.01},"950339757":{"damaging":0.02},"950288391":{"damaging":0.006},"950149552":{"damaging":0.019},"950132560":{"damaging":0.009},"950050368":{"damaging":0.003},"950049691":{"damaging":0.008},"949756433":{"damaging":0.008},"949754831":{"damaging":0.004},
+"949753310":{"damaging":0.007},"949750722":{"damaging":0.012},"949673650":{"damaging":0.008},"949583978":{"damaging":0.011},"949577102":{"damaging":0.013},"949521476":{"damaging":0.022},"949415657":{"damaging":0.01},"949397514":{"damaging":0.007},"949397058":{"damaging":0.006},"949329804":{"damaging":0.021},"949165424":{"damaging":0.009},"948946535":{"damaging":0.009},"948866535":{"damaging":0.005},"948837303":{"damaging":0.019},"948781863":{"damaging":0.008},"948498048":{"damaging":0.009},"948381080":{"damaging":0.009},"948249301":{"damaging":0.01},"948249170":{"damaging":0.014},"948249002":{"damaging":0.01},"948248902":{"damaging":0.013},"948162565":{"damaging":0.003},"947944926":{"damaging":0.016},"947944850":{"damaging":0.01},"947865550":{"damaging":0.003},"947767886":{"damaging":0.007},"947104769":{"damaging":0.008},"947104672":{"damaging":0.031},"947104487":{"damaging":0.004},"947104300":{"damaging":0.004},"947053847":{"damaging":0.003},"947053456":{"damaging":0.031},"947053230":
+{"damaging":0.004},"946885253":{"damaging":0.003},"946713800":{"damaging":0.003},"946560887":{"damaging":0.01},"946462699":{"damaging":0.007},"946159152":{"damaging":0.008},"946154032":{"damaging":0.008},"946080532":{"damaging":0.008},"946080292":{"damaging":0.004},"945982949":{"damaging":0.015},"945982046":{"damaging":0.008},"945911536":{"damaging":0.009},"945910931":{"damaging":0.009},"945909749":{"damaging":0.004},"945909354":{"damaging":0.005},"945908892":{"damaging":0.013},"945899769":{"damaging":0.004},"945898429":{"damaging":0.01},"945898114":{"damaging":0.004},"945893128":{"damaging":0.004},"945892278":{"damaging":0.008},"945891971":{"damaging":0.005},"945823557":{"damaging":0.008}},"oresThresholds":{"damaging":{"maybebad":0.15,"likelybad":0.641,"verylikelybad":0.919}}};RLSTATE={"ext.globalCssJs.user.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading",
+"jquery.makeCollapsible.styles":"ready","mediawiki.interface.helpers.styles":"ready","mediawiki.special":"ready","mediawiki.special.changeslist":"ready","mediawiki.helplink":"ready","mediawiki.widgets.DateInputWidget.styles":"ready","oojs-ui-core.styles":"ready","oojs-ui.styles.indicators":"ready","mediawiki.widgets.styles":"ready","oojs-ui-core.icons":"ready","mediawiki.htmlform.ooui.styles":"ready","mediawiki.htmlform.styles":"ready","mediawiki.feedlink":"ready","skins.vector.styles.legacy":"ready","ext.flaggedRevs.basic":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","ext.ores.styles":"ready"};RLPAGEMODULES=["mediawiki.special.recentchanges","mediawiki.page.ready","mediawiki.special.contributions","mediawiki.htmlform","mediawiki.htmlform.ooui","mediawiki.widgets.UserInputWidget","mediawiki.widgets","oojs-ui-widgets","mediawiki.widgets.DateInputWidget","site","mediawiki.page.startup","skins.vector.js",
+"jquery.makeCollapsible","ext.gadget.ReferenceTooltips","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.uls.compactlinks","ext.uls.interface","ext.cx.eventlogging.campaigns","ext.centralNotice.geoIP"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.implement("user.options@1hzgi",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});});</script>
+<link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=ext.flaggedRevs.basic%7Cext.ores.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cjquery.makeCollapsible.styles%7Cmediawiki.feedlink%2Chelplink%2Cspecial%7Cmediawiki.htmlform.ooui.styles%7Cmediawiki.htmlform.styles%7Cmediawiki.interface.helpers.styles%7Cmediawiki.special.changeslist%7Cmediawiki.widgets.DateInputWidget.styles%7Cmediawiki.widgets.styles%7Coojs-ui-core.icons%2Cstyles%7Coojs-ui.styles.indicators%7Cskins.vector.styles.legacy&amp;only=styles&amp;skin=vector"/>
+<script async="" src="/w/load.php?lang=en&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector"></script>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector"/>
+<meta name="generator" content="MediaWiki 1.35.0-wmf.27"/>
+<meta name="referrer" content="origin"/>
+<meta name="referrer" content="origin-when-crossorigin"/>
+<meta name="referrer" content="origin-when-cross-origin"/>
+<meta name="robots" content="noindex,nofollow"/>
+<link rel="apple-touch-icon" href="/static/apple-touch/wikipedia.png"/>
+<link rel="shortcut icon" href="/static/favicon/wikipedia.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikipedia (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//en.wikipedia.org/w/api.php?action=rsd"/>
+<link rel="license" href="//creativecommons.org/licenses/by-sa/3.0/"/>
+<link rel="alternate" type="application/atom+xml" title="&quot;Special:Contributions/BabelStone&quot; Atom feed" href="/w/api.php?action=feedcontributions&amp;user=BabelStone&amp;feedformat=atom"/>
+<link rel="alternate" type="application/atom+xml" title="Wikipedia Atom feed" href="/w/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<link rel="canonical" href="https://en.wikipedia.org/w/index.php?title=Special:Contributions/BabelStone&amp;limit=100"/>
+<link rel="dns-prefetch" href="//login.wikimedia.org"/>
+<!--[if lt IE 9]><script src="/w/resources/lib/html5shiv/html5shiv.js"></script><![endif]-->
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns--1 ns-special mw-special-Contributions page-Special_Contributions_BabelStone rootpage-Special_Contributions_BabelStone skin-vector action-view">
+<div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+<div id="content" class="mw-body" role="main">
+	<a id="top"></a>
+	<div id="siteNotice" class="mw-body-content"><!-- CentralNotice --></div>
+	<div class="mw-indicators mw-body-content">
+<div id="mw-indicator-mw-helplink" class="mw-indicator"><a href="/wiki/Help:User_contributions" target="_blank" class="mw-helplink">Help</a></div>
+</div>
+
+	<h1 id="firstHeading" class="firstHeading" lang="en">User contributions</h1>
+	
+	<div id="bodyContent" class="mw-body-content">
+		
+		<div id="contentSub"><div class="mw-contributions-user-tools">For <a href="/wiki/User:BabelStone" title="User:BabelStone">BabelStone</a> <span class="mw-changeslist-links"><span><a href="/wiki/User_talk:BabelStone" title="User talk:BabelStone">talk</a></span> <span><a href="/w/index.php?title=Special:Log/block&amp;page=User%3ABabelStone" title="Special:Log/block">block log</a></span> <span><a href="/wiki/Special:ListFiles/BabelStone" title="Special:ListFiles/BabelStone">uploads</a></span> <span><a href="/wiki/Special:Log/BabelStone" title="Special:Log/BabelStone">logs</a></span> <span><a href="/w/index.php?title=Special:AbuseLog&amp;wpSearchUser=BabelStone" title="Edit Filter log for this user">filter log</a></span></span></div></div>
+		
+		
+		<div id="jump-to-nav"></div>
+		<a class="mw-jump-link" href="#mw-head">Jump to navigation</a>
+		<a class="mw-jump-link" href="#p-search">Jump to search</a>
+		<div id="mw-content-text"><div class='mw-htmlform-ooui-wrapper oo-ui-layout oo-ui-panelLayout oo-ui-panelLayout-padded oo-ui-panelLayout-framed'><form action='/w/index.php' method='get' enctype='application/x-www-form-urlencoded' class='mw-htmlform mw-htmlform-ooui oo-ui-layout oo-ui-formLayout'><fieldset class='oo-ui-layout oo-ui-labelElement oo-ui-fieldsetLayout mw-collapsible mw-collapsed'><legend role='button' class='oo-ui-fieldsetLayout-header mw-collapsible-toggle'><span class='oo-ui-iconElement-icon oo-ui-iconElement-noIcon'></span><span class='oo-ui-labelElement-label'>Search for contributions</span><span aria-disabled='false' class='oo-ui-widget oo-ui-widget-enabled oo-ui-iconElement-icon oo-ui-icon-expand oo-ui-iconElement oo-ui-labelElement-invisible oo-ui-iconWidget'>show</span><span aria-disabled='false' class='oo-ui-widget oo-ui-widget-enabled oo-ui-iconElement-icon oo-ui-icon-collapse oo-ui-iconElement oo-ui-labelElement-invisible oo-ui-iconWidget'>hide</span></legend><div class='oo-ui-fieldsetLayout-group mw-collapsible-content'><div aria-disabled='false' class='oo-ui-widget oo-ui-widget-enabled'><div class='oo-ui-layout oo-ui-panelLayout oo-ui-panelLayout-padded oo-ui-panelLayout-framed'><fieldset class='oo-ui-layout oo-ui-labelElement oo-ui-fieldsetLayout'><legend class='oo-ui-fieldsetLayout-header'><span class='oo-ui-iconElement-icon oo-ui-iconElement-noIcon'></span><span class='oo-ui-labelElement-label'>⧼contribs-top⧽</span></legend><div class='oo-ui-fieldsetLayout-group'><div aria-disabled='false' class='oo-ui-widget oo-ui-widget-enabled'><div id="mw-htmlform-contribs-top"><div data-mw-modules='mediawiki.widgets.UserInputWidget' id='ooui-php-12' class='mw-htmlform-field-HTMLUserTextField  mw-htmlform-field-autoinfuse oo-ui-layout oo-ui-labelElement oo-ui-fieldLayout oo-ui-fieldLayout-align-top' data-ooui='{"_":"mw.htmlform.FieldLayout","fieldWidget":{"tag":"mw-target-user-or-ip"},"align":"top","helpInline":true,"$overlay":true,"label":{"html":"User:"},"classes":["mw-htmlform-field-HTMLUserTextField","","mw-htmlform-field-autoinfuse"]}'><div class='oo-ui-fieldLayout-body'><span class='oo-ui-fieldLayout-header'><label for='ooui-php-3' class='oo-ui-labelElement-label'>User:</label></span><div class='oo-ui-fieldLayout-field'><div id='mw-target-user-or-ip' aria-disabled='false' class='oo-ui-widget oo-ui-widget-enabled oo-ui-inputWidget oo-ui-textInputWidget oo-ui-textInputWidget-type-text oo-ui-textInputWidget-php mw-widget-userInputWidget' data-ooui='{"_":"mw.widgets.UserInputWidget","$overlay":true,"name":"target","value":"BabelStone","inputId":"ooui-php-3"}'><input type='text' tabindex='0' aria-disabled='false' name='target' value='BabelStone' id='ooui-php-3' class='oo-ui-inputWidget-input' /><span class='oo-ui-iconElement-icon oo-ui-iconElement-noIcon'></span><span class='oo-ui-indicatorElement-indicator oo-ui-indicatorElement-noIndicator'></span></div></div></div></div><div data-mw-modules='mediawiki.widgets' id='ooui-php-13' class='mw-htmlform-field-HTMLSelectNamespace namespaceselector mw-htmlform-field-autoinfuse oo-ui-layout oo-ui-labelElement oo-ui-fieldLayout oo-ui-fieldLayout-align-top' data-ooui='{"_":"mw.htmlform.FieldLayout","fieldWidget":{"tag":"namespace"},"align":"top","helpInline":true,"$overlay":true,"label":{"html":"Namespace:"},"classes":["mw-htmlform-field-HTMLSelectNamespace","namespaceselector","mw-htmlform-field-autoinfuse"]}'><div class='oo-ui-fieldLayout-body'><span class='oo-ui-fieldLayout-header'><label for='ooui-php-4' class='oo-ui-labelElement-label'>Namespace:</label></span><div class='oo-ui-fieldLayout-field'><div id='namespace' aria-disabled='false' class='oo-ui-widget oo-ui-widget-enabled oo-ui-inputWidget oo-ui-dropdownInputWidget oo-ui-dropdownInputWidget-php mw-widget-namespaceInputWidget' data-ooui='{"_":"mw.widgets.NamespaceInputWidget","includeAllValue":"all","exclude":[],"dropdown":{"$overlay":true},"name":"namespace","value":"all","inputId":"ooui-php-4"}'><select tabindex='0' aria-disabled='false' name='namespace' id='ooui-php-4' class='oo-ui-inputWidget-input oo-ui-indicator-down'><option value='all' selected='selected'>all</option><option value='0'>(Article)</option><option value='1'>Talk</option><option value='2'>User</option><option value='3'>User talk</option><option value='4'>Wikipedia</option><option value='5'>Wikipedia talk</option><option value='6'>File</option><option value='7'>File talk</option><option value='8'>MediaWiki</option><option value='9'>MediaWiki talk</option><option value='10'>Template</option><option value='11'>Template talk</option><option value='12'>Help</option><option value='13'>Help talk</option><option value='14'>Category</option><option value='15'>Category talk</option><option value='100'>Portal</option><option value='101'>Portal talk</option><option value='108'>Book</option><option value='109'>Book talk</option><option value='118'>Draft</option><option value='119'>Draft talk</option><option value='446'>Education Program</option><option value='447'>Education Program talk</option><option value='710'>TimedText</option><option value='711'>TimedText talk</option><option value='828'>Module</option><option value='829'>Module talk</option><option value='2300'>Gadget</option><option value='2301'>Gadget talk</option><option value='2302'>Gadget definition</option><option value='2303'>Gadget definition talk</option></select></div></div></div></div><div id='ooui-php-14' class='mw-htmlform-field-HTMLMultiSelectField contribs-ns-filters mw-input-with-label mw-input-hidden mw-htmlform-flatlist oo-ui-layout oo-ui-fieldLayout oo-ui-fieldLayout-align-top' data-ooui='{"_":"mw.htmlform.FieldLayout","fieldWidget":{"tag":"ooui-php-15"},"align":"top","helpInline":true,"$overlay":true,"classes":["mw-htmlform-field-HTMLMultiSelectField","contribs-ns-filters mw-input-with-label mw-input-hidden mw-htmlform-flatlist"]}'><div class='oo-ui-fieldLayout-body'><span class='oo-ui-fieldLayout-header'><label id='ooui-php-7' class='oo-ui-labelElement-label'></label></span><div class='oo-ui-fieldLayout-field'><div aria-disabled='false' aria-labelledby='ooui-php-7' id='ooui-php-15' class='contribs-ns-filters mw-input-with-label mw-input-hidden mw-htmlform-flatlist oo-ui-widget oo-ui-widget-enabled oo-ui-inputWidget oo-ui-checkboxMultiselectInputWidget' data-ooui='{"_":"OO.ui.CheckboxMultiselectInputWidget","options":[{"data":"nsInvert","label":{"html":"Invert selection"},"disabled":false},{"data":"associated","label":{"html":"Associated namespace"},"disabled":false}],"name":"wpfilters[]","value":[],"classes":["contribs-ns-filters mw-input-with-label mw-input-hidden mw-htmlform-flatlist"]}'><div class='oo-ui-layout oo-ui-labelElement oo-ui-fieldLayout oo-ui-fieldLayout-align-inline'><div class='oo-ui-fieldLayout-body'><span class='oo-ui-fieldLayout-field'><span aria-disabled='false' class='oo-ui-widget oo-ui-widget-enabled oo-ui-inputWidget oo-ui-checkboxInputWidget'><input type='checkbox' tabindex='0' aria-disabled='false' name='wpfilters[]' value='nsInvert' id='ooui-php-5' class='oo-ui-inputWidget-input' /><span aria-disabled='false' class='oo-ui-checkboxInputWidget-checkIcon oo-ui-widget oo-ui-widget-enabled oo-ui-iconElement-icon oo-ui-icon-check oo-ui-iconElement oo-ui-labelElement-invisible oo-ui-iconWidget oo-ui-image-invert'></span></span></span><span class='oo-ui-fieldLayout-header'><label for='ooui-php-5' class='oo-ui-labelElement-label'>Invert selection</label></span></div></div><div class='oo-ui-layout oo-ui-labelElement oo-ui-fieldLayout oo-ui-fieldLayout-align-inline'><div class='oo-ui-fieldLayout-body'><span class='oo-ui-fieldLayout-field'><span aria-disabled='false' class='oo-ui-widget oo-ui-widget-enabled oo-ui-inputWidget oo-ui-checkboxInputWidget'><input type='checkbox' tabindex='0' aria-disabled='false' name='wpfilters[]' value='associated' id='ooui-php-6' class='oo-ui-inputWidget-input' /><span aria-disabled='false' class='oo-ui-checkboxInputWidget-checkIcon oo-ui-widget oo-ui-widget-enabled oo-ui-iconElement-icon oo-ui-icon-check oo-ui-iconElement oo-ui-labelElement-invisible oo-ui-iconWidget oo-ui-image-invert'></span></span></span><span class='oo-ui-fieldLayout-header'><label for='ooui-php-6' class='oo-ui-labelElement-label'>Associated namespace</label></span></div></div></div></div></div></div><div id='ooui-php-16' class='mw-htmlform-field-HTMLTagFilter mw-tagfilter-input oo-ui-layout oo-ui-labelElement oo-ui-fieldLayout oo-ui-fieldLayout-align-top' data-ooui='{"_":"mw.htmlform.FieldLayout","fieldWidget":{"tag":"tagfilter"},"align":"top","helpInline":true,"$overlay":true,"label":{"html":"&lt;a href=\"\/wiki\/Special:Tags\" title=\"Special:Tags\"&gt;Tag&lt;\/a&gt; filter:"},"classes":["mw-htmlform-field-HTMLTagFilter","mw-tagfilter-input"]}'><div class='oo-ui-fieldLayout-body'><span class='oo-ui-fieldLayout-header'><label for='ooui-php-8' class='oo-ui-labelElement-label'><a href="/wiki/Special:Tags" title="Special:Tags">Tag</a> filter:</label></span><div class='oo-ui-fieldLayout-field'><div id='tagfilter' aria-disabled='false' class='oo-ui-widget oo-ui-widget-enabled oo-ui-inputWidget oo-ui-textInputWidget oo-ui-textInputWidget-type-text oo-ui-textInputWidget-php' data-ooui='{"_":"OO.ui.TextInputWidget","name":"tagfilter","inputId":"ooui-php-8"}'><input type='text' tabindex='0' aria-disabled='false' name='tagfilter' value='' id='ooui-php-8' class='oo-ui-inputWidget-input' /><span class='oo-ui-iconElement-icon oo-ui-iconElement-noIcon'></span><span class='oo-ui-indicatorElement-indicator oo-ui-indicatorElement-noIndicator'></span></div></div></div></div><div id='ooui-php-17' class='mw-htmlform-field-HTMLCheckField  oo-ui-layout oo-ui-labelElement oo-ui-fieldLayout oo-ui-fieldLayout-align-inline' data-ooui='{"_":"mw.htmlform.FieldLayout","fieldWidget":{"tag":"mw-show-top-only"},"align":"inline","helpInline":true,"$overlay":true,"label":{"html":"Only show edits that are latest revisions"},"classes":["mw-htmlform-field-HTMLCheckField",""]}'><div class='oo-ui-fieldLayout-body'><span class='oo-ui-fieldLayout-field'><span id='mw-show-top-only' aria-disabled='false' class='oo-ui-widget oo-ui-widget-enabled oo-ui-inputWidget oo-ui-checkboxInputWidget' data-ooui='{"_":"OO.ui.CheckboxInputWidget","name":"topOnly","value":"1","inputId":"ooui-php-9"}'><input type='checkbox' tabindex='0' aria-disabled='false' name='topOnly' value='1' id='ooui-php-9' class='oo-ui-inputWidget-input' /><span aria-disabled='false' class='oo-ui-checkboxInputWidget-checkIcon oo-ui-widget oo-ui-widget-enabled oo-ui-iconElement-icon oo-ui-icon-check oo-ui-iconElement oo-ui-labelElement-invisible oo-ui-iconWidget oo-ui-image-invert'></span></span></span><span class='oo-ui-fieldLayout-header'><label for='ooui-php-9' class='oo-ui-labelElement-label'>Only show edits that are latest revisions</label></span></div></div><div id='ooui-php-18' class='mw-htmlform-field-HTMLCheckField  oo-ui-layout oo-ui-labelElement oo-ui-fieldLayout oo-ui-fieldLayout-align-inline' data-ooui='{"_":"mw.htmlform.FieldLayout","fieldWidget":{"tag":"mw-show-new-only"},"align":"inline","helpInline":true,"$overlay":true,"label":{"html":"Only show edits that are page creations"},"classes":["mw-htmlform-field-HTMLCheckField",""]}'><div class='oo-ui-fieldLayout-body'><span class='oo-ui-fieldLayout-field'><span id='mw-show-new-only' aria-disabled='false' class='oo-ui-widget oo-ui-widget-enabled oo-ui-inputWidget oo-ui-checkboxInputWidget' data-ooui='{"_":"OO.ui.CheckboxInputWidget","name":"newOnly","value":"1","inputId":"ooui-php-10"}'><input type='checkbox' tabindex='0' aria-disabled='false' name='newOnly' value='1' id='ooui-php-10' class='oo-ui-inputWidget-input' /><span aria-disabled='false' class='oo-ui-checkboxInputWidget-checkIcon oo-ui-widget oo-ui-widget-enabled oo-ui-iconElement-icon oo-ui-icon-check oo-ui-iconElement oo-ui-labelElement-invisible oo-ui-iconWidget oo-ui-image-invert'></span></span></span><span class='oo-ui-fieldLayout-header'><label for='ooui-php-10' class='oo-ui-labelElement-label'>Only show edits that are page creations</label></span></div></div><div id='ooui-php-19' class='mw-htmlform-field-HTMLCheckField mw-hide-minor-edits oo-ui-layout oo-ui-labelElement oo-ui-fieldLayout oo-ui-fieldLayout-align-inline' data-ooui='{"_":"mw.htmlform.FieldLayout","fieldWidget":{"tag":"mw-show-new-only"},"align":"inline","helpInline":true,"$overlay":true,"label":{"html":"Hide minor edits"},"classes":["mw-htmlform-field-HTMLCheckField","mw-hide-minor-edits"]}'><div class='oo-ui-fieldLayout-body'><span class='oo-ui-fieldLayout-field'><span id='mw-show-new-only' aria-disabled='false' class='mw-hide-minor-edits oo-ui-widget oo-ui-widget-enabled oo-ui-inputWidget oo-ui-checkboxInputWidget' data-ooui='{"_":"OO.ui.CheckboxInputWidget","name":"hideMinor","value":"1","inputId":"ooui-php-11","classes":["mw-hide-minor-edits"]}'><input type='checkbox' tabindex='0' aria-disabled='false' name='hideMinor' value='1' id='ooui-php-11' class='oo-ui-inputWidget-input' /><span aria-disabled='false' class='oo-ui-checkboxInputWidget-checkIcon oo-ui-widget oo-ui-widget-enabled oo-ui-iconElement-icon oo-ui-icon-check oo-ui-iconElement oo-ui-labelElement-invisible oo-ui-iconWidget oo-ui-image-invert'></span></span></span><span class='oo-ui-fieldLayout-header'><label for='ooui-php-11' class='oo-ui-labelElement-label'>Hide minor edits</label></span></div></div></div></div></div></fieldset></div><div class='oo-ui-layout oo-ui-panelLayout oo-ui-panelLayout-padded oo-ui-panelLayout-framed'><fieldset class='oo-ui-layout oo-ui-labelElement oo-ui-fieldsetLayout'><legend class='oo-ui-fieldsetLayout-header'><span class='oo-ui-iconElement-icon oo-ui-iconElement-noIcon'></span><span class='oo-ui-labelElement-label'>⧼contribs-date⧽</span></legend><div class='oo-ui-fieldsetLayout-group'><div aria-disabled='false' class='oo-ui-widget oo-ui-widget-enabled'><div id="mw-htmlform-contribs-date"><div data-mw-modules='mediawiki.widgets.DateInputWidget' id='ooui-php-23' class='mw-htmlform-field-HTMLDateTimeField  mw-htmlform-datetime-field mw-htmlform-field-autoinfuse oo-ui-layout oo-ui-labelElement oo-ui-fieldLayout oo-ui-fieldLayout-align-top' data-ooui='{"_":"mw.htmlform.FieldLayout","fieldWidget":{"tag":"mw-date-start"},"align":"top","helpInline":true,"$overlay":true,"label":{"html":"From date:"},"classes":["mw-htmlform-field-HTMLDateTimeField"," mw-htmlform-datetime-field","mw-htmlform-field-autoinfuse"]}'><div class='oo-ui-fieldLayout-body'><span class='oo-ui-fieldLayout-header'><label for='ooui-php-21' class='oo-ui-labelElement-label'>From date:</label></span><div class='oo-ui-fieldLayout-field'><div id='mw-date-start' aria-disabled='false' class='oo-ui-widget oo-ui-widget-enabled oo-ui-inputWidget oo-ui-textInputWidget oo-ui-textInputWidget-type-text oo-ui-textInputWidget-php mw-widget-dateInputWidget' data-ooui='{"_":"mw.widgets.DateInputWidget","longDisplayFormat":false,"precision":"day","$overlay":true,"placeholder":"YYYY-MM-DD","name":"start","inputId":"ooui-php-21"}'><input type='date' tabindex='0' aria-disabled='false' name='start' value='' placeholder='YYYY-MM-DD' id='ooui-php-21' class='oo-ui-inputWidget-input' /><span class='oo-ui-iconElement-icon oo-ui-iconElement-noIcon'></span><span class='oo-ui-indicatorElement-indicator oo-ui-indicatorElement-noIndicator'></span></div></div></div></div><div data-mw-modules='mediawiki.widgets.DateInputWidget' id='ooui-php-24' class='mw-htmlform-field-HTMLDateTimeField  mw-htmlform-datetime-field mw-htmlform-field-autoinfuse oo-ui-layout oo-ui-labelElement oo-ui-fieldLayout oo-ui-fieldLayout-align-top' data-ooui='{"_":"mw.htmlform.FieldLayout","fieldWidget":{"tag":"mw-date-end"},"align":"top","helpInline":true,"$overlay":true,"label":{"html":"To date:"},"classes":["mw-htmlform-field-HTMLDateTimeField"," mw-htmlform-datetime-field","mw-htmlform-field-autoinfuse"]}'><div class='oo-ui-fieldLayout-body'><span class='oo-ui-fieldLayout-header'><label for='ooui-php-22' class='oo-ui-labelElement-label'>To date:</label></span><div class='oo-ui-fieldLayout-field'><div id='mw-date-end' aria-disabled='false' class='oo-ui-widget oo-ui-widget-enabled oo-ui-inputWidget oo-ui-textInputWidget oo-ui-textInputWidget-type-text oo-ui-textInputWidget-php mw-widget-dateInputWidget' data-ooui='{"_":"mw.widgets.DateInputWidget","longDisplayFormat":false,"precision":"day","$overlay":true,"placeholder":"YYYY-MM-DD","name":"end","inputId":"ooui-php-22"}'><input type='date' tabindex='0' aria-disabled='false' name='end' value='' placeholder='YYYY-MM-DD' id='ooui-php-22' class='oo-ui-inputWidget-input' /><span class='oo-ui-iconElement-icon oo-ui-iconElement-noIcon'></span><span class='oo-ui-indicatorElement-indicator oo-ui-indicatorElement-noIndicator'></span></div></div></div></div></div></div></div></fieldset></div>
+<div id='ooui-php-25' class='mw-htmlform-field-HTMLCheckField  oo-ui-layout oo-ui-labelElement oo-ui-fieldLayout oo-ui-fieldLayout-align-inline' data-ooui='{"_":"mw.htmlform.FieldLayout","fieldWidget":{"tag":"ores-hide-nondamaging"},"align":"inline","helpInline":true,"$overlay":true,"label":{"html":"Hide probably good edits"},"classes":["mw-htmlform-field-HTMLCheckField",""]}'><div class='oo-ui-fieldLayout-body'><span class='oo-ui-fieldLayout-field'><span id='ores-hide-nondamaging' aria-disabled='false' class='oo-ui-widget oo-ui-widget-enabled oo-ui-inputWidget oo-ui-checkboxInputWidget' data-ooui='{"_":"OO.ui.CheckboxInputWidget","name":"hidenondamaging","value":"1","inputId":"ooui-php-20"}'><input type='checkbox' tabindex='0' aria-disabled='false' name='hidenondamaging' value='1' id='ooui-php-20' class='oo-ui-inputWidget-input' /><span aria-disabled='false' class='oo-ui-checkboxInputWidget-checkIcon oo-ui-widget oo-ui-widget-enabled oo-ui-iconElement-icon oo-ui-icon-check oo-ui-iconElement oo-ui-labelElement-invisible oo-ui-iconWidget oo-ui-image-invert'></span></span></span><span class='oo-ui-fieldLayout-header'><label for='ooui-php-20' class='oo-ui-labelElement-label'>Hide probably good edits</label></span></div></div><input id="mw-input-limit" name="limit" type="hidden" value="100"/>
+<input id="mw-input-title" name="title" type="hidden" value="Special:Contributions"/>
+<div class="mw-htmlform-submit-buttons">
+<span aria-disabled='false' id='ooui-php-26' class='mw-htmlform-submit oo-ui-widget oo-ui-widget-enabled oo-ui-inputWidget oo-ui-buttonElement oo-ui-buttonElement-framed oo-ui-labelElement oo-ui-flaggedElement-primary oo-ui-flaggedElement-progressive oo-ui-buttonInputWidget' data-ooui='{"_":"OO.ui.ButtonInputWidget","type":"submit","value":"Search","label":"Search","flags":["primary","progressive"],"classes":["mw-htmlform-submit"]}'><button type='submit' tabindex='0' aria-disabled='false' value='Search' class='oo-ui-inputWidget-input oo-ui-buttonElement-button'><span class='oo-ui-iconElement-icon oo-ui-iconElement-noIcon oo-ui-image-invert'></span><span class='oo-ui-labelElement-label'>Search</span><span class='oo-ui-indicatorElement-indicator oo-ui-indicatorElement-noIndicator oo-ui-image-invert'></span></button></span></div>
+</div></div></fieldset></form></div><p class="mw-pager-navigation-bar">(newest | <a href="/w/index.php?title=Special:Contributions/BabelStone&amp;dir=prev&amp;limit=100&amp;target=BabelStone" class="mw-lastlink" title="Special:Contributions/BabelStone">oldest</a>) View (newer 100 |  <a href="/w/index.php?title=Special:Contributions/BabelStone&amp;offset=20200311144523&amp;limit=100&amp;target=BabelStone" class="mw-nextlink" title="Special:Contributions/BabelStone" rel="next">older 100</a>) (<a href="/w/index.php?title=Special:Contributions/BabelStone&amp;offset=&amp;limit=20&amp;target=BabelStone" class="mw-numlink" title="Special:Contributions/BabelStone">20</a> | <a href="/w/index.php?title=Special:Contributions/BabelStone&amp;offset=&amp;limit=50&amp;target=BabelStone" class="mw-numlink" title="Special:Contributions/BabelStone">50</a> | <a href="/w/index.php?title=Special:Contributions/BabelStone&amp;offset=&amp;limit=100&amp;target=BabelStone" class="mw-numlink" title="Special:Contributions/BabelStone">100</a> | <a href="/w/index.php?title=Special:Contributions/BabelStone&amp;offset=&amp;limit=250&amp;target=BabelStone" class="mw-numlink" title="Special:Contributions/BabelStone">250</a> | <a href="/w/index.php?title=Special:Contributions/BabelStone&amp;offset=&amp;limit=500&amp;target=BabelStone" class="mw-numlink" title="Special:Contributions/BabelStone">500</a>)</p><ul class="mw-contributions-list">
+<li data-mw-revid="951004296" class="mw-contributions-current mw-tag-mw-undo"><a href="/w/index.php?title=Tad_(given_name)&amp;oldid=951004296" class="mw-changeslist-date" title="Tad (given name)">00:15, 15 April 2020</a>
+<span class="mw-changeslist-links"><span><a href="/w/index.php?title=Tad_(given_name)&amp;diff=prev&amp;oldid=951004296" class="mw-changeslist-diff" title="Tad (given name)">diff</a></span> <span><a href="/w/index.php?title=Tad_(given_name)&amp;action=history" class="mw-changeslist-history" title="Tad (given name)">hist</a></span></span> <span class="mw-changeslist-separator"></span> <span dir="ltr" class="mw-plusminus-neg mw-diff-bytes" title="2,855 bytes after change of this size">-159</span>‎ <span class="mw-changeslist-separator"></span> 
+<a href="/wiki/Tad_(given_name)" class="mw-contributions-title" title="Tad (given name)">Tad (given name)</a>
+‎ <span class="comment comment--without-parentheses">Undid revision 950988999 by <a href="/wiki/Special:Contributions/96.255.213.11" title="Special:Contributions/96.255.213.11">96.255.213.11</a> (<a href="/wiki/User_talk:96.255.213.11" title="User talk:96.255.213.11">talk</a>) not famous enough to have a Wikipedia article so not famous enough to add to this page</span>
+<span class="mw-uctop">current</span>
+<span class="mw-tag-markers"><a href="/wiki/Special:Tags" title="Special:Tags">Tag</a>: <span class="mw-tag-marker mw-tag-marker-mw-undo"><a href="/wiki/Wikipedia:Undo" class="mw-redirect" title="Wikipedia:Undo">Undo</a></span></span>
+</li>
+<li data-mw-revid="950944802" class="mw-contributions-current"><a href="/w/index.php?title=1989_Tiananmen_Square_protests&amp;oldid=950944802" class="mw-changeslist-date" title="1989 Tiananmen Square protests">17:41, 14 April 2020</a>
+<span class="mw-changeslist-links"><span><a href="/w/index.php?title=1989_Tiananmen_Square_protests&amp;diff=prev&amp;oldid=950944802" class="mw-changeslist-diff" title="1989 Tiananmen Square protests">diff</a></span> <span><a href="/w/index.php?title=1989_Tiananmen_Square_protests&amp;action=history" class="mw-changeslist-history" title="1989 Tiananmen Square protests">hist</a></span></span> <span class="mw-changeslist-separator"></span> <span dir="ltr" class="mw-plusminus-pos mw-diff-bytes" title="195,846 bytes after change of this size">+32</span>‎ <span class="mw-changeslist-separator"></span> 
+<a href="/wiki/1989_Tiananmen_Square_protests" class="mw-contributions-title" title="1989 Tiananmen Square protests">1989 Tiananmen Square protests</a>
+‎ <span class="comment comment--without-parentheses">Revert to last good version of 10 April</span>
+<span class="mw-uctop">current</span>
+
+</li>
+<li data-mw-revid="950939805" class="mw-contributions-current mw-tag-mw-undo"><a href="/w/index.php?title=Mount_Kailash&amp;oldid=950939805" class="mw-changeslist-date" title="Mount Kailash">17:11, 14 April 2020</a>
+<span class="mw-changeslist-links"><span><a href="/w/index.php?title=Mount_Kailash&amp;diff=prev&amp;oldid=950939805" class="mw-changeslist-diff" title="Mount Kailash">diff</a></span> <span><a href="/w/index.php?title=Mount_Kailash&amp;action=history" class="mw-changeslist-history" title="Mount Kailash">hist</a></span></span> <span class="mw-changeslist-separator"></span> <span dir="ltr" class="mw-plusminus-pos mw-diff-bytes" title="21,237 bytes after change of this size">+15</span>‎ <span class="mw-changeslist-separator"></span> 
+<a href="/wiki/Mount_Kailash" class="mw-contributions-title" title="Mount Kailash">Mount Kailash</a>
+‎ <span class="comment comment--without-parentheses">Undid revision 950939474 by <a href="/wiki/Special:Contributions/2409:4066:87:14B6:C676:C944:131B:BD73" title="Special:Contributions/2409:4066:87:14B6:C676:C944:131B:BD73">2409:4066:87:14B6:C676:C944:131B:BD73</a> (<a href="/w/index.php?title=User_talk:2409:4066:87:14B6:C676:C944:131B:BD73&amp;action=edit&amp;redlink=1" class="new" title="User talk:2409:4066:87:14B6:C676:C944:131B:BD73 (page does not exist)">talk</a>) broke template</span>
+<span class="mw-uctop">current</span>
+<span class="mw-tag-markers"><a href="/wiki/Special:Tags" title="Special:Tags">Tag</a>: <span class="mw-tag-marker mw-tag-marker-mw-undo"><a href="/wiki/Wikipedia:Undo" class="mw-redirect" title="Wikipedia:Undo">Undo</a></span></span>
+</li>
+<li data-mw-revid="950873497" class="mw-contributions-current mw-tag-mw-undo"><a href="/w/index.php?title=Mathematical_Alphanumeric_Symbols&amp;oldid=950873497" class="mw-changeslist-date" title="Mathematical Alphanumeric Symbols">08:46, 14 April 2020</a>
+<span class="mw-changeslist-links"><span><a href="/w/index.php?title=Mathematical_Alphanumeric_Symbols&amp;diff=prev&amp;oldid=950873497" class="mw-changeslist-diff" title="Mathematical Alphanumeric Symbols">diff</a></span> <span><a href="/w/index.php?title=Mathematical_Alphanumeric_Symbols&amp;action=history" class="mw-changeslist-history" title="Mathematical Alphanumeric Symbols">hist</a></span></span> <span class="mw-changeslist-separator"></span> <span dir="ltr" class="mw-plusminus-null mw-diff-bytes" title="105,490 bytes after change of this size">0</span>‎ <span class="mw-changeslist-separator"></span> 
+<a href="/wiki/Mathematical_Alphanumeric_Symbols" class="mw-contributions-title" title="Mathematical Alphanumeric Symbols">Mathematical Alphanumeric Symbols</a>
+‎ <span class="comment comment--without-parentheses">Undid revision 950860873 by <a href="/wiki/Special:Contributions/101.165.134.34" title="Special:Contributions/101.165.134.34">101.165.134.34</a> (<a href="/w/index.php?title=User_talk:101.165.134.34&amp;action=edit&amp;redlink=1" class="new" title="User talk:101.165.134.34 (page does not exist)">talk</a>) it is the name of a single Unicode block</span>
+<span class="mw-uctop">current</span>
+<span class="mw-tag-markers"><a href="/wiki/Special:Tags" title="Special:Tags">Tag</a>: <span class="mw-tag-marker mw-tag-marker-mw-undo"><a href="/wiki/Wikipedia:Undo" class="mw-redirect" title="Wikipedia:Undo">Undo</a></span></span>
+</li>
+<li data-mw-revid="950747333" class="mw-contributions-current"><a href="/w/index.php?title=List_of_radicals_in_Unicode&amp;oldid=950747333" class="mw-changeslist-date" title="List of radicals in Unicode">16:43, 13 April 2020</a>
+<span class="mw-changeslist-links"><span><a href="/w/index.php?title=List_of_radicals_in_Unicode&amp;diff=prev&amp;oldid=950747333" class="mw-changeslist-diff" title="List of radicals in Unicode">diff</a></span> <span><a href="/w/index.php?title=List_of_radicals_in_Unicode&amp;action=history" class="mw-changeslist-history" title="List of radicals in Unicode">hist</a></span></span> <span class="mw-changeslist-separator"></span> <span dir="ltr" class="mw-plusminus-pos mw-diff-bytes" title="2,678 bytes after change of this size">+101</span>‎ <span class="mw-changeslist-separator"></span> 
+<a href="/wiki/List_of_radicals_in_Unicode" class="mw-contributions-title" title="List of radicals in Unicode">List of radicals in Unicode</a>
+‎ <span class="comment comment--without-parentheses">clarify usage of Yi radicals</span>
+<span class="mw-uctop">current</span>
+
+</li>
+<li data-mw-revid="950746812"><a href="/w/index.php?title=List_of_radicals_in_Unicode&amp;oldid=950746812" class="mw-changeslist-date" title="List of radicals in Unicode">16:40, 13 April 2020</a>
+<span class="mw-changeslist-links"><span><a href="/w/index.php?title=List_of_radicals_in_Unicode&amp;diff=prev&amp;oldid=950746812" class="mw-changeslist-diff" title="List of radicals in Unicode">diff</a></span> <span><a href="/w/index.php?title=List_of_radicals_in_Unicode&amp;action=history" class="mw-changeslist-history" title="List of radicals in Unicode">hist</a></span></span> <span class="mw-changeslist-separator"></span> <span dir="ltr" class="mw-plusminus-neg mw-diff-bytes" title="2,577 bytes after change of this size">-220</span>‎ <span class="mw-changeslist-separator"></span> 
+<a href="/wiki/List_of_radicals_in_Unicode" class="mw-contributions-title" title="List of radicals in Unicode">List of radicals in Unicode</a>
+‎ <span class="comment comment--without-parentheses">Remove mention of Khitan Small Script, as KSS was added to Unicode 13.0 with no special radicals, and there is no intention to ever encode KSS radicals</span>
+
+
+</li>
+<li data-mw-revid="950746408"><a href="/w/index.php?title=List_of_radicals_in_Unicode&amp;oldid=950746408" class="mw-changeslist-date" title="List of radicals in Unicode">16:36, 13 April 2020</a>
+<span class="mw-changeslist-links"><span><a href="/w/index.php?title=List_of_radicals_in_Unicode&amp;diff=prev&amp;oldid=950746408" class="mw-changeslist-diff" title="List of radicals in Unicode">diff</a></span> <span><a href="/w/index.php?title=List_of_radicals_in_Unicode&amp;action=history" class="mw-changeslist-history" title="List of radicals in Unicode">hist</a></span></span> <span class="mw-changeslist-separator"></span> <span dir="ltr" class="mw-plusminus-null mw-diff-bytes" title="2,797 bytes after change of this size">0</span>‎ <span class="mw-changeslist-separator"></span> 
+<a href="/wiki/List_of_radicals_in_Unicode" class="mw-contributions-title" title="List of radicals in Unicode">List of radicals in Unicode</a>
+‎ <span class="comment comment--without-parentheses">Update for Unicode 13.0</span>
+
+
+</li>
+<li data-mw-revid="950392217" class="mw-tag-mw-undo"><a href="/w/index.php?title=ISO_3166-1&amp;oldid=950392217" class="mw-changeslist-date" title="ISO 3166-1">21:11, 11 April 2020</a>
+<span class="mw-changeslist-links"><span><a href="/w/index.php?title=ISO_3166-1&amp;diff=prev&amp;oldid=950392217" class="mw-changeslist-diff" title="ISO 3166-1">diff</a></span> <span><a href="/w/index.php?title=ISO_3166-1&amp;action=history" class="mw-changeslist-history" title="ISO 3166-1">hist</a></span></span> <span class="mw-changeslist-separator"></span> <span dir="ltr" class="mw-plusminus-neg mw-diff-bytes" title="64,049 bytes after change of this size">-100</span>‎ <span class="mw-changeslist-separator"></span> 
+<a href="/wiki/ISO_3166-1" class="mw-contributions-title" title="ISO 3166-1">ISO 3166-1</a>
+‎ <span class="comment comment--without-parentheses">Reverted 3 edits by <a href="/wiki/Special:Contributions/188.3.166.104" title="Special:Contributions/188.3.166.104">188.3.166.104</a> (<a href="/wiki/User_talk:188.3.166.104" title="User talk:188.3.166.104">talk</a>): Please read the page notice that shows when you try to edit this page! (<a href="/wiki/Wikipedia:TW" class="mw-redirect" title="Wikipedia:TW">TW</a>)</span>
+
+<span class="mw-tag-markers"><a href="/wiki/Special:Tags" title="Special:Tags">Tag</a>: <span class="mw-tag-marker mw-tag-marker-mw-undo"><a href="/wiki/Wikipedia:Undo" class="mw-redirect" title="Wikipedia:Undo">Undo</a></span></span>
+</li>
+<li data-mw-revid="950339757" class="mw-contributions-current"><a href="/w/index.php?title=List_of_pagodas_in_Beijing&amp;oldid=950339757" class="mw-changeslist-date" title="List of pagodas in Beijing">15:33, 11 April 2020</a>
+<span class="mw-changeslist-links"><span><a href="/w/index.php?title=List_of_pagodas_in_Beijing&amp;diff=prev&amp;oldid=950339757" class="mw-changeslist-diff" title="List of pagodas in Beijing">diff</a></span> <span><a href="/w/index.php?title=List_of_pagodas_in_Beijing&amp;action=history" class="mw-changeslist-history" title="List of pagodas in Beijing">hist</a></span></span> <span class="mw-changeslist-separator"></span> <span dir="ltr" class="mw-plusminus-pos mw-diff-bytes" title="27,033 bytes after change of this size">+44</span>‎ <span class="mw-changeslist-separator"></span> 
+<a href="/wiki/List_of_pagodas_in_Beijing" class="mw-contributions-title" title="List of pagodas in Beijing">List of pagodas in Beijing</a>
+‎ <span class="comment comment--without-parentheses">alt name for Wayao Pagoda</span>
+<span class="mw-uctop">current</span>
+
+</li>
+<li data-mw-revid="950288391" class="mw-tag-mw-undo"><a href="/w/index.php?title=List_of_most_expensive_books_and_manuscripts&amp;oldid=950288391" class="mw-changeslist-date" title="List of most expensive books and manuscripts">07:53, 11 April 2020</a>
+<span class="mw-changeslist-links"><span><a href="/w/index.php?title=List_of_most_expensive_books_and_manuscripts&amp;diff=prev&amp;oldid=950288391" class="mw-changeslist-diff" title="List of most expensive books and manuscripts">diff</a></span> <span><a href="/w/index.php?title=List_of_most_expensive_books_and_manuscripts&amp;action=history" class="mw-changeslist-history" title="List of most expensive books and manuscripts">hist</a></span></span> <span class="mw-changeslist-separator"></span> <span dir="ltr" class="mw-plusminus-neg mw-diff-bytes" title="121,877 bytes after change of this size">-6</span>‎ <span class="mw-changeslist-separator"></span> 
+<a href="/wiki/List_of_most_expensive_books_and_manuscripts" class="mw-contributions-title" title="List of most expensive books and manuscripts">List of most expensive books and manuscripts</a>
+‎ <span class="comment comment--without-parentheses">Undid revision 950288328 by <a href="/wiki/Special:Contributions/2001:569:FBB2:4000:AC12:A0A4:A3CE:5345" title="Special:Contributions/2001:569:FBB2:4000:AC12:A0A4:A3CE:5345">2001:569:FBB2:4000:AC12:A0A4:A3CE:5345</a> (<a href="/w/index.php?title=User_talk:2001:569:FBB2:4000:AC12:A0A4:A3CE:5345&amp;action=edit&amp;redlink=1" class="new" title="User talk:2001:569:FBB2:4000:AC12:A0A4:A3CE:5345 (page does not exist)">talk</a>)</span>
+
+<span class="mw-tag-markers"><a href="/wiki/Special:Tags" title="Special:Tags">Tag</a>: <span class="mw-tag-marker mw-tag-marker-mw-undo"><a href="/wiki/Wikipedia:Undo" class="mw-redirect" title="Wikipedia:Undo">Undo</a></span></span>
+</li>
+<li data-mw-revid="950149552" class="mw-contributions-current"><a href="/w/index.php?title=The_Whole_Country_is_Red&amp;oldid=950149552" class="mw-changeslist-date" title="The Whole Country is Red">13:30, 10 April 2020</a>
+<span class="mw-changeslist-links"><span><a href="/w/index.php?title=The_Whole_Country_is_Red&amp;diff=prev&amp;oldid=950149552" class="mw-changeslist-diff" title="The Whole Country is Red">diff</a></span> <span><a href="/w/index.php?title=The_Whole_Country_is_Red&amp;action=history" class="mw-changeslist-history" title="The Whole Country is Red">hist</a></span></span> <span class="mw-changeslist-separator"></span> <span dir="ltr" class="mw-plusminus-pos mw-diff-bytes" title="3,220 bytes after change of this size">+53</span>‎ <span class="mw-changeslist-separator"></span> 
+<a href="/wiki/The_Whole_Country_is_Red" class="mw-contributions-title" title="The Whole Country is Red">The Whole Country is Red</a>
+‎ <span class="comment comment--without-parentheses">It is not a &quot;design error&quot; as the designer could not have correctly drawn Taiwan as red</span>
+<span class="mw-uctop">current</span>
+
+</li>
+<li data-mw-revid="950132560" class="mw-contributions-current"><a href="/w/index.php?title=Template:Unicode_chart_Yezidi&amp;oldid=950132560" class="mw-changeslist-date" title="Template:Unicode chart Yezidi">11:07, 10 April 2020</a>
+<span class="mw-changeslist-links"><span><a href="/w/index.php?title=Template:Unicode_chart_Yezidi&amp;diff=prev&amp;oldid=950132560" class="mw-changeslist-diff" title="Template:Unicode chart Yezidi">diff</a></span> <span><a href="/w/index.php?title=Template:Unicode_chart_Yezidi&amp;action=history" class="mw-changeslist-history" title="Template:Unicode chart Yezidi">hist</a></span></span> <span class="mw-changeslist-separator"></span> <span dir="ltr" class="mw-plusminus-neg mw-diff-bytes" title="4,801 bytes after change of this size">-28</span>‎ <span class="mw-changeslist-separator"></span> 
+<a href="/wiki/Template:Unicode_chart_Yezidi" class="mw-contributions-title" title="Template:Unicode chart Yezidi">Template:Unicode chart Yezidi</a>
+‎ <span class="comment comment--without-parentheses">not dead, just the unicode website has being having issues over the last few days</span>
+<span class="mw-uctop">current</span>
+
+</li>
+<li data-mw-revid="950050368" class="mw-contributions-current"><a href="/w/index.php?title=User_talk:Aprilian_Reyvan&amp;oldid=950050368" class="mw-changeslist-date" title="User talk:Aprilian Reyvan">23:48, 9 April 2020</a>
+<span class="mw-changeslist-links"><span>diff</span> <span><a href="/w/index.php?title=User_talk:Aprilian_Reyvan&amp;action=history" class="mw-changeslist-history" title="User talk:Aprilian Reyvan">hist</a></span></span> <span class="mw-changeslist-separator"></span> <strong dir="ltr" class="mw-plusminus-pos mw-diff-bytes" title="3,098 bytes after change of this size">+3,098</strong>‎ <span class="mw-changeslist-separator"></span> <abbr class="newpage" title="This edit created a new page">N</abbr>
+<a href="/wiki/User_talk:Aprilian_Reyvan" class="mw-contributions-title" title="User talk:Aprilian Reyvan">User talk:Aprilian Reyvan</a>
+‎ <span class="comment comment--without-parentheses">Template:Unicode chart Lycian Supplement is a hoax</span>
+<span class="mw-uctop">current</span>
+
+</li>
+<li data-mw-revid="950049691" class="mw-contributions-current mw-tag-mw-undo"><a href="/w/index.php?title=Lydian_language&amp;oldid=950049691" class="mw-changeslist-date" title="Lydian language">23:43, 9 April 2020</a>
+<span class="mw-changeslist-links"><span><a href="/w/index.php?title=Lydian_language&amp;diff=prev&amp;oldid=950049691" class="mw-changeslist-diff" title="Lydian language">diff</a></span> <span><a href="/w/index.php?title=Lydian_language&amp;action=history" class="mw-changeslist-history" title="Lydian language">hist</a></span></span> <span class="mw-changeslist-separator"></span> <span dir="ltr" class="mw-plusminus-neg mw-diff-bytes" title="16,040 bytes after change of this size">-65</span>‎ <span class="mw-changeslist-separator"></span> 
+<a href="/wiki/Lydian_language" class="mw-contributions-title" title="Lydian language">Lydian language</a>
+‎ <span class="comment comment--without-parentheses">Reverted 3 edits by <a href="/wiki/Special:Contributions/Aprilian_Reyvan" title="Special:Contributions/Aprilian Reyvan">Aprilian Reyvan</a> (<a href="/wiki/User_talk:Aprilian_Reyvan" title="User talk:Aprilian Reyvan">talk</a>): Revert dubious and unreferenced addition (<a href="/wiki/Wikipedia:TW" class="mw-redirect" title="Wikipedia:TW">TW</a>)</span>
+<span class="mw-uctop">current</span>
+<span class="mw-tag-markers"><a href="/wiki/Special:Tags" title="Special:Tags">Tag</a>: <span class="mw-tag-marker mw-tag-marker-mw-undo"><a href="/wiki/Wikipedia:Undo" class="mw-redirect" title="Wikipedia:Undo">Undo</a></span></span>
+</li>
+<li data-mw-revid="949756433"><a href="/w/index.php?title=List_of_pagodas_in_Beijing&amp;oldid=949756433" class="mw-changeslist-date" title="List of pagodas in Beijing">10:32, 8 April 2020</a>
+<span class="mw-changeslist-links"><span><a href="/w/index.php?title=List_of_pagodas_in_Beijing&amp;diff=prev&amp;oldid=949756433" class="mw-changeslist-diff" title="List of pagodas in Beijing">diff</a></span> <span><a href="/w/index.php?title=List_of_pagodas_in_Beijing&amp;action=history" class="mw-changeslist-history" title="List of pagodas in Beijing">hist</a></span></span> <span class="mw-changeslist-separator"></span> <span dir="ltr" class="mw-plusminus-pos mw-diff-bytes" title="26,989 bytes after change of this size">+150</span>‎ <span class="mw-changeslist-separator"></span> 
+<a href="/wiki/List_of_pagodas_in_Beijing" class="mw-contributions-title" title="List of pagodas in Beijing">List of pagodas in Beijing</a>
+‎ <span class="comment comment--without-parentheses">zh link</span>
+
+
+</li>
+<li data-mw-revid="949754831"><a href="/w/index.php?title=List_of_pagodas_in_Beijing&amp;oldid=949754831" class="mw-changeslist-date" title="List of pagodas in Beijing">10:14, 8 April 2020</a>
+<span class="mw-changeslist-links"><span><a href="/w/index.php?title=List_of_pagodas_in_Beijing&amp;diff=prev&amp;oldid=949754831" class="mw-changeslist-diff" title="List of pagodas in Beijing">diff</a></span> <span><a href="/w/index.php?title=List_of_pagodas_in_Beijing&amp;action=history" class="mw-changeslist-history" title="List of pagodas in Beijing">hist</a></span></span> <span class="mw-changeslist-separator"></span> <strong dir="ltr" class="mw-plusminus-pos mw-diff-bytes" title="26,839 bytes after change of this size">+1,194</strong>‎ <span class="mw-changeslist-separator"></span> 
+<a href="/wiki/List_of_pagodas_in_Beijing" class="mw-contributions-title" title="List of pagodas in Beijing">List of pagodas in Beijing</a>
+‎ <span class="comment comment--without-parentheses">plus two wanfotang pagodas</span>
+
+
+</li>
+<li data-mw-revid="949753310" class="mw-contributions-current mw-tag-mw-new-redirect"><a href="/w/index.php?title=Xianyong_era&amp;oldid=949753310" class="mw-redirect mw-changeslist-date" title="Xianyong era">09:59, 8 April 2020</a>
+<span class="mw-changeslist-links"><span>diff</span> <span><a href="/w/index.php?title=Xianyong_era&amp;action=history" class="mw-redirect mw-changeslist-history" title="Xianyong era">hist</a></span></span> <span class="mw-changeslist-separator"></span> <span dir="ltr" class="mw-plusminus-pos mw-diff-bytes" title="37 bytes after change of this size">+37</span>‎ <span class="mw-changeslist-separator"></span> <abbr class="newpage" title="This edit created a new page">N</abbr>
+<a href="/w/index.php?title=Xianyong_era&amp;redirect=no" class="mw-redirect mw-contributions-title" title="Xianyong era">Xianyong era</a>
+‎ <span class="comment comment--without-parentheses">redirect era name to emperor</span>
+<span class="mw-uctop">current</span>
+<span class="mw-tag-markers"><a href="/wiki/Special:Tags" title="Special:Tags">Tag</a>: <span class="mw-tag-marker mw-tag-marker-mw-new-redirect">New redirect</span></span>
+</li>
+<li data-mw-revid="949750722"><a href="/w/index.php?title=List_of_pagodas_in_Beijing&amp;oldid=949750722" class="mw-changeslist-date" title="List of pagodas in Beijing">09:32, 8 April 2020</a>
+<span class="mw-changeslist-links"><span><a href="/w/index.php?title=List_of_pagodas_in_Beijing&amp;diff=prev&amp;oldid=949750722" class="mw-changeslist-diff" title="List of pagodas in Beijing">diff</a></span> <span><a href="/w/index.php?title=List_of_pagodas_in_Beijing&amp;action=history" class="mw-changeslist-history" title="List of pagodas in Beijing">hist</a></span></span> <span class="mw-changeslist-separator"></span> <span dir="ltr" class="mw-plusminus-null mw-diff-bytes" title="25,645 bytes after change of this size">0</span>‎ <span class="mw-changeslist-separator"></span> 
+<a href="/wiki/List_of_pagodas_in_Beijing" class="mw-contributions-title" title="List of pagodas in Beijing">List of pagodas in Beijing</a>
+‎ <span class="comment comment--without-parentheses">normal character for yao</span>
+
+
+</li>
+<li data-mw-revid="949673650" class="mw-contributions-current mw-tag-mw-undo"><a href="/w/index.php?title=ISO_3103&amp;oldid=949673650" class="mw-changeslist-date" title="ISO 3103">21:11, 7 April 2020</a>
+<span class="mw-changeslist-links"><span><a href="/w/index.php?title=ISO_3103&amp;diff=prev&amp;oldid=949673650" class="mw-changeslist-diff" title="ISO 3103">diff</a></span> <span><a href="/w/index.php?title=ISO_3103&amp;action=history" class="mw-changeslist-history" title="ISO 3103">hist</a></span></span> <span class="mw-changeslist-separator"></span> <span dir="ltr" class="mw-plusminus-neg mw-diff-bytes" title="6,141 bytes after change of this size">-83</span>‎ <span class="mw-changeslist-separator"></span> 
+<a href="/wiki/ISO_3103" class="mw-contributions-title" title="ISO 3103">ISO 3103</a>
+‎ <span class="comment comment--without-parentheses">Undid revision 949660951 by <a href="/wiki/Special:Contributions/46.33.152.34" title="Special:Contributions/46.33.152.34">46.33.152.34</a> (<a href="/w/index.php?title=User_talk:46.33.152.34&amp;action=edit&amp;redlink=1" class="new" title="User talk:46.33.152.34 (page does not exist)">talk</a>)</span>
+<span class="mw-uctop">current</span>
+<span class="mw-tag-markers"><a href="/wiki/Special:Tags" title="Special:Tags">Tag</a>: <span class="mw-tag-marker mw-tag-marker-mw-undo"><a href="/wiki/Wikipedia:Undo" class="mw-redirect" title="Wikipedia:Undo">Undo</a></span></span>
+</li>
+<li data-mw-revid="949583978"><a href="/w/index.php?title=List_of_pagodas_in_Beijing&amp;oldid=949583978" class="mw-changeslist-date" title="List of pagodas in Beijing">10:02, 7 April 2020</a>
+<span class="mw-changeslist-links"><span><a href="/w/index.php?title=List_of_pagodas_in_Beijing&amp;diff=prev&amp;oldid=949583978" class="mw-changeslist-diff" title="List of pagodas in Beijing">diff</a></span> <span><a href="/w/index.php?title=List_of_pagodas_in_Beijing&amp;action=history" class="mw-changeslist-history" title="List of pagodas in Beijing">hist</a></span></span> <span class="mw-changeslist-separator"></span> <span dir="ltr" class="mw-plusminus-pos mw-diff-bytes" title="25,645 bytes after change of this size">+6</span>‎ <span class="mw-changeslist-separator"></span> 
+<a href="/wiki/List_of_pagodas_in_Beijing" class="mw-contributions-title" title="List of pagodas in Beijing">List of pagodas in Beijing</a>
+‎ <span class="comment comment--without-parentheses">commons should be under E/L</span>
+
+
+</li>
+<li data-mw-revid="949577102"><a href="/w/index.php?title=List_of_pagodas_in_Beijing&amp;oldid=949577102" class="mw-changeslist-date" title="List of pagodas in Beijing">08:53, 7 April 2020</a>
+<span class="mw-changeslist-links"><span><a href="/w/index.php?title=List_of_pagodas_in_Beijing&amp;diff=prev&amp;oldid=949577102" class="mw-changeslist-diff" title="List of pagodas in Beijing">diff</a></span> <span><a href="/w/index.php?title=List_of_pagodas_in_Beijing&amp;action=history" class="mw-changeslist-history" title="List of pagodas in Beijing">hist</a></span></span> <span class="mw-changeslist-separator"></span> <span dir="ltr" class="mw-plusminus-pos mw-diff-bytes" title="25,639 bytes after change of this size">+32</span>‎ <span class="mw-changeslist-separator"></span> 
+<a href="/wiki/List_of_pagodas_in_Beijing" class="mw-contributions-title" title="List of pagodas in Beijing">List of pagodas in Beijing</a>
+‎ <span class="comment comment--without-parentheses">Wayao Pagoda, aka Miyan Pagoda</span>
+
+
+</li>
+<li data-mw-revid="949521476" class="mw-contributions-current"><a href="/w/index.php?title=Maghas&amp;oldid=949521476" class="mw-changeslist-date" title="Maghas">23:36, 6 April 2020</a>
+<span class="mw-changeslist-links"><span><a href="/w/index.php?title=Maghas&amp;diff=prev&amp;oldid=949521476" class="mw-changeslist-diff" title="Maghas">diff</a></span> <span><a href="/w/index.php?title=Maghas&amp;action=history" class="mw-changeslist-history" title="Maghas">hist</a></span></span> <span class="mw-changeslist-separator"></span> <span dir="ltr" class="mw-plusminus-pos mw-diff-bytes" title="1,524 bytes after change of this size">+1</span>‎ <span class="mw-changeslist-separator"></span> 
+<a href="/wiki/Maghas" class="mw-contributions-title" title="Maghas">Maghas</a>
+‎ <span class="comment comment--without-parentheses">Also mentioned in Chinese sources such as the Yuan History</span>
+<span class="mw-uctop">current</span>
+
+</li>
+<li data-mw-revid="949415657" class="mw-contributions-current"><a href="/w/index.php?title=St_Catherine%27s_Hill,_Surrey&amp;oldid=949415657" class="mw-changeslist-date" title="St Catherine&#039;s Hill, Surrey">10:35, 6 April 2020</a>
+<span class="mw-changeslist-links"><span><a href="/w/index.php?title=St_Catherine%27s_Hill,_Surrey&amp;diff=prev&amp;oldid=949415657" class="mw-changeslist-diff" title="St Catherine&#039;s Hill, Surrey">diff</a></span> <span><a href="/w/index.php?title=St_Catherine%27s_Hill,_Surrey&amp;action=history" class="mw-changeslist-history" title="St Catherine&#039;s Hill, Surrey">hist</a></span></span> <span class="mw-changeslist-separator"></span> <span dir="ltr" class="mw-plusminus-pos mw-diff-bytes" title="3,109 bytes after change of this size">+34</span>‎ <span class="mw-changeslist-separator"></span> 
+<a href="/wiki/St_Catherine%27s_Hill,_Surrey" class="mw-contributions-title" title="St Catherine&#039;s Hill, Surrey">St Catherine&#039;s Hill, Surrey</a>
+‎ <span class="comment comment--without-parentheses">better ref more details</span>
+<span class="mw-uctop">current</span>
+
+</li>
+<li data-mw-revid="949397514" class="mw-tag-mw-undo"><a href="/w/index.php?title=Unicode&amp;oldid=949397514" class="mw-changeslist-date" title="Unicode">07:32, 6 April 2020</a>
+<span class="mw-changeslist-links"><span><a href="/w/index.php?title=Unicode&amp;diff=prev&amp;oldid=949397514" class="mw-changeslist-diff" title="Unicode">diff</a></span> <span><a href="/w/index.php?title=Unicode&amp;action=history" class="mw-changeslist-history" title="Unicode">hist</a></span></span> <span class="mw-changeslist-separator"></span> <span dir="ltr" class="mw-plusminus-neg mw-diff-bytes" title="84,483 bytes after change of this size">-218</span>‎ <span class="mw-changeslist-separator"></span> 
+<a href="/wiki/Unicode" class="mw-contributions-title" title="Unicode">Unicode</a>
+‎ <span class="comment comment--without-parentheses">Undid revision 949352250 by <a href="/wiki/Special:Contributions/Chatul" title="Special:Contributions/Chatul">Chatul</a> (<a href="/wiki/User_talk:Chatul" title="User talk:Chatul">talk</a>) given that the ISO standard is called &quot;UCS - the Universal Multiple-Octet Coded Character Set - ISO/IEC 10646&quot; (http://www.unicode.org/wg2/) that statement is too simplistic</span>
+
+<span class="mw-tag-markers"><a href="/wiki/Special:Tags" title="Special:Tags">Tag</a>: <span class="mw-tag-marker mw-tag-marker-mw-undo"><a href="/wiki/Wikipedia:Undo" class="mw-redirect" title="Wikipedia:Undo">Undo</a></span></span>
+</li>
+<li data-mw-revid="949397058" class="mw-contributions-current mw-tag-mw-undo"><a href="/w/index.php?title=Copyright_symbol&amp;oldid=949397058" class="mw-changeslist-date" title="Copyright symbol">07:27, 6 April 2020</a>
+<span class="mw-changeslist-links"><span><a href="/w/index.php?title=Copyright_symbol&amp;diff=prev&amp;oldid=949397058" class="mw-changeslist-diff" title="Copyright symbol">diff</a></span> <span><a href="/w/index.php?title=Copyright_symbol&amp;action=history" class="mw-changeslist-history" title="Copyright symbol">hist</a></span></span> <span class="mw-changeslist-separator"></span> <span dir="ltr" class="mw-plusminus-neg mw-diff-bytes" title="14,581 bytes after change of this size">-32</span>‎ <span class="mw-changeslist-separator"></span> 
+<a href="/wiki/Copyright_symbol" class="mw-contributions-title" title="Copyright symbol">Copyright symbol</a>
+‎ <span class="comment comment--without-parentheses">Undid revision 949396336 by <a href="/wiki/Special:Contributions/2600:1700:B120:D630:7C97:5F6F:DF1:7931" title="Special:Contributions/2600:1700:B120:D630:7C97:5F6F:DF1:7931">2600:1700:B120:D630:7C97:5F6F:DF1:7931</a> (<a href="/w/index.php?title=User_talk:2600:1700:B120:D630:7C97:5F6F:DF1:7931&amp;action=edit&amp;redlink=1" class="new" title="User talk:2600:1700:B120:D630:7C97:5F6F:DF1:7931 (page does not exist)">talk</a>)</span>
+<span class="mw-uctop">current</span>
+<span class="mw-tag-markers"><a href="/wiki/Special:Tags" title="Special:Tags">Tag</a>: <span class="mw-tag-marker mw-tag-marker-mw-undo"><a href="/wiki/Wikipedia:Undo" class="mw-redirect" title="Wikipedia:Undo">Undo</a></span></span>
+</li>
+<li data-mw-revid="949329804" class="mw-contributions-current"><a href="/w/index.php?title=Mariam_(disambiguation)&amp;oldid=949329804" class="mw-changeslist-date" title="Mariam (disambiguation)">21:20, 5 April 2020</a>
+<span class="mw-changeslist-links"><span><a href="/w/index.php?title=Mariam_(disambiguation)&amp;diff=prev&amp;oldid=949329804" class="mw-changeslist-diff" title="Mariam (disambiguation)">diff</a></span> <span><a href="/w/index.php?title=Mariam_(disambiguation)&amp;action=history" class="mw-changeslist-history" title="Mariam (disambiguation)">hist</a></span></span> <span class="mw-changeslist-separator"></span> <span dir="ltr" class="mw-plusminus-neg mw-diff-bytes" title="720 bytes after change of this size">-251</span>‎ <span class="mw-changeslist-separator"></span> 
+<a href="/wiki/Mariam_(disambiguation)" class="mw-contributions-title" title="Mariam (disambiguation)">Mariam (disambiguation)</a>
+‎ <span class="comment comment--without-parentheses">revert vandalism</span>
+<span class="mw-uctop">current</span>
+
+</li>
+<li data-mw-revid="949165424" class="mw-contributions-current mw-tag-mw-undo"><a href="/w/index.php?title=Mark_Davis_(Unicode)&amp;oldid=949165424" class="mw-changeslist-date" title="Mark Davis (Unicode)">00:35, 5 April 2020</a>
+<span class="mw-changeslist-links"><span><a href="/w/index.php?title=Mark_Davis_(Unicode)&amp;diff=prev&amp;oldid=949165424" class="mw-changeslist-diff" title="Mark Davis (Unicode)">diff</a></span> <span><a href="/w/index.php?title=Mark_Davis_(Unicode)&amp;action=history" class="mw-changeslist-history" title="Mark Davis (Unicode)">hist</a></span></span> <span class="mw-changeslist-separator"></span> <span dir="ltr" class="mw-plusminus-neg mw-diff-bytes" title="4,528 bytes after change of this size">-64</span>‎ <span class="mw-changeslist-separator"></span> 
+<a href="/wiki/Mark_Davis_(Unicode)" class="mw-contributions-title" title="Mark Davis (Unicode)">Mark Davis (Unicode)</a>
+‎ <span class="comment comment--without-parentheses">Undid revision 949161186 by <a href="/wiki/Special:Contributions/98.115.186.129" title="Special:Contributions/98.115.186.129">98.115.186.129</a> (<a href="/wiki/User_talk:98.115.186.129" title="User talk:98.115.186.129">talk</a>)</span>
+<span class="mw-uctop">current</span>
+<span class="mw-tag-markers"><a href="/wiki/Special:Tags" title="Special:Tags">Tag</a>: <span class="mw-tag-marker mw-tag-marker-mw-undo"><a href="/wiki/Wikipedia:Undo" class="mw-redirect" title="Wikipedia:Undo">Undo</a></span></span>
+</li>
+<li data-mw-revid="948946535" class="mw-contributions-current"><a href="/w/index.php?title=ISO/IEC_JTC_1/SC_2&amp;oldid=948946535" class="mw-changeslist-date" title="ISO/IEC JTC 1/SC 2">21:36, 3 April 2020</a>
+<span class="mw-changeslist-links"><span><a href="/w/index.php?title=ISO/IEC_JTC_1/SC_2&amp;diff=prev&amp;oldid=948946535" class="mw-changeslist-diff" title="ISO/IEC JTC 1/SC 2">diff</a></span> <span><a href="/w/index.php?title=ISO/IEC_JTC_1/SC_2&amp;action=history" class="mw-changeslist-history" title="ISO/IEC JTC 1/SC 2">hist</a></span></span> <span class="mw-changeslist-separator"></span> <span dir="ltr" class="mw-plusminus-pos mw-diff-bytes" title="11,983 bytes after change of this size">+11</span>‎ <span class="mw-changeslist-separator"></span> 
+<a href="/wiki/ISO/IEC_JTC_1/SC_2" class="mw-contributions-title" title="ISO/IEC JTC 1/SC 2">ISO/IEC JTC 1/SC 2</a>
+‎ <span class="comment comment--without-parentheses">liaison is with the <a href="/wiki/Unicode_Consortium" title="Unicode Consortium">Unicode Consortium</a> not <a href="/wiki/Unicode" title="Unicode">Unicode</a> which refers to the standard produced by the Unicode Consortium</span>
+<span class="mw-uctop">current</span>
+
+</li>
+<li data-mw-revid="948866535"><a href="/w/index.php?title=St_Catherine%27s_Hill,_Surrey&amp;oldid=948866535" class="mw-changeslist-date" title="St Catherine&#039;s Hill, Surrey">13:56, 3 April 2020</a>
+<span class="mw-changeslist-links"><span><a href="/w/index.php?title=St_Catherine%27s_Hill,_Surrey&amp;diff=prev&amp;oldid=948866535" class="mw-changeslist-diff" title="St Catherine&#039;s Hill, Surrey">diff</a></span> <span><a href="/w/index.php?title=St_Catherine%27s_Hill,_Surrey&amp;action=history" class="mw-changeslist-history" title="St Catherine&#039;s Hill, Surrey">hist</a></span></span> <span class="mw-changeslist-separator"></span> <strong dir="ltr" class="mw-plusminus-pos mw-diff-bytes" title="3,075 bytes after change of this size">+606</strong>‎ <span class="mw-changeslist-separator"></span> 
+<a href="/wiki/St_Catherine%27s_Hill,_Surrey" class="mw-contributions-title" title="St Catherine&#039;s Hill, Surrey">St Catherine&#039;s Hill, Surrey</a>
+‎ <span class="comment comment--without-parentheses">possibly medieval cave discovered during railway work</span>
+
+
+</li>
+<li data-mw-revid="948837303"><a href="/w/index.php?title=Chang_Dai-chien&amp;oldid=948837303" class="mw-changeslist-date" title="Chang Dai-chien">08:55, 3 April 2020</a>
+<span class="mw-changeslist-links"><span><a href="/w/index.php?title=Chang_Dai-chien&amp;diff=prev&amp;oldid=948837303" class="mw-changeslist-diff" title="Chang Dai-chien">diff</a></span> <span><a href="/w/index.php?title=Chang_Dai-chien&amp;action=history" class="mw-changeslist-history" title="Chang Dai-chien">hist</a></span></span> <span class="mw-changeslist-separator"></span> <span dir="ltr" class="mw-plusminus-pos mw-diff-bytes" title="12,822 bytes after change of this size">+10</span>‎ <span class="mw-changeslist-separator"></span> 
+<a href="/wiki/Chang_Dai-chien" class="mw-contributions-title" title="Chang Dai-chien">Chang Dai-chien</a>
+‎ <span class="comment comment--without-parentheses"><span dir="auto"><span class="autocomment"><a href="/wiki/Chang_Dai-chien#Background" title="Chang Dai-chien">→‎Background</a>: </span> wl</span></span>
+
+
+</li>
+<li data-mw-revid="948781863"><a href="/w/index.php?title=Template:Emoji_(Unicode_block)&amp;oldid=948781863" class="mw-changeslist-date" title="Template:Emoji (Unicode block)">00:23, 3 April 2020</a>
+<span class="mw-changeslist-links"><span><a href="/w/index.php?title=Template:Emoji_(Unicode_block)&amp;diff=prev&amp;oldid=948781863" class="mw-changeslist-diff" title="Template:Emoji (Unicode block)">diff</a></span> <span><a href="/w/index.php?title=Template:Emoji_(Unicode_block)&amp;action=history" class="mw-changeslist-history" title="Template:Emoji (Unicode block)">hist</a></span></span> <span class="mw-changeslist-separator"></span> <span dir="ltr" class="mw-plusminus-neg mw-diff-bytes" title="121,244 bytes after change of this size">-26</span>‎ <span class="mw-changeslist-separator"></span> 
+<a href="/wiki/Template:Emoji_(Unicode_block)" class="mw-contributions-title" title="Template:Emoji (Unicode block)">Template:Emoji (Unicode block)</a>
+‎ <span class="comment comment--without-parentheses">pensive anchor no longer required</span>
+
+
+</li>
+<li data-mw-revid="948498048" class="mw-tag-mw-undo"><a href="/w/index.php?title=The_quick_brown_fox_jumps_over_the_lazy_dog&amp;oldid=948498048" class="mw-changeslist-date" title="The quick brown fox jumps over the lazy dog">10:52, 1 April 2020</a>
+<span class="mw-changeslist-links"><span><a href="/w/index.php?title=The_quick_brown_fox_jumps_over_the_lazy_dog&amp;diff=prev&amp;oldid=948498048" class="mw-changeslist-diff" title="The quick brown fox jumps over the lazy dog">diff</a></span> <span><a href="/w/index.php?title=The_quick_brown_fox_jumps_over_the_lazy_dog&amp;action=history" class="mw-changeslist-history" title="The quick brown fox jumps over the lazy dog">hist</a></span></span> <span class="mw-changeslist-separator"></span> <span dir="ltr" class="mw-plusminus-neg mw-diff-bytes" title="6,866 bytes after change of this size">-21</span>‎ <span class="mw-changeslist-separator"></span> 
+<a href="/wiki/The_quick_brown_fox_jumps_over_the_lazy_dog" class="mw-contributions-title" title="The quick brown fox jumps over the lazy dog">The quick brown fox jumps over the lazy dog</a>
+‎ <span class="comment comment--without-parentheses">Undid revision 948494880 by <a href="/wiki/Special:Contributions/41.190.2.218" title="Special:Contributions/41.190.2.218">41.190.2.218</a> (<a href="/wiki/User_talk:41.190.2.218" title="User talk:41.190.2.218">talk</a>)</span>
+
+<span class="mw-tag-markers"><a href="/wiki/Special:Tags" title="Special:Tags">Tag</a>: <span class="mw-tag-marker mw-tag-marker-mw-undo"><a href="/wiki/Wikipedia:Undo" class="mw-redirect" title="Wikipedia:Undo">Undo</a></span></span>
+</li>
+<li data-mw-revid="948381080" class="mw-contributions-current"><a href="/w/index.php?title=List_of_Bronze_Age_hoards_in_Great_Britain&amp;oldid=948381080" class="mw-changeslist-date" title="List of Bronze Age hoards in Great Britain">18:52, 31 March 2020</a>
+<span class="mw-changeslist-links"><span><a href="/w/index.php?title=List_of_Bronze_Age_hoards_in_Great_Britain&amp;diff=prev&amp;oldid=948381080" class="mw-changeslist-diff" title="List of Bronze Age hoards in Great Britain">diff</a></span> <span><a href="/w/index.php?title=List_of_Bronze_Age_hoards_in_Great_Britain&amp;action=history" class="mw-changeslist-history" title="List of Bronze Age hoards in Great Britain">hist</a></span></span> <span class="mw-changeslist-separator"></span> <span dir="ltr" class="mw-plusminus-pos mw-diff-bytes" title="40,178 bytes after change of this size">+62</span>‎ <span class="mw-changeslist-separator"></span> 
+<a href="/wiki/List_of_Bronze_Age_hoards_in_Great_Britain" class="mw-contributions-title" title="List of Bronze Age hoards in Great Britain">List of Bronze Age hoards in Great Britain</a>
+‎ <span class="comment comment--without-parentheses">plus image</span>
+<span class="mw-uctop">current</span>
+
+</li>
+<li data-mw-revid="948249301" class="mw-contributions-current"><a href="/w/index.php?title=Plane_(Unicode)&amp;oldid=948249301" class="mw-changeslist-date" title="Plane (Unicode)">23:55, 30 March 2020</a>
+<span class="mw-changeslist-links"><span><a href="/w/index.php?title=Plane_(Unicode)&amp;diff=prev&amp;oldid=948249301" class="mw-changeslist-diff" title="Plane (Unicode)">diff</a></span> <span><a href="/w/index.php?title=Plane_(Unicode)&amp;action=history" class="mw-changeslist-history" title="Plane (Unicode)">hist</a></span></span> <span class="mw-changeslist-separator"></span> <span dir="ltr" class="mw-plusminus-neg mw-diff-bytes" title="29,765 bytes after change of this size">-155</span>‎ <span class="mw-changeslist-separator"></span> 
+<a href="/wiki/Plane_(Unicode)" class="mw-contributions-title" title="Plane (Unicode)">Plane (Unicode)</a>
+‎ <span class="comment comment--without-parentheses"><span dir="auto"><span class="autocomment"><a href="/wiki/Plane_(Unicode)#Unassigned_planes" title="Plane (Unicode)">→‎Unassigned planes</a>: </span> removed &quot;It is not anticipated that all these planes will be used in the foreseeable future, given the total sizes of the known writing systems left to be encoded&quot; -- possibly true, but not anticipated by whom? need a source for such a statement</span></span>
+<span class="mw-uctop">current</span>
+
+</li>
+<li data-mw-revid="948249170"><a href="/w/index.php?title=Plane_(Unicode)&amp;oldid=948249170" class="mw-changeslist-date" title="Plane (Unicode)">23:54, 30 March 2020</a>
+<span class="mw-changeslist-links"><span><a href="/w/index.php?title=Plane_(Unicode)&amp;diff=prev&amp;oldid=948249170" class="mw-changeslist-diff" title="Plane (Unicode)">diff</a></span> <span><a href="/w/index.php?title=Plane_(Unicode)&amp;action=history" class="mw-changeslist-history" title="Plane (Unicode)">hist</a></span></span> <span class="mw-changeslist-separator"></span> <span dir="ltr" class="mw-plusminus-pos mw-diff-bytes" title="29,920 bytes after change of this size">+3</span>‎ <span class="mw-changeslist-separator"></span> 
+<a href="/wiki/Plane_(Unicode)" class="mw-contributions-title" title="Plane (Unicode)">Plane (Unicode)</a>
+‎ <span class="comment comment--without-parentheses"><span dir="auto"><span class="autocomment"><a href="/wiki/Plane_(Unicode)#{{anchor|Plane_15|PUA-A|Plane_16|PUA-B}}Private_Use_Area_planes" title="Plane (Unicode)">→‎{{anchor|Plane 15|PUA-A|Plane 16|PUA-B}}Private Use Area planes</a>: </span> &quot;may be&quot; not &quot;are&quot;</span></span>
+
+
+</li>
+<li data-mw-revid="948249002"><a href="/w/index.php?title=Plane_(Unicode)&amp;oldid=948249002" class="mw-changeslist-date" title="Plane (Unicode)">23:52, 30 March 2020</a>
+<span class="mw-changeslist-links"><span><a href="/w/index.php?title=Plane_(Unicode)&amp;diff=prev&amp;oldid=948249002" class="mw-changeslist-diff" title="Plane (Unicode)">diff</a></span> <span><a href="/w/index.php?title=Plane_(Unicode)&amp;action=history" class="mw-changeslist-history" title="Plane (Unicode)">hist</a></span></span> <span class="mw-changeslist-separator"></span> <span dir="ltr" class="mw-plusminus-neg mw-diff-bytes" title="29,917 bytes after change of this size">-121</span>‎ <span class="mw-changeslist-separator"></span> 
+<a href="/wiki/Plane_(Unicode)" class="mw-contributions-title" title="Plane (Unicode)">Plane (Unicode)</a>
+‎ <span class="comment comment--without-parentheses"><span dir="auto"><span class="autocomment"><a href="/wiki/Plane_(Unicode)#Unassigned_planes" title="Plane (Unicode)">→‎Unassigned planes</a>: </span> remove dubious and misleading original research</span></span>
+
+
+</li>
+<li data-mw-revid="948248902"><a href="/w/index.php?title=Plane_(Unicode)&amp;oldid=948248902" class="mw-changeslist-date" title="Plane (Unicode)">23:51, 30 March 2020</a>
+<span class="mw-changeslist-links"><span><a href="/w/index.php?title=Plane_(Unicode)&amp;diff=prev&amp;oldid=948248902" class="mw-changeslist-diff" title="Plane (Unicode)">diff</a></span> <span><a href="/w/index.php?title=Plane_(Unicode)&amp;action=history" class="mw-changeslist-history" title="Plane (Unicode)">hist</a></span></span> <span class="mw-changeslist-separator"></span> <span dir="ltr" class="mw-plusminus-neg mw-diff-bytes" title="30,038 bytes after change of this size">-53</span>‎ <span class="mw-changeslist-separator"></span> 
+<a href="/wiki/Plane_(Unicode)" class="mw-contributions-title" title="Plane (Unicode)">Plane (Unicode)</a>
+‎ <span class="comment comment--without-parentheses"><span dir="auto"><span class="autocomment"><a href="/wiki/Plane_(Unicode)#Unassigned_planes" title="Plane (Unicode)">→‎Unassigned planes</a>: </span> redundant as already stated that &quot;No characters have yet been assigned to Planes 4 through 13&quot;</span></span>
+
+
+</li>
+<li data-mw-revid="948162565"><a href="/w/index.php?title=Wikipedia:Categories_for_discussion/Log/2020_March_28&amp;oldid=948162565" class="mw-changeslist-date" title="Wikipedia:Categories for discussion/Log/2020 March 28">13:54, 30 March 2020</a>
+<span class="mw-changeslist-links"><span><a href="/w/index.php?title=Wikipedia:Categories_for_discussion/Log/2020_March_28&amp;diff=prev&amp;oldid=948162565" class="mw-changeslist-diff" title="Wikipedia:Categories for discussion/Log/2020 March 28">diff</a></span> <span><a href="/w/index.php?title=Wikipedia:Categories_for_discussion/Log/2020_March_28&amp;action=history" class="mw-changeslist-history" title="Wikipedia:Categories for discussion/Log/2020 March 28">hist</a></span></span> <span class="mw-changeslist-separator"></span> <strong dir="ltr" class="mw-plusminus-pos mw-diff-bytes" title="20,981 bytes after change of this size">+638</strong>‎ <span class="mw-changeslist-separator"></span> 
+<a href="/wiki/Wikipedia:Categories_for_discussion/Log/2020_March_28" class="mw-contributions-title" title="Wikipedia:Categories for discussion/Log/2020 March 28">Wikipedia:Categories for discussion/Log/2020 March 28</a>
+‎ <span class="comment comment--without-parentheses"><span dir="auto"><span class="autocomment"><a href="/wiki/Wikipedia:Categories_for_discussion/Log/2020_March_28#Category:Scripts_encoded_in_Unicode" title="Wikipedia:Categories for discussion/Log/2020 March 28">→‎Category:Scripts encoded in Unicode</a>: </span> add comment</span></span>
+
+
+</li>
+<li data-mw-revid="947944926"><a href="/w/index.php?title=ISO_basic_Latin_alphabet&amp;oldid=947944926" class="mw-changeslist-date" title="ISO basic Latin alphabet">09:21, 29 March 2020</a>
+<span class="mw-changeslist-links"><span><a href="/w/index.php?title=ISO_basic_Latin_alphabet&amp;diff=prev&amp;oldid=947944926" class="mw-changeslist-diff" title="ISO basic Latin alphabet">diff</a></span> <span><a href="/w/index.php?title=ISO_basic_Latin_alphabet&amp;action=history" class="mw-changeslist-history" title="ISO basic Latin alphabet">hist</a></span></span> <span class="mw-changeslist-separator"></span> <span dir="ltr" class="mw-plusminus-neg mw-diff-bytes" title="16,976 bytes after change of this size">-83</span>‎ <span class="mw-changeslist-separator"></span> 
+<a href="/wiki/ISO_basic_Latin_alphabet" class="mw-contributions-title" title="ISO basic Latin alphabet">ISO basic Latin alphabet</a>
+‎ <span class="comment comment--without-parentheses">Revert to last good version</span>
+
+
+</li>
+<li data-mw-revid="947944850" class="mw-tag-mw-undo"><a href="/w/index.php?title=ISO_basic_Latin_alphabet&amp;oldid=947944850" class="mw-changeslist-date" title="ISO basic Latin alphabet">09:20, 29 March 2020</a>
+<span class="mw-changeslist-links"><span><a href="/w/index.php?title=ISO_basic_Latin_alphabet&amp;diff=prev&amp;oldid=947944850" class="mw-changeslist-diff" title="ISO basic Latin alphabet">diff</a></span> <span><a href="/w/index.php?title=ISO_basic_Latin_alphabet&amp;action=history" class="mw-changeslist-history" title="ISO basic Latin alphabet">hist</a></span></span> <span class="mw-changeslist-separator"></span> <span dir="ltr" class="mw-plusminus-neg mw-diff-bytes" title="17,059 bytes after change of this size">-6</span>‎ <span class="mw-changeslist-separator"></span> 
+<a href="/wiki/ISO_basic_Latin_alphabet" class="mw-contributions-title" title="ISO basic Latin alphabet">ISO basic Latin alphabet</a>
+‎ <span class="comment comment--without-parentheses">Reverted 1 edit by <a href="/wiki/Special:Contributions/2A00:23C5:B4C7:1001:5840:FA0:49F8:C6A7" title="Special:Contributions/2A00:23C5:B4C7:1001:5840:FA0:49F8:C6A7">2A00:23C5:B4C7:1001:5840:FA0:49F8:C6A7</a> (<a href="/w/index.php?title=User_talk:2A00:23C5:B4C7:1001:5840:FA0:49F8:C6A7&amp;action=edit&amp;redlink=1" class="new" title="User talk:2A00:23C5:B4C7:1001:5840:FA0:49F8:C6A7 (page does not exist)">talk</a>) (<a href="/wiki/Wikipedia:TW" class="mw-redirect" title="Wikipedia:TW">TW</a>)</span>
+
+<span class="mw-tag-markers"><a href="/wiki/Special:Tags" title="Special:Tags">Tag</a>: <span class="mw-tag-marker mw-tag-marker-mw-undo"><a href="/wiki/Wikipedia:Undo" class="mw-redirect" title="Wikipedia:Undo">Undo</a></span></span>
+</li>
+<li data-mw-revid="947865550"><a href="/w/index.php?title=Wikipedia:Categories_for_discussion/Log/2020_March_28&amp;oldid=947865550" class="mw-changeslist-date" title="Wikipedia:Categories for discussion/Log/2020 March 28">22:56, 28 March 2020</a>
+<span class="mw-changeslist-links"><span><a href="/w/index.php?title=Wikipedia:Categories_for_discussion/Log/2020_March_28&amp;diff=prev&amp;oldid=947865550" class="mw-changeslist-diff" title="Wikipedia:Categories for discussion/Log/2020 March 28">diff</a></span> <span><a href="/w/index.php?title=Wikipedia:Categories_for_discussion/Log/2020_March_28&amp;action=history" class="mw-changeslist-history" title="Wikipedia:Categories for discussion/Log/2020 March 28">hist</a></span></span> <span class="mw-changeslist-separator"></span> <span dir="ltr" class="mw-plusminus-pos mw-diff-bytes" title="11,218 bytes after change of this size">+300</span>‎ <span class="mw-changeslist-separator"></span> 
+<a href="/wiki/Wikipedia:Categories_for_discussion/Log/2020_March_28" class="mw-contributions-title" title="Wikipedia:Categories for discussion/Log/2020 March 28">Wikipedia:Categories for discussion/Log/2020 March 28</a>
+‎ <span class="comment comment--without-parentheses"><span dir="auto"><span class="autocomment"><a href="/wiki/Wikipedia:Categories_for_discussion/Log/2020_March_28#Category:Scripts_encoded_in_Unicode" title="Wikipedia:Categories for discussion/Log/2020 March 28">→‎Category:Scripts encoded in Unicode</a>: </span> abstain, but must also consider <a href="/wiki/Category:Scripts_not_encoded_in_Unicode" title="Category:Scripts not encoded in Unicode">Category:Scripts not encoded in Unicode</a></span></span>
+
+
+</li>
+<li data-mw-revid="947767886" class="mw-contributions-current mw-tag-mw-undo"><a href="/w/index.php?title=List_of_CJK_Unified_Ideographs_Extension_B_(Part_1_of_7)&amp;oldid=947767886" class="mw-changeslist-date" title="List of CJK Unified Ideographs Extension B (Part 1 of 7)">10:22, 28 March 2020</a>
+<span class="mw-changeslist-links"><span><a href="/w/index.php?title=List_of_CJK_Unified_Ideographs_Extension_B_(Part_1_of_7)&amp;diff=prev&amp;oldid=947767886" class="mw-changeslist-diff" title="List of CJK Unified Ideographs Extension B (Part 1 of 7)">diff</a></span> <span><a href="/w/index.php?title=List_of_CJK_Unified_Ideographs_Extension_B_(Part_1_of_7)&amp;action=history" class="mw-changeslist-history" title="List of CJK Unified Ideographs Extension B (Part 1 of 7)">hist</a></span></span> <span class="mw-changeslist-separator"></span> <span dir="ltr" class="mw-plusminus-null mw-diff-bytes" title="144,668 bytes after change of this size">0</span>‎ <span class="mw-changeslist-separator"></span> 
+<a href="/wiki/List_of_CJK_Unified_Ideographs_Extension_B_(Part_1_of_7)" class="mw-contributions-title" title="List of CJK Unified Ideographs Extension B (Part 1 of 7)">List of CJK Unified Ideographs Extension B (Part 1 of 7)</a>
+‎ <span class="comment comment--without-parentheses">Undid revision 947763258 by <a href="/wiki/Special:Contributions/124.120.192.189" title="Special:Contributions/124.120.192.189">124.120.192.189</a> (<a href="/w/index.php?title=User_talk:124.120.192.189&amp;action=edit&amp;redlink=1" class="new" title="User talk:124.120.192.189 (page does not exist)">talk</a>)</span>
+<span class="mw-uctop">current</span>
+<span class="mw-tag-markers"><a href="/wiki/Special:Tags" title="Special:Tags">Tag</a>: <span class="mw-tag-marker mw-tag-marker-mw-undo"><a href="/wiki/Wikipedia:Undo" class="mw-redirect" title="Wikipedia:Undo">Undo</a></span></span>
+</li>
+<li data-mw-revid="947104769" class="mw-contributions-current mw-tag-mw-undo"><a href="/w/index.php?title=Specials_(Unicode_block)&amp;oldid=947104769" class="mw-changeslist-date" title="Specials (Unicode block)">10:02, 24 March 2020</a>
+<span class="mw-changeslist-links"><span><a href="/w/index.php?title=Specials_(Unicode_block)&amp;diff=prev&amp;oldid=947104769" class="mw-changeslist-diff" title="Specials (Unicode block)">diff</a></span> <span><a href="/w/index.php?title=Specials_(Unicode_block)&amp;action=history" class="mw-changeslist-history" title="Specials (Unicode block)">hist</a></span></span> <span class="mw-changeslist-separator"></span> <span dir="ltr" class="mw-plusminus-neg mw-diff-bytes" title="12,821 bytes after change of this size">-181</span>‎ <span class="mw-changeslist-separator"></span> 
+<a href="/wiki/Specials_(Unicode_block)" class="mw-contributions-title" title="Specials (Unicode block)">Specials (Unicode block)</a>
+‎ <span class="comment comment--without-parentheses">Undid revision 947100725 by <a href="/wiki/Special:Contributions/2600:1700:5BD0:E430:CFA:29A2:DC1:9031" title="Special:Contributions/2600:1700:5BD0:E430:CFA:29A2:DC1:9031">2600:1700:5BD0:E430:CFA:29A2:DC1:9031</a> (<a href="/w/index.php?title=User_talk:2600:1700:5BD0:E430:CFA:29A2:DC1:9031&amp;action=edit&amp;redlink=1" class="new" title="User talk:2600:1700:5BD0:E430:CFA:29A2:DC1:9031 (page does not exist)">talk</a>)</span>
+<span class="mw-uctop">current</span>
+<span class="mw-tag-markers"><a href="/wiki/Special:Tags" title="Special:Tags">Tag</a>: <span class="mw-tag-marker mw-tag-marker-mw-undo"><a href="/wiki/Wikipedia:Undo" class="mw-redirect" title="Wikipedia:Undo">Undo</a></span></span>
+</li>
+<li data-mw-revid="947104672" class="mw-contributions-current"><a href="/w/index.php?title=Unicode_alias_names_and_abbreviations&amp;oldid=947104672" class="mw-changeslist-date" title="Unicode alias names and abbreviations">10:01, 24 March 2020</a>
+<span class="mw-changeslist-links"><span><a href="/w/index.php?title=Unicode_alias_names_and_abbreviations&amp;diff=prev&amp;oldid=947104672" class="mw-changeslist-diff" title="Unicode alias names and abbreviations">diff</a></span> <span><a href="/w/index.php?title=Unicode_alias_names_and_abbreviations&amp;action=history" class="mw-changeslist-history" title="Unicode alias names and abbreviations">hist</a></span></span> <span class="mw-changeslist-separator"></span> <strong dir="ltr" class="mw-plusminus-neg mw-diff-bytes" title="43,731 bytes after change of this size">-15,447</strong>‎ <span class="mw-changeslist-separator"></span> 
+<a href="/wiki/Unicode_alias_names_and_abbreviations" class="mw-contributions-title" title="Unicode alias names and abbreviations">Unicode alias names and abbreviations</a>
+‎ <span class="comment comment--without-parentheses">Removed &quot;Informal aliases&quot; section per talk as no source has been provided that shows that they are actually informal aliases beyond the code chart glyphs</span>
+<span class="mw-uctop">current</span>
+
+</li>
+<li data-mw-revid="947104487" class="mw-contributions-current"><a href="/w/index.php?title=Talk:Unicode_alias_names_and_abbreviations&amp;oldid=947104487" class="mw-changeslist-date" title="Talk:Unicode alias names and abbreviations">10:00, 24 March 2020</a>
+<span class="mw-changeslist-links"><span><a href="/w/index.php?title=Talk:Unicode_alias_names_and_abbreviations&amp;diff=prev&amp;oldid=947104487" class="mw-changeslist-diff" title="Talk:Unicode alias names and abbreviations">diff</a></span> <span><a href="/w/index.php?title=Talk:Unicode_alias_names_and_abbreviations&amp;action=history" class="mw-changeslist-history" title="Talk:Unicode alias names and abbreviations">hist</a></span></span> <span class="mw-changeslist-separator"></span> <span dir="ltr" class="mw-plusminus-pos mw-diff-bytes" title="5,749 bytes after change of this size">+291</span>‎ <span class="mw-changeslist-separator"></span> 
+<a href="/wiki/Talk:Unicode_alias_names_and_abbreviations" class="mw-contributions-title" title="Talk:Unicode alias names and abbreviations">Talk:Unicode alias names and abbreviations</a>
+‎ <span class="comment comment--without-parentheses"><span dir="auto"><span class="autocomment"><a href="/wiki/Talk:Unicode_alias_names_and_abbreviations#Exclusions" title="Talk:Unicode alias names and abbreviations">→‎Exclusions</a>: </span> still talking nonsense</span></span>
+<span class="mw-uctop">current</span>
+
+</li>
+<li data-mw-revid="947104300"><a href="/w/index.php?title=User_talk:BabelStone&amp;oldid=947104300" class="mw-changeslist-date" title="User talk:BabelStone">09:57, 24 March 2020</a>
+<span class="mw-changeslist-links"><span><a href="/w/index.php?title=User_talk:BabelStone&amp;diff=prev&amp;oldid=947104300" class="mw-changeslist-diff" title="User talk:BabelStone">diff</a></span> <span><a href="/w/index.php?title=User_talk:BabelStone&amp;action=history" class="mw-changeslist-history" title="User talk:BabelStone">hist</a></span></span> <span class="mw-changeslist-separator"></span> <span dir="ltr" class="mw-plusminus-pos mw-diff-bytes" title="4,133 bytes after change of this size">+203</span>‎ <span class="mw-changeslist-separator"></span> 
+<a href="/wiki/User_talk:BabelStone" class="mw-contributions-title" title="User talk:BabelStone">User talk:BabelStone</a>
+‎ <span class="comment comment--without-parentheses">@DePiep -- you are not welcome on my talk page, and I will delete any further messages from you without replying</span>
+
+
+</li>
+<li data-mw-revid="947053847"><a href="/w/index.php?title=User_talk:BabelStone&amp;oldid=947053847" class="mw-changeslist-date" title="User talk:BabelStone">00:41, 24 March 2020</a>
+<span class="mw-changeslist-links"><span><a href="/w/index.php?title=User_talk:BabelStone&amp;diff=prev&amp;oldid=947053847" class="mw-changeslist-diff" title="User talk:BabelStone">diff</a></span> <span><a href="/w/index.php?title=User_talk:BabelStone&amp;action=history" class="mw-changeslist-history" title="User talk:BabelStone">hist</a></span></span> <span class="mw-changeslist-separator"></span> <span dir="ltr" class="mw-plusminus-pos mw-diff-bytes" title="3,299 bytes after change of this size">+187</span>‎ <span class="mw-changeslist-separator"></span> 
+<a href="/wiki/User_talk:BabelStone" class="mw-contributions-title" title="User talk:BabelStone">User talk:BabelStone</a>
+‎ <span class="comment comment--without-parentheses"><span dir="auto"><span class="autocomment"><a href="/wiki/User_talk:BabelStone#ʼPhags-pa_script" title="User talk:BabelStone">→‎ʼPhags-pa script</a>: </span> reply</span></span>
+
+
+</li>
+<li data-mw-revid="947053456"><a href="/w/index.php?title=Unicode_alias_names_and_abbreviations&amp;oldid=947053456" class="mw-changeslist-date" title="Unicode alias names and abbreviations">00:37, 24 March 2020</a>
+<span class="mw-changeslist-links"><span><a href="/w/index.php?title=Unicode_alias_names_and_abbreviations&amp;diff=prev&amp;oldid=947053456" class="mw-changeslist-diff" title="Unicode alias names and abbreviations">diff</a></span> <span><a href="/w/index.php?title=Unicode_alias_names_and_abbreviations&amp;action=history" class="mw-changeslist-history" title="Unicode alias names and abbreviations">hist</a></span></span> <span class="mw-changeslist-separator"></span> <strong dir="ltr" class="mw-plusminus-neg mw-diff-bytes" title="43,731 bytes after change of this size">-15,447</strong>‎ <span class="mw-changeslist-separator"></span> 
+<a href="/wiki/Unicode_alias_names_and_abbreviations" class="mw-contributions-title" title="Unicode alias names and abbreviations">Unicode alias names and abbreviations</a>
+‎ <span class="comment comment--without-parentheses">Removed fake &quot;Informal aliases&quot; section per talk</span>
+
+
+</li>
+<li data-mw-revid="947053230"><a href="/w/index.php?title=Talk:Unicode_alias_names_and_abbreviations&amp;oldid=947053230" class="mw-changeslist-date" title="Talk:Unicode alias names and abbreviations">00:36, 24 March 2020</a>
+<span class="mw-changeslist-links"><span><a href="/w/index.php?title=Talk:Unicode_alias_names_and_abbreviations&amp;diff=prev&amp;oldid=947053230" class="mw-changeslist-diff" title="Talk:Unicode alias names and abbreviations">diff</a></span> <span><a href="/w/index.php?title=Talk:Unicode_alias_names_and_abbreviations&amp;action=history" class="mw-changeslist-history" title="Talk:Unicode alias names and abbreviations">hist</a></span></span> <span class="mw-changeslist-separator"></span> <strong dir="ltr" class="mw-plusminus-pos mw-diff-bytes" title="4,753 bytes after change of this size">+625</strong>‎ <span class="mw-changeslist-separator"></span> 
+<a href="/wiki/Talk:Unicode_alias_names_and_abbreviations" class="mw-contributions-title" title="Talk:Unicode alias names and abbreviations">Talk:Unicode alias names and abbreviations</a>
+‎ <span class="comment comment--without-parentheses">utter rubbish</span>
+
+
+</li>
+<li data-mw-revid="946885253"><a href="/w/index.php?title=User_talk:BabelStone&amp;oldid=946885253" class="mw-changeslist-date" title="User talk:BabelStone">00:08, 23 March 2020</a>
+<span class="mw-changeslist-links"><span><a href="/w/index.php?title=User_talk:BabelStone&amp;diff=prev&amp;oldid=946885253" class="mw-changeslist-diff" title="User talk:BabelStone">diff</a></span> <span><a href="/w/index.php?title=User_talk:BabelStone&amp;action=history" class="mw-changeslist-history" title="User talk:BabelStone">hist</a></span></span> <span class="mw-changeslist-separator"></span> <span dir="ltr" class="mw-plusminus-pos mw-diff-bytes" title="2,472 bytes after change of this size">+314</span>‎ <span class="mw-changeslist-separator"></span> 
+<a href="/wiki/User_talk:BabelStone" class="mw-contributions-title" title="User talk:BabelStone">User talk:BabelStone</a>
+‎ <span class="comment comment--without-parentheses"><span dir="auto"><span class="autocomment"><a href="/wiki/User_talk:BabelStone#BabelMap_13" title="User talk:BabelStone">→‎BabelMap 13</a>: </span> &quot;&lt;&lt;&lt;&quot; and &quot;&gt;&gt;&gt;&quot; buttons now have different functions</span></span>
+
+
+</li>
+<li data-mw-revid="946713800"><a href="/w/index.php?title=Talk:Unicode_alias_names_and_abbreviations&amp;oldid=946713800" class="mw-changeslist-date" title="Talk:Unicode alias names and abbreviations">23:20, 21 March 2020</a>
+<span class="mw-changeslist-links"><span><a href="/w/index.php?title=Talk:Unicode_alias_names_and_abbreviations&amp;diff=prev&amp;oldid=946713800" class="mw-changeslist-diff" title="Talk:Unicode alias names and abbreviations">diff</a></span> <span><a href="/w/index.php?title=Talk:Unicode_alias_names_and_abbreviations&amp;action=history" class="mw-changeslist-history" title="Talk:Unicode alias names and abbreviations">hist</a></span></span> <span class="mw-changeslist-separator"></span> <strong dir="ltr" class="mw-plusminus-pos mw-diff-bytes" title="2,700 bytes after change of this size">+1,152</strong>‎ <span class="mw-changeslist-separator"></span> 
+<a href="/wiki/Talk:Unicode_alias_names_and_abbreviations" class="mw-contributions-title" title="Talk:Unicode alias names and abbreviations">Talk:Unicode alias names and abbreviations</a>
+‎ <span class="comment comment--without-parentheses"><span dir="auto"><span class="autocomment"><a href="/wiki/Talk:Unicode_alias_names_and_abbreviations#Exclusions" title="Talk:Unicode alias names and abbreviations">→‎Exclusions</a>: </span> stinks of OR -- delete the whole &quot;Informal aliases&quot; section</span></span>
+
+
+</li>
+<li data-mw-revid="946560887" class="mw-tag-mw-undo"><a href="/w/index.php?title=Father_Ted&amp;oldid=946560887" class="mw-changeslist-date" title="Father Ted">23:42, 20 March 2020</a>
+<span class="mw-changeslist-links"><span><a href="/w/index.php?title=Father_Ted&amp;diff=prev&amp;oldid=946560887" class="mw-changeslist-diff" title="Father Ted">diff</a></span> <span><a href="/w/index.php?title=Father_Ted&amp;action=history" class="mw-changeslist-history" title="Father Ted">hist</a></span></span> <span class="mw-changeslist-separator"></span> <span dir="ltr" class="mw-plusminus-pos mw-diff-bytes" title="48,849 bytes after change of this size">+3</span>‎ <span class="mw-changeslist-separator"></span> 
+<a href="/wiki/Father_Ted" class="mw-contributions-title" title="Father Ted">Father Ted</a>
+‎ <span class="comment comment--without-parentheses">Undid revision 946558826 by <a href="/wiki/Special:Contributions/2A02:C7D:42BC:8F00:5D8:9B50:8A59:906D" title="Special:Contributions/2A02:C7D:42BC:8F00:5D8:9B50:8A59:906D">2A02:C7D:42BC:8F00:5D8:9B50:8A59:906D</a> (<a href="/w/index.php?title=User_talk:2A02:C7D:42BC:8F00:5D8:9B50:8A59:906D&amp;action=edit&amp;redlink=1" class="new" title="User talk:2A02:C7D:42BC:8F00:5D8:9B50:8A59:906D (page does not exist)">talk</a>)</span>
+
+<span class="mw-tag-markers"><a href="/wiki/Special:Tags" title="Special:Tags">Tag</a>: <span class="mw-tag-marker mw-tag-marker-mw-undo"><a href="/wiki/Wikipedia:Undo" class="mw-redirect" title="Wikipedia:Undo">Undo</a></span></span>
+</li>
+<li data-mw-revid="946462699" class="mw-tag-mw-undo"><a href="/w/index.php?title=Father_Ted&amp;oldid=946462699" class="mw-changeslist-date" title="Father Ted">09:19, 20 March 2020</a>
+<span class="mw-changeslist-links"><span><a href="/w/index.php?title=Father_Ted&amp;diff=prev&amp;oldid=946462699" class="mw-changeslist-diff" title="Father Ted">diff</a></span> <span><a href="/w/index.php?title=Father_Ted&amp;action=history" class="mw-changeslist-history" title="Father Ted">hist</a></span></span> <span class="mw-changeslist-separator"></span> <span dir="ltr" class="mw-plusminus-pos mw-diff-bytes" title="48,849 bytes after change of this size">+39</span>‎ <span class="mw-changeslist-separator"></span> 
+<a href="/wiki/Father_Ted" class="mw-contributions-title" title="Father Ted">Father Ted</a>
+‎ <span class="comment comment--without-parentheses">Undid revision 946441668 by <a href="/wiki/Special:Contributions/2A02:8084:90C0:9380:479:EDC9:CE60:F218" title="Special:Contributions/2A02:8084:90C0:9380:479:EDC9:CE60:F218">2A02:8084:90C0:9380:479:EDC9:CE60:F218</a> (<a href="/w/index.php?title=User_talk:2A02:8084:90C0:9380:479:EDC9:CE60:F218&amp;action=edit&amp;redlink=1" class="new" title="User talk:2A02:8084:90C0:9380:479:EDC9:CE60:F218 (page does not exist)">talk</a>) unexplained removal of names</span>
+
+<span class="mw-tag-markers"><a href="/wiki/Special:Tags" title="Special:Tags">Tag</a>: <span class="mw-tag-marker mw-tag-marker-mw-undo"><a href="/wiki/Wikipedia:Undo" class="mw-redirect" title="Wikipedia:Undo">Undo</a></span></span>
+</li>
+<li data-mw-revid="946159152"><a href="/w/index.php?title=Unicode_subscripts_and_superscripts&amp;oldid=946159152" class="mw-changeslist-date" title="Unicode subscripts and superscripts">13:33, 18 March 2020</a>
+<span class="mw-changeslist-links"><span><a href="/w/index.php?title=Unicode_subscripts_and_superscripts&amp;diff=prev&amp;oldid=946159152" class="mw-changeslist-diff" title="Unicode subscripts and superscripts">diff</a></span> <span><a href="/w/index.php?title=Unicode_subscripts_and_superscripts&amp;action=history" class="mw-changeslist-history" title="Unicode subscripts and superscripts">hist</a></span></span> <span class="mw-changeslist-separator"></span> <span dir="ltr" class="mw-plusminus-pos mw-diff-bytes" title="18,845 bytes after change of this size">+1</span>‎ <span class="mw-changeslist-separator"></span> 
+<a href="/wiki/Unicode_subscripts_and_superscripts" class="mw-contributions-title" title="Unicode subscripts and superscripts">Unicode subscripts and superscripts</a>
+‎ <span class="comment comment--without-parentheses">AB69 not 028D</span>
+
+
+</li>
+<li data-mw-revid="946154032" class="mw-contributions-current mw-tag-mw-undo"><a href="/w/index.php?title=List_of_Latin_letters_by_shape&amp;oldid=946154032" class="mw-changeslist-date" title="List of Latin letters by shape">12:39, 18 March 2020</a>
+<span class="mw-changeslist-links"><span><a href="/w/index.php?title=List_of_Latin_letters_by_shape&amp;diff=prev&amp;oldid=946154032" class="mw-changeslist-diff" title="List of Latin letters by shape">diff</a></span> <span><a href="/w/index.php?title=List_of_Latin_letters_by_shape&amp;action=history" class="mw-changeslist-history" title="List of Latin letters by shape">hist</a></span></span> <span class="mw-changeslist-separator"></span> <span dir="ltr" class="mw-plusminus-pos mw-diff-bytes" title="87,770 bytes after change of this size">+15</span>‎ <span class="mw-changeslist-separator"></span> 
+<a href="/wiki/List_of_Latin_letters_by_shape" class="mw-contributions-title" title="List of Latin letters by shape">List of Latin letters by shape</a>
+‎ <span class="comment comment--without-parentheses">Partial revert -- Not a typo -- specifically listing the &quot;№&quot; character</span>
+<span class="mw-uctop">current</span>
+<span class="mw-tag-markers"><a href="/wiki/Special:Tags" title="Special:Tags">Tag</a>: <span class="mw-tag-marker mw-tag-marker-mw-undo"><a href="/wiki/Wikipedia:Undo" class="mw-redirect" title="Wikipedia:Undo">Undo</a></span></span>
+</li>
+<li data-mw-revid="946080532" class="mw-contributions-current"><a href="/w/index.php?title=List_of_Latin-script_letters&amp;oldid=946080532" class="mw-changeslist-date" title="List of Latin-script letters">23:09, 17 March 2020</a>
+<span class="mw-changeslist-links"><span><a href="/w/index.php?title=List_of_Latin-script_letters&amp;diff=prev&amp;oldid=946080532" class="mw-changeslist-diff" title="List of Latin-script letters">diff</a></span> <span><a href="/w/index.php?title=List_of_Latin-script_letters&amp;action=history" class="mw-changeslist-history" title="List of Latin-script letters">hist</a></span></span> <span class="mw-changeslist-separator"></span> <span dir="ltr" class="mw-plusminus-pos mw-diff-bytes" title="169,031 bytes after change of this size">+36</span>‎ <span class="mw-changeslist-separator"></span> 
+<a href="/wiki/List_of_Latin-script_letters" class="mw-contributions-title" title="List of Latin-script letters">List of Latin-script letters</a>
+‎ <span class="comment comment--without-parentheses"><span dir="auto"><span class="autocomment"><a href="/wiki/List_of_Latin-script_letters#See_also" title="List of Latin-script letters">→‎See also</a>: </span> add <a href="/wiki/List_of_Latin_letters_by_shape" title="List of Latin letters by shape">List of Latin letters by shape</a></span></span>
+<span class="mw-uctop">current</span>
+
+</li>
+<li data-mw-revid="946080292"><a href="/w/index.php?title=List_of_Latin-script_letters&amp;oldid=946080292" class="mw-changeslist-date" title="List of Latin-script letters">23:07, 17 March 2020</a>
+<span class="mw-changeslist-links"><span><a href="/w/index.php?title=List_of_Latin-script_letters&amp;diff=prev&amp;oldid=946080292" class="mw-changeslist-diff" title="List of Latin-script letters">diff</a></span> <span><a href="/w/index.php?title=List_of_Latin-script_letters&amp;action=history" class="mw-changeslist-history" title="List of Latin-script letters">hist</a></span></span> <span class="mw-changeslist-separator"></span> <span dir="ltr" class="mw-plusminus-pos mw-diff-bytes" title="168,995 bytes after change of this size">+495</span>‎ <span class="mw-changeslist-separator"></span> 
+<a href="/wiki/List_of_Latin-script_letters" class="mw-contributions-title" title="List of Latin-script letters">List of Latin-script letters</a>
+‎ <span class="comment comment--without-parentheses">Add L2/17-236 as ref for usage of thorn with stroke</span>
+
+
+</li>
+<li data-mw-revid="945982949"><a href="/w/index.php?title=CJK_Unified_Ideographs&amp;oldid=945982949" class="mw-changeslist-date" title="CJK Unified Ideographs">09:54, 17 March 2020</a>
+<span class="mw-changeslist-links"><span><a href="/w/index.php?title=CJK_Unified_Ideographs&amp;diff=prev&amp;oldid=945982949" class="mw-changeslist-diff" title="CJK Unified Ideographs">diff</a></span> <span><a href="/w/index.php?title=CJK_Unified_Ideographs&amp;action=history" class="mw-changeslist-history" title="CJK Unified Ideographs">hist</a></span></span> <span class="mw-changeslist-separator"></span> <span dir="ltr" class="mw-plusminus-neg mw-diff-bytes" title="36,674 bytes after change of this size">-150</span>‎ <span class="mw-changeslist-separator"></span> 
+<a href="/wiki/CJK_Unified_Ideographs" class="mw-contributions-title" title="CJK Unified Ideographs">CJK Unified Ideographs</a>
+‎ <span class="comment comment--without-parentheses">IRG N2107R2 (UK-0nnnn) and IRG N2232R (UK-1nnnn) should be on separate rows, but as N2232R is not yet a source for any characters encoded as of Unicode 13 remove it from the Standard column to avoid confusion</span>
+
+
+</li>
+<li data-mw-revid="945982046"><a href="/w/index.php?title=CJK_Unified_Ideographs&amp;oldid=945982046" class="mw-changeslist-date" title="CJK Unified Ideographs">09:43, 17 March 2020</a>
+<span class="mw-changeslist-links"><span><a href="/w/index.php?title=CJK_Unified_Ideographs&amp;diff=prev&amp;oldid=945982046" class="mw-changeslist-diff" title="CJK Unified Ideographs">diff</a></span> <span><a href="/w/index.php?title=CJK_Unified_Ideographs&amp;action=history" class="mw-changeslist-history" title="CJK Unified Ideographs">hist</a></span></span> <span class="mw-changeslist-separator"></span> <span dir="ltr" class="mw-plusminus-pos mw-diff-bytes" title="36,824 bytes after change of this size">+137</span>‎ <span class="mw-changeslist-separator"></span> 
+<a href="/wiki/CJK_Unified_Ideographs" class="mw-contributions-title" title="CJK Unified Ideographs">CJK Unified Ideographs</a>
+‎ <span class="comment comment--without-parentheses">Add link to Documents IRG N2107R2 and IRG N2232R to External Links</span>
+
+
+</li>
+<li data-mw-revid="945911536" class="mw-contributions-current"><a href="/w/index.php?title=Latin_script_in_Unicode&amp;oldid=945911536" class="mw-changeslist-date" title="Latin script in Unicode">22:10, 16 March 2020</a>
+<span class="mw-changeslist-links"><span><a href="/w/index.php?title=Latin_script_in_Unicode&amp;diff=prev&amp;oldid=945911536" class="mw-changeslist-diff" title="Latin script in Unicode">diff</a></span> <span><a href="/w/index.php?title=Latin_script_in_Unicode&amp;action=history" class="mw-changeslist-history" title="Latin script in Unicode">hist</a></span></span> <span class="mw-changeslist-separator"></span> <span dir="ltr" class="mw-plusminus-null mw-diff-bytes" title="99,313 bytes after change of this size">0</span>‎ <span class="mw-changeslist-separator"></span> 
+<a href="/wiki/Latin_script_in_Unicode" class="mw-contributions-title" title="Latin script in Unicode">Latin script in Unicode</a>
+‎ <span class="comment comment--without-parentheses">fix grave accent</span>
+<span class="mw-uctop">current</span>
+
+</li>
+<li data-mw-revid="945910931"><a href="/w/index.php?title=Arabic_script_in_Unicode&amp;oldid=945910931" class="mw-changeslist-date" title="Arabic script in Unicode">22:06, 16 March 2020</a>
+<span class="mw-changeslist-links"><span><a href="/w/index.php?title=Arabic_script_in_Unicode&amp;diff=prev&amp;oldid=945910931" class="mw-changeslist-diff" title="Arabic script in Unicode">diff</a></span> <span><a href="/w/index.php?title=Arabic_script_in_Unicode&amp;action=history" class="mw-changeslist-history" title="Arabic script in Unicode">hist</a></span></span> <span class="mw-changeslist-separator"></span> <span dir="ltr" class="mw-plusminus-null mw-diff-bytes" title="43,008 bytes after change of this size">0</span>‎ <span class="mw-changeslist-separator"></span> 
+<a href="/wiki/Arabic_script_in_Unicode" class="mw-contributions-title" title="Arabic script in Unicode">Arabic script in Unicode</a>
+‎ <span class="comment comment--without-parentheses">Update for Unicode 13.0</span>
+
+
+</li>
+<li data-mw-revid="945909749" class="mw-contributions-current"><a href="/w/index.php?title=Talk:Latin_script_in_Unicode&amp;oldid=945909749" class="mw-changeslist-date" title="Talk:Latin script in Unicode">21:58, 16 March 2020</a>
+<span class="mw-changeslist-links"><span><a href="/w/index.php?title=Talk:Latin_script_in_Unicode&amp;diff=prev&amp;oldid=945909749" class="mw-changeslist-diff" title="Talk:Latin script in Unicode">diff</a></span> <span><a href="/w/index.php?title=Talk:Latin_script_in_Unicode&amp;action=history" class="mw-changeslist-history" title="Talk:Latin script in Unicode">hist</a></span></span> <span class="mw-changeslist-separator"></span> <span dir="ltr" class="mw-plusminus-pos mw-diff-bytes" title="4,640 bytes after change of this size">+247</span>‎ <span class="mw-changeslist-separator"></span> 
+<a href="/wiki/Talk:Latin_script_in_Unicode" class="mw-contributions-title" title="Talk:Latin script in Unicode">Talk:Latin script in Unicode</a>
+‎ <span class="comment comment--without-parentheses"><span dir="auto"><span class="autocomment"><a href="/wiki/Talk:Latin_script_in_Unicode#Sorting" title="Talk:Latin script in Unicode">→‎Sorting</a>: </span> reply</span></span>
+<span class="mw-uctop">current</span>
+
+</li>
+<li data-mw-revid="945909354" class="mw-tag-mw-undo"><a href="/w/index.php?title=List_of_Latin_letters_by_shape&amp;oldid=945909354" class="mw-changeslist-date" title="List of Latin letters by shape">21:55, 16 March 2020</a>
+<span class="mw-changeslist-links"><span><a href="/w/index.php?title=List_of_Latin_letters_by_shape&amp;diff=prev&amp;oldid=945909354" class="mw-changeslist-diff" title="List of Latin letters by shape">diff</a></span> <span><a href="/w/index.php?title=List_of_Latin_letters_by_shape&amp;action=history" class="mw-changeslist-history" title="List of Latin letters by shape">hist</a></span></span> <span class="mw-changeslist-separator"></span> <span dir="ltr" class="mw-plusminus-pos mw-diff-bytes" title="87,757 bytes after change of this size">+2</span>‎ <span class="mw-changeslist-separator"></span> 
+<a href="/wiki/List_of_Latin_letters_by_shape" class="mw-contributions-title" title="List of Latin letters by shape">List of Latin letters by shape</a>
+‎ <span class="comment comment--without-parentheses">Undid revision 945908513 by <a href="/wiki/Special:Contributions/CAPTAIN_RAJU" title="Special:Contributions/CAPTAIN RAJU">CAPTAIN RAJU</a> (<a href="/wiki/User_talk:CAPTAIN_RAJU" title="User talk:CAPTAIN RAJU">talk</a>) Not a typo -- specifically listing the &quot;№&quot; character</span>
+
+<span class="mw-tag-markers"><a href="/wiki/Special:Tags" title="Special:Tags">Tag</a>: <span class="mw-tag-marker mw-tag-marker-mw-undo"><a href="/wiki/Wikipedia:Undo" class="mw-redirect" title="Wikipedia:Undo">Undo</a></span></span>
+</li>
+<li data-mw-revid="945908892"><a href="/w/index.php?title=Latin_script_in_Unicode&amp;oldid=945908892" class="mw-changeslist-date" title="Latin script in Unicode">21:52, 16 March 2020</a>
+<span class="mw-changeslist-links"><span><a href="/w/index.php?title=Latin_script_in_Unicode&amp;diff=prev&amp;oldid=945908892" class="mw-changeslist-diff" title="Latin script in Unicode">diff</a></span> <span><a href="/w/index.php?title=Latin_script_in_Unicode&amp;action=history" class="mw-changeslist-history" title="Latin script in Unicode">hist</a></span></span> <span class="mw-changeslist-separator"></span> <strong dir="ltr" class="mw-plusminus-pos mw-diff-bytes" title="99,313 bytes after change of this size">+64,175</strong>‎ <span class="mw-changeslist-separator"></span> 
+<a href="/wiki/Latin_script_in_Unicode" class="mw-contributions-title" title="Latin script in Unicode">Latin script in Unicode</a>
+‎ <span class="comment comment--without-parentheses">Add character names in title attribute for each cell</span>
+
+
+</li>
+<li data-mw-revid="945899769"><a href="/w/index.php?title=Latin_script_in_Unicode&amp;oldid=945899769" class="mw-changeslist-date" title="Latin script in Unicode">20:47, 16 March 2020</a>
+<span class="mw-changeslist-links"><span><a href="/w/index.php?title=Latin_script_in_Unicode&amp;diff=prev&amp;oldid=945899769" class="mw-changeslist-diff" title="Latin script in Unicode">diff</a></span> <span><a href="/w/index.php?title=Latin_script_in_Unicode&amp;action=history" class="mw-changeslist-history" title="Latin script in Unicode">hist</a></span></span> <span class="mw-changeslist-separator"></span> <span dir="ltr" class="mw-plusminus-pos mw-diff-bytes" title="35,138 bytes after change of this size">+389</span>‎ <span class="mw-changeslist-separator"></span> 
+<a href="/wiki/Latin_script_in_Unicode" class="mw-contributions-title" title="Latin script in Unicode">Latin script in Unicode</a>
+‎ <span class="comment comment--without-parentheses">Add in two currently unused rows for Latin Ext. D to avoid floating final row</span>
+
+
+</li>
+<li data-mw-revid="945898429"><a href="/w/index.php?title=Latin_script_in_Unicode&amp;oldid=945898429" class="mw-changeslist-date" title="Latin script in Unicode">20:36, 16 March 2020</a>
+<span class="mw-changeslist-links"><span><a href="/w/index.php?title=Latin_script_in_Unicode&amp;diff=prev&amp;oldid=945898429" class="mw-changeslist-diff" title="Latin script in Unicode">diff</a></span> <span><a href="/w/index.php?title=Latin_script_in_Unicode&amp;action=history" class="mw-changeslist-history" title="Latin script in Unicode">hist</a></span></span> <span class="mw-changeslist-separator"></span> <span dir="ltr" class="mw-plusminus-neg mw-diff-bytes" title="34,749 bytes after change of this size">-2</span>‎ <span class="mw-changeslist-separator"></span> 
+<a href="/wiki/Latin_script_in_Unicode" class="mw-contributions-title" title="Latin script in Unicode">Latin script in Unicode</a>
+‎ <span class="comment comment--without-parentheses">fix extra cell</span>
+
+
+</li>
+<li data-mw-revid="945898114"><a href="/w/index.php?title=Latin_script_in_Unicode&amp;oldid=945898114" class="mw-changeslist-date" title="Latin script in Unicode">20:34, 16 March 2020</a>
+<span class="mw-changeslist-links"><span><a href="/w/index.php?title=Latin_script_in_Unicode&amp;diff=prev&amp;oldid=945898114" class="mw-changeslist-diff" title="Latin script in Unicode">diff</a></span> <span><a href="/w/index.php?title=Latin_script_in_Unicode&amp;action=history" class="mw-changeslist-history" title="Latin script in Unicode">hist</a></span></span> <span class="mw-changeslist-separator"></span> <strong dir="ltr" class="mw-plusminus-pos mw-diff-bytes" title="34,751 bytes after change of this size">+518</strong>‎ <span class="mw-changeslist-separator"></span> 
+<a href="/wiki/Latin_script_in_Unicode" class="mw-contributions-title" title="Latin script in Unicode">Latin script in Unicode</a>
+‎ <span class="comment comment--without-parentheses">Update for Unicode 13.0 (Latin-D plus 6, Latin-E plus 2)</span>
+
+
+</li>
+<li data-mw-revid="945893128"><a href="/w/index.php?title=Talk:Latin_script_in_Unicode&amp;oldid=945893128" class="mw-changeslist-date" title="Talk:Latin script in Unicode">20:04, 16 March 2020</a>
+<span class="mw-changeslist-links"><span><a href="/w/index.php?title=Talk:Latin_script_in_Unicode&amp;diff=prev&amp;oldid=945893128" class="mw-changeslist-diff" title="Talk:Latin script in Unicode">diff</a></span> <span><a href="/w/index.php?title=Talk:Latin_script_in_Unicode&amp;action=history" class="mw-changeslist-history" title="Talk:Latin script in Unicode">hist</a></span></span> <span class="mw-changeslist-separator"></span> <span dir="ltr" class="mw-plusminus-pos mw-diff-bytes" title="3,296 bytes after change of this size">+457</span>‎ <span class="mw-changeslist-separator"></span> 
+<a href="/wiki/Talk:Latin_script_in_Unicode" class="mw-contributions-title" title="Talk:Latin script in Unicode">Talk:Latin script in Unicode</a>
+‎ <span class="comment comment--without-parentheses"><span dir="auto"><span class="autocomment"><a href="/wiki/Talk:Latin_script_in_Unicode#Sorting" title="Talk:Latin script in Unicode">→‎Sorting</a>: </span> reply</span></span>
+
+
+</li>
+<li data-mw-revid="945892278"><a href="/w/index.php?title=Latin_script_in_Unicode&amp;oldid=945892278" class="mw-changeslist-date" title="Latin script in Unicode">19:58, 16 March 2020</a>
+<span class="mw-changeslist-links"><span><a href="/w/index.php?title=Latin_script_in_Unicode&amp;diff=prev&amp;oldid=945892278" class="mw-changeslist-diff" title="Latin script in Unicode">diff</a></span> <span><a href="/w/index.php?title=Latin_script_in_Unicode&amp;action=history" class="mw-changeslist-history" title="Latin script in Unicode">hist</a></span></span> <span class="mw-changeslist-separator"></span> <strong dir="ltr" class="mw-plusminus-neg mw-diff-bytes" title="34,233 bytes after change of this size">-87,480</strong>‎ <span class="mw-changeslist-separator"></span> 
+<a href="/wiki/Latin_script_in_Unicode" class="mw-contributions-title" title="Latin script in Unicode">Latin script in Unicode</a>
+‎ <span class="comment comment--without-parentheses">Move list of Latin letters by shape to <a href="/wiki/List_of_Latin_letters_by_shape" title="List of Latin letters by shape">List of Latin letters by shape</a> as they are inappropriate for this article which is explicitly about characters defined as Latin script in the Unicode Standard</span>
+
+
+</li>
+<li data-mw-revid="945891971"><a href="/w/index.php?title=List_of_Latin_letters_by_shape&amp;oldid=945891971" class="mw-changeslist-date" title="List of Latin letters by shape">19:56, 16 March 2020</a>
+<span class="mw-changeslist-links"><span>diff</span> <span><a href="/w/index.php?title=List_of_Latin_letters_by_shape&amp;action=history" class="mw-changeslist-history" title="List of Latin letters by shape">hist</a></span></span> <span class="mw-changeslist-separator"></span> <strong dir="ltr" class="mw-plusminus-pos mw-diff-bytes" title="87,757 bytes after change of this size">+87,757</strong>‎ <span class="mw-changeslist-separator"></span> <abbr class="newpage" title="This edit created a new page">N</abbr>
+<a href="/wiki/List_of_Latin_letters_by_shape" class="mw-contributions-title" title="List of Latin letters by shape">List of Latin letters by shape</a>
+‎ <span class="comment comment--without-parentheses">Create article from content separated out from <a href="/wiki/Latin_script_in_Unicode" title="Latin script in Unicode">Latin script in Unicode</a></span>
+
+
+</li>
+<li data-mw-revid="945823557" class="mw-contributions-current mw-tag-mw-undo"><a href="/w/index.php?title=Lisu_(Unicode_block)&amp;oldid=945823557" class="mw-changeslist-date" title="Lisu (Unicode block)">10:47, 16 March 2020</a>
+<span class="mw-changeslist-links"><span><a href="/w/index.php?title=Lisu_(Unicode_block)&amp;diff=prev&amp;oldid=945823557" class="mw-changeslist-diff" title="Lisu (Unicode block)">diff</a></span> <span><a href="/w/index.php?title=Lisu_(Unicode_block)&amp;action=history" class="mw-changeslist-history" title="Lisu (Unicode block)">hist</a></span></span> <span class="mw-changeslist-separator"></span> <span dir="ltr" class="mw-plusminus-neg mw-diff-bytes" title="4,359 bytes after change of this size">-42</span>‎ <span class="mw-changeslist-separator"></span> 
+<a href="/wiki/Lisu_(Unicode_block)" class="mw-contributions-title" title="Lisu (Unicode block)">Lisu (Unicode block)</a>
+‎ <span class="comment comment--without-parentheses">Undid revision 945817580 by <a href="/wiki/Special:Contributions/InternetArchiveBot" title="Special:Contributions/InternetArchiveBot">InternetArchiveBot</a> (<a href="/wiki/User_talk:InternetArchiveBot" title="User talk:InternetArchiveBot">talk</a>) no need for archive</span>
+<span class="mw-uctop">current</span>
+<span class="mw-tag-markers"><a href="/wiki/Special:Tags" title="Special:Tags">Tag</a>: <span class="mw-tag-marker mw-tag-marker-mw-undo"><a href="/wiki/Wikipedia:Undo" class="mw-redirect" title="Wikipedia:Undo">Undo</a></span></span>
+</li>
+<li data-mw-revid="945230165"><a href="/w/index.php?title=Namazu_(Japanese_mythology)&amp;oldid=945230165" class="mw-changeslist-date" title="Namazu (Japanese mythology)">16:48, 12 March 2020</a>
+<span class="mw-changeslist-links"><span><a href="/w/index.php?title=Namazu_(Japanese_mythology)&amp;diff=prev&amp;oldid=945230165" class="mw-changeslist-diff" title="Namazu (Japanese mythology)">diff</a></span> <span><a href="/w/index.php?title=Namazu_(Japanese_mythology)&amp;action=history" class="mw-changeslist-history" title="Namazu (Japanese mythology)">hist</a></span></span> <span class="mw-changeslist-separator"></span> <span dir="ltr" class="mw-plusminus-neg mw-diff-bytes" title="4,551 bytes after change of this size">-32</span>‎ <span class="mw-changeslist-separator"></span> 
+<a href="/wiki/Namazu_(Japanese_mythology)" class="mw-contributions-title" title="Namazu (Japanese mythology)">Namazu (Japanese mythology)</a>
+‎ <span class="comment comment--without-parentheses">not a snake!</span>
+
+
+</li>
+<li data-mw-revid="945187924" class="mw-contributions-current"><a href="/w/index.php?title=User:BabelStone/vector.css&amp;oldid=945187924" class="mw-changeslist-date" title="User:BabelStone/vector.css">10:36, 12 March 2020</a>
+<span class="mw-changeslist-links"><span><a href="/w/index.php?title=User:BabelStone/vector.css&amp;diff=prev&amp;oldid=945187924" class="mw-changeslist-diff" title="User:BabelStone/vector.css">diff</a></span> <span><a href="/w/index.php?title=User:BabelStone/vector.css&amp;action=history" class="mw-changeslist-history" title="User:BabelStone/vector.css">hist</a></span></span> <span class="mw-changeslist-separator"></span> <span dir="ltr" class="mw-plusminus-neg mw-diff-bytes" title="268 bytes after change of this size">-43</span>‎ <span class="mw-changeslist-separator"></span> 
+<a href="/wiki/User:BabelStone/vector.css" class="mw-contributions-title" title="User:BabelStone/vector.css">User:BabelStone/vector.css</a>
+‎ <span class="comment comment--without-parentheses">Updating for Unicode 13.0</span>
+<span class="mw-uctop">current</span>
+
+</li>
+<li data-mw-revid="945109006" class="mw-contributions-current"><a href="/w/index.php?title=Talk:Enclosed_Alphanumerics&amp;oldid=945109006" class="mw-changeslist-date" title="Talk:Enclosed Alphanumerics">21:27, 11 March 2020</a>
+<span class="mw-changeslist-links"><span><a href="/w/index.php?title=Talk:Enclosed_Alphanumerics&amp;diff=prev&amp;oldid=945109006" class="mw-changeslist-diff" title="Talk:Enclosed Alphanumerics">diff</a></span> <span><a href="/w/index.php?title=Talk:Enclosed_Alphanumerics&amp;action=history" class="mw-changeslist-history" title="Talk:Enclosed Alphanumerics">hist</a></span></span> <span class="mw-changeslist-separator"></span> <span dir="ltr" class="mw-plusminus-pos mw-diff-bytes" title="2,531 bytes after change of this size">+386</span>‎ <span class="mw-changeslist-separator"></span> 
+<a href="/wiki/Talk:Enclosed_Alphanumerics" class="mw-contributions-title" title="Talk:Enclosed Alphanumerics">Talk:Enclosed Alphanumerics</a>
+‎ <span class="comment comment--without-parentheses"><span dir="auto"><span class="autocomment"><a href="/wiki/Talk:Enclosed_Alphanumerics#Put_all_the_Unicode_code_points_together" title="Talk:Enclosed Alphanumerics">→‎Put all the Unicode code points together</a>: </span> reply</span></span>
+<span class="mw-uctop">current</span>
+
+</li>
+<li data-mw-revid="945108181" class="mw-contributions-current mw-tag-mw-new-redirect"><a href="/w/index.php?title=%F0%B0%BB%9E&amp;oldid=945108181" class="mw-redirect mw-changeslist-date" title="𰻞">21:21, 11 March 2020</a>
+<span class="mw-changeslist-links"><span>diff</span> <span><a href="/w/index.php?title=%F0%B0%BB%9E&amp;action=history" class="mw-redirect mw-changeslist-history" title="𰻞">hist</a></span></span> <span class="mw-changeslist-separator"></span> <span dir="ltr" class="mw-plusminus-pos mw-diff-bytes" title="69 bytes after change of this size">+69</span>‎ <span class="mw-changeslist-separator"></span> <abbr class="newpage" title="This edit created a new page">N</abbr>
+<a href="/w/index.php?title=%F0%B0%BB%9E&amp;redirect=no" class="mw-redirect mw-contributions-title" title="𰻞">𰻞</a>
+‎ <span class="comment comment--without-parentheses">Redirect Unicode character to its article <a href="/wiki/Biangbiang_noodles" title="Biangbiang noodles">Biangbiang noodles</a></span>
+<span class="mw-uctop">current</span>
+<span class="mw-tag-markers"><a href="/wiki/Special:Tags" title="Special:Tags">Tag</a>: <span class="mw-tag-marker mw-tag-marker-mw-new-redirect">New redirect</span></span>
+</li>
+<li data-mw-revid="945108157" class="mw-contributions-current mw-tag-mw-new-redirect"><a href="/w/index.php?title=%F0%B0%BB%9D&amp;oldid=945108157" class="mw-redirect mw-changeslist-date" title="𰻝">21:21, 11 March 2020</a>
+<span class="mw-changeslist-links"><span>diff</span> <span><a href="/w/index.php?title=%F0%B0%BB%9D&amp;action=history" class="mw-redirect mw-changeslist-history" title="𰻝">hist</a></span></span> <span class="mw-changeslist-separator"></span> <span dir="ltr" class="mw-plusminus-pos mw-diff-bytes" title="69 bytes after change of this size">+69</span>‎ <span class="mw-changeslist-separator"></span> <abbr class="newpage" title="This edit created a new page">N</abbr>
+<a href="/w/index.php?title=%F0%B0%BB%9D&amp;redirect=no" class="mw-redirect mw-contributions-title" title="𰻝">𰻝</a>
+‎ <span class="comment comment--without-parentheses">Redirect Unicode character to its article <a href="/wiki/Biangbiang_noodles" title="Biangbiang noodles">Biangbiang noodles</a></span>
+<span class="mw-uctop">current</span>
+<span class="mw-tag-markers"><a href="/wiki/Special:Tags" title="Special:Tags">Tag</a>: <span class="mw-tag-marker mw-tag-marker-mw-new-redirect">New redirect</span></span>
+</li>
+<li data-mw-revid="945107732"><a href="/w/index.php?title=Biangbiang_noodles&amp;oldid=945107732" class="mw-changeslist-date" title="Biangbiang noodles">21:18, 11 March 2020</a>
+<span class="mw-changeslist-links"><span><a href="/w/index.php?title=Biangbiang_noodles&amp;diff=prev&amp;oldid=945107732" class="mw-changeslist-diff" title="Biangbiang noodles">diff</a></span> <span><a href="/w/index.php?title=Biangbiang_noodles&amp;action=history" class="mw-changeslist-history" title="Biangbiang noodles">hist</a></span></span> <span class="mw-changeslist-separator"></span> <span dir="ltr" class="mw-plusminus-neg mw-diff-bytes" title="14,247 bytes after change of this size">-47</span>‎ <span class="mw-changeslist-separator"></span> 
+<a href="/wiki/Biangbiang_noodles" class="mw-contributions-title" title="Biangbiang noodles">Biangbiang noodles</a>
+‎ <span class="comment comment--without-parentheses"><span dir="auto"><span class="autocomment"><a href="/wiki/Biangbiang_noodles#External_links" title="Biangbiang noodles">→‎External links</a>: </span> Update Wiktionary link</span></span>
+
+
+</li>
+<li data-mw-revid="945107538" class="mw-contributions-current mw-tag-mw-new-redirect"><a href="/w/index.php?title=%F0%B1%81%AC&amp;oldid=945107538" class="mw-redirect mw-changeslist-date" title="𱁬">21:17, 11 March 2020</a>
+<span class="mw-changeslist-links"><span>diff</span> <span><a href="/w/index.php?title=%F0%B1%81%AC&amp;action=history" class="mw-redirect mw-changeslist-history" title="𱁬">hist</a></span></span> <span class="mw-changeslist-separator"></span> <span dir="ltr" class="mw-plusminus-pos mw-diff-bytes" title="64 bytes after change of this size">+64</span>‎ <span class="mw-changeslist-separator"></span> <abbr class="newpage" title="This edit created a new page">N</abbr>
+<a href="/w/index.php?title=%F0%B1%81%AC&amp;redirect=no" class="mw-redirect mw-contributions-title" title="𱁬">𱁬</a>
+‎ <span class="comment comment--without-parentheses">Redirect Unicode character to its article <a href="/wiki/Taito_(kanji)" title="Taito (kanji)">Taito (kanji)</a></span>
+<span class="mw-uctop">current</span>
+<span class="mw-tag-markers"><a href="/wiki/Special:Tags" title="Special:Tags">Tag</a>: <span class="mw-tag-marker mw-tag-marker-mw-new-redirect">New redirect</span></span>
+</li>
+<li data-mw-revid="945107252"><a href="/w/index.php?title=Taito_(kanji)&amp;oldid=945107252" class="mw-changeslist-date" title="Taito (kanji)">21:14, 11 March 2020</a>
+<span class="mw-changeslist-links"><span><a href="/w/index.php?title=Taito_(kanji)&amp;diff=prev&amp;oldid=945107252" class="mw-changeslist-diff" title="Taito (kanji)">diff</a></span> <span><a href="/w/index.php?title=Taito_(kanji)&amp;action=history" class="mw-changeslist-history" title="Taito (kanji)">hist</a></span></span> <span class="mw-changeslist-separator"></span> <span dir="ltr" class="mw-plusminus-neg mw-diff-bytes" title="10,553 bytes after change of this size">-14</span>‎ <span class="mw-changeslist-separator"></span> 
+<a href="/wiki/Taito_(kanji)" class="mw-contributions-title" title="Taito (kanji)">Taito (kanji)</a>
+‎ <span class="comment comment--without-parentheses"><span dir="auto"><span class="autocomment"><a href="/wiki/Taito_(kanji)#External_links" title="Taito (kanji)">→‎External links</a>: </span> update wiktionary link</span></span>
+
+
+</li>
+<li data-mw-revid="945085816"><a href="/w/index.php?title=Taito_(kanji)&amp;oldid=945085816" class="mw-changeslist-date" title="Taito (kanji)">18:45, 11 March 2020</a>
+<span class="mw-changeslist-links"><span><a href="/w/index.php?title=Taito_(kanji)&amp;diff=prev&amp;oldid=945085816" class="mw-changeslist-diff" title="Taito (kanji)">diff</a></span> <span><a href="/w/index.php?title=Taito_(kanji)&amp;action=history" class="mw-changeslist-history" title="Taito (kanji)">hist</a></span></span> <span class="mw-changeslist-separator"></span> <span dir="ltr" class="mw-plusminus-neg mw-diff-bytes" title="10,567 bytes after change of this size">-2</span>‎ <span class="mw-changeslist-separator"></span> 
+<a href="/wiki/Taito_(kanji)" class="mw-contributions-title" title="Taito (kanji)">Taito (kanji)</a>
+‎ <span class="comment comment--without-parentheses">it&#039;s not difficult because it is just two common characters tripled</span>
+
+
+</li>
+<li data-mw-revid="945065176"><a href="/w/index.php?title=Taito_(kanji)&amp;oldid=945065176" class="mw-changeslist-date" title="Taito (kanji)">16:23, 11 March 2020</a>
+<span class="mw-changeslist-links"><span><a href="/w/index.php?title=Taito_(kanji)&amp;diff=prev&amp;oldid=945065176" class="mw-changeslist-diff" title="Taito (kanji)">diff</a></span> <span><a href="/w/index.php?title=Taito_(kanji)&amp;action=history" class="mw-changeslist-history" title="Taito (kanji)">hist</a></span></span> <span class="mw-changeslist-separator"></span> <span dir="ltr" class="mw-plusminus-neg mw-diff-bytes" title="9,845 bytes after change of this size">-439</span>‎ <span class="mw-changeslist-separator"></span> 
+<a href="/wiki/Taito_(kanji)" class="mw-contributions-title" title="Taito (kanji)">Taito (kanji)</a>
+‎ <span class="comment comment--without-parentheses"><span dir="auto"><span class="autocomment"><a href="/wiki/Taito_(kanji)#Encoding" title="Taito (kanji)">→‎Encoding</a>: </span> Unicode 13.0</span></span>
+
+
+</li>
+<li data-mw-revid="945064831"><a href="/w/index.php?title=Biangbiang_noodles&amp;oldid=945064831" class="mw-changeslist-date" title="Biangbiang noodles">16:20, 11 March 2020</a>
+<span class="mw-changeslist-links"><span><a href="/w/index.php?title=Biangbiang_noodles&amp;diff=prev&amp;oldid=945064831" class="mw-changeslist-diff" title="Biangbiang noodles">diff</a></span> <span><a href="/w/index.php?title=Biangbiang_noodles&amp;action=history" class="mw-changeslist-history" title="Biangbiang noodles">hist</a></span></span> <span class="mw-changeslist-separator"></span> <strong dir="ltr" class="mw-plusminus-neg mw-diff-bytes" title="14,448 bytes after change of this size">-659</strong>‎ <span class="mw-changeslist-separator"></span> 
+<a href="/wiki/Biangbiang_noodles" class="mw-contributions-title" title="Biangbiang noodles">Biangbiang noodles</a>
+‎ <span class="comment comment--without-parentheses">copy edit and remove outdated information</span>
+
+
+</li>
+<li data-mw-revid="945064413"><a href="/w/index.php?title=Biangbiang_noodles&amp;oldid=945064413" class="mw-changeslist-date" title="Biangbiang noodles">16:17, 11 March 2020</a>
+<span class="mw-changeslist-links"><span><a href="/w/index.php?title=Biangbiang_noodles&amp;diff=prev&amp;oldid=945064413" class="mw-changeslist-diff" title="Biangbiang noodles">diff</a></span> <span><a href="/w/index.php?title=Biangbiang_noodles&amp;action=history" class="mw-changeslist-history" title="Biangbiang noodles">hist</a></span></span> <span class="mw-changeslist-separator"></span> <span dir="ltr" class="mw-plusminus-pos mw-diff-bytes" title="15,107 bytes after change of this size">+16</span>‎ <span class="mw-changeslist-separator"></span> 
+<a href="/wiki/Biangbiang_noodles" class="mw-contributions-title" title="Biangbiang noodles">Biangbiang noodles</a>
+‎ <span class="comment comment--without-parentheses"><span dir="auto"><span class="autocomment"><a href="/wiki/Biangbiang_noodles#Unicode" title="Biangbiang noodles">→‎Unicode</a>: </span> give code points</span></span>
+
+
+</li>
+<li data-mw-revid="945059418"><a href="/w/index.php?title=Tangut_Components&amp;oldid=945059418" class="mw-changeslist-date" title="Tangut Components">15:44, 11 March 2020</a>
+<span class="mw-changeslist-links"><span><a href="/w/index.php?title=Tangut_Components&amp;diff=prev&amp;oldid=945059418" class="mw-changeslist-diff" title="Tangut Components">diff</a></span> <span><a href="/w/index.php?title=Tangut_Components&amp;action=history" class="mw-changeslist-history" title="Tangut Components">hist</a></span></span> <span class="mw-changeslist-separator"></span> <span dir="ltr" class="mw-plusminus-pos mw-diff-bytes" title="6,537 bytes after change of this size">+40</span>‎ <span class="mw-changeslist-separator"></span> 
+<a href="/wiki/Tangut_Components" class="mw-contributions-title" title="Tangut Components">Tangut Components</a>
+‎ <span class="comment comment--without-parentheses"><span dir="auto"><span class="autocomment"><a href="/wiki/Tangut_Components#See_also" title="Tangut Components">→‎See also</a>: </span> Tangut Supplement</span></span>
+
+
+</li>
+<li data-mw-revid="945058577"><a href="/w/index.php?title=Khwarezmian_language&amp;oldid=945058577" class="mw-changeslist-date" title="Khwarezmian language">15:39, 11 March 2020</a>
+<span class="mw-changeslist-links"><span><a href="/w/index.php?title=Khwarezmian_language&amp;diff=prev&amp;oldid=945058577" class="mw-changeslist-diff" title="Khwarezmian language">diff</a></span> <span><a href="/w/index.php?title=Khwarezmian_language&amp;action=history" class="mw-changeslist-history" title="Khwarezmian language">hist</a></span></span> <span class="mw-changeslist-separator"></span> <span dir="ltr" class="mw-plusminus-pos mw-diff-bytes" title="6,252 bytes after change of this size">+45</span>‎ <span class="mw-changeslist-separator"></span> 
+<a href="/wiki/Khwarezmian_language" class="mw-contributions-title" title="Khwarezmian language">Khwarezmian language</a>
+‎ <span class="comment comment--without-parentheses">cat</span>
+
+
+</li>
+<li data-mw-revid="945058369"><a href="/w/index.php?title=Dives_Akuru_(Unicode_block)&amp;oldid=945058369" class="mw-changeslist-date" title="Dives Akuru (Unicode block)">15:38, 11 March 2020</a>
+<span class="mw-changeslist-links"><span><a href="/w/index.php?title=Dives_Akuru_(Unicode_block)&amp;diff=prev&amp;oldid=945058369" class="mw-changeslist-diff" title="Dives Akuru (Unicode block)">diff</a></span> <span><a href="/w/index.php?title=Dives_Akuru_(Unicode_block)&amp;action=history" class="mw-changeslist-history" title="Dives Akuru (Unicode block)">hist</a></span></span> <span class="mw-changeslist-separator"></span> <span dir="ltr" class="mw-plusminus-pos mw-diff-bytes" title="3,699 bytes after change of this size">+26</span>‎ <span class="mw-changeslist-separator"></span> 
+<a href="/wiki/Dives_Akuru_(Unicode_block)" class="mw-contributions-title" title="Dives Akuru (Unicode block)">Dives Akuru (Unicode block)</a>
+‎ <span class="comment comment--without-parentheses">add to lede</span>
+
+
+</li>
+<li data-mw-revid="945058067"><a href="/w/index.php?title=Yezidi_(Unicode_block)&amp;oldid=945058067" class="mw-changeslist-date" title="Yezidi (Unicode block)">15:36, 11 March 2020</a>
+<span class="mw-changeslist-links"><span><a href="/w/index.php?title=Yezidi_(Unicode_block)&amp;diff=prev&amp;oldid=945058067" class="mw-changeslist-diff" title="Yezidi (Unicode block)">diff</a></span> <span><a href="/w/index.php?title=Yezidi_(Unicode_block)&amp;action=history" class="mw-changeslist-history" title="Yezidi (Unicode block)">hist</a></span></span> <span class="mw-changeslist-separator"></span> <span dir="ltr" class="mw-plusminus-pos mw-diff-bytes" title="996 bytes after change of this size">+93</span>‎ <span class="mw-changeslist-separator"></span> 
+<a href="/wiki/Yezidi_(Unicode_block)" class="mw-contributions-title" title="Yezidi (Unicode block)">Yezidi (Unicode block)</a>
+‎ <span class="comment comment--without-parentheses">add to lede</span>
+
+
+</li>
+<li data-mw-revid="945057551" class="mw-tag-mw-new-redirect"><a href="/w/index.php?title=Symbols_for_Legacy_Computing_(Unicode_block)&amp;oldid=945057551" class="mw-redirect mw-changeslist-date" title="Symbols for Legacy Computing (Unicode block)">15:32, 11 March 2020</a>
+<span class="mw-changeslist-links"><span>diff</span> <span><a href="/w/index.php?title=Symbols_for_Legacy_Computing_(Unicode_block)&amp;action=history" class="mw-redirect mw-changeslist-history" title="Symbols for Legacy Computing (Unicode block)">hist</a></span></span> <span class="mw-changeslist-separator"></span> <span dir="ltr" class="mw-plusminus-pos mw-diff-bytes" title="42 bytes after change of this size">+42</span>‎ <span class="mw-changeslist-separator"></span> <abbr class="newpage" title="This edit created a new page">N</abbr>
+<a href="/w/index.php?title=Symbols_for_Legacy_Computing_(Unicode_block)&amp;redirect=no" class="mw-redirect mw-contributions-title" title="Symbols for Legacy Computing (Unicode block)">Symbols for Legacy Computing (Unicode block)</a>
+‎ <span class="comment comment--without-parentheses">redirect for <a href="/wiki/Symbols_for_Legacy_Computing" title="Symbols for Legacy Computing">Symbols for Legacy Computing</a></span>
+
+<span class="mw-tag-markers"><a href="/wiki/Special:Tags" title="Special:Tags">Tag</a>: <span class="mw-tag-marker mw-tag-marker-mw-new-redirect">New redirect</span></span>
+</li>
+<li data-mw-revid="945057488"><a href="/w/index.php?title=Symbols_for_Legacy_Computing&amp;oldid=945057488" class="mw-changeslist-date" title="Symbols for Legacy Computing">15:31, 11 March 2020</a>
+<span class="mw-changeslist-links"><span>diff</span> <span><a href="/w/index.php?title=Symbols_for_Legacy_Computing&amp;action=history" class="mw-changeslist-history" title="Symbols for Legacy Computing">hist</a></span></span> <span class="mw-changeslist-separator"></span> <strong dir="ltr" class="mw-plusminus-pos mw-diff-bytes" title="1,012 bytes after change of this size">+1,012</strong>‎ <span class="mw-changeslist-separator"></span> <abbr class="newpage" title="This edit created a new page">N</abbr>
+<a href="/wiki/Symbols_for_Legacy_Computing" class="mw-contributions-title" title="Symbols for Legacy Computing">Symbols for Legacy Computing</a>
+‎ <span class="comment comment--without-parentheses">Create -- history documents pending</span>
+
+
+</li>
+<li data-mw-revid="945056539" class="mw-tag-mw-new-redirect"><a href="/w/index.php?title=Tangut_Supplement_(Unicode_block)&amp;oldid=945056539" class="mw-redirect mw-changeslist-date" title="Tangut Supplement (Unicode block)">15:24, 11 March 2020</a>
+<span class="mw-changeslist-links"><span>diff</span> <span><a href="/w/index.php?title=Tangut_Supplement_(Unicode_block)&amp;action=history" class="mw-redirect mw-changeslist-history" title="Tangut Supplement (Unicode block)">hist</a></span></span> <span class="mw-changeslist-separator"></span> <span dir="ltr" class="mw-plusminus-pos mw-diff-bytes" title="31 bytes after change of this size">+31</span>‎ <span class="mw-changeslist-separator"></span> <abbr class="newpage" title="This edit created a new page">N</abbr>
+<a href="/w/index.php?title=Tangut_Supplement_(Unicode_block)&amp;redirect=no" class="mw-redirect mw-contributions-title" title="Tangut Supplement (Unicode block)">Tangut Supplement (Unicode block)</a>
+‎ <span class="comment comment--without-parentheses">redirect for <a href="/wiki/Tangut_Supplement" title="Tangut Supplement">Tangut Supplement</a></span>
+
+<span class="mw-tag-markers"><a href="/wiki/Special:Tags" title="Special:Tags">Tag</a>: <span class="mw-tag-marker mw-tag-marker-mw-new-redirect">New redirect</span></span>
+</li>
+<li data-mw-revid="945056417" class="mw-tag-mw-new-redirect"><a href="/w/index.php?title=Lisu_Supplement_(Unicode_block)&amp;oldid=945056417" class="mw-redirect mw-changeslist-date" title="Lisu Supplement (Unicode block)">15:23, 11 March 2020</a>
+<span class="mw-changeslist-links"><span>diff</span> <span><a href="/w/index.php?title=Lisu_Supplement_(Unicode_block)&amp;action=history" class="mw-redirect mw-changeslist-history" title="Lisu Supplement (Unicode block)">hist</a></span></span> <span class="mw-changeslist-separator"></span> <span dir="ltr" class="mw-plusminus-pos mw-diff-bytes" title="29 bytes after change of this size">+29</span>‎ <span class="mw-changeslist-separator"></span> <abbr class="newpage" title="This edit created a new page">N</abbr>
+<a href="/w/index.php?title=Lisu_Supplement_(Unicode_block)&amp;redirect=no" class="mw-redirect mw-contributions-title" title="Lisu Supplement (Unicode block)">Lisu Supplement (Unicode block)</a>
+‎ <span class="comment comment--without-parentheses">redirect for <a href="/wiki/Lisu_Supplement" title="Lisu Supplement">Lisu Supplement</a></span>
+
+<span class="mw-tag-markers"><a href="/wiki/Special:Tags" title="Special:Tags">Tag</a>: <span class="mw-tag-marker mw-tag-marker-mw-new-redirect">New redirect</span></span>
+</li>
+<li data-mw-revid="945056294"><a href="/w/index.php?title=Lisu_(Unicode_block)&amp;oldid=945056294" class="mw-changeslist-date" title="Lisu (Unicode block)">15:22, 11 March 2020</a>
+<span class="mw-changeslist-links"><span><a href="/w/index.php?title=Lisu_(Unicode_block)&amp;diff=prev&amp;oldid=945056294" class="mw-changeslist-diff" title="Lisu (Unicode block)">diff</a></span> <span><a href="/w/index.php?title=Lisu_(Unicode_block)&amp;action=history" class="mw-changeslist-history" title="Lisu (Unicode block)">hist</a></span></span> <span class="mw-changeslist-separator"></span> <span dir="ltr" class="mw-plusminus-pos mw-diff-bytes" title="4,327 bytes after change of this size">+36</span>‎ <span class="mw-changeslist-separator"></span> 
+<a href="/wiki/Lisu_(Unicode_block)" class="mw-contributions-title" title="Lisu (Unicode block)">Lisu (Unicode block)</a>
+‎ <span class="comment comment--without-parentheses">See also [Lisu Supplement]]</span>
+
+
+</li>
+<li data-mw-revid="945056172"><a href="/w/index.php?title=Lisu_Supplement&amp;oldid=945056172" class="mw-changeslist-date" title="Lisu Supplement">15:21, 11 March 2020</a>
+<span class="mw-changeslist-links"><span>diff</span> <span><a href="/w/index.php?title=Lisu_Supplement&amp;action=history" class="mw-changeslist-history" title="Lisu Supplement">hist</a></span></span> <span class="mw-changeslist-separator"></span> <strong dir="ltr" class="mw-plusminus-pos mw-diff-bytes" title="970 bytes after change of this size">+970</strong>‎ <span class="mw-changeslist-separator"></span> <abbr class="newpage" title="This edit created a new page">N</abbr>
+<a href="/wiki/Lisu_Supplement" class="mw-contributions-title" title="Lisu Supplement">Lisu Supplement</a>
+‎ <span class="comment comment--without-parentheses">Create -- history documents pending</span>
+
+
+</li>
+<li data-mw-revid="945055662"><a href="/w/index.php?title=Kurdish_alphabets&amp;oldid=945055662" class="mw-changeslist-date" title="Kurdish alphabets">15:17, 11 March 2020</a>
+<span class="mw-changeslist-links"><span><a href="/w/index.php?title=Kurdish_alphabets&amp;diff=prev&amp;oldid=945055662" class="mw-changeslist-diff" title="Kurdish alphabets">diff</a></span> <span><a href="/w/index.php?title=Kurdish_alphabets&amp;action=history" class="mw-changeslist-history" title="Kurdish alphabets">hist</a></span></span> <span class="mw-changeslist-separator"></span> <span dir="ltr" class="mw-plusminus-pos mw-diff-bytes" title="38,995 bytes after change of this size">+144</span>‎ <span class="mw-changeslist-separator"></span> 
+<a href="/wiki/Kurdish_alphabets" class="mw-contributions-title" title="Kurdish alphabets">Kurdish alphabets</a>
+‎ <span class="comment comment--without-parentheses">Unicode 13.0</span>
+
+
+</li>
+<li data-mw-revid="945055329"><a href="/w/index.php?title=Yezidi_(Unicode_block)&amp;oldid=945055329" class="mw-changeslist-date" title="Yezidi (Unicode block)">15:14, 11 March 2020</a>
+<span class="mw-changeslist-links"><span>diff</span> <span><a href="/w/index.php?title=Yezidi_(Unicode_block)&amp;action=history" class="mw-changeslist-history" title="Yezidi (Unicode block)">hist</a></span></span> <span class="mw-changeslist-separator"></span> <strong dir="ltr" class="mw-plusminus-pos mw-diff-bytes" title="903 bytes after change of this size">+903</strong>‎ <span class="mw-changeslist-separator"></span> <abbr class="newpage" title="This edit created a new page">N</abbr>
+<a href="/wiki/Yezidi_(Unicode_block)" class="mw-contributions-title" title="Yezidi (Unicode block)">Yezidi (Unicode block)</a>
+‎ <span class="comment comment--without-parentheses">Create -- history documents pending</span>
+
+
+</li>
+<li data-mw-revid="945054886"><a href="/w/index.php?title=Dives_Akuru_(Unicode_block)&amp;oldid=945054886" class="mw-changeslist-date" title="Dives Akuru (Unicode block)">15:10, 11 March 2020</a>
+<span class="mw-changeslist-links"><span>diff</span> <span><a href="/w/index.php?title=Dives_Akuru_(Unicode_block)&amp;action=history" class="mw-changeslist-history" title="Dives Akuru (Unicode block)">hist</a></span></span> <span class="mw-changeslist-separator"></span> <strong dir="ltr" class="mw-plusminus-pos mw-diff-bytes" title="879 bytes after change of this size">+879</strong>‎ <span class="mw-changeslist-separator"></span> <abbr class="newpage" title="This edit created a new page">N</abbr>
+<a href="/wiki/Dives_Akuru_(Unicode_block)" class="mw-contributions-title" title="Dives Akuru (Unicode block)">Dives Akuru (Unicode block)</a>
+‎ <span class="comment comment--without-parentheses">Create -- history documents pending</span>
+
+
+</li>
+<li data-mw-revid="945054745"><a href="/w/index.php?title=Dhives_Akuru&amp;oldid=945054745" class="mw-changeslist-date" title="Dhives Akuru">15:09, 11 March 2020</a>
+<span class="mw-changeslist-links"><span><a href="/w/index.php?title=Dhives_Akuru&amp;diff=prev&amp;oldid=945054745" class="mw-changeslist-diff" title="Dhives Akuru">diff</a></span> <span><a href="/w/index.php?title=Dhives_Akuru&amp;action=history" class="mw-changeslist-history" title="Dhives Akuru">hist</a></span></span> <span class="mw-changeslist-separator"></span> <span dir="ltr" class="mw-plusminus-neg mw-diff-bytes" title="4,904 bytes after change of this size">-132</span>‎ <span class="mw-changeslist-separator"></span> 
+<a href="/wiki/Dhives_Akuru" class="mw-contributions-title" title="Dhives Akuru">Dhives Akuru</a>
+‎ <span class="comment comment--without-parentheses">Unicode</span>
+
+
+</li>
+<li data-mw-revid="945053885"><a href="/w/index.php?title=Chorasmian_(Unicode_block)&amp;oldid=945053885" class="mw-changeslist-date" title="Chorasmian (Unicode block)">15:03, 11 March 2020</a>
+<span class="mw-changeslist-links"><span>diff</span> <span><a href="/w/index.php?title=Chorasmian_(Unicode_block)&amp;action=history" class="mw-changeslist-history" title="Chorasmian (Unicode block)">hist</a></span></span> <span class="mw-changeslist-separator"></span> <strong dir="ltr" class="mw-plusminus-pos mw-diff-bytes" title="975 bytes after change of this size">+975</strong>‎ <span class="mw-changeslist-separator"></span> <abbr class="newpage" title="This edit created a new page">N</abbr>
+<a href="/wiki/Chorasmian_(Unicode_block)" class="mw-contributions-title" title="Chorasmian (Unicode block)">Chorasmian (Unicode block)</a>
+‎ <span class="comment comment--without-parentheses">Create -- history documents pending</span>
+
+
+</li>
+<li data-mw-revid="945051643"><a href="/w/index.php?title=Dhives_Akuru&amp;oldid=945051643" class="mw-changeslist-date" title="Dhives Akuru">14:48, 11 March 2020</a>
+<span class="mw-changeslist-links"><span><a href="/w/index.php?title=Dhives_Akuru&amp;diff=prev&amp;oldid=945051643" class="mw-changeslist-diff" title="Dhives Akuru">diff</a></span> <span><a href="/w/index.php?title=Dhives_Akuru&amp;action=history" class="mw-changeslist-history" title="Dhives Akuru">hist</a></span></span> <span class="mw-changeslist-separator"></span> <span dir="ltr" class="mw-plusminus-pos mw-diff-bytes" title="5,036 bytes after change of this size">+152</span>‎ <span class="mw-changeslist-separator"></span> 
+<a href="/wiki/Dhives_Akuru" class="mw-contributions-title" title="Dhives Akuru">Dhives Akuru</a>
+‎ <span class="comment comment--without-parentheses">Unicode 13.0</span>
+
+
+</li>
+<li data-mw-revid="945051279"><a href="/w/index.php?title=Khitan_small_script&amp;oldid=945051279" class="mw-changeslist-date" title="Khitan small script">14:45, 11 March 2020</a>
+<span class="mw-changeslist-links"><span><a href="/w/index.php?title=Khitan_small_script&amp;diff=prev&amp;oldid=945051279" class="mw-changeslist-diff" title="Khitan small script">diff</a></span> <span><a href="/w/index.php?title=Khitan_small_script&amp;action=history" class="mw-changeslist-history" title="Khitan small script">hist</a></span></span> <span class="mw-changeslist-separator"></span> <span dir="ltr" class="mw-plusminus-pos mw-diff-bytes" title="9,806 bytes after change of this size">+255</span>‎ <span class="mw-changeslist-separator"></span> 
+<a href="/wiki/Khitan_small_script" class="mw-contributions-title" title="Khitan small script">Khitan small script</a>
+‎ <span class="comment comment--without-parentheses">Unicode pdfs</span>
+
+
+</li>
+</ul>
+<p class="mw-pager-navigation-bar">(newest | <a href="/w/index.php?title=Special:Contributions/BabelStone&amp;dir=prev&amp;limit=100&amp;target=BabelStone" class="mw-lastlink" title="Special:Contributions/BabelStone">oldest</a>) View (newer 100 |  <a href="/w/index.php?title=Special:Contributions/BabelStone&amp;offset=20200311144523&amp;limit=100&amp;target=BabelStone" class="mw-nextlink" title="Special:Contributions/BabelStone" rel="next">older 100</a>) (<a href="/w/index.php?title=Special:Contributions/BabelStone&amp;offset=&amp;limit=20&amp;target=BabelStone" class="mw-numlink" title="Special:Contributions/BabelStone">20</a> | <a href="/w/index.php?title=Special:Contributions/BabelStone&amp;offset=&amp;limit=50&amp;target=BabelStone" class="mw-numlink" title="Special:Contributions/BabelStone">50</a> | <a href="/w/index.php?title=Special:Contributions/BabelStone&amp;offset=&amp;limit=100&amp;target=BabelStone" class="mw-numlink" title="Special:Contributions/BabelStone">100</a> | <a href="/w/index.php?title=Special:Contributions/BabelStone&amp;offset=&amp;limit=250&amp;target=BabelStone" class="mw-numlink" title="Special:Contributions/BabelStone">250</a> | <a href="/w/index.php?title=Special:Contributions/BabelStone&amp;offset=&amp;limit=500&amp;target=BabelStone" class="mw-numlink" title="Special:Contributions/BabelStone">500</a>)</p><div class="mw-contributions-footer">
+<table id="sp-contributions-footer" class="plainlinks fmbox fmbox-system" role="presentation"><tbody><tr><td class="mbox-image"><img alt="User info" src="//upload.wikimedia.org/wikipedia/en/thumb/c/ce/User-info.svg/40px-User-info.svg.png" decoding="async" title="User info" width="40" height="40" srcset="//upload.wikimedia.org/wikipedia/en/thumb/c/ce/User-info.svg/60px-User-info.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/c/ce/User-info.svg/80px-User-info.svg.png 2x" data-file-width="48" data-file-height="48" /></td><td class="mbox-text" style="font-size: 90%; text-align:center;"><div class="hlist inline">
+<ul><li><a href="/wiki/User:BabelStone" title="User:BabelStone">BabelStone</a>: <a href="/wiki/Special:PrefixIndex/User:BabelStone/" title="Special:PrefixIndex/User:BabelStone/">Subpages</a></li>
+<li><a class="external text" href="https://en.wikipedia.org/w/index.php?title=Special:ListUsers&amp;limit=1&amp;username=BabelStone">User rights</a></li>
+<li><a rel="nofollow" class="external text" href="//xtools.wmflabs.org/ec/en.wikipedia.org/BabelStone">Edit count</a></li>
+<li><a class="external text" href="//tools.wmflabs.org/sigma/summary.py?name=BabelStone">Edit summary search</a></li>
+<li><a rel="nofollow" class="external text" href="//xtools.wmflabs.org/pages/en.wikipedia.org/BabelStone">Articles created</a></li>
+<li>Global: <a class="external text" href="//tools.wmflabs.org/guc/?user=BabelStone&amp;blocks=true">contributions</a></li>
+<li><a class="external text" href="https://meta.wikimedia.org/w/index.php?title=Special:Log&amp;type=globalauth&amp;user=&amp;page=User:BabelStone@global">log</a></li>
+<li><a href="/wiki/Special:CentralAuth/BabelStone" title="Special:CentralAuth/BabelStone">accounts</a><sup>(<a href="https://meta.wikimedia.org/wiki/Special:CentralAuth/BabelStone" class="extiw" title="m:Special:CentralAuth/BabelStone">meta</a>)</sup></li></ul>
+</div></td></tr></tbody></table>
+</div><noscript><img src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript></div>
+		<div class="printfooter">Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/wiki/Special:Contributions/BabelStone">https://en.wikipedia.org/wiki/Special:Contributions/BabelStone</a>"</div>
+		<div id="catlinks" class="catlinks catlinks-allhidden" data-mw="interface"></div>
+		<div class="visualClear"></div>
+		
+	</div>
+</div>
+<div id='mw-data-after-content'>
+	<div class="read-more-container"></div>
+</div>
+
+<div id="mw-navigation">
+    <h2>Navigation menu</h2>
+    <div id="mw-head">
+        
+        <div id="p-personal" role="navigation" class="" aria-labelledby="p-personal-label">
+        	<h3 id="p-personal-label">Personal tools</h3>
+        	<ul >
+        		
+        		<li id="pt-anonuserpage">Not logged in</li>
+        		<li id="pt-anontalk"><a href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]" accesskey="n">Talk</a></li><li id="pt-anoncontribs"><a href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]" accesskey="y">Contributions</a></li><li id="pt-createaccount"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Special%3AContributions%2FBabelStone&amp;returntoquery=limit%3D100" title="You are encouraged to create an account and log in; however, it is not mandatory">Create account</a></li><li id="pt-login"><a href="/w/index.php?title=Special:UserLogin&amp;returnto=Special%3AContributions%2FBabelStone&amp;returntoquery=limit%3D100" title="You&#039;re encouraged to log in; however, it&#039;s not mandatory. [o]" accesskey="o">Log in</a></li>
+        	</ul>
+        </div>
+        <div id="left-navigation">
+            <div id="p-namespaces" role="navigation" class="vectorTabs " aria-labelledby="p-namespaces-label">
+            	<h3 id="p-namespaces-label">Namespaces</h3>
+            	<ul >
+            		<li id="ca-nstab-special" class="selected"><a href="/w/index.php?title=Special:Contributions/BabelStone&amp;limit=100" title="This is a special page which you cannot edit">Special page</a></li>
+            	</ul>
+            </div>
+            <div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+            	<input type="checkbox" class="vectorMenuCheckbox" aria-labelledby="p-variants-label" />
+            	<h3 id="p-variants-label">
+            		<span>Variants</span>
+            	</h3>
+            	<ul class="menu" >
+            		
+            	</ul>
+            </div>
+        </div>
+        <div id="right-navigation">
+            <div id="p-views" role="navigation" class="vectorTabs emptyPortlet" aria-labelledby="p-views-label">
+            	<h3 id="p-views-label">Views</h3>
+            	<ul >
+            		
+            	</ul>
+            </div>
+            <div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+            	<input type="checkbox" class="vectorMenuCheckbox" aria-labelledby="p-cactions-label" />
+            	<h3 id="p-cactions-label">
+            		<span>More</span>
+            	</h3>
+            	<ul class="menu" >
+            		
+            	</ul>
+            </div>
+            <div id="p-search" role="search">
+            	<h3 >
+            		<label for="searchInput">Search</label>
+            	</h3>
+            	<form action="/w/index.php" id="searchform">
+            		<div id="simpleSearch">
+            			<input type="search" name="search" placeholder="Search Wikipedia" title="Search Wikipedia [f]" accesskey="f" id="searchInput"/>
+            			<input type="hidden" value="Special:Search" name="title"/>
+            			<input type="submit" name="fulltext" value="Search" title="Search Wikipedia for this text" id="mw-searchButton" class="searchButton mw-fallbackSearchButton"/>
+            			<input type="submit" name="go" value="Go" title="Go to a page with this exact name if it exists" id="searchButton" class="searchButton"/>
+            		</div>
+            	</form>
+            </div>
+        </div>
+    </div>
+    
+    <div id="mw-panel">
+    	<div id="p-logo" role="banner">
+    		<a  title="Visit the main page" class="mw-wiki-logo" href="/wiki/Main_Page"></a>
+    	</div>
+    	<div class="portal" role="navigation" id="p-navigation"  aria-labelledby="p-navigation-label">
+    		<h3  id="p-navigation-label">
+    			Navigation
+    		</h3>
+    		<div class="body">
+    			<ul><li id="n-mainpage-description"><a href="/wiki/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li><li id="n-contents"><a href="/wiki/Wikipedia:Contents" title="Guides to browsing Wikipedia">Contents</a></li><li id="n-featuredcontent"><a href="/wiki/Wikipedia:Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li><li id="n-currentevents"><a href="/wiki/Portal:Current_events" title="Find background information on current events">Current events</a></li><li id="n-randompage"><a href="/wiki/Special:Random" title="Load a random article [x]" accesskey="x">Random article</a></li><li id="n-sitesupport"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us">Donate to Wikipedia</a></li><li id="n-shoplink"><a href="//shop.wikimedia.org" title="Visit the Wikipedia store">Wikipedia store</a></li></ul>
+    			
+    		</div>
+    	</div>
+    	
+    	<div class="portal" role="navigation" id="p-interaction"  aria-labelledby="p-interaction-label">
+    		<h3  id="p-interaction-label">
+    			Interaction
+    		</h3>
+    		<div class="body">
+    			<ul><li id="n-help"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li><li id="n-aboutsite"><a href="/wiki/Wikipedia:About" title="Find out about Wikipedia">About Wikipedia</a></li><li id="n-portal"><a href="/wiki/Wikipedia:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li><li id="n-recentchanges"><a href="/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li><li id="n-contactpage"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia">Contact page</a></li></ul>
+    			
+    		</div>
+    	</div>
+    	
+    	<div class="portal" role="navigation" id="p-tb"  aria-labelledby="p-tb-label">
+    		<h3  id="p-tb-label">
+    			Tools
+    		</h3>
+    		<div class="body">
+    			<ul><li id="feedlinks"><a href="/w/api.php?action=feedcontributions&amp;user=BabelStone&amp;feedformat=atom" id="feed-atom" rel="alternate" type="application/atom+xml" class="feedlink" title="Atom feed for this page">Atom</a></li><li id="t-contributions"><a href="/wiki/Special:Contributions/BabelStone" title="A list of contributions by this user">User contributions</a></li><li id="t-log"><a href="/wiki/Special:Log/BabelStone" title="View the list of actions by this user">Logs</a></li><li id="t-userrights"><a href="/wiki/Special:UserRights/BabelStone">View user groups</a></li><li id="t-upload"><a href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]" accesskey="u">Upload file</a></li><li id="t-specialpages"><a href="/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li><li id="t-print"><a href="/w/index.php?title=Special:Contributions/BabelStone&amp;limit=100&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li></ul>
+    			
+    		</div>
+    	</div>
+    	
+    	<div class="portal" role="navigation" id="p-lang"  aria-labelledby="p-lang-label">
+    		<h3  id="p-lang-label">
+    			Languages
+    		</h3>
+    		<div class="body">
+    			<ul></ul>
+    			
+    		</div>
+    	</div>
+    	
+    </div>
+</div>
+
+<div id="footer" role="contentinfo" >
+	<ul id="footer-places" class="">
+		<li id="footer-places-privacy"><a href="https://foundation.wikimedia.org/wiki/Privacy_policy" class="extiw" title="wmf:Privacy policy">Privacy policy</a></li>
+		<li id="footer-places-about"><a href="/wiki/Wikipedia:About" title="Wikipedia:About">About Wikipedia</a></li>
+		<li id="footer-places-disclaimer"><a href="/wiki/Wikipedia:General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+		<li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+		<li id="footer-places-developers"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute">Developers</a></li>
+		<li id="footer-places-statslink"><a href="https://stats.wikimedia.org/#/en.wikipedia.org">Statistics</a></li>
+		<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Cookie_statement">Cookie statement</a></li>
+		<li id="footer-places-mobileview"><a href="//en.m.wikipedia.org/w/index.php?title=Special:Contributions/BabelStone&amp;limit=100&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+	</ul>
+	<ul id="footer-icons" class="noprint">
+		<li id="footer-copyrightico"><a href="https://wikimediafoundation.org/"><img src="/static/images/wikimedia-button.png" srcset="/static/images/wikimedia-button-1.5x.png 1.5x, /static/images/wikimedia-button-2x.png 2x" width="88" height="31" alt="Wikimedia Foundation"/></a></li>
+		<li id="footer-poweredbyico"><a href="https://www.mediawiki.org/"><img src="/static/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/static/images/poweredby_mediawiki_132x47.png 1.5x, /static/images/poweredby_mediawiki_176x62.png 2x" width="88" height="31"/></a></li>
+	</ul>
+	<div style="clear: both;"></div>
+</div>
+
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":423,"wgHostname":"mw1326"});});</script></body></html>

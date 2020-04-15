@@ -5,7 +5,7 @@
 # 
 # Autor: 		Stefan Krug
 # Lizenz: 		CC BY 3.0 DE Dieses Werk ist lizenziert unter einer Creative Commons Namensnennung 3.0 Deutschland Lizenz. (http://creativecommons.org/licenses/by/3.0/de/)
-# Stand:		2020-04-13
+# Stand:		2020-04-15
 
 -->
 
@@ -20,9 +20,18 @@
 	</user>
 </xsl:template>
 
+<!-- Name ermitteln, abhaengig von der Sprachversion -->
 <xsl:template match='link[@rel="canonical"]'>
 	<name>
-		<xsl:value-of select='substring-after(@href, "Special:Contributions/")'/>
+		<xsl:value-of select='substring-after(@href, "target=")'/>
+		<!--<xsl:choose>
+			<xsl:when test="$lang = 'en'">
+				<xsl:value-of select='substring-before(substring-after(@href, "Special:Contributions/"),"&amp;")'/>
+			</xsl:when>
+			<xsl:when test="$lang = 'zh'">		
+				<xsl:value-of select='substring-before(substring-after(@href, "Special:%E7%94%A8%E6%88%B7%E8%B4%A1%E7%8C%AE/"),"&amp;")'/>
+			</xsl:when>
+		</xsl:choose>-->
 	</name>
 </xsl:template>
 

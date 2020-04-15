@@ -14,14 +14,15 @@ import csv
 
 def getXMLdata(url, stylesheet):
     datadir = "data/"
+    lang = urlparse(url).netloc.split(".")[0] + "_"
     # Dateiname wird aus Query-Teil der URL und Endung .xml gebildet
     if urlparse(url).query:
-        file = urlparse(url).query+".xml"
+        file = urlparse(url).query + ".xml"
     # Falls kein Queryteil vorhanden, letzter Pfadteil +.xml
     else:
-        file = str(urlparse(url).path.rsplit("/")[-1])+".xml"
-    
-    file = datadir + file
+        file = str(urlparse(url).path.rsplit("/")[-1]) + ".xml"
+    # vollständiger Pfad aus Verzeichnis/Sprachversion_Dateiname.xml
+    file = datadir + lang + file
     # Wenn XML bereits vorhanden, die verwenden
     if os.path.exists(file):            
         xml = etree.parse(open(file, "r"))
@@ -56,6 +57,9 @@ def addArticleData(nodes, edges, article):
         user_node = {"name": version.xpath('./user')[0].text
                      , "lang": article_node["lang"] # bessere quelle haben wir aktuell nicht
                      , "type": "user"}
+        #LOG
+        print(user_node)
+        if user_node["name"] == "DittyReacts": print(80*"-")
         # user hinzufügen, sofern neu
         if user_node not in nodes:
             nodes.append(user_node)
@@ -78,57 +82,71 @@ def addUserData(nodes, edges, user):
     if user_node not in nodes:
         nodes.append(user_node)
     # articles als nodes, versions als edges hinzufügen
-    for version in user.xpath('/user/versions/version'):
-        # article-node zusammenstellen
-        article_node = {"name": version.xpath('./title')[0].text
-                        , "lang": user_node["lang"] # bessere quelle haben wir aktuell nicht
-                        , "type": "article"}
-        # article hinzufügen, sofern neu
-        if article_node not in nodes:
-            nodes.append(article_node)
-        # version als edge hinzufügen
-        version_edge = {"user": user_node["name"]
-                        , "article": article_node["name"]
-                        , "timestamp": version.xpath('./timestamp')[0].text
-                        , "id": version.xpath('./id')[0].text}
-        if version_edge not in edges:
-            edges.append(version_edge)
+    if user.xpath('/user/versions/version') is not None:
+        for version in user.xpath('/user/versions/version'):
+            # article-node zusammenstellen
+            article_node = {"name": version.xpath('./title')[0].text
+                            , "lang": user_node["lang"] # bessere quelle haben wir aktuell nicht
+                            , "type": "article"}
+            # article hinzufügen, sofern neu
+            if article_node not in nodes:
+                nodes.append(article_node)
+            # version als edge hinzufügen
+            version_edge = {"user": user_node["name"]
+                            , "article": article_node["name"]
+                            , "timestamp": version.xpath('./timestamp')[0].text
+                            , "id": version.xpath('./id')[0].text}
+            if version_edge not in edges:
+                edges.append(version_edge)
         
 # =============================================================================    
         
 nodes = list()
 edges = list()
 
+# en article
 addArticleData(nodes, edges, getXMLdata('https://en.wikipedia.org/w/index.php?title=1989_Tiananmen_Square_protests&action=history&limit=100', 'history.xsl'))
-addArticleData(nodes, edges, getXMLdata('https://en.wikipedia.org/w/index.php?title=Hong_Kong&action=history&limit=100', 'history.xsl'))
+#addArticleData(nodes, edges, getXMLdata('https://en.wikipedia.org/w/index.php?title=Hong_Kong&action=history&limit=100', 'history.xsl'))
+
+# zh article
+addArticleData(nodes, edges, getXMLdata('https://zh.wikipedia.org/w/index.php?title=%E5%85%AD%E5%9B%9B%E4%BA%8B%E4%BB%B6&action=history&limit=100', 'history.xsl'))
 
 # zugehörige user-netzwerke ermitteln
 for node in nodes:
     if node["type"] == "user":
         print("ermittele Daten für User: "+node["name"])
-        addUserData(nodes, edges, getXMLdata('https://en.wikipedia.org/wiki/Special:Contributions/'+node["name"], 'user.xsl'))
-
-## als csv speichern
-with open('nodes.csv', 'w', newline='') as csvfile:
-    fieldnames = ['name', 'lang', 'type']
-    writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
-    writer.writeheader()
-    writer.writerows(nodes)
-with open('edges.csv', 'w', newline='') as csvfile:
-    fieldnames = ['user', 'article', 'timestamp', 'id']
-    writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
-    writer.writeheader()
-    writer.writerows(edges)
+        addUserData(nodes, edges, getXMLdata('https://en.wikipedia.org/w/index.php?title=Special:Contributions&limit=100&target=' + node["name"], 'user.xsl'))
+        #addUserData(nodes, edges, getXMLdata('https://zh.wikipedia.org/wiki/Special:用户贡献/' + node["name"] + '&limit=100', 'user.xsl'))
+        addUserData(nodes, edges, getXMLdata('https://zh.wikipedia.org/w/index.php?title=Special:用户贡献&limit=100&target=' + node["name"], 'user.xsl'))
+        
+## als csv speichern - für gephi
+#with open('nodes.csv', 'w', newline='') as csvfile:
+#    fieldnames = ['name', 'lang', 'type']
+#    writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+#    writer.writeheader()
+#    writer.writerows(nodes)
+#with open('edges.csv', 'w', newline='') as csvfile:
+#    fieldnames = ['user', 'article', 'timestamp', 'id']
+#    writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+#    writer.writeheader()
+#    writer.writerows(edges)
 
 ## Graph anlegen        
 netGraph = Network(height='750pt', width='100%', bgcolor="#222222", font_color="white")        
 
 # Daten in Graph eintragen                   
-for node in nodes:                   
-    netGraph.add_node(node["name"])
+for node in nodes:
+    if node["type"] == "user":
+        netGraph.add_node(node["name"], shape="dot")
+    elif node["type"] == "article":
+        if node["lang"] == "zh":
+            netGraph.add_node(node["name"], shape="database", title = "https://zh.wikipedia.org", color = "red")
+        else:
+            netGraph.add_node(node["name"], shape="database", title = "https://zh.wikipedia.org", color = "blue")
 for edge in edges:
     netGraph.add_edge(edge["user"], edge["article"])
 
+netGraph.barnes_hut()
 netGraph.show('networkmap.html')
 
 
