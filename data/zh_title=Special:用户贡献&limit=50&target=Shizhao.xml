@@ -1,0 +1,209 @@
+<?xml version="1.0"?>
+<user><language>zh</language>
+
+
+Shizhao的用户贡献 - 维基百科，自由的百科全书
+document.documentElement.className="client-js";RLCONF={"wgBreakFrames":!1,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"zh","wgMonthNames":["","1月","2月","3月","4月","5月","6月","7月","8月","9月","10月","11月","12月"],"wgRequestId":"Xpf8hQpAAL0AA2-reqUAAAEB","wgCSPNonce":!1,"wgCanonicalNamespace":"Special","wgCanonicalSpecialPageName":"Contributions","wgNamespaceNumber":-1,"wgPageName":"Special:用户贡献","wgTitle":"用户贡献","wgCurRevisionId":0,"wgRevisionId":0,"wgArticleId":0,"wgIsArticle":!1,"wgIsRedirect":!1,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgPageContentLanguage":"zh","wgPageContentModel":"wikitext","wgRelevantPageName":"Special:用户贡献","wgRelevantArticleId":0,"wgUserVariant":"zh","wgIsProbablyEditable":!1,"wgRelevantPageIsProbablyEditable":!1,"wgRelevantUserName":"Shizhao","wgMediaViewerOnClick":!0,"wgMediaViewerEnabledByDefault":!0,
+"wgPopupsReferencePreviews":!1,"wgPopupsConflictsWithNavPopupGadget":!1,"wgVisualEditor":{"pageLanguageCode":"zh","pageLanguageDir":"ltr","pageVariantFallbacks":["zh-hans","zh-hant","zh-cn","zh-tw","zh-hk","zh-sg","zh-mo","zh-my"]},"wgMFDisplayWikibaseDescriptions":{"search":!0,"nearby":!0,"watchlist":!0,"tagline":!0},"wgWMESchemaEditAttemptStepOversample":!1,"wgULSCurrentAutonym":"中文","wgNoticeProject":"wikipedia","wgCentralAuthMobileDomain":!1,"wgEditSubmitButtonLabelPublish":!0,"oresData":{"59187314":{"damaging":0.007},"59187297":{"damaging":0.007},"59187264":{"damaging":0.009},"59187146":{"damaging":0.007},"59186931":{"damaging":0.007},"59186929":{"damaging":0.006},"59186928":{"damaging":0.017},"59186886":{"damaging":0.029},"59186884":{"damaging":0.017},"59186882":{"damaging":0.025},"59186792":{"damaging":0.031},"59169977":{"damaging":0.027},"59169975":{"damaging":0.038},"59169961":{"damaging":0.032},"59169842":{"damaging":0.018},"59169830":{"damaging":
+0.016},"59169824":{"damaging":0.021},"59158346":{"damaging":0.017},"59158335":{"damaging":0.009},"59158238":{"damaging":0.009},"59158100":{"damaging":0.006},"59158099":{"damaging":0.006},"59158098":{"damaging":0.011},"59157953":{"damaging":0.029},"59157948":{"damaging":0.018},"59157902":{"damaging":0.012},"59157894":{"damaging":0.008},"59157890":{"damaging":0.011},"59157858":{"damaging":0.019},"59145920":{"damaging":0.017},"59145860":{"damaging":0.008},"59142316":{"damaging":0.009},"59137910":{"damaging":0.048},"59137905":{"damaging":0.014},"59137896":{"damaging":0.022},"59137863":{"damaging":0.008},"59137747":{"damaging":0.009},"59137220":{"damaging":0.036},"59137205":{"damaging":0.079},"59137204":{"damaging":0.038},"59136990":{"damaging":0.025},"59136979":{"damaging":0.015},"59136939":{"damaging":0.012},"59136862":{"damaging":0.009},"59129923":{"damaging":0.007},"59129878":{"damaging":0.009},"59129567":{"damaging":0.007},"59081839":{"damaging":0.008},"59081833":{"damaging":0.011},
+"59081680":{"damaging":0.061}},"oresThresholds":{"damaging":{"maybebad":0.037,"likelybad":0.423}}};RLSTATE={"ext.gadget.hideConversionTab":"ready","ext.gadget.large-font":"ready","ext.globalCssJs.user.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","jquery.makeCollapsible.styles":"ready","mediawiki.interface.helpers.styles":"ready","mediawiki.special":"ready","mediawiki.special.changeslist":"ready","mediawiki.helplink":"ready","mediawiki.widgets.DateInputWidget.styles":"ready","oojs-ui-core.styles":"ready","oojs-ui.styles.indicators":"ready","mediawiki.widgets.styles":"ready","oojs-ui-core.icons":"ready","mediawiki.htmlform.ooui.styles":"ready","mediawiki.htmlform.styles":"ready","mediawiki.feedlink":"ready","skins.vector.styles.legacy":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","ext.ores.styles":
+"ready"};RLPAGEMODULES=["mediawiki.special.recentchanges","mediawiki.page.ready","mediawiki.special.contributions","mediawiki.htmlform","mediawiki.htmlform.ooui","mediawiki.widgets.UserInputWidget","mediawiki.widgets","oojs-ui-widgets","mediawiki.widgets.DateInputWidget","site","mediawiki.page.startup","skins.vector.js","jquery.makeCollapsible","ext.gadget.edit0","ext.gadget.Edittools-refToolbar","ext.gadget.WikiMiniAtlas","ext.gadget.ReferenceTooltips","ext.gadget.UnihanTooltips","ext.gadget.variant-link-fix","ext.gadget.FixedTopBottomLink","ext.gadget.confirm-logout","ext.gadget.shortURL","ext.gadget.AdvancedSiteNotices","ext.gadget.internalLinkHelper-altcolor","ext.gadget.noteTA","ext.gadget.noteTAvector","ext.gadget.NavFrame","ext.gadget.collapsibleTables","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming",
+"ext.uls.compactlinks","ext.uls.interface","ext.cx.eventlogging.campaigns","ext.centralNotice.geoIP"];
+(RLQ=window.RLQ||[]).push(function(){mw.loader.implement("user.options@1hzgi",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<name>Shizhao</name>
+
+
+
+
+
+
+
+	
+	
+	
+帮助
+
+
+	用户贡献
+	
+	
+		
+		Shizhao 讨论 封禁日志 上传 日志 过滤器日志
+		
+		
+		
+		跳到导航
+		跳到搜索
+		搜索贡献记录展开折叠⧼contribs-top⧽IP地址或用户名：名字空间：所有条目TalkUserUser talk维基百科维基百科讨论FileFile talkMediaWikiMediaWiki talkTemplateTemplate talkHelpHelp talkCategoryCategory talk主题主题讨论草稿草稿讨论模块模块讨论GadgetGadget talkGadget definitionGadget definition talkTopic反向选择关联的名字空间标签过滤器：仅显示最后版本的编辑仅显示创建页面的编辑隐藏小编辑⧼contribs-date⧽起始日：截止日：
+隐藏可能良好编辑
+
+
+搜索
+（最近 | 最旧） 查看（前50个 | 后50个）（20 | 50 | 100 | 250 | 500）<versions><version><id>59187314</id><timestamp>202004160300</timestamp><date>2020-04-16</date><time>03:00</time><title>Wikipedia:字词转换/地区词候选</title><comment/></version><version><id>59187297</id><timestamp>202004160259</timestamp><date>2020-04-16</date><time>02:59</time><title>Wikipedia:字词转换/地区词候选</title><comment/></version><version><id>59187264</id><timestamp>202004160256</timestamp><date>2020-04-16</date><time>02:56</time><title>Wikipedia:字词转换/地区词候选</title><comment/></version><version><id>59187146</id><timestamp>202004160248</timestamp><date>2020-04-16</date><time>02:48</time><title>Wikipedia:互助客栈/技术</title><comment/></version><version><id>59186931</id><timestamp>202004160235</timestamp><date>2020-04-16</date><time>02:35</time><title>Wikipedia:頁面存廢討論/記錄/2020/04/09</title><comment/></version><version><id>59186929</id><timestamp>202004160235</timestamp><date>2020-04-16</date><time>02:35</time><title>Talk:非军事化</title><comment/></version><version><id>59186928</id><timestamp>00</timestamp><date>-0-0</date><time>:</time><title>非军事化</title><comment/></version><version><id>59186886</id><timestamp>202004160231</timestamp><date>2020-04-16</date><time>02:31</time><title>汉朝</title><comment/></version><version><id>59186884</id><timestamp>202004160231</timestamp><date>2020-04-16</date><time>02:31</time><title>Wikipedia:致其他百科用户</title><comment/></version><version><id>59186882</id><timestamp>202004160230</timestamp><date>2020-04-16</date><time>02:30</time><title>南极洲</title><comment/></version><version><id>59186792</id><timestamp>202004160224</timestamp><date>2020-04-16</date><time>02:24</time><title>Wikipedia:典范条目/飓风纳丁</title><comment/></version><version><id>59169977</id><timestamp>202004150148</timestamp><date>2020-04-15</date><time>01:48</time><title>汉朝</title><comment/></version><version><id>59169975</id><timestamp>202004150148</timestamp><date>2020-04-15</date><time>01:48</time><title>11月14日</title><comment/></version><version><id>59169961</id><timestamp>202004150147</timestamp><date>2020-04-15</date><time>01:47</time><title>武装叛乱、暴乱罪</title><comment/></version><version><id>59169842</id><timestamp>202004150139</timestamp><date>2020-04-15</date><time>01:39</time><title>Wikipedia:优良条目/曼蒂 (電影)</title><comment/></version><version><id>59169830</id><timestamp>202004150138</timestamp><date>2020-04-15</date><time>01:38</time><title>Wikipedia:优良条目/曼蒂 (電影)</title><comment/></version><version><id>59169824</id><timestamp>202004150138</timestamp><date>2020-04-15</date><time>01:38</time><title>Wikipedia:优良条目/曼蒂 (電影)</title><comment/></version><version><id>59158346</id><timestamp>202004140801</timestamp><date>2020-04-14</date><time>08:01</time><title>Wikipedia:互助客栈/其他</title><comment/></version><version><id>59158335</id><timestamp>202004140800</timestamp><date>2020-04-14</date><time>08:00</time><title>Wikipedia:互助客栈/其他</title><comment/></version><version><id>59158238</id><timestamp>202004140754</timestamp><date>2020-04-14</date><time>07:54</time><title>Wikipedia:互助客栈/技术</title><comment/></version><version><id>59158100</id><timestamp>202004140746</timestamp><date>2020-04-14</date><time>07:46</time><title>Wikipedia:頁面存廢討論/記錄/2020/04/07</title><comment/></version><version><id>59158099</id><timestamp>202004140746</timestamp><date>2020-04-14</date><time>07:46</time><title>User talk:Lynn0020</title><comment/></version><version><id>59158098</id><timestamp>202004140746</timestamp><date>2020-04-14</date><time>07:46</time><title>User:Lynn0020</title><comment/></version><version><id>59157953</id><timestamp>202004140737</timestamp><date>2020-04-14</date><time>07:37</time><title>四大发明</title><comment/></version><version><id>59157948</id><timestamp>202004140736</timestamp><date>2020-04-14</date><time>07:36</time><title>E-Hentai</title><comment/></version><version><id>59157902</id><timestamp>202004140733</timestamp><date>2020-04-14</date><time>07:33</time><title>Template:Itn</title><comment/></version><version><id>59157894</id><timestamp>202004140732</timestamp><date>2020-04-14</date><time>07:32</time><title>Wikipedia:新闻动态候选</title><comment/></version><version><id>59157890</id><timestamp>202004140732</timestamp><date>2020-04-14</date><time>07:32</time><title>Template:Itn</title><comment/></version><version><id>59157858</id><timestamp>202004140730</timestamp><date>2020-04-14</date><time>07:30</time><title>Wikipedia:典范条目/那霸市</title><comment/></version><version><id>59145920</id><timestamp>202004131218</timestamp><date>2020-04-13</date><time>12:18</time><title>布口罩</title><comment/></version><version><id>59145860</id><timestamp>202004131214</timestamp><date>2020-04-13</date><time>12:14</time><title>Wikipedia:互助客栈/其他</title><comment/></version><version><id>59142316</id><timestamp>202004130823</timestamp><date>2020-04-13</date><time>08:23</time><title>Wikipedia:互助客栈/其他</title><comment/></version><version><id>59137910</id><timestamp>202004130342</timestamp><date>2020-04-13</date><time>03:42</time><title>6月4日</title><comment/></version><version><id>59137905</id><timestamp>202004130341</timestamp><date>2020-04-13</date><time>03:41</time><title>餓狼 群狼之證</title><comment/></version><version><id>59137896</id><timestamp>202004130340</timestamp><date>2020-04-13</date><time>03:40</time><title>餓狼 群狼之證</title><comment/></version><version><id>59137863</id><timestamp>202004130337</timestamp><date>2020-04-13</date><time>03:37</time><title>Wikipedia:頁面存廢討論/記錄/2020/04/08</title><comment/></version><version><id>59137747</id><timestamp>202004130328</timestamp><date>2020-04-13</date><time>03:28</time><title>Wikipedia:頁面存廢討論/記錄/2020/04/05</title><comment/></version><version><id>59137220</id><timestamp>202004130249</timestamp><date>2020-04-13</date><time>02:49</time><title>上海市</title><comment/></version><version><id>59137205</id><timestamp>202004130248</timestamp><date>2020-04-13</date><time>02:48</time><title>方舟子</title><comment/></version><version><id>59137204</id><timestamp>202004130248</timestamp><date>2020-04-13</date><time>02:48</time><title>北京市</title><comment/></version><version><id>59136990</id><timestamp>202004130229</timestamp><date>2020-04-13</date><time>02:29</time><title>Wikipedia:优良条目/新世紀福音戰士劇場版</title><comment/></version><version><id>59136979</id><timestamp>202004130228</timestamp><date>2020-04-13</date><time>02:28</time><title>Wikipedia:优良条目/新世紀福音戰士劇場版</title><comment/></version><version><id>59136939</id><timestamp>202004130224</timestamp><date>2020-04-13</date><time>02:24</time><title>Template:TOWitem</title><comment/></version><version><id>59136862</id><timestamp>202004130219</timestamp><date>2020-04-13</date><time>02:19</time><title>Template:TOWitemfrom</title><comment/></version><version><id>59129923</id><timestamp>202004121252</timestamp><date>2020-04-12</date><time>12:52</time><title>Wikipedia:字词转换/地区词候选</title><comment/></version><version><id>59129878</id><timestamp>202004121250</timestamp><date>2020-04-12</date><time>12:50</time><title>Wikipedia:互助客栈/方针</title><comment/></version><version><id>59129567</id><timestamp>202004121233</timestamp><date>2020-04-12</date><time>12:33</time><title>Wikipedia:字词转换/地区词候选</title><comment/></version><version><id>59081839</id><timestamp>202004100207</timestamp><date>2020-04-10</date><time>02:07</time><title>Wikipedia:新闻动态候选</title><comment/></version><version><id>59081833</id><timestamp>202004100207</timestamp><date>2020-04-10</date><time>02:07</time><title>Template:Itn</title><comment/></version><version><id>59081680</id><timestamp>202004100154</timestamp><date>2020-04-10</date><time>01:54</time><title>伊朗能源</title><comment/></version></versions>
+（最近 | 最旧） 查看（前50个 | 后50个）（20 | 50 | 100 | 250 | 500）
+Shizhao： 檢視子頁面 · 用户權限 · 編輯次數 ·  贡献报告 · 上傳的檔案（共享）·  所創條目 ·  跨語言活動 ·  SUL / 帐号 
+
+		取自“https://zh.wikipedia.org/wiki/Special:用户贡献”
+		
+		
+		
+	
+
+
+	
+
+
+
+    导航菜单
+    
+        
+        
+        	个人工具
+        	
+        		
+        		没有登录
+        		讨论贡献创建账户登录
+        	
+        
+        
+            
+            	名字空间
+            	
+            		特殊页面
+            	
+            
+            
+            	
+            	
+            		变种
+            	
+            	
+            		
+            	
+            
+        
+        
+            
+            	视图
+            	
+            		
+            	
+            
+            
+            	
+            	
+            		更多
+            	
+            	
+            		
+            	
+            
+            
+            	
+            		搜索
+            	
+            	
+            		
+            			
+            			
+            			
+            			
+            		
+            	
+            
+        
+    
+    
+    
+    	
+    		
+    	
+    	
+    		
+    			导航
+    		
+    		
+    			首页分类索引特色内容新闻动态最近更改随机条目资助维基百科
+    			
+    		
+    	
+    	
+    	
+    		
+    			帮助
+    		
+    		
+    			帮助维基社群方针与指引互助客栈知识问答字词转换IRC即时聊天联络我们关于维基百科
+    			
+    		
+    	
+    	
+    	
+    		
+    			工具
+    		
+    		
+    			Atom用户贡献日志查看用户组上传文件特殊页面打印页面
+    			
+    		
+    	
+    	
+    	
+    		
+    			其他语言
+    		
+    		
+    			
+    			
+    		
+    	
+    	
+    
+
+
+
+	
+		隐私政策
+		关于维基百科
+		免责声明
+		开发者
+		统计
+		Cookie声明
+		手机版视图
+	
+	
+		
+		
+	
+	
+
+
+(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":712,"wgHostname":"mw1385"});});</user>

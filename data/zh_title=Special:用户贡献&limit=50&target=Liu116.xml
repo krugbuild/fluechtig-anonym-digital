@@ -1,0 +1,209 @@
+<?xml version="1.0"?>
+<user><language>zh</language>
+
+
+Liu116的用户贡献 - 维基百科，自由的百科全书
+document.documentElement.className="client-js";RLCONF={"wgBreakFrames":!1,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"zh","wgMonthNames":["","1月","2月","3月","4月","5月","6月","7月","8月","9月","10月","11月","12月"],"wgRequestId":"8d1c1b67-9447-40a7-89a7-e3120d0b15f1","wgCSPNonce":!1,"wgCanonicalNamespace":"Special","wgCanonicalSpecialPageName":"Contributions","wgNamespaceNumber":-1,"wgPageName":"Special:用户贡献","wgTitle":"用户贡献","wgCurRevisionId":0,"wgRevisionId":0,"wgArticleId":0,"wgIsArticle":!1,"wgIsRedirect":!1,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgPageContentLanguage":"zh","wgPageContentModel":"wikitext","wgRelevantPageName":"Special:用户贡献","wgRelevantArticleId":0,"wgUserVariant":"zh","wgIsProbablyEditable":!1,"wgRelevantPageIsProbablyEditable":!1,"wgRelevantUserName":"Liu116","wgMediaViewerOnClick":!0,"wgMediaViewerEnabledByDefault":!0,
+"wgPopupsReferencePreviews":!1,"wgPopupsConflictsWithNavPopupGadget":!1,"wgVisualEditor":{"pageLanguageCode":"zh","pageLanguageDir":"ltr","pageVariantFallbacks":["zh-hans","zh-hant","zh-cn","zh-tw","zh-hk","zh-sg","zh-mo","zh-my"]},"wgMFDisplayWikibaseDescriptions":{"search":!0,"nearby":!0,"watchlist":!0,"tagline":!0},"wgWMESchemaEditAttemptStepOversample":!1,"wgULSCurrentAutonym":"中文","wgNoticeProject":"wikipedia","wgCentralAuthMobileDomain":!1,"wgEditSubmitButtonLabelPublish":!0,"oresData":{"59190011":{"damaging":0.014},"59189815":{"damaging":0.012},"59189686":{"damaging":0.007},"59189638":{"damaging":0.01},"59189637":{"damaging":0.007},"59187586":{"damaging":0.027},"59187435":{"damaging":0.017},"59187431":{"damaging":0.012},"59187375":{"damaging":0.021},"59187372":{"damaging":0.016},"59187355":{"damaging":0.022},"59187344":{"damaging":0.025},"59187334":{"damaging":0.028},"59187046":{"damaging":0.046},"59186145":{"damaging":0.015},"59178615":{"damaging":
+0.022},"59177903":{"damaging":0.025},"59176575":{"damaging":0.014},"59175834":{"damaging":0.042},"59175760":{"damaging":0.016},"59175482":{"damaging":0.024},"59175478":{"damaging":0.024},"59174849":{"damaging":0.017},"59174544":{"damaging":0.009},"59174533":{"damaging":0.019},"59174527":{"damaging":0.007},"59174377":{"damaging":0.013},"59174239":{"damaging":0.018},"59174100":{"damaging":0.028},"59174032":{"damaging":0.02},"59173882":{"damaging":0.016},"59173816":{"damaging":0.015},"59173788":{"damaging":0.018},"59173632":{"damaging":0.03},"59173380":{"damaging":0.026},"59172548":{"damaging":0.03},"59171427":{"damaging":0.016},"59170416":{"damaging":0.018},"59170253":{"damaging":0.014},"59170224":{"damaging":0.013},"59170176":{"damaging":0.017},"59170168":{"damaging":0.037},"59170162":{"damaging":0.012},"59170122":{"damaging":0.007},"59169844":{"damaging":0.009},"59169839":{"damaging":0.016},"59169833":{"damaging":0.011},"59169428":{"damaging":0.025},"59169408":{"damaging":0.018},
+"59160770":{"damaging":0.014}},"oresThresholds":{"damaging":{"maybebad":0.037,"likelybad":0.423}}};RLSTATE={"ext.gadget.hideConversionTab":"ready","ext.gadget.large-font":"ready","ext.globalCssJs.user.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","jquery.makeCollapsible.styles":"ready","mediawiki.interface.helpers.styles":"ready","mediawiki.special":"ready","mediawiki.special.changeslist":"ready","mediawiki.helplink":"ready","mediawiki.widgets.DateInputWidget.styles":"ready","oojs-ui-core.styles":"ready","oojs-ui.styles.indicators":"ready","mediawiki.widgets.styles":"ready","oojs-ui-core.icons":"ready","mediawiki.htmlform.ooui.styles":"ready","mediawiki.htmlform.styles":"ready","mediawiki.feedlink":"ready","skins.vector.styles.legacy":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","ext.ores.styles":
+"ready"};RLPAGEMODULES=["mediawiki.special.recentchanges","mediawiki.page.ready","mediawiki.special.contributions","mediawiki.htmlform","mediawiki.htmlform.ooui","mediawiki.widgets.UserInputWidget","mediawiki.widgets","oojs-ui-widgets","mediawiki.widgets.DateInputWidget","site","mediawiki.page.startup","skins.vector.js","jquery.makeCollapsible","ext.gadget.edit0","ext.gadget.Edittools-refToolbar","ext.gadget.WikiMiniAtlas","ext.gadget.ReferenceTooltips","ext.gadget.UnihanTooltips","ext.gadget.variant-link-fix","ext.gadget.FixedTopBottomLink","ext.gadget.confirm-logout","ext.gadget.shortURL","ext.gadget.AdvancedSiteNotices","ext.gadget.internalLinkHelper-altcolor","ext.gadget.noteTA","ext.gadget.noteTAvector","ext.gadget.NavFrame","ext.gadget.collapsibleTables","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming",
+"ext.uls.compactlinks","ext.uls.interface","ext.cx.eventlogging.campaigns","ext.centralNotice.geoIP"];
+(RLQ=window.RLQ||[]).push(function(){mw.loader.implement("user.options@1hzgi",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<name>Liu116</name>
+
+
+
+
+
+
+
+	
+	
+	
+帮助
+
+
+	用户贡献
+	
+	
+		
+		Liu116 讨论 封禁日志 上传 日志 过滤器日志
+		
+		
+		
+		跳到导航
+		跳到搜索
+		搜索贡献记录展开折叠⧼contribs-top⧽IP地址或用户名：名字空间：所有条目TalkUserUser talk维基百科维基百科讨论FileFile talkMediaWikiMediaWiki talkTemplateTemplate talkHelpHelp talkCategoryCategory talk主题主题讨论草稿草稿讨论模块模块讨论GadgetGadget talkGadget definitionGadget definition talkTopic反向选择关联的名字空间标签过滤器：仅显示最后版本的编辑仅显示创建页面的编辑隐藏小编辑⧼contribs-date⧽起始日：截止日：
+隐藏可能良好编辑
+
+
+搜索
+（最近 | 最旧） 查看（前50个 | 后50个）（20 | 50 | 100 | 250 | 500）<versions><version><id>59190011</id><timestamp>202004160558</timestamp><date>2020-04-16</date><time>05:58</time><title>2020年夏季奧林匹克運動會舉重比賽</title><comment/></version><version><id>59189815</id><timestamp>202004160546</timestamp><date>2020-04-16</date><time>05:46</time><title>2020年夏季奧林匹克運動會舉重比賽</title><comment/></version><version><id>59189686</id><timestamp>202004160536</timestamp><date>2020-04-16</date><time>05:36</time><title>Template:2020年夏季奥林匹克运动会举重比赛</title><comment/></version><version><id>59189638</id><timestamp>00</timestamp><date>-0-0</date><time>:</time><title>Template:2020年夏季奧林匹克運動會三項鐵人比賽</title><comment/></version><version><id>59189637</id><timestamp>00</timestamp><date>-0-0</date><time>:</time><title>Template:2020年夏季奧林匹克運動會三項鐵人比賽</title><comment/></version><version><id>59187586</id><timestamp>202004160318</timestamp><date>2020-04-16</date><time>03:18</time><title>曹德旺</title><comment/></version><version><id>59187435</id><timestamp>202004160307</timestamp><date>2020-04-16</date><time>03:07</time><title>2020年夏季奧林匹克運動會舉重比賽</title><comment/></version><version><id>59187431</id><timestamp>202004160307</timestamp><date>2020-04-16</date><time>03:07</time><title>2020年夏季奧林匹克運動會舉重比賽</title><comment/></version><version><id>59187375</id><timestamp>202004160303</timestamp><date>2020-04-16</date><time>03:03</time><title>2016年夏季奧林匹克運動會舉重比賽－女子58公斤級</title><comment/></version><version><id>59187372</id><timestamp>202004160303</timestamp><date>2020-04-16</date><time>03:03</time><title>2016年夏季奧林匹克運動會舉重比賽－女子53公斤級</title><comment/></version><version><id>59187355</id><timestamp>202004160302</timestamp><date>2020-04-16</date><time>03:02</time><title>2016年夏季奥林匹克运动会举重比赛－男子56公斤级</title><comment/></version><version><id>59187344</id><timestamp>202004160301</timestamp><date>2020-04-16</date><time>03:01</time><title>2016年夏季奧林匹克運動會舉重比賽－女子58公斤級</title><comment/></version><version><id>59187334</id><timestamp>202004160301</timestamp><date>2020-04-16</date><time>03:01</time><title>2016年夏季奥林匹克运动会举重比赛－男子56公斤级</title><comment/></version><version><id>59187046</id><timestamp>202004160242</timestamp><date>2020-04-16</date><time>02:42</time><title>集合啦！動物森友會</title><comment/></version><version><id>59186145</id><timestamp>202004160138</timestamp><date>2020-04-16</date><time>01:38</time><title>User:Liu116</title><comment/></version><version><id>59178615</id><timestamp>202004151123</timestamp><date>2020-04-15</date><time>11:23</time><title>2020年夏季奧林匹克運動會角力比賽</title><comment/></version><version><id>59177903</id><timestamp>202004151036</timestamp><date>2020-04-15</date><time>10:36</time><title>广州医科大学附属第一医院</title><comment/></version><version><id>59176575</id><timestamp>202004150911</timestamp><date>2020-04-15</date><time>09:11</time><title>2020年夏季奧林匹克運動會排球比賽</title><comment/></version><version><id>59175834</id><timestamp>202004150827</timestamp><date>2020-04-15</date><time>08:27</time><title>2020年夏季奧林匹克運動會網球比賽</title><comment/></version><version><id>59175760</id><timestamp>202004150823</timestamp><date>2020-04-15</date><time>08:23</time><title>2020年夏季奧林匹克運動會排球比賽</title><comment/></version><version><id>59175482</id><timestamp>202004150805</timestamp><date>2020-04-15</date><time>08:05</time><title>索波特</title><comment/></version><version><id>59175478</id><timestamp>202004150805</timestamp><date>2020-04-15</date><time>08:05</time><title>索波特</title><comment/></version><version><id>59174849</id><timestamp>202004150728</timestamp><date>2020-04-15</date><time>07:28</time><title>2020年夏季奧林匹克運動會排球比賽</title><comment/></version><version><id>59174544</id><timestamp>202004150710</timestamp><date>2020-04-15</date><time>07:10</time><title>Template:2020年夏季奥林匹克运动会排球比赛</title><comment/></version><version><id>59174533</id><timestamp>202004150709</timestamp><date>2020-04-15</date><time>07:09</time><title>2020年夏季奧林匹克運動會排球比賽</title><comment/></version><version><id>59174527</id><timestamp>202004150709</timestamp><date>2020-04-15</date><time>07:09</time><title>Template:2020年夏季奥林匹克运动会排球比赛</title><comment/></version><version><id>59174377</id><timestamp>202004150659</timestamp><date>2020-04-15</date><time>06:59</time><title>2020年夏季奧林匹克運動會排球比賽</title><comment/></version><version><id>59174239</id><timestamp>202004150649</timestamp><date>2020-04-15</date><time>06:49</time><title>2020年夏季奧林匹克運動會籃球比賽</title><comment/></version><version><id>59174100</id><timestamp>202004150636</timestamp><date>2020-04-15</date><time>06:36</time><title>2020年夏季奧林匹克運動會排球比賽</title><comment/></version><version><id>59174032</id><timestamp>202004150629</timestamp><date>2020-04-15</date><time>06:29</time><title>Messages (Google)</title><comment/></version><version><id>59173882</id><timestamp>202004150616</timestamp><date>2020-04-15</date><time>06:16</time><title>2020年夏季奧林匹克運動會鐵人三項比賽</title><comment/></version><version><id>59173816</id><timestamp>202004150610</timestamp><date>2020-04-15</date><time>06:10</time><title>2020年夏季奧林匹克運動會鐵人三項比賽</title><comment/></version><version><id>59173788</id><timestamp>202004150608</timestamp><date>2020-04-15</date><time>06:08</time><title>2020年夏季奧林匹克運動會鐵人三項比賽</title><comment/></version><version><id>59173632</id><timestamp>202004150553</timestamp><date>2020-04-15</date><time>05:53</time><title>2020年夏季奧林匹克運動會鐵人三項比賽</title><comment/></version><version><id>59173380</id><timestamp>202004150534</timestamp><date>2020-04-15</date><time>05:34</time><title>2020年夏季奧林匹克運動會鐵人三項比賽</title><comment/></version><version><id>59172548</id><timestamp>202004150438</timestamp><date>2020-04-15</date><time>04:38</time><title>2020年夏季奧林匹克運動會鐵人三項比賽</title><comment/></version><version><id>59171427</id><timestamp>202004150328</timestamp><date>2020-04-15</date><time>03:28</time><title>2020年夏季奧林匹克運動會鐵人三項比賽</title><comment/></version><version><id>59170416</id><timestamp>202004150220</timestamp><date>2020-04-15</date><time>02:20</time><title>2020年夏季奧林匹克運動會鐵人三項比賽</title><comment/></version><version><id>59170253</id><timestamp>202004150208</timestamp><date>2020-04-15</date><time>02:08</time><title>2020年夏季奧林匹克運動會鐵人三項比賽</title><comment/></version><version><id>59170224</id><timestamp>202004150205</timestamp><date>2020-04-15</date><time>02:05</time><title>2020年夏季奧林匹克運動會鐵人三項比賽</title><comment/></version><version><id>59170176</id><timestamp>202004150202</timestamp><date>2020-04-15</date><time>02:02</time><title>2020年夏季奧林匹克運動會鐵人三項比賽</title><comment/></version><version><id>59170168</id><timestamp>202004150202</timestamp><date>2020-04-15</date><time>02:02</time><title>2020年夏季奧林匹克運動會鐵人三項比賽</title><comment/></version><version><id>59170162</id><timestamp>202004150202</timestamp><date>2020-04-15</date><time>02:02</time><title>2020年夏季奧林匹克運動會鐵人三項比賽</title><comment/></version><version><id>59170122</id><timestamp>202004150159</timestamp><date>2020-04-15</date><time>01:59</time><title>Template:2020年夏季奥林匹克运动会铁人三项比赛</title><comment/></version><version><id>59169844</id><timestamp>00</timestamp><date>-0-0</date><time>:</time><title>2020年夏季奧林匹克運動會三項鐵人比賽</title><comment/></version><version><id>59169839</id><timestamp>202004150138</timestamp><date>2020-04-15</date><time>01:38</time><title>2020年夏季奧林匹克運動會鐵人三項比賽</title><comment/></version><version><id>59169833</id><timestamp>202004150138</timestamp><date>2020-04-15</date><time>01:38</time><title>2020年夏季奧林匹克運動會鐵人三項比賽</title><comment/></version><version><id>59169428</id><timestamp>202004150109</timestamp><date>2020-04-15</date><time>01:09</time><title>卡尔·马克思峰</title><comment/></version><version><id>59169408</id><timestamp>202004150108</timestamp><date>2020-04-15</date><time>01:08</time><title>Template:日本氣象廳命名颱風</title><comment/></version><version><id>59160770</id><timestamp>202004141025</timestamp><date>2020-04-14</date><time>10:25</time><title>Category:1946年生物學</title><comment/></version></versions>
+（最近 | 最旧） 查看（前50个 | 后50个）（20 | 50 | 100 | 250 | 500）
+Liu116： 檢視子頁面 · 用户權限 · 編輯次數 ·  贡献报告 · 上傳的檔案（共享）·  所創條目 ·  跨語言活動 ·  SUL / 帐号 
+
+		取自“https://zh.wikipedia.org/wiki/Special:用户贡献”
+		
+		
+		
+	
+
+
+	
+
+
+
+    导航菜单
+    
+        
+        
+        	个人工具
+        	
+        		
+        		没有登录
+        		讨论贡献创建账户登录
+        	
+        
+        
+            
+            	名字空间
+            	
+            		特殊页面
+            	
+            
+            
+            	
+            	
+            		变种
+            	
+            	
+            		
+            	
+            
+        
+        
+            
+            	视图
+            	
+            		
+            	
+            
+            
+            	
+            	
+            		更多
+            	
+            	
+            		
+            	
+            
+            
+            	
+            		搜索
+            	
+            	
+            		
+            			
+            			
+            			
+            			
+            		
+            	
+            
+        
+    
+    
+    
+    	
+    		
+    	
+    	
+    		
+    			导航
+    		
+    		
+    			首页分类索引特色内容新闻动态最近更改随机条目资助维基百科
+    			
+    		
+    	
+    	
+    	
+    		
+    			帮助
+    		
+    		
+    			帮助维基社群方针与指引互助客栈知识问答字词转换IRC即时聊天联络我们关于维基百科
+    			
+    		
+    	
+    	
+    	
+    		
+    			工具
+    		
+    		
+    			Atom用户贡献日志查看用户组上传文件特殊页面打印页面
+    			
+    		
+    	
+    	
+    	
+    		
+    			其他语言
+    		
+    		
+    			
+    			
+    		
+    	
+    	
+    
+
+
+
+	
+		隐私政策
+		关于维基百科
+		免责声明
+		开发者
+		统计
+		Cookie声明
+		手机版视图
+	
+	
+		
+		
+	
+	
+
+
+(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":460,"wgHostname":"mw1265"});});</user>

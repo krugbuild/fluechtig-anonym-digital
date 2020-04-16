@@ -1,0 +1,209 @@
+<?xml version="1.0"?>
+<user><language>zh</language>
+
+
+Geographyinitiative的用户贡献 - 维基百科，自由的百科全书
+document.documentElement.className="client-js";RLCONF={"wgBreakFrames":!1,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"zh","wgMonthNames":["","1月","2月","3月","4月","5月","6月","7月","8月","9月","10月","11月","12月"],"wgRequestId":"Xpf8QwpAMMUAA3CuMwIAAABV","wgCSPNonce":!1,"wgCanonicalNamespace":"Special","wgCanonicalSpecialPageName":"Contributions","wgNamespaceNumber":-1,"wgPageName":"Special:用户贡献","wgTitle":"用户贡献","wgCurRevisionId":0,"wgRevisionId":0,"wgArticleId":0,"wgIsArticle":!1,"wgIsRedirect":!1,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgPageContentLanguage":"zh","wgPageContentModel":"wikitext","wgRelevantPageName":"Special:用户贡献","wgRelevantArticleId":0,"wgUserVariant":"zh","wgIsProbablyEditable":!1,"wgRelevantPageIsProbablyEditable":!1,"wgRelevantUserName":"Geographyinitiative","wgMediaViewerOnClick":!0,"wgMediaViewerEnabledByDefault":!0,
+"wgPopupsReferencePreviews":!1,"wgPopupsConflictsWithNavPopupGadget":!1,"wgVisualEditor":{"pageLanguageCode":"zh","pageLanguageDir":"ltr","pageVariantFallbacks":["zh-hans","zh-hant","zh-cn","zh-tw","zh-hk","zh-sg","zh-mo","zh-my"]},"wgMFDisplayWikibaseDescriptions":{"search":!0,"nearby":!0,"watchlist":!0,"tagline":!0},"wgWMESchemaEditAttemptStepOversample":!1,"wgULSCurrentAutonym":"中文","wgNoticeProject":"wikipedia","wgCentralAuthMobileDomain":!1,"wgEditSubmitButtonLabelPublish":!0,"oresData":{"59092992":{"damaging":0.021},"59044329":{"damaging":0.024},"58997745":{"damaging":0.028},"58993247":{"damaging":0.012},"58987751":{"damaging":0.022},"58970054":{"damaging":0.052},"58970023":{"damaging":0.023},"58969249":{"damaging":0.023},"58967714":{"damaging":0.015},"58967557":{"damaging":0.056},"58966801":{"damaging":0.039},"58958384":{"damaging":0.01},"58908249":{"damaging":0.033},"58870391":{"damaging":0.015},"58861687":{"damaging":0.014},"58854460":{"damaging":
+0.073},"58854455":{"damaging":0.073},"58842603":{"damaging":0.034},"58822473":{"damaging":0.126},"58822445":{"damaging":0.022},"58815736":{"damaging":0.011},"58815720":{"damaging":0.024},"58815664":{"damaging":0.009},"58814821":{"damaging":0.043},"58814797":{"damaging":0.031},"58814782":{"damaging":0.031},"58814666":{"damaging":0.03},"58814631":{"damaging":0.031},"58814615":{"damaging":0.031},"58814591":{"damaging":0.031},"58814531":{"damaging":0.024},"58814440":{"damaging":0.032},"58814346":{"damaging":0.031},"58813846":{"damaging":0.053},"58813556":{"damaging":0.054},"58813542":{"damaging":0.031},"58811218":{"damaging":0.014},"58805909":{"damaging":0.01},"58805506":{"damaging":0.032},"58805456":{"damaging":0.047},"58801554":{"damaging":0.028},"58747782":{"damaging":0.016},"58747749":{"damaging":0.016},"58712485":{"damaging":0.023},"58701696":{"damaging":0.037},"58695736":{"damaging":0.073},"58689788":{"damaging":0.018},"58682745":{"damaging":0.048}},"oresThresholds":{"damaging":{
+"maybebad":0.037,"likelybad":0.423}}};RLSTATE={"ext.gadget.hideConversionTab":"ready","ext.gadget.large-font":"ready","ext.globalCssJs.user.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","jquery.makeCollapsible.styles":"ready","mediawiki.interface.helpers.styles":"ready","mediawiki.special":"ready","mediawiki.special.changeslist":"ready","mediawiki.helplink":"ready","mediawiki.widgets.DateInputWidget.styles":"ready","oojs-ui-core.styles":"ready","oojs-ui.styles.indicators":"ready","mediawiki.widgets.styles":"ready","oojs-ui-core.icons":"ready","mediawiki.htmlform.ooui.styles":"ready","mediawiki.htmlform.styles":"ready","mediawiki.feedlink":"ready","skins.vector.styles.legacy":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","ext.ores.styles":"ready"};RLPAGEMODULES=["mediawiki.special.recentchanges",
+"mediawiki.page.ready","mediawiki.special.contributions","mediawiki.htmlform","mediawiki.htmlform.ooui","mediawiki.widgets.UserInputWidget","mediawiki.widgets","oojs-ui-widgets","mediawiki.widgets.DateInputWidget","site","mediawiki.page.startup","skins.vector.js","jquery.makeCollapsible","ext.gadget.edit0","ext.gadget.Edittools-refToolbar","ext.gadget.WikiMiniAtlas","ext.gadget.ReferenceTooltips","ext.gadget.UnihanTooltips","ext.gadget.variant-link-fix","ext.gadget.FixedTopBottomLink","ext.gadget.confirm-logout","ext.gadget.shortURL","ext.gadget.AdvancedSiteNotices","ext.gadget.internalLinkHelper-altcolor","ext.gadget.noteTA","ext.gadget.noteTAvector","ext.gadget.NavFrame","ext.gadget.collapsibleTables","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.uls.compactlinks","ext.uls.interface",
+"ext.cx.eventlogging.campaigns","ext.centralNotice.geoIP"];
+(RLQ=window.RLQ||[]).push(function(){mw.loader.implement("user.options@1hzgi",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<name>Geographyinitiative</name>
+
+
+
+
+
+
+
+	
+	
+	
+帮助
+
+
+	用户贡献
+	
+	
+		
+		Geographyinitiative 讨论 封禁日志 上传 日志 过滤器日志
+		
+		
+		
+		跳到导航
+		跳到搜索
+		搜索贡献记录展开折叠⧼contribs-top⧽IP地址或用户名：名字空间：所有条目TalkUserUser talk维基百科维基百科讨论FileFile talkMediaWikiMediaWiki talkTemplateTemplate talkHelpHelp talkCategoryCategory talk主题主题讨论草稿草稿讨论模块模块讨论GadgetGadget talkGadget definitionGadget definition talkTopic反向选择关联的名字空间标签过滤器：仅显示最后版本的编辑仅显示创建页面的编辑隐藏小编辑⧼contribs-date⧽起始日：截止日：
+隐藏可能良好编辑
+
+
+搜索
+（最近 | 最旧） 查看（前50个 | 后50个）（20 | 50 | 100 | 250 | 500）<versions><version><id>59092992</id><timestamp>202004101110</timestamp><date>2020-04-10</date><time>11:10</time><title>槟榔屿 (福建)</title><comment/></version><version><id>59044329</id><timestamp>202004072359</timestamp><date>2020-04-07</date><time>23:59</time><title>喬戈里峰</title><comment/></version><version><id>58997745</id><timestamp>202004051059</timestamp><date>2020-04-05</date><time>10:59</time><title>疏附县</title><comment/></version><version><id>58993247</id><timestamp>202004050727</timestamp><date>2020-04-05</date><time>07:27</time><title>典角村</title><comment/></version><version><id>58987751</id><timestamp>202004050237</timestamp><date>2020-04-05</date><time>02:37</time><title>美國反中情緒</title><comment/></version><version><id>58970054</id><timestamp>202004040410</timestamp><date>2020-04-04</date><time>04:10</time><title>2019冠狀病毒病臺灣疫情</title><comment/></version><version><id>58970023</id><timestamp>202004040409</timestamp><date>2020-04-04</date><time>04:09</time><title>2019冠狀病毒病臺灣疫情</title><comment/></version><version><id>58969249</id><timestamp>202004040319</timestamp><date>2020-04-04</date><time>03:19</time><title>卿雲勳章</title><comment/></version><version><id>58967714</id><timestamp>202004040151</timestamp><date>2020-04-04</date><time>01:51</time><title>傑西·亞歷山大·赫爾姆斯</title><comment/></version><version><id>58967557</id><timestamp>202004040142</timestamp><date>2020-04-04</date><time>01:42</time><title>卿雲勳章</title><comment/></version><version><id>58966801</id><timestamp>202004040034</timestamp><date>2020-04-04</date><time>00:34</time><title>卿雲勳章</title><comment/></version><version><id>58958384</id><timestamp>202004031055</timestamp><date>2020-04-03</date><time>10:55</time><title>Talk:嚴重特殊傳染性肺炎臺灣個案簡表</title><comment/></version><version><id>58908249</id><timestamp>202003312228</timestamp><date>2020-03-31</date><time>22:28</time><title>嚴重特殊傳染性肺炎臺灣個案簡表</title><comment/></version><version><id>58870391</id><timestamp>202003292201</timestamp><date>2020-03-29</date><time>22:01</time><title>澎湖水道</title><comment/></version><version><id>58861687</id><timestamp>202003290912</timestamp><date>2020-03-29</date><time>09:12</time><title>牛山</title><comment/></version><version><id>58854460</id><timestamp>202003282146</timestamp><date>2020-03-28</date><time>21:46</time><title>连江县</title><comment/></version><version><id>58854455</id><timestamp>202003282146</timestamp><date>2020-03-28</date><time>21:46</time><title>连江县</title><comment/></version><version><id>58842603</id><timestamp>202003280525</timestamp><date>2020-03-28</date><time>05:25</time><title>龍崎區</title><comment/></version><version><id>58822473</id><timestamp>202003270220</timestamp><date>2020-03-27</date><time>02:20</time><title>莿桐鄉</title><comment/></version><version><id>58822445</id><timestamp>202003270217</timestamp><date>2020-03-27</date><time>02:17</time><title>莿桐鄉</title><comment/></version><version><id>58815736</id><timestamp>202003261243</timestamp><date>2020-03-26</date><time>12:43</time><title>Talk:嚴重特殊傳染性肺炎臺灣個案簡表</title><comment/></version><version><id>58815720</id><timestamp>202003261242</timestamp><date>2020-03-26</date><time>12:42</time><title>嚴重特殊傳染性肺炎臺灣個案簡表</title><comment/></version><version><id>58815664</id><timestamp>202003261239</timestamp><date>2020-03-26</date><time>12:39</time><title>Talk:嚴重特殊傳染性肺炎臺灣個案簡表</title><comment/></version><version><id>58814821</id><timestamp>202003261146</timestamp><date>2020-03-26</date><time>11:46</time><title>嚴重特殊傳染性肺炎臺灣個案簡表</title><comment/></version><version><id>58814797</id><timestamp>202003261144</timestamp><date>2020-03-26</date><time>11:44</time><title>嚴重特殊傳染性肺炎臺灣個案簡表</title><comment/></version><version><id>58814782</id><timestamp>202003261143</timestamp><date>2020-03-26</date><time>11:43</time><title>嚴重特殊傳染性肺炎臺灣個案簡表</title><comment/></version><version><id>58814666</id><timestamp>202003261133</timestamp><date>2020-03-26</date><time>11:33</time><title>嚴重特殊傳染性肺炎臺灣個案簡表</title><comment/></version><version><id>58814631</id><timestamp>202003261130</timestamp><date>2020-03-26</date><time>11:30</time><title>嚴重特殊傳染性肺炎臺灣個案簡表</title><comment/></version><version><id>58814615</id><timestamp>202003261128</timestamp><date>2020-03-26</date><time>11:28</time><title>嚴重特殊傳染性肺炎臺灣個案簡表</title><comment/></version><version><id>58814591</id><timestamp>202003261125</timestamp><date>2020-03-26</date><time>11:25</time><title>嚴重特殊傳染性肺炎臺灣個案簡表</title><comment/></version><version><id>58814531</id><timestamp>202003261120</timestamp><date>2020-03-26</date><time>11:20</time><title>嚴重特殊傳染性肺炎臺灣個案簡表</title><comment/></version><version><id>58814440</id><timestamp>202003261111</timestamp><date>2020-03-26</date><time>11:11</time><title>嚴重特殊傳染性肺炎臺灣個案簡表</title><comment/></version><version><id>58814346</id><timestamp>202003261104</timestamp><date>2020-03-26</date><time>11:04</time><title>嚴重特殊傳染性肺炎臺灣個案簡表</title><comment/></version><version><id>58813846</id><timestamp>202003261024</timestamp><date>2020-03-26</date><time>10:24</time><title>嚴重特殊傳染性肺炎臺灣個案簡表</title><comment/></version><version><id>58813556</id><timestamp>202003261007</timestamp><date>2020-03-26</date><time>10:07</time><title>嚴重特殊傳染性肺炎臺灣個案簡表</title><comment/></version><version><id>58813542</id><timestamp>202003261006</timestamp><date>2020-03-26</date><time>10:06</time><title>嚴重特殊傳染性肺炎臺灣個案簡表</title><comment/></version><version><id>58811218</id><timestamp>202003260728</timestamp><date>2020-03-26</date><time>07:28</time><title>Wikipedia:頁面存廢討論/記錄/2020/03/26</title><comment/></version><version><id>58805909</id><timestamp>202003260035</timestamp><date>2020-03-26</date><time>00:35</time><title>Wikipedia:頁面存廢討論/記錄/2020/03/25</title><comment/></version><version><id>58805506</id><timestamp>202003252318</timestamp><date>2020-03-25</date><time>23:18</time><title>角屿</title><comment/></version><version><id>58805456</id><timestamp>202003252307</timestamp><date>2020-03-25</date><time>23:07</time><title>槟榔屿 (福建)</title><comment/></version><version><id>58801554</id><timestamp>202003251429</timestamp><date>2020-03-25</date><time>14:29</time><title>槟榔屿 (福建)</title><comment/></version><version><id>58747782</id><timestamp>202003220343</timestamp><date>2020-03-22</date><time>03:43</time><title>岳普湖县</title><comment/></version><version><id>58747749</id><timestamp>202003220341</timestamp><date>2020-03-22</date><time>03:41</time><title>伽师县</title><comment/></version><version><id>58712485</id><timestamp>202003192309</timestamp><date>2020-03-19</date><time>23:09</time><title>通用拼音</title><comment/></version><version><id>58701696</id><timestamp>202003190712</timestamp><date>2020-03-19</date><time>07:12</time><title>嚴重特殊傳染性肺炎臺灣個案簡表</title><comment/></version><version><id>58695736</id><timestamp>202003182126</timestamp><date>2020-03-18</date><time>21:26</time><title>连江县</title><comment/></version><version><id>58689788</id><timestamp>202003181133</timestamp><date>2020-03-18</date><time>11:33</time><title>Talk:2019冠狀病毒病臺灣疫情</title><comment/></version><version><id>58682745</id><timestamp>202003180315</timestamp><date>2020-03-18</date><time>03:15</time><title>马祖乡</title><comment/></version><version><id>58649787</id><timestamp>202003160457</timestamp><date>2020-03-16</date><time>04:57</time><title>通用拼音</title><comment/></version><version><id>58599341</id><timestamp>202003130937</timestamp><date>2020-03-13</date><time>09:37</time><title>牟平区</title><comment/></version></versions>
+（最近 | 最旧） 查看（前50个 | 后50个）（20 | 50 | 100 | 250 | 500）
+Geographyinitiative： 檢視子頁面 · 用户權限 · 編輯次數 ·  贡献报告 · 上傳的檔案（共享）·  所創條目 ·  跨語言活動 ·  SUL / 帐号 
+
+		取自“https://zh.wikipedia.org/wiki/Special:用户贡献”
+		
+		
+		
+	
+
+
+	
+
+
+
+    导航菜单
+    
+        
+        
+        	个人工具
+        	
+        		
+        		没有登录
+        		讨论贡献创建账户登录
+        	
+        
+        
+            
+            	名字空间
+            	
+            		特殊页面
+            	
+            
+            
+            	
+            	
+            		变种
+            	
+            	
+            		
+            	
+            
+        
+        
+            
+            	视图
+            	
+            		
+            	
+            
+            
+            	
+            	
+            		更多
+            	
+            	
+            		
+            	
+            
+            
+            	
+            		搜索
+            	
+            	
+            		
+            			
+            			
+            			
+            			
+            		
+            	
+            
+        
+    
+    
+    
+    	
+    		
+    	
+    	
+    		
+    			导航
+    		
+    		
+    			首页分类索引特色内容新闻动态最近更改随机条目资助维基百科
+    			
+    		
+    	
+    	
+    	
+    		
+    			帮助
+    		
+    		
+    			帮助维基社群方针与指引互助客栈知识问答字词转换IRC即时聊天联络我们关于维基百科
+    			
+    		
+    	
+    	
+    	
+    		
+    			工具
+    		
+    		
+    			Atom用户贡献日志查看用户组上传文件特殊页面打印页面
+    			
+    		
+    	
+    	
+    	
+    		
+    			其他语言
+    		
+    		
+    			
+    			
+    		
+    	
+    	
+    
+
+
+
+	
+		隐私政策
+		关于维基百科
+		免责声明
+		开发者
+		统计
+		Cookie声明
+		手机版视图
+	
+	
+		
+		
+	
+	
+
+
+(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":445,"wgHostname":"mw1355"});});</user>

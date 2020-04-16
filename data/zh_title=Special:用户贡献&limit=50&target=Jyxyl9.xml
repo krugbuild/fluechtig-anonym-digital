@@ -1,0 +1,209 @@
+<?xml version="1.0"?>
+<user><language>zh</language>
+
+
+Jyxyl9的用户贡献 - 维基百科，自由的百科全书
+document.documentElement.className="client-js";RLCONF={"wgBreakFrames":!1,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"zh","wgMonthNames":["","1月","2月","3月","4月","5月","6月","7月","8月","9月","10月","11月","12月"],"wgRequestId":"Xpf8jwpAICMAADYiSZEAAACS","wgCSPNonce":!1,"wgCanonicalNamespace":"Special","wgCanonicalSpecialPageName":"Contributions","wgNamespaceNumber":-1,"wgPageName":"Special:用户贡献","wgTitle":"用户贡献","wgCurRevisionId":0,"wgRevisionId":0,"wgArticleId":0,"wgIsArticle":!1,"wgIsRedirect":!1,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgPageContentLanguage":"zh","wgPageContentModel":"wikitext","wgRelevantPageName":"Special:用户贡献","wgRelevantArticleId":0,"wgUserVariant":"zh","wgIsProbablyEditable":!1,"wgRelevantPageIsProbablyEditable":!1,"wgRelevantUserName":"Jyxyl9","wgMediaViewerOnClick":!0,"wgMediaViewerEnabledByDefault":!0,
+"wgPopupsReferencePreviews":!1,"wgPopupsConflictsWithNavPopupGadget":!1,"wgVisualEditor":{"pageLanguageCode":"zh","pageLanguageDir":"ltr","pageVariantFallbacks":["zh-hans","zh-hant","zh-cn","zh-tw","zh-hk","zh-sg","zh-mo","zh-my"]},"wgMFDisplayWikibaseDescriptions":{"search":!0,"nearby":!0,"watchlist":!0,"tagline":!0},"wgWMESchemaEditAttemptStepOversample":!1,"wgULSCurrentAutonym":"中文","wgNoticeProject":"wikipedia","wgCentralAuthMobileDomain":!1,"wgEditSubmitButtonLabelPublish":!0,"oresData":{"59183316":{"damaging":0.056},"59183216":{"damaging":0.017},"59183197":{"damaging":0.014},"59183193":{"damaging":0.041},"59183189":{"damaging":0.023},"59183144":{"damaging":0.016},"59183135":{"damaging":0.025},"59183129":{"damaging":0.01},"59183050":{"damaging":0.034},"59182987":{"damaging":0.018},"59182982":{"damaging":0.011},"59182892":{"damaging":0.022},"59182595":{"damaging":0.015},"59182589":{"damaging":0.007},"59182144":{"damaging":0.026},"59182124":{"damaging":
+0.014},"59181369":{"damaging":0.021},"59180434":{"damaging":0.058},"59173934":{"damaging":0.033},"59173279":{"damaging":0.046},"59172038":{"damaging":0.035},"59172022":{"damaging":0.025},"59170657":{"damaging":0.014},"59170408":{"damaging":0.02},"59170400":{"damaging":0.019},"59170311":{"damaging":0.098},"59170299":{"damaging":0.014},"59170062":{"damaging":0.013},"59169986":{"damaging":0.012},"59169590":{"damaging":0.019},"59169518":{"damaging":0.026},"59169413":{"damaging":0.016},"59169378":{"damaging":0.02},"59169356":{"damaging":0.026},"59169349":{"damaging":0.019},"59169343":{"damaging":0.024},"59169293":{"damaging":0.021},"59169224":{"damaging":0.014},"59169046":{"damaging":0.034},"59169030":{"damaging":0.012},"59162002":{"damaging":0.012},"59161919":{"damaging":0.027},"59161910":{"damaging":0.012},"59161712":{"damaging":0.099},"59156083":{"damaging":0.015},"59155981":{"damaging":0.014},"59154671":{"damaging":0.019},"59154601":{"damaging":0.014},"59154483":{"damaging":0.027},
+"59154453":{"damaging":0.014}},"oresThresholds":{"damaging":{"maybebad":0.037,"likelybad":0.423}}};RLSTATE={"ext.gadget.hideConversionTab":"ready","ext.gadget.large-font":"ready","ext.globalCssJs.user.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","jquery.makeCollapsible.styles":"ready","mediawiki.interface.helpers.styles":"ready","mediawiki.special":"ready","mediawiki.special.changeslist":"ready","mediawiki.helplink":"ready","mediawiki.widgets.DateInputWidget.styles":"ready","oojs-ui-core.styles":"ready","oojs-ui.styles.indicators":"ready","mediawiki.widgets.styles":"ready","oojs-ui-core.icons":"ready","mediawiki.htmlform.ooui.styles":"ready","mediawiki.htmlform.styles":"ready","mediawiki.feedlink":"ready","skins.vector.styles.legacy":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","ext.ores.styles":
+"ready"};RLPAGEMODULES=["mediawiki.special.recentchanges","mediawiki.page.ready","mediawiki.special.contributions","mediawiki.htmlform","mediawiki.htmlform.ooui","mediawiki.widgets.UserInputWidget","mediawiki.widgets","oojs-ui-widgets","mediawiki.widgets.DateInputWidget","site","mediawiki.page.startup","skins.vector.js","jquery.makeCollapsible","ext.gadget.edit0","ext.gadget.Edittools-refToolbar","ext.gadget.WikiMiniAtlas","ext.gadget.ReferenceTooltips","ext.gadget.UnihanTooltips","ext.gadget.variant-link-fix","ext.gadget.FixedTopBottomLink","ext.gadget.confirm-logout","ext.gadget.shortURL","ext.gadget.AdvancedSiteNotices","ext.gadget.internalLinkHelper-altcolor","ext.gadget.noteTA","ext.gadget.noteTAvector","ext.gadget.NavFrame","ext.gadget.collapsibleTables","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming",
+"ext.uls.compactlinks","ext.uls.interface","ext.cx.eventlogging.campaigns","ext.centralNotice.geoIP"];
+(RLQ=window.RLQ||[]).push(function(){mw.loader.implement("user.options@1hzgi",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<name>Jyxyl9</name>
+
+
+
+
+
+
+
+	
+	
+	
+帮助
+
+
+	用户贡献
+	
+	
+		
+		Jyxyl9 讨论 封禁日志 上传 日志 过滤器日志
+		
+		
+		
+		跳到导航
+		跳到搜索
+		搜索贡献记录展开折叠⧼contribs-top⧽IP地址或用户名：名字空间：所有条目TalkUserUser talk维基百科维基百科讨论FileFile talkMediaWikiMediaWiki talkTemplateTemplate talkHelpHelp talkCategoryCategory talk主题主题讨论草稿草稿讨论模块模块讨论GadgetGadget talkGadget definitionGadget definition talkTopic反向选择关联的名字空间标签过滤器：仅显示最后版本的编辑仅显示创建页面的编辑隐藏小编辑⧼contribs-date⧽起始日：截止日：
+隐藏可能良好编辑
+
+
+搜索
+（最近 | 最旧） 查看（前50个 | 后50个）（20 | 50 | 100 | 250 | 500）<versions><version><id>59183316</id><timestamp>202004151758</timestamp><date>2020-04-15</date><time>17:58</time><title>巴黎圣母院大火</title><comment/></version><version><id>59183216</id><timestamp>202004151744</timestamp><date>2020-04-15</date><time>17:44</time><title>User:Jyxyl9/沙盒/6</title><comment/></version><version><id>59183197</id><timestamp>202004151742</timestamp><date>2020-04-15</date><time>17:42</time><title>銚子電鐵1000型電車</title><comment/></version><version><id>59183193</id><timestamp>202004151741</timestamp><date>2020-04-15</date><time>17:41</time><title>銚子電鐵1000型電車</title><comment/></version><version><id>59183189</id><timestamp>202004151740</timestamp><date>2020-04-15</date><time>17:40</time><title>366省道 (广东)</title><comment/></version><version><id>59183144</id><timestamp>202004151733</timestamp><date>2020-04-15</date><time>17:33</time><title>Talk:2019冠状病毒病疫情</title><comment/></version><version><id>59183135</id><timestamp>202004151732</timestamp><date>2020-04-15</date><time>17:32</time><title>Talk:2019冠状病毒病疫情</title><comment/></version><version><id>59183129</id><timestamp>202004151731</timestamp><date>2020-04-15</date><time>17:31</time><title>Talk:2019冠状病毒病疫情</title><comment/></version><version><id>59183050</id><timestamp>202004151720</timestamp><date>2020-04-15</date><time>17:20</time><title>2019冠状病毒病疫情</title><comment/></version><version><id>59182987</id><timestamp>202004151714</timestamp><date>2020-04-15</date><time>17:14</time><title>Wikipedia:地震专题/地震创作奖</title><comment/></version><version><id>59182982</id><timestamp>202004151713</timestamp><date>2020-04-15</date><time>17:13</time><title>Wikipedia:地震专题/地震创作奖/评审委员会</title><comment/></version><version><id>59182892</id><timestamp>202004151704</timestamp><date>2020-04-15</date><time>17:04</time><title>Wikipedia:更改用户名</title><comment/></version><version><id>59182595</id><timestamp>202004151630</timestamp><date>2020-04-15</date><time>16:30</time><title>Wikipedia:更改用户名</title><comment/></version><version><id>59182589</id><timestamp>202004151629</timestamp><date>2020-04-15</date><time>16:29</time><title>Wikipedia:更改用户名</title><comment/></version><version><id>59182144</id><timestamp>202004151554</timestamp><date>2020-04-15</date><time>15:54</time><title>Talk:2019冠状病毒病疫情</title><comment/></version><version><id>59182124</id><timestamp>202004151553</timestamp><date>2020-04-15</date><time>15:53</time><title>Talk:2019冠状病毒病疫情</title><comment/></version><version><id>59181369</id><timestamp>202004151454</timestamp><date>2020-04-15</date><time>14:54</time><title>兴工街站</title><comment/></version><version><id>59180434</id><timestamp>202004151346</timestamp><date>2020-04-15</date><time>13:46</time><title>大连理工大学</title><comment/></version><version><id>59173934</id><timestamp>202004150620</timestamp><date>2020-04-15</date><time>06:20</time><title>國家航空公司</title><comment/></version><version><id>59173279</id><timestamp>202004150528</timestamp><date>2020-04-15</date><time>05:28</time><title>国家林业和草原局</title><comment/></version><version><id>59172038</id><timestamp>202004150403</timestamp><date>2020-04-15</date><time>04:03</time><title>中华人民共和国政治</title><comment/></version><version><id>59172022</id><timestamp>202004150401</timestamp><date>2020-04-15</date><time>04:01</time><title>2019冠状病毒病疫情</title><comment/></version><version><id>59170657</id><timestamp>202004150233</timestamp><date>2020-04-15</date><time>02:33</time><title>Talk:2019冠状病毒病疫情</title><comment/></version><version><id>59170408</id><timestamp>202004150220</timestamp><date>2020-04-15</date><time>02:20</time><title>Talk:2019冠状病毒病疫情</title><comment/></version><version><id>59170400</id><timestamp>202004150219</timestamp><date>2020-04-15</date><time>02:19</time><title>Talk:2019冠状病毒病疫情</title><comment/></version><version><id>59170311</id><timestamp>202004150212</timestamp><date>2020-04-15</date><time>02:12</time><title>2019冠状病毒病疫情</title><comment/></version><version><id>59170299</id><timestamp>202004150211</timestamp><date>2020-04-15</date><time>02:11</time><title>Talk:2019冠状病毒病疫情</title><comment/></version><version><id>59170062</id><timestamp>202004150154</timestamp><date>2020-04-15</date><time>01:54</time><title>Talk:2019冠状病毒病疫情</title><comment/></version><version><id>59169986</id><timestamp>202004150149</timestamp><date>2020-04-15</date><time>01:49</time><title>Talk:2019冠状病毒病疫情</title><comment/></version><version><id>59169590</id><timestamp>202004150119</timestamp><date>2020-04-15</date><time>01:19</time><title>Talk:2019冠状病毒病疫情</title><comment/></version><version><id>59169518</id><timestamp>202004150115</timestamp><date>2020-04-15</date><time>01:15</time><title>Talk:2019冠状病毒病疫情</title><comment/></version><version><id>59169413</id><timestamp>202004150108</timestamp><date>2020-04-15</date><time>01:08</time><title>Talk:2019冠状病毒病疫情</title><comment/></version><version><id>59169378</id><timestamp>202004150106</timestamp><date>2020-04-15</date><time>01:06</time><title>Talk:2019冠状病毒病疫情</title><comment/></version><version><id>59169356</id><timestamp>202004150104</timestamp><date>2020-04-15</date><time>01:04</time><title>Talk:2019冠状病毒病疫情</title><comment/></version><version><id>59169349</id><timestamp>202004150104</timestamp><date>2020-04-15</date><time>01:04</time><title>Talk:2019冠状病毒病疫情</title><comment/></version><version><id>59169343</id><timestamp>202004150103</timestamp><date>2020-04-15</date><time>01:03</time><title>Talk:2019冠状病毒病疫情</title><comment/></version><version><id>59169293</id><timestamp>202004150059</timestamp><date>2020-04-15</date><time>00:59</time><title>Talk:2019冠状病毒病疫情</title><comment/></version><version><id>59169224</id><timestamp>202004150052</timestamp><date>2020-04-15</date><time>00:52</time><title>Talk:2019冠状病毒病疫情</title><comment/></version><version><id>59169046</id><timestamp>202004150040</timestamp><date>2020-04-15</date><time>00:40</time><title>2019冠状病毒病疫情</title><comment/></version><version><id>59169030</id><timestamp>202004150039</timestamp><date>2020-04-15</date><time>00:39</time><title>Talk:2019冠状病毒病疫情</title><comment/></version><version><id>59162002</id><timestamp>202004141158</timestamp><date>2020-04-14</date><time>11:58</time><title>Talk:2019冠状病毒病疫情</title><comment/></version><version><id>59161919</id><timestamp>202004141152</timestamp><date>2020-04-14</date><time>11:52</time><title>2019冠状病毒病疫情</title><comment/></version><version><id>59161910</id><timestamp>202004141151</timestamp><date>2020-04-14</date><time>11:51</time><title>2019冠状病毒病疫情</title><comment/></version><version><id>59161712</id><timestamp>202004141139</timestamp><date>2020-04-14</date><time>11:39</time><title>2019冠状病毒病疫情</title><comment/></version><version><id>59156083</id><timestamp>202004140521</timestamp><date>2020-04-14</date><time>05:21</time><title>Talk:2019冠状病毒病疫情</title><comment/></version><version><id>59155981</id><timestamp>202004140513</timestamp><date>2020-04-14</date><time>05:13</time><title>Talk:2019冠状病毒病疫情</title><comment/></version><version><id>59154671</id><timestamp>202004140350</timestamp><date>2020-04-14</date><time>03:50</time><title>Talk:2019冠状病毒病疫情</title><comment/></version><version><id>59154601</id><timestamp>202004140345</timestamp><date>2020-04-14</date><time>03:45</time><title>Talk:2019冠状病毒病疫情</title><comment/></version><version><id>59154483</id><timestamp>202004140337</timestamp><date>2020-04-14</date><time>03:37</time><title>Talk:2019冠状病毒病疫情</title><comment/></version><version><id>59154453</id><timestamp>202004140336</timestamp><date>2020-04-14</date><time>03:36</time><title>Talk:2019冠状病毒病疫情</title><comment/></version></versions>
+（最近 | 最旧） 查看（前50个 | 后50个）（20 | 50 | 100 | 250 | 500）
+Jyxyl9： 檢視子頁面 · 用户權限 · 編輯次數 ·  贡献报告 · 上傳的檔案（共享）·  所創條目 ·  跨語言活動 ·  SUL / 帐号 
+
+		取自“https://zh.wikipedia.org/wiki/Special:用户贡献”
+		
+		
+		
+	
+
+
+	
+
+
+
+    导航菜单
+    
+        
+        
+        	个人工具
+        	
+        		
+        		没有登录
+        		讨论贡献创建账户登录
+        	
+        
+        
+            
+            	名字空间
+            	
+            		特殊页面
+            	
+            
+            
+            	
+            	
+            		变种
+            	
+            	
+            		
+            	
+            
+        
+        
+            
+            	视图
+            	
+            		
+            	
+            
+            
+            	
+            	
+            		更多
+            	
+            	
+            		
+            	
+            
+            
+            	
+            		搜索
+            	
+            	
+            		
+            			
+            			
+            			
+            			
+            		
+            	
+            
+        
+    
+    
+    
+    	
+    		
+    	
+    	
+    		
+    			导航
+    		
+    		
+    			首页分类索引特色内容新闻动态最近更改随机条目资助维基百科
+    			
+    		
+    	
+    	
+    	
+    		
+    			帮助
+    		
+    		
+    			帮助维基社群方针与指引互助客栈知识问答字词转换IRC即时聊天联络我们关于维基百科
+    			
+    		
+    	
+    	
+    	
+    		
+    			工具
+    		
+    		
+    			Atom用户贡献日志查看用户组上传文件特殊页面打印页面
+    			
+    		
+    	
+    	
+    	
+    		
+    			其他语言
+    		
+    		
+    			
+    			
+    		
+    	
+    	
+    
+
+
+
+	
+		隐私政策
+		关于维基百科
+		免责声明
+		开发者
+		统计
+		Cookie声明
+		手机版视图
+	
+	
+		
+		
+	
+	
+
+
+(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":347,"wgHostname":"mw1333"});});</user>

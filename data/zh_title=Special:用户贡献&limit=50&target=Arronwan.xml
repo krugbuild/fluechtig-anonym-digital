@@ -1,0 +1,209 @@
+<?xml version="1.0"?>
+<user><language>zh</language>
+
+
+Arronwan的用户贡献 - 维基百科，自由的百科全书
+document.documentElement.className="client-js";RLCONF={"wgBreakFrames":!1,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"zh","wgMonthNames":["","1月","2月","3月","4月","5月","6月","7月","8月","9月","10月","11月","12月"],"wgRequestId":"Xpf8rQpAICAAAK3QvB4AAABO","wgCSPNonce":!1,"wgCanonicalNamespace":"Special","wgCanonicalSpecialPageName":"Contributions","wgNamespaceNumber":-1,"wgPageName":"Special:用户贡献","wgTitle":"用户贡献","wgCurRevisionId":0,"wgRevisionId":0,"wgArticleId":0,"wgIsArticle":!1,"wgIsRedirect":!1,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgPageContentLanguage":"zh","wgPageContentModel":"wikitext","wgRelevantPageName":"Special:用户贡献","wgRelevantArticleId":0,"wgUserVariant":"zh","wgIsProbablyEditable":!1,"wgRelevantPageIsProbablyEditable":!1,"wgRelevantUserName":"Arronwan","wgMediaViewerOnClick":!0,"wgMediaViewerEnabledByDefault":!0,
+"wgPopupsReferencePreviews":!1,"wgPopupsConflictsWithNavPopupGadget":!1,"wgVisualEditor":{"pageLanguageCode":"zh","pageLanguageDir":"ltr","pageVariantFallbacks":["zh-hans","zh-hant","zh-cn","zh-tw","zh-hk","zh-sg","zh-mo","zh-my"]},"wgMFDisplayWikibaseDescriptions":{"search":!0,"nearby":!0,"watchlist":!0,"tagline":!0},"wgWMESchemaEditAttemptStepOversample":!1,"wgULSCurrentAutonym":"中文","wgNoticeProject":"wikipedia","wgCentralAuthMobileDomain":!1,"wgEditSubmitButtonLabelPublish":!0,"oresData":{"59181842":{"damaging":0.013},"59181049":{"damaging":0.008},"59180742":{"damaging":0.019},"59179747":{"damaging":0.008},"59178240":{"damaging":0.015},"59165780":{"damaging":0.014},"59165439":{"damaging":0.013},"59165070":{"damaging":0.022},"59163448":{"damaging":0.015},"59157755":{"damaging":0.011},"59149297":{"damaging":0.016},"59149024":{"damaging":0.016},"59149002":{"damaging":0.021},"59142464":{"damaging":0.008},"59132971":{"damaging":0.013},"59132933":{"damaging":
+0.007},"59132373":{"damaging":0.017},"59129316":{"damaging":0.02},"59129303":{"damaging":0.016},"59129290":{"damaging":0.01},"59123714":{"damaging":0.016},"59122149":{"damaging":0.009},"59121802":{"damaging":0.008},"59121671":{"damaging":0.01},"59120889":{"damaging":0.009},"59115569":{"damaging":0.008},"59115391":{"damaging":0.022},"59107054":{"damaging":0.014},"59101816":{"damaging":0.015},"59101786":{"damaging":0.009},"59097131":{"damaging":0.01},"59097087":{"damaging":0.011},"59096616":{"damaging":0.017},"59096613":{"damaging":0.01},"59096535":{"damaging":0.008},"59096484":{"damaging":0.015},"59095091":{"damaging":0.03},"59094957":{"damaging":0.016},"59085211":{"damaging":0.009},"59084673":{"damaging":0.009},"59084556":{"damaging":0.007},"59084453":{"damaging":0.007},"59084442":{"damaging":0.007},"59077066":{"damaging":0.025},"59076972":{"damaging":0.009},"59076065":{"damaging":0.045}},"oresThresholds":{"damaging":{"maybebad":0.037,"likelybad":0.423}}};RLSTATE={
+"ext.gadget.hideConversionTab":"ready","ext.gadget.large-font":"ready","ext.globalCssJs.user.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","jquery.makeCollapsible.styles":"ready","mediawiki.interface.helpers.styles":"ready","mediawiki.special":"ready","mediawiki.special.changeslist":"ready","mediawiki.helplink":"ready","mediawiki.widgets.DateInputWidget.styles":"ready","oojs-ui-core.styles":"ready","oojs-ui.styles.indicators":"ready","mediawiki.widgets.styles":"ready","oojs-ui-core.icons":"ready","mediawiki.htmlform.ooui.styles":"ready","mediawiki.htmlform.styles":"ready","ext.flow.contributions.styles":"ready","mediawiki.feedlink":"ready","skins.vector.styles.legacy":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","ext.ores.styles":"ready"};RLPAGEMODULES=["mediawiki.special.recentchanges",
+"mediawiki.page.ready","mediawiki.special.contributions","mediawiki.htmlform","mediawiki.htmlform.ooui","mediawiki.widgets.UserInputWidget","mediawiki.widgets","oojs-ui-widgets","mediawiki.widgets.DateInputWidget","ext.flow.contributions","site","mediawiki.page.startup","skins.vector.js","jquery.makeCollapsible","ext.gadget.edit0","ext.gadget.Edittools-refToolbar","ext.gadget.WikiMiniAtlas","ext.gadget.ReferenceTooltips","ext.gadget.UnihanTooltips","ext.gadget.variant-link-fix","ext.gadget.FixedTopBottomLink","ext.gadget.confirm-logout","ext.gadget.shortURL","ext.gadget.AdvancedSiteNotices","ext.gadget.internalLinkHelper-altcolor","ext.gadget.noteTA","ext.gadget.noteTAvector","ext.gadget.NavFrame","ext.gadget.collapsibleTables","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.uls.compactlinks",
+"ext.uls.interface","ext.cx.eventlogging.campaigns","ext.centralNotice.geoIP"];
+(RLQ=window.RLQ||[]).push(function(){mw.loader.implement("user.options@1hzgi",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<name>Arronwan</name>
+
+
+
+
+
+
+
+	
+	
+	
+帮助
+
+
+	用户贡献
+	
+	
+		
+		Arronwan 讨论 封禁日志 上传 日志 过滤器日志
+		
+		
+		
+		跳到导航
+		跳到搜索
+		搜索贡献记录展开折叠⧼contribs-top⧽IP地址或用户名：名字空间：所有条目TalkUserUser talk维基百科维基百科讨论FileFile talkMediaWikiMediaWiki talkTemplateTemplate talkHelpHelp talkCategoryCategory talk主题主题讨论草稿草稿讨论模块模块讨论GadgetGadget talkGadget definitionGadget definition talkTopic反向选择关联的名字空间标签过滤器：仅显示最后版本的编辑仅显示创建页面的编辑隐藏小编辑⧼contribs-date⧽起始日：截止日：
+隐藏可能良好编辑
+
+
+搜索
+（最近 | 最旧） 查看（前50个 | 后50个）（20 | 50 | 100 | 250 | 500）<versions><version><id>59181842</id><timestamp>202004151535</timestamp><date>2020-04-15</date><time>15:35</time><title>User:Arronwan/沙盒/B</title><comment/></version><version><id>59181049</id><timestamp>202004151429</timestamp><date>2020-04-15</date><time>14:29</time><title>Wikipedia talk:動員令/第十八次動員令</title><comment/></version><version><id>59180742</id><timestamp>202004151406</timestamp><date>2020-04-15</date><time>14:06</time><title>User:Arronwan/沙盒/B</title><comment/></version><version><id>59179747</id><timestamp>202004151254</timestamp><date>2020-04-15</date><time>12:54</time><title>Wikipedia:維基百科政策簡報/List E</title><comment/></version><version><id>59178240</id><timestamp>202004151057</timestamp><date>2020-04-15</date><time>10:57</time><title>User:Arronwan/沙盒/B</title><comment/></version><version><id/><timestamp>202004150158</timestamp><date>2020-04-15</date><time>01:58</time><title>历史</title><comment/></version><version><id>59165780</id><timestamp>202004141616</timestamp><date>2020-04-14</date><time>16:16</time><title>User:Arronwan/沙盒/B</title><comment/></version><version><id>59165439</id><timestamp>202004141553</timestamp><date>2020-04-14</date><time>15:53</time><title>User:Arronwan/沙盒/B</title><comment/></version><version><id>59165070</id><timestamp>202004141523</timestamp><date>2020-04-14</date><time>15:23</time><title>黑森-卡塞爾的奧古斯塔</title><comment/></version><version><id>59163448</id><timestamp>202004141330</timestamp><date>2020-04-14</date><time>13:30</time><title>User:Arronwan/沙盒/B</title><comment/></version><version><id>59157755</id><timestamp>202004140722</timestamp><date>2020-04-14</date><time>07:22</time><title>Wikipedia:申请成为管理员/Sanmosa</title><comment/></version><version><id>59149297</id><timestamp>202004131625</timestamp><date>2020-04-13</date><time>16:25</time><title>User:Arronwan/沙盒/B</title><comment/></version><version><id>59149024</id><timestamp>202004131602</timestamp><date>2020-04-13</date><time>16:02</time><title>User:Arronwan/沙盒/B</title><comment/></version><version><id>59149002</id><timestamp>202004131600</timestamp><date>2020-04-13</date><time>16:00</time><title>User:Arronwan/沙盒/B</title><comment/></version><version><id>59142464</id><timestamp>202004130832</timestamp><date>2020-04-13</date><time>08:32</time><title>Wikipedia talk:動員令/第十八次動員令</title><comment/></version><version><id>59132971</id><timestamp>202004121632</timestamp><date>2020-04-12</date><time>16:32</time><title>User:Arronwan/Notes</title><comment/></version><version><id>59132933</id><timestamp>202004121627</timestamp><date>2020-04-12</date><time>16:27</time><title>User:Arronwan/Notes</title><comment/></version><version><id>59132373</id><timestamp>202004121531</timestamp><date>2020-04-12</date><time>15:31</time><title>User:Arronwan/沙盒/B</title><comment/></version><version><id>59129316</id><timestamp>202004121218</timestamp><date>2020-04-12</date><time>12:18</time><title>User:Arronwan/沙盒/B</title><comment/></version><version><id>59129303</id><timestamp>202004121216</timestamp><date>2020-04-12</date><time>12:16</time><title>User:Arronwan/沙盒/B</title><comment/></version><version><id>59129290</id><timestamp>202004121215</timestamp><date>2020-04-12</date><time>12:15</time><title>User:Arronwan/沙盒/B</title><comment/></version><version><id>59123714</id><timestamp>202004120640</timestamp><date>2020-04-12</date><time>06:40</time><title>User:Arronwan/沙盒/B</title><comment/></version><version><id>59122641</id><timestamp>202004120518</timestamp><date>2020-04-12</date><time>05:18</time><title>User:Arronwan/沙盒/B</title><comment/></version><version><id>59122149</id><timestamp>202004120422</timestamp><date>2020-04-12</date><time>04:22</time><title>User:Arronwan/沙盒/B</title><comment/></version><version><id>59121802</id><timestamp>202004120350</timestamp><date>2020-04-12</date><time>03:50</time><title>Wikipedia talk:動員令/第十八次動員令</title><comment/></version><version><id>59121671</id><timestamp>202004120340</timestamp><date>2020-04-12</date><time>03:40</time><title>User:Arronwan</title><comment/></version><version><id>59120889</id><timestamp>202004120244</timestamp><date>2020-04-12</date><time>02:44</time><title>User:Arronwan</title><comment/></version><version><id>59115569</id><timestamp>202004111523</timestamp><date>2020-04-11</date><time>15:23</time><title>User:Arronwan</title><comment/></version><version><id>59115391</id><timestamp>202004111514</timestamp><date>2020-04-11</date><time>15:14</time><title>User:Arronwan/沙盒/A</title><comment/></version><version><id>59107054</id><timestamp>202004110725</timestamp><date>2020-04-11</date><time>07:25</time><title>User:Arronwan/沙盒/A</title><comment/></version><version><id>59101816</id><timestamp>202004110227</timestamp><date>2020-04-11</date><time>02:27</time><title>User:Arronwan</title><comment/></version><version><id>59101786</id><timestamp>202004110225</timestamp><date>2020-04-11</date><time>02:25</time><title>Wikipedia talk:動員令/第十八次動員令</title><comment/></version><version><id>59097131</id><timestamp>202004101546</timestamp><date>2020-04-10</date><time>15:46</time><title>User:Arronwan</title><comment/></version><version><id>59097087</id><timestamp>202004101543</timestamp><date>2020-04-10</date><time>15:43</time><title>Wikipedia talk:動員令/第十八次動員令</title><comment/></version><version><id>59096616</id><timestamp>202004101508</timestamp><date>2020-04-10</date><time>15:08</time><title>Wikipedia talk:動員令/第十八次動員令</title><comment/></version><version><id>59096613</id><timestamp>202004101508</timestamp><date>2020-04-10</date><time>15:08</time><title>Wikipedia talk:動員令/第十八次動員令</title><comment/></version><version><id>59096535</id><timestamp>202004101501</timestamp><date>2020-04-10</date><time>15:01</time><title>Wikipedia talk:動員令/第十八次動員令</title><comment/></version><version><id>59096484</id><timestamp>202004101458</timestamp><date>2020-04-10</date><time>14:58</time><title>User:Arronwan</title><comment/></version><version><id>59095091</id><timestamp>202004101326</timestamp><date>2020-04-10</date><time>13:26</time><title>歌手節目系列嘉賓列表</title><comment/></version><version><id>59094957</id><timestamp>202004101314</timestamp><date>2020-04-10</date><time>13:14</time><title>User:Arronwan/沙盒/A</title><comment/></version><version><id>59085211</id><timestamp>202004100512</timestamp><date>2020-04-10</date><time>05:12</time><title>Wikipedia talk:動員令/第十八次動員令</title><comment/></version><version><id>59084673</id><timestamp>202004100443</timestamp><date>2020-04-10</date><time>04:43</time><title>Wikipedia:新条目推荐/候选</title><comment/></version><version><id>59084556</id><timestamp>202004100434</timestamp><date>2020-04-10</date><time>04:34</time><title>Wikipedia:新条目推荐/候选</title><comment/></version><version><id>59084453</id><timestamp>202004100426</timestamp><date>2020-04-10</date><time>04:26</time><title>Wikipedia:新条目推荐/候选</title><comment/></version><version><id>59084442</id><timestamp>202004100424</timestamp><date>2020-04-10</date><time>04:24</time><title>Wikipedia:新条目推荐/候选</title><comment/></version><version><id>59077066</id><timestamp>202004091613</timestamp><date>2020-04-09</date><time>16:13</time><title>User:Arronwan/沙盒/A</title><comment/></version><version><id>59076972</id><timestamp>202004091604</timestamp><date>2020-04-09</date><time>16:04</time><title>User:Arronwan/沙盒/A</title><comment/></version><version><id>59076065</id><timestamp>202004091505</timestamp><date>2020-04-09</date><time>15:05</time><title>User:Arronwan/沙盒/A</title><comment/></version><version><id/><timestamp>202004091252</timestamp><date>2020-04-09</date><time>12:52</time><title>历史</title><comment/></version><version><id/><timestamp>202004090831</timestamp><date>2020-04-09</date><time>08:31</time><title>差异</title><comment/></version></versions>
+（最近 | 最旧） 查看（前50个 | 后50个）（20 | 50 | 100 | 250 | 500）
+Arronwan： 檢視子頁面 · 用户權限 · 編輯次數 ·  贡献报告 · 上傳的檔案（共享）·  所創條目 ·  跨語言活動 ·  SUL / 帐号 
+
+		取自“https://zh.wikipedia.org/wiki/Special:用户贡献”
+		
+		
+		
+	
+
+
+	
+
+
+
+    导航菜单
+    
+        
+        
+        	个人工具
+        	
+        		
+        		没有登录
+        		讨论贡献创建账户登录
+        	
+        
+        
+            
+            	名字空间
+            	
+            		特殊页面
+            	
+            
+            
+            	
+            	
+            		变种
+            	
+            	
+            		
+            	
+            
+        
+        
+            
+            	视图
+            	
+            		
+            	
+            
+            
+            	
+            	
+            		更多
+            	
+            	
+            		
+            	
+            
+            
+            	
+            		搜索
+            	
+            	
+            		
+            			
+            			
+            			
+            			
+            		
+            	
+            
+        
+    
+    
+    
+    	
+    		
+    	
+    	
+    		
+    			导航
+    		
+    		
+    			首页分类索引特色内容新闻动态最近更改随机条目资助维基百科
+    			
+    		
+    	
+    	
+    	
+    		
+    			帮助
+    		
+    		
+    			帮助维基社群方针与指引互助客栈知识问答字词转换IRC即时聊天联络我们关于维基百科
+    			
+    		
+    	
+    	
+    	
+    		
+    			工具
+    		
+    		
+    			Atom用户贡献日志查看用户组上传文件特殊页面打印页面
+    			
+    		
+    	
+    	
+    	
+    		
+    			其他语言
+    		
+    		
+    			
+    			
+    		
+    	
+    	
+    
+
+
+
+	
+		隐私政策
+		关于维基百科
+		免责声明
+		开发者
+		统计
+		Cookie声明
+		手机版视图
+	
+	
+		
+		
+	
+	
+
+
+(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":728,"wgHostname":"mw1330"});});</user>

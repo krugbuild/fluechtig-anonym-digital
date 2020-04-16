@@ -1,0 +1,209 @@
+<?xml version="1.0"?>
+<user><language>zh</language>
+
+
+No1lovesu的用户贡献 - 维基百科，自由的百科全书
+document.documentElement.className="client-js";RLCONF={"wgBreakFrames":!1,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"zh","wgMonthNames":["","1月","2月","3月","4月","5月","6月","7月","8月","9月","10月","11月","12月"],"wgRequestId":"Xpf8kwpAEJkAAXpdV10AAACK","wgCSPNonce":!1,"wgCanonicalNamespace":"Special","wgCanonicalSpecialPageName":"Contributions","wgNamespaceNumber":-1,"wgPageName":"Special:用户贡献","wgTitle":"用户贡献","wgCurRevisionId":0,"wgRevisionId":0,"wgArticleId":0,"wgIsArticle":!1,"wgIsRedirect":!1,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgPageContentLanguage":"zh","wgPageContentModel":"wikitext","wgRelevantPageName":"Special:用户贡献","wgRelevantArticleId":0,"wgUserVariant":"zh","wgIsProbablyEditable":!1,"wgRelevantPageIsProbablyEditable":!1,"wgRelevantUserName":"No1lovesu","wgMediaViewerOnClick":!0,"wgMediaViewerEnabledByDefault":!0,
+"wgPopupsReferencePreviews":!1,"wgPopupsConflictsWithNavPopupGadget":!1,"wgVisualEditor":{"pageLanguageCode":"zh","pageLanguageDir":"ltr","pageVariantFallbacks":["zh-hans","zh-hant","zh-cn","zh-tw","zh-hk","zh-sg","zh-mo","zh-my"]},"wgMFDisplayWikibaseDescriptions":{"search":!0,"nearby":!0,"watchlist":!0,"tagline":!0},"wgWMESchemaEditAttemptStepOversample":!1,"wgULSCurrentAutonym":"中文","wgNoticeProject":"wikipedia","wgCentralAuthMobileDomain":!1,"wgEditSubmitButtonLabelPublish":!0,"oresData":{"59183972":{"damaging":0.076},"59183967":{"damaging":0.029},"59183964":{"damaging":0.036},"59183564":{"damaging":0.073},"59181962":{"damaging":0.051},"59180849":{"damaging":0.065},"59180069":{"damaging":0.065},"59173514":{"damaging":0.033},"59173251":{"damaging":0.047},"59173199":{"damaging":0.02},"59172393":{"damaging":0.047},"59172328":{"damaging":0.02},"59169673":{"damaging":0.021},"59169585":{"damaging":0.03},"59168800":{"damaging":0.052},"59168702":{"damaging":0.012}
+,"59168577":{"damaging":0.053},"59168478":{"damaging":0.049},"59168391":{"damaging":0.058},"59166286":{"damaging":0.014},"59166282":{"damaging":0.022},"59166250":{"damaging":0.029},"59152829":{"damaging":0.024},"59152744":{"damaging":0.022},"59152661":{"damaging":0.041},"59149303":{"damaging":0.02},"59149102":{"damaging":0.047},"59149093":{"damaging":0.02},"59148862":{"damaging":0.048},"59148789":{"damaging":0.031},"59148504":{"damaging":0.015},"59148364":{"damaging":0.039},"59148202":{"damaging":0.021},"59148158":{"damaging":0.014},"59148115":{"damaging":0.017},"59148093":{"damaging":0.064},"59148071":{"damaging":0.042},"59148049":{"damaging":0.014},"59147970":{"damaging":0.026},"59147682":{"damaging":0.067},"59147631":{"damaging":0.027},"59142047":{"damaging":0.018},"59141804":{"damaging":0.015},"59139910":{"damaging":0.042},"59139419":{"damaging":0.035},"59139220":{"damaging":0.042},"59138945":{"damaging":0.045},"59138813":{"damaging":0.035},"59138685":{"damaging":0.032},"59138416":
+{"damaging":0.069}},"oresThresholds":{"damaging":{"maybebad":0.037,"likelybad":0.423}}};RLSTATE={"ext.gadget.hideConversionTab":"ready","ext.gadget.large-font":"ready","ext.globalCssJs.user.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","jquery.makeCollapsible.styles":"ready","mediawiki.interface.helpers.styles":"ready","mediawiki.special":"ready","mediawiki.special.changeslist":"ready","mediawiki.helplink":"ready","mediawiki.widgets.DateInputWidget.styles":"ready","oojs-ui-core.styles":"ready","oojs-ui.styles.indicators":"ready","mediawiki.widgets.styles":"ready","oojs-ui-core.icons":"ready","mediawiki.htmlform.ooui.styles":"ready","mediawiki.htmlform.styles":"ready","mediawiki.feedlink":"ready","skins.vector.styles.legacy":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","ext.ores.styles":"ready"};
+RLPAGEMODULES=["mediawiki.special.recentchanges","mediawiki.page.ready","mediawiki.special.contributions","mediawiki.htmlform","mediawiki.htmlform.ooui","mediawiki.widgets.UserInputWidget","mediawiki.widgets","oojs-ui-widgets","mediawiki.widgets.DateInputWidget","site","mediawiki.page.startup","skins.vector.js","jquery.makeCollapsible","ext.gadget.edit0","ext.gadget.Edittools-refToolbar","ext.gadget.WikiMiniAtlas","ext.gadget.ReferenceTooltips","ext.gadget.UnihanTooltips","ext.gadget.variant-link-fix","ext.gadget.FixedTopBottomLink","ext.gadget.confirm-logout","ext.gadget.shortURL","ext.gadget.AdvancedSiteNotices","ext.gadget.internalLinkHelper-altcolor","ext.gadget.noteTA","ext.gadget.noteTAvector","ext.gadget.NavFrame","ext.gadget.collapsibleTables","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming",
+"ext.uls.compactlinks","ext.uls.interface","ext.cx.eventlogging.campaigns","ext.centralNotice.geoIP"];
+(RLQ=window.RLQ||[]).push(function(){mw.loader.implement("user.options@1hzgi",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<name>No1lovesu</name>
+
+
+
+
+
+
+
+	
+	
+	
+帮助
+
+
+	用户贡献
+	
+	
+		
+		No1lovesu 讨论 封禁日志 上传 日志 过滤器日志
+		
+		
+		
+		跳到导航
+		跳到搜索
+		搜索贡献记录展开折叠⧼contribs-top⧽IP地址或用户名：名字空间：所有条目TalkUserUser talk维基百科维基百科讨论FileFile talkMediaWikiMediaWiki talkTemplateTemplate talkHelpHelp talkCategoryCategory talk主题主题讨论草稿草稿讨论模块模块讨论GadgetGadget talkGadget definitionGadget definition talkTopic反向选择关联的名字空间标签过滤器：仅显示最后版本的编辑仅显示创建页面的编辑隐藏小编辑⧼contribs-date⧽起始日：截止日：
+隐藏可能良好编辑
+
+
+搜索
+（最近 | 最旧） 查看（前50个 | 后50个）（20 | 50 | 100 | 250 | 500）<versions><version><id>59183972</id><timestamp>202004151937</timestamp><date>2020-04-15</date><time>19:37</time><title>幫幫香港出聲行動</title><comment/></version><version><id>59183967</id><timestamp>202004151936</timestamp><date>2020-04-15</date><time>19:36</time><title>幫幫香港出聲行動</title><comment/></version><version><id>59183964</id><timestamp>202004151935</timestamp><date>2020-04-15</date><time>19:35</time><title>港人講地</title><comment/></version><version><id>59183564</id><timestamp>202004151830</timestamp><date>2020-04-15</date><time>18:30</time><title>楊岳橋</title><comment/></version><version><id>59181962</id><timestamp>202004151543</timestamp><date>2020-04-15</date><time>15:43</time><title>張秀賢</title><comment/></version><version><id>59180849</id><timestamp>202004151416</timestamp><date>2020-04-15</date><time>14:16</time><title>羅冠聰</title><comment/></version><version><id>59180069</id><timestamp>202004151321</timestamp><date>2020-04-15</date><time>13:21</time><title>羅冠聰</title><comment/></version><version><id>59173514</id><timestamp>202004150542</timestamp><date>2020-04-15</date><time>05:42</time><title>谭德塞</title><comment/></version><version><id>59173251</id><timestamp>202004150525</timestamp><date>2020-04-15</date><time>05:25</time><title>谭德塞</title><comment/></version><version><id>59173199</id><timestamp>202004150523</timestamp><date>2020-04-15</date><time>05:23</time><title>谭德塞</title><comment/></version><version><id>59172393</id><timestamp>202004150427</timestamp><date>2020-04-15</date><time>04:27</time><title>谭德塞</title><comment/></version><version><id>59172328</id><timestamp>202004150423</timestamp><date>2020-04-15</date><time>04:23</time><title>谭德塞</title><comment/></version><version><id>59169673</id><timestamp>202004150124</timestamp><date>2020-04-15</date><time>01:24</time><title>谭德塞</title><comment/></version><version><id>59169585</id><timestamp>202004150119</timestamp><date>2020-04-15</date><time>01:19</time><title>Talk:谭德塞</title><comment/></version><version><id>59168800</id><timestamp>202004150022</timestamp><date>2020-04-15</date><time>00:22</time><title>谭德塞</title><comment/></version><version><id>59168702</id><timestamp>202004150011</timestamp><date>2020-04-15</date><time>00:11</time><title>Talk:谭德塞</title><comment/></version><version><id>59168577</id><timestamp>202004150000</timestamp><date>2020-04-15</date><time>00:00</time><title>谭德塞</title><comment/></version><version><id>59168478</id><timestamp>202004142348</timestamp><date>2020-04-14</date><time>23:48</time><title>谭德塞</title><comment/></version><version><id>59168391</id><timestamp>202004142335</timestamp><date>2020-04-14</date><time>23:35</time><title>谭德塞</title><comment/></version><version><id>59166286</id><timestamp>202004141658</timestamp><date>2020-04-14</date><time>16:58</time><title>2019冠状病毒病疫情</title><comment/></version><version><id>59166282</id><timestamp>202004141657</timestamp><date>2020-04-14</date><time>16:57</time><title>严重急性呼吸系统综合征冠状病毒2流行病学溯源</title><comment/></version><version><id>59166250</id><timestamp>202004141653</timestamp><date>2020-04-14</date><time>16:53</time><title>2019冠状病毒病疫情</title><comment/></version><version><id>59152829</id><timestamp>202004140126</timestamp><date>2020-04-14</date><time>01:26</time><title>Wikipedia:可靠来源/布告板</title><comment/></version><version><id>59152744</id><timestamp>202004140115</timestamp><date>2020-04-14</date><time>01:15</time><title>Wikipedia:可靠来源/布告板</title><comment/></version><version><id>59152661</id><timestamp>202004140107</timestamp><date>2020-04-14</date><time>01:07</time><title>屈穎妍</title><comment/></version><version><id>59149303</id><timestamp>202004131626</timestamp><date>2020-04-13</date><time>16:26</time><title>谭德塞</title><comment/></version><version><id>59149102</id><timestamp>202004131607</timestamp><date>2020-04-13</date><time>16:07</time><title>谭德塞</title><comment/></version><version><id>59149093</id><timestamp>202004131606</timestamp><date>2020-04-13</date><time>16:06</time><title>谭德塞</title><comment/></version><version><id>59148862</id><timestamp>202004131547</timestamp><date>2020-04-13</date><time>15:47</time><title>谭德塞</title><comment/></version><version><id>59148789</id><timestamp>202004131540</timestamp><date>2020-04-13</date><time>15:40</time><title>谭德塞</title><comment/></version><version><id>59148504</id><timestamp>202004131523</timestamp><date>2020-04-13</date><time>15:23</time><title>谭德塞</title><comment/></version><version><id>59148364</id><timestamp>202004131514</timestamp><date>2020-04-13</date><time>15:14</time><title>谭德塞</title><comment/></version><version><id>59148202</id><timestamp>202004131501</timestamp><date>2020-04-13</date><time>15:01</time><title>谭德塞</title><comment/></version><version><id>59148158</id><timestamp>202004131457</timestamp><date>2020-04-13</date><time>14:57</time><title>谭德塞</title><comment/></version><version><id>59148115</id><timestamp>202004131455</timestamp><date>2020-04-13</date><time>14:55</time><title>谭德塞</title><comment/></version><version><id>59148093</id><timestamp>202004131453</timestamp><date>2020-04-13</date><time>14:53</time><title>谭德塞</title><comment/></version><version><id>59148071</id><timestamp>202004131451</timestamp><date>2020-04-13</date><time>14:51</time><title>谭德塞</title><comment/></version><version><id>59148049</id><timestamp>202004131450</timestamp><date>2020-04-13</date><time>14:50</time><title>谭德塞</title><comment/></version><version><id>59147970</id><timestamp>202004131444</timestamp><date>2020-04-13</date><time>14:44</time><title>谭德塞</title><comment/></version><version><id>59147682</id><timestamp>202004131426</timestamp><date>2020-04-13</date><time>14:26</time><title>谭德塞</title><comment/></version><version><id>59147631</id><timestamp>202004131422</timestamp><date>2020-04-13</date><time>14:22</time><title>谭德塞</title><comment/></version><version><id>59142047</id><timestamp>202004130806</timestamp><date>2020-04-13</date><time>08:06</time><title>谭德塞</title><comment/></version><version><id>59141804</id><timestamp>202004130754</timestamp><date>2020-04-13</date><time>07:54</time><title>谭德塞</title><comment/></version><version><id>59139910</id><timestamp>202004130601</timestamp><date>2020-04-13</date><time>06:01</time><title>谭德塞</title><comment/></version><version><id>59139419</id><timestamp>202004130529</timestamp><date>2020-04-13</date><time>05:29</time><title>谭德塞</title><comment/></version><version><id>59139220</id><timestamp>202004130518</timestamp><date>2020-04-13</date><time>05:18</time><title>谭德塞</title><comment/></version><version><id>59138945</id><timestamp>202004130500</timestamp><date>2020-04-13</date><time>05:00</time><title>谭德塞</title><comment/></version><version><id>59138813</id><timestamp>202004130453</timestamp><date>2020-04-13</date><time>04:53</time><title>谭德塞</title><comment/></version><version><id>59138685</id><timestamp>202004130445</timestamp><date>2020-04-13</date><time>04:45</time><title>谭德塞</title><comment/></version><version><id>59138416</id><timestamp>202004130425</timestamp><date>2020-04-13</date><time>04:25</time><title>谭德塞</title><comment/></version></versions>
+（最近 | 最旧） 查看（前50个 | 后50个）（20 | 50 | 100 | 250 | 500）
+No1lovesu： 檢視子頁面 · 用户權限 · 編輯次數 ·  贡献报告 · 上傳的檔案（共享）·  所創條目 ·  跨語言活動 ·  SUL / 帐号 
+
+		取自“https://zh.wikipedia.org/wiki/Special:用户贡献”
+		
+		
+		
+	
+
+
+	
+
+
+
+    导航菜单
+    
+        
+        
+        	个人工具
+        	
+        		
+        		没有登录
+        		讨论贡献创建账户登录
+        	
+        
+        
+            
+            	名字空间
+            	
+            		特殊页面
+            	
+            
+            
+            	
+            	
+            		变种
+            	
+            	
+            		
+            	
+            
+        
+        
+            
+            	视图
+            	
+            		
+            	
+            
+            
+            	
+            	
+            		更多
+            	
+            	
+            		
+            	
+            
+            
+            	
+            		搜索
+            	
+            	
+            		
+            			
+            			
+            			
+            			
+            		
+            	
+            
+        
+    
+    
+    
+    	
+    		
+    	
+    	
+    		
+    			导航
+    		
+    		
+    			首页分类索引特色内容新闻动态最近更改随机条目资助维基百科
+    			
+    		
+    	
+    	
+    	
+    		
+    			帮助
+    		
+    		
+    			帮助维基社群方针与指引互助客栈知识问答字词转换IRC即时聊天联络我们关于维基百科
+    			
+    		
+    	
+    	
+    	
+    		
+    			工具
+    		
+    		
+    			Atom用户贡献日志查看用户组上传文件特殊页面打印页面
+    			
+    		
+    	
+    	
+    	
+    		
+    			其他语言
+    		
+    		
+    			
+    			
+    		
+    	
+    	
+    
+
+
+
+	
+		隐私政策
+		关于维基百科
+		免责声明
+		开发者
+		统计
+		Cookie声明
+		手机版视图
+	
+	
+		
+		
+	
+	
+
+
+(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":326,"wgHostname":"mw1395"});});</user>

@@ -25,6 +25,7 @@ def getXMLdata(url, stylesheet):
         file = str(urlparse(url).path.rsplit("/")[-1]) + ".xml"
     # vollständiger Pfad aus Verzeichnis/Sprachversion_Dateiname.xml
     file = datadir + lang + file
+    
     # Wenn XML bereits vorhanden, die verwenden
     if os.path.exists(file):            
         xml = etree.parse(open(file, "r"))
@@ -58,7 +59,8 @@ def addArticleData(nodes, edges, article):
     for version in article.xpath('/article/versions/version'):
         # user-node zusammenstellen
         user_node = {"name": version.xpath('./user')[0].text
-                     , "lang": article_node["lang"] # bessere quelle haben wir aktuell nicht
+                     #, "lang": article_node["lang"] # bessere quelle haben wir aktuell nicht
+                     , "lang": ""
                      , "type": "user"}
         # user hinzufügen, sofern neu
         if user_node not in nodes:
@@ -77,7 +79,8 @@ def addArticleData(nodes, edges, article):
 def addUserData(nodes, edges, user):
     # user-node zusammenstellen
     user_node = {"name": user.xpath('/user/name')[0].text
-                 , "lang": user.xpath('/user/language')[0].text
+                 #, "lang": user.xpath('/user/language')[0].text
+                 , "lang": ""
                  , "type": "user"}
     # user hinzufügen, sofern neu
     if user_node not in nodes:
@@ -133,50 +136,67 @@ def createNetxNetwork(nodes, edges):
         graph.add_node(node["name"])
     for edge in edges:
         graph.add_edge(edge["user"], edge["article"])
-#    
-#    # User als nodes hinzufügen
-#    for user in history.xpath('/article/versions/version/user'):
-#        graph.add_node(user.text)
-#    # Versionen als edges hinzufügen
-#    for version in history.xpath('/article/versions/version'):
-#        graph.add_edge(title, version.xpath('./user')[0].text, timestamp=version.xpath('./user')[0].text)
-#    
+
     nx.draw_kamada_kawai(graph, with_labels=True, node_size=300)
     nx.draw_networkx(graph)
-    
     
     plt.savefig("graph.png")
     plt.show()
 
 # =============================================================================    
+# schreibt die Inhalte aus nodes[] und edges[] in per suffix definierte CSV        
+    
+def writeDataCSV(nodes, edges, suffix = ''):
+    files = [('nodes' + suffix + '.csv', nodes), ( 'edges' + suffix + '.csv', edges)]
+    for file in files:
+        with open(file[0], 'w', newline='') as csvfile:
+            writer = csv.DictWriter(csvfile, fieldnames=file[1][0].keys())
+            print("schreibe .. " + csvfile.name)
+            writer.writeheader()
+            writer.writerows(file[1])
+    
+# =============================================================================    
+# liest gegebene CSV ein und befüllt somit die Listen edges und nodes 
+# bei großen Datenmengen viel performanter, als die XML erneut zu parsen
         
-def createGephiExport(nodes, edges):
-    with open('nodes.csv', 'w', newline='') as csvfile:
-        fieldnames = ['name', 'lang', 'type']
-        writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
-        writer.writeheader()
-        writer.writerows(nodes)
-    with open('edges.csv', 'w', newline='') as csvfile:
-        fieldnames = ['user', 'article', 'timestamp', 'id']
-        writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
-        writer.writeheader()
-        writer.writerows(edges)
-
+def readDataCSV(nodes, edges, suffix = ''):
+    files = [('nodes' + suffix + '.csv', nodes), ( 'edges' + suffix + '.csv', edges)]
+    for file in files:
+        with open(file[0], 'r', newline='') as csvfile:
+            reader = csv.DictReader(csvfile)
+            print("lese .. " + csvfile.name)
+            for row in reader:
+                file[1].append(row)
+            
 # =============================================================================    
+# 
+                
+def cleanLists(nodes, edges):
+    temp_nodes = list()
+    for node in nodes:
+       temp_nodes.append(list(node.values()))
+       if nodes.count(node) > 1:
+           print("duplikat")
+    temp_edges = list()
+    for edge in edges:
+       temp_edges.append(list(edge.values()))
+       if edges.count(edge) > 1:
+           print("duplikat")
 
-def readDataCSV(nodes, edges):
-    with open('nodes.csv', 'r', newline='') as csvfile:
-        reader = csv.reader(csvfile)
-        print(next(reader))
-        for row in reader:
-            nodes.append({"name":row[0], "lang":row[1], "type":row[2]})
-    with open('edges.csv', 'r', newline='') as csvfile:
-        reader = csv.reader(csvfile)
-        print(next(reader))
-        for row in reader:
-            edges.append({"user":row[0], "article":row[1], "timestamp":row[2], "id":row[3]})
+ # duplikatsprüfung
+#    for node in nodes:
+#        check = [name for [name, lang, nodetype] in temp_nodes if name == node["name"] and nodetype == node["type"]]
+#        print(count(check))
+    
+    
+    # zur Prüfung brauchen wir eine Liste mit Artikel-Referenzen
+#    temp_nodes = list()
+#    for node in nodes:
+#        temp_nodes.append(list(node.values()))
+#    stuff = [name for [name, lang, nodetype] in temp_nodes if nodetype == "user"]
+#    print(stuff)
 
-# =============================================================================    
+# ============================================================================= 
 
 
 nodes = list()
@@ -184,23 +204,25 @@ edges = list()
 
 # Articles Abrufen und als XML speichern. NB Limit anpassen
 # en article
-#addArticleData(nodes, edges, getXMLdata('https://en.wikipedia.org/w/index.php?title=1989_Tiananmen_Square_protests&action=history&limit=500', 'history.xsl'))
-#addArticleData(nodes, edges, getXMLdata('https://en.wikipedia.org/w/index.php?title=Hong_Kong&action=history&limit=500', 'history.xsl'))
-## zh article
-#addArticleData(nodes, edges, getXMLdata('https://zh.wikipedia.org/w/index.php?title=%E5%85%AD%E5%9B%9B%E4%BA%8B%E4%BB%B6&action=history&limit=500', 'history.xsl'))
-#addArticleData(nodes, edges, getXMLdata('https://zh.wikipedia.org/w/index.php?title=%E9%A6%99%E6%B8%AF&action=history&limit=500', 'history.xsl'))
-#
-## zugehörige user-netzwerke ermitteln
+#addArticleData(nodes, edges, getXMLdata('https://en.wikipedia.org/w/index.php?title=1989_Tiananmen_Square_protests&action=history&limit=100', 'history.xsl'))
+#addArticleData(nodes, edges, getXMLdata('https://en.wikipedia.org/w/index.php?title=Hong_Kong&action=history&limit=100', 'history.xsl'))
+### zh article
+#addArticleData(nodes, edges, getXMLdata('https://zh.wikipedia.org/w/index.php?title=%E5%85%AD%E5%9B%9B%E4%BA%8B%E4%BB%B6&action=history&limit=100', 'history.xsl'))
+#addArticleData(nodes, edges, getXMLdata('https://zh.wikipedia.org/w/index.php?title=%E9%A6%99%E6%B8%AF&action=history&limit=100', 'history.xsl'))
+##
+### zugehörige user-netzwerke ermitteln
 #for node in nodes:
 #    if node["type"] == "user":
 #        # Aufruf je Sprachversion, NB &target=USERNAME muss als letztes Element notiert sein (sonst liefert das Schema nichts)
-#        addUserData(nodes, edges, getXMLdata('https://en.wikipedia.org/w/index.php?title=Special:Contributions&limit=100&target=' + node["name"], 'user.xsl'))
-#        addUserData(nodes, edges, getXMLdata('https://zh.wikipedia.org/w/index.php?title=Special:用户贡献&limit=100&target=' + node["name"], 'user.xsl'))
+#        addUserData(nodes, edges, getXMLdata('https://en.wikipedia.org/w/index.php?title=Special:Contributions&limit=50&target=' + node["name"], 'user.xsl'))
+#        addUserData(nodes, edges, getXMLdata('https://zh.wikipedia.org/w/index.php?title=Special:用户贡献&limit=50&target=' + node["name"], 'user.xsl'))
 
-readDataCSV(nodes, edges)
+# vorhandene CSV einlesen
+readDataCSV(nodes, edges, '4-100-50')
+cleanLists(nodes, edges)
 #createNetxNetwork(nodes, edges)
-#createGephiExport(nodes, edges)
-createPyvisNetwork(nodes, edges)
+#writeDataCSV(nodes, edges, '4-100-50')
+#createPyvisNetwork(nodes, edges)
 
 
 # ================== Stuff ================================
