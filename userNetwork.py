@@ -48,29 +48,28 @@ def getXMLdata(url, stylesheet):
 # User als nodes sowie die Versionen als edges ein
 def addArticleData(nodes, edges, article):
     # article-node zusammenstellen
-    article_node = {"name": article.xpath('/article/title')[0].text.rsplit(": ", 1)[0]
-                    , "lang": article.xpath('/article/language')[0].text
-                    , "type": "article"}
+    article_node = [article.xpath('/article/title')[0].text.rsplit(": ", 1)[0] # name
+                    , article.xpath('/article/language')[0].text # language
+                    , 'article'] # type
     # article hinzufügen, sofern neu
     if article_node not in nodes:
         nodes.append(article_node)
-        print("article added: " + str(article_node))
+        print('article added: ' + str(article_node))
     # user als nodes, versions als edges hinzufügen
     for version in article.xpath('/article/versions/version'):
         # user-node zusammenstellen
-        user_node = {"name": version.xpath('./user')[0].text
-                     #, "lang": article_node["lang"] # bessere quelle haben wir aktuell nicht
-                     , "lang": ""
-                     , "type": "user"}
+        user_node = [version.xpath('./user')[0].text # name
+                     , '' # language
+                     , 'user'] # type
         # user hinzufügen, sofern neu
         if user_node not in nodes:
             nodes.append(user_node)
-            print("user added: " + str(user_node))
+            print('user added: ' + str(user_node))
         # version als edge hinzufügen
-        version_edge = {"user": user_node["name"]
-                        , "article": article_node["name"]
-                        , "timestamp": version.xpath('./timestamp')[0].text
-                        , "id": version.xpath('./id')[0].text}
+        version_edge = [user_node[0] # user
+                        , article_node[0] #article
+                        , version.xpath('./timestamp')[0].text # timestamp
+                        , version.xpath('./id')[0].text] # version id
         if version_edge not in edges:
             edges.append(version_edge)
     
@@ -78,51 +77,54 @@ def addArticleData(nodes, edges, article):
     
 def addUserData(nodes, edges, user):
     # user-node zusammenstellen
-    user_node = {"name": user.xpath('/user/name')[0].text
-                 #, "lang": user.xpath('/user/language')[0].text
-                 , "lang": ""
-                 , "type": "user"}
+    user_node = [user.xpath('/user/name')[0].text #name
+                 , '' #language
+                 , 'user'] #type
     # user hinzufügen, sofern neu
     if user_node not in nodes:
         nodes.append(user_node)
-        print("user added: " + str(user_node))
+        print('user added: ' + str(user_node))
     # articles als nodes, versions als edges hinzufügen
     if user.xpath('/user/versions/version') is not None:
         for version in user.xpath('/user/versions/version'):
             # article-node zusammenstellen
-            article_node = {"name": version.xpath('./title')[0].text
-                            , "lang": user_node["lang"] # bessere quelle haben wir aktuell nicht
-                            , "type": "article"}
+            article_node = [version.xpath('./title')[0].text #name
+                            , user.xpath('/user/language')[0].text # lang: bessere quelle haben wir aktuell nicht
+                            , 'article'] # type
             # article hinzufügen, sofern neu
             if article_node not in nodes:
                 nodes.append(article_node)
-                print("article added: " + str(article_node))
+                print('article added: ' + str(article_node))
             # version als edge hinzufügen
-            version_edge = {"user": user_node["name"]
-                            , "article": article_node["name"]
-                            , "timestamp": version.xpath('./timestamp')[0].text
-                            , "id": version.xpath('./id')[0].text}
+            version_edge = [user_node[0] # user 
+                            , article_node[0] # article
+                            , version.xpath('./timestamp')[0].text #timestamp
+                            , version.xpath('./id')[0].text] #version id
             if version_edge not in edges:
                 edges.append(version_edge)
         
 # =============================================================================    
 # Visualisierung über Pyvis, browserbasiert, physics
                 
-def createPyvisNetwork(nodes, edges):    
+def createPyvisNetwork(nodes, edges):
     ## Graph anlegen        
-    netGraph = Network(height='750pt', width='100%', bgcolor="#222222", font_color="white")        
+    netGraph = Network(height='750pt', width='100%', bgcolor="#222222", font_color="white")
+    print("erzeuge Graph ..")
     # Daten in Graph eintragen                   
+    netGraph.add_nodes([name for [name, lang, type] in nodes if type == "user"])
     for node in nodes:
-        if node["type"] == "user":
-            netGraph.add_node(node["name"], shape="dot")
-        elif node["type"] == "article":
-            if node["lang"] == "zh":
-                netGraph.add_node(node["name"], shape="star", title = "https://"+node["lang"]+".wikipedia.org/"+node["name"], color = "red")
+        if node[2] == "user":
+            netGraph.add_node(node[0], shape="dot")
+        elif node[2] == "article":
+            if node[1] == "zh":
+                netGraph.add_node(node[0], shape="star", title = "https://"+node[1]+".wikipedia.org/"+node[0], color = "red")
             else:
-                netGraph.add_node(node["name"], shape="star", title = "https://"+node["lang"]+".wikipedia.org/"+node["name"], color = "blue")
+                netGraph.add_node(node[0], shape="star", title = "https://"+node[1]+".wikipedia.org/"+node[0], color = "blue")
+    print('füge edges hinzu ..')
     for edge in edges:
-        netGraph.add_edge(edge["user"], edge["article"])
-    #netGraph.barnes_hut()
+        # die Anzahl der Versionen dient als Indikator für die Stärke der edge
+        netGraph.add_edge(edge[0], edge[1], value=len(edge[3]))
+    netGraph.barnes_hut()
     netGraph.show('networkmap.html')        
 
 # =============================================================================  
@@ -130,12 +132,10 @@ def createPyvisNetwork(nodes, edges):
     
 def createNetxNetwork(nodes, edges):  
     graph = nx.Graph()
-    plt.rcParams["figure.figsize"] = (30, 30)
-    
-    for node in nodes:
-        graph.add_node(node["name"])
-    for edge in edges:
-        graph.add_edge(edge["user"], edge["article"])
+    plt.rcParams["figure.figsize"] = (25, 15)
+    graph.add_nodes_from([name for [name, lang, type] in nodes])
+    for edge in edges:        
+        graph.add_edge(edge[0], edge[1], weight=len(edge[3]))
 
     nx.draw_kamada_kawai(graph, with_labels=True, node_size=300)
     nx.draw_networkx(graph)
@@ -145,59 +145,73 @@ def createNetxNetwork(nodes, edges):
 
 # =============================================================================    
 # schreibt die Inhalte aus nodes[] und edges[] in per suffix definierte CSV        
-    
-def writeDataCSV(nodes, edges, suffix = ''):
-    files = [('nodes' + suffix + '.csv', nodes), ( 'edges' + suffix + '.csv', edges)]
-    for file in files:
-        with open(file[0], 'w', newline='') as csvfile:
-            writer = csv.DictWriter(csvfile, fieldnames=file[1][0].keys())
-            print("schreibe .. " + csvfile.name)
-            writer.writeheader()
-            writer.writerows(file[1])
-    
-# =============================================================================    
-# liest gegebene CSV ein und befüllt somit die Listen edges und nodes 
-# bei großen Datenmengen viel performanter, als die XML erneut zu parsen
+# condensed Edges werden autom. befüllt geschrieben, gleichen also uncondensed Edges
         
-def readDataCSV(nodes, edges, suffix = ''):
-    files = [('nodes' + suffix + '.csv', nodes), ( 'edges' + suffix + '.csv', edges)]
-    for file in files:
-        with open(file[0], 'r', newline='') as csvfile:
-            reader = csv.DictReader(csvfile)
-            print("lese .. " + csvfile.name)
-            for row in reader:
-                file[1].append(row)
+def writeDataCSV(data, path, header):
+    with open(path, 'w', newline='') as csvfile:
+        writer = csv.writer(csvfile)
+        print("schreibe .. " + csvfile.name)
+        writer.writerow(header)
+        for line in data:
+            writer.writerow(line)
             
 # =============================================================================    
-# 
+# liest gegebene CSV ein und gibt data[] zurück
+# bei großen Datenmengen viel performanter, als die XML erneut zu parsen
+
+def readDataCSV(path):
+    with open(path, 'r', newline='') as csvfile:
+        reader = csv.reader(csvfile)
+        header = next(reader)
+        print("lese .. " + csvfile.name + " - header: " + str(header))
+        data = [row for row in reader]
+        return data
+
+# =============================================================================    
+# NB: NACH deleteSingleArticle ausführen
+# Ermittelt edges mit gleicher Relation und fügt diese zusammen
+# Prüft das Ziel der Edges und entfernt Edges ohne passenden Artikel
+# edges { user, article, timestamp, id } zu [user, article, [timestamps], [ids]]
                 
-def cleanLists(nodes, edges):
-    temp_nodes = list()
-    for node in nodes:
-       temp_nodes.append(list(node.values()))
-       if nodes.count(node) > 1:
-           print("duplikat")
-    temp_edges = list()
+def condenseEdges(nodes, edges):
+    edges_condensed = list()
+    print('fasse parallele edges zusammen ..')
+    articles = [name for [name, lang, type] in nodes if type == 'article']
     for edge in edges:
-       temp_edges.append(list(edge.values()))
-       if edges.count(edge) > 1:
-           print("duplikat")
-
- # duplikatsprüfung
-#    for node in nodes:
-#        check = [name for [name, lang, nodetype] in temp_nodes if name == node["name"] and nodetype == node["type"]]
-#        print(count(check))
+        if edge[1] in articles:
+            # Duplikate via user-article-Relation ermitteln
+            duplicates = [[user, article, timestamp, nodeid] for 
+                          [user, article, timestamp, nodeid] in 
+                          edges if user == edge[0] and article == edge[1]]    
+            # alle Timestamps aus Duplikaten ermitteln
+                # NB Timestamp und ID werden unzusammenhängend ausgelesen -> da Listen aber sortiert sind, ist das kein Problem
+            timestamps = [timestamp for 
+                          [user, article, timestamp, nodeid] in duplicates]
+            # alle IDs aus Duplikat ermitteln
+            ids = [nodeid for [user, article, timestamp, nodeid] in duplicates]
+            # condensed sind urspr. User und Artikel, sowie Timestamp und ID als []
+            condensed = [duplicates[0][0], duplicates[0][1], timestamps, ids]
+            # Duplikatsprüfung vor append
+            if condensed not in edges_condensed:
+                edges_condensed.append(condensed)
+    return edges_condensed
     
+# =============================================================================    
+# NB: Vor condenseEdges ausführen
+#
     
-    # zur Prüfung brauchen wir eine Liste mit Artikel-Referenzen
-#    temp_nodes = list()
-#    for node in nodes:
-#        temp_nodes.append(list(node.values()))
-#    stuff = [name for [name, lang, nodetype] in temp_nodes if nodetype == "user"]
-#    print(stuff)
+def deleteSingleArticle(nodes, edges):
+    nodes_reduced = nodes.copy()
+    articles = [[name, lang, type] for [name, lang, type] in nodes if type == 'article']
+    for item in articles:
+        mentions = [user for [user, article, timestamp, id] in edges if article == item[0]]
+        # userabfrage hinzufügen
+        if len(mentions) == 1:
+            print('node ' + str(item) + ' wird entfernt ..')
+            nodes_reduced.remove(item)
+    return nodes_reduced
 
-# ============================================================================= 
-
+# =============================================================================
 
 nodes = list()
 edges = list()
@@ -212,17 +226,22 @@ edges = list()
 ##
 ### zugehörige user-netzwerke ermitteln
 #for node in nodes:
-#    if node["type"] == "user":
+#    if node[2] == "user":
 #        # Aufruf je Sprachversion, NB &target=USERNAME muss als letztes Element notiert sein (sonst liefert das Schema nichts)
-#        addUserData(nodes, edges, getXMLdata('https://en.wikipedia.org/w/index.php?title=Special:Contributions&limit=50&target=' + node["name"], 'user.xsl'))
-#        addUserData(nodes, edges, getXMLdata('https://zh.wikipedia.org/w/index.php?title=Special:用户贡献&limit=50&target=' + node["name"], 'user.xsl'))
+#        addUserData(nodes, edges, getXMLdata('https://en.wikipedia.org/w/index.php?title=Special:Contributions&limit=50&target=' + node[0], 'user.xsl'))
+#        addUserData(nodes, edges, getXMLdata('https://zh.wikipedia.org/w/index.php?title=Special:用户贡献&limit=50&target=' + node[0], 'user.xsl'))
 
-# vorhandene CSV einlesen
-readDataCSV(nodes, edges, '4-100-50')
-cleanLists(nodes, edges)
-#createNetxNetwork(nodes, edges)
-#writeDataCSV(nodes, edges, '4-100-50')
-#createPyvisNetwork(nodes, edges)
+nodes = readDataCSV("nodes4-100-50.csv")
+edges = readDataCSV("edges4-100-50.csv")
+
+nodes_reduced = deleteSingleArticle(nodes, edges)
+edges_condensed = condenseEdges(nodes_reduced, edges)
+
+#writeDataCSV(nodes, "nodes4-100-50.csv", ["name", "lang", "type"])
+#writeDataCSV(edges, "edges4-100-50.csv", ["user", "article", "timestamp", "id"])
+
+#createNetxNetwork(nodes_reduced, edges_condensed)
+createPyvisNetwork(nodes_reduced, edges_condensed)
 
 
 # ================== Stuff ================================
