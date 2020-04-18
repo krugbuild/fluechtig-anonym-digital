@@ -1,5 +1,6 @@
 #!/usr/bin/env python3 
 import os.path
+import ast
 import requests
 import networkx as nx
 import matplotlib.pyplot as plt
@@ -49,7 +50,7 @@ def getXMLdata(url, stylesheet):
 def addArticleData(nodes, edges, article):
     # article-node zusammenstellen
     article_node = [article.xpath('/article/title')[0].text.rsplit(": ", 1)[0] # name
-                    , article.xpath('/article/language')[0].text # language
+                    , {article.xpath('/article/language')[0].text : 1} # language
                     , 'article'] # type
     # article hinzufügen, sofern neu
     if article_node not in nodes:
@@ -59,7 +60,7 @@ def addArticleData(nodes, edges, article):
     for version in article.xpath('/article/versions/version'):
         # user-node zusammenstellen
         user_node = [version.xpath('./user')[0].text # name
-                     , '' # language
+                     , {} # language
                      , 'user'] # type
         # user hinzufügen, sofern neu
         if user_node not in nodes:
@@ -78,7 +79,7 @@ def addArticleData(nodes, edges, article):
 def addUserData(nodes, edges, user):
     # user-node zusammenstellen
     user_node = [user.xpath('/user/name')[0].text #name
-                 , '' #language
+                 , {} #language
                  , 'user'] #type
     # user hinzufügen, sofern neu
     if user_node not in nodes:
@@ -89,7 +90,7 @@ def addUserData(nodes, edges, user):
         for version in user.xpath('/user/versions/version'):
             # article-node zusammenstellen
             article_node = [version.xpath('./title')[0].text #name
-                            , user.xpath('/user/language')[0].text # lang: bessere quelle haben wir aktuell nicht
+                            , {user.xpath('/user/language')[0].text : 1} # lang: bessere quelle haben wir aktuell nicht
                             , 'article'] # type
             # article hinzufügen, sofern neu
             if article_node not in nodes:
@@ -111,15 +112,12 @@ def createPyvisNetwork(nodes, edges):
     netGraph = Network(height='750pt', width='100%', bgcolor="#222222", font_color="white")
     print("erzeuge Graph ..")
     # Daten in Graph eintragen                   
-    netGraph.add_nodes([name for [name, lang, type] in nodes if type == "user"])
+    #netGraph.add_nodes([name for [name, lang, type] in nodes if type == "user"])
     for node in nodes:
         if node[2] == "user":
-            netGraph.add_node(node[0], shape="dot")
+            netGraph.add_node(node[0], shape="dot", color = langColor(node[1]))
         elif node[2] == "article":
-            if node[1] == "zh":
-                netGraph.add_node(node[0], shape="star", title = "https://"+node[1]+".wikipedia.org/"+node[0], color = "red")
-            else:
-                netGraph.add_node(node[0], shape="star", title = "https://"+node[1]+".wikipedia.org/"+node[0], color = "blue")
+            netGraph.add_node(node[0], shape="star", title = node[0], color = langColor(node[1]))
     print('füge edges hinzu ..')
     for edge in edges:
         # die Anzahl der Versionen dient als Indikator für die Stärke der edge
@@ -133,12 +131,14 @@ def createPyvisNetwork(nodes, edges):
 def createNetxNetwork(nodes, edges):  
     graph = nx.Graph()
     plt.rcParams["figure.figsize"] = (25, 15)
+    print('erzeuge Graph ..')
     graph.add_nodes_from([name for [name, lang, type] in nodes])
     for edge in edges:        
         graph.add_edge(edge[0], edge[1], weight=len(edge[3]))
 
-    nx.draw_kamada_kawai(graph, with_labels=True, node_size=300)
-    nx.draw_networkx(graph)
+    #nx.draw_circular(graph)
+    nx.draw_kamada_kawai(graph, with_labels=False, node_size=300)
+    #nx.draw_networkx(graph)
     
     plt.savefig("graph.png")
     plt.show()
@@ -164,7 +164,12 @@ def readDataCSV(path):
         reader = csv.reader(csvfile)
         header = next(reader)
         print("lese .. " + csvfile.name + " - header: " + str(header))
-        data = [row for row in reader]
+        data = list()
+        if header[1] == 'lang':
+            # Zeile: user, {dict language via ast}, type
+            data = [[row[0], ast.literal_eval(row[1]), row[2]] for row in reader]
+        else:
+            data = [row for row in reader]
         return data
 
 # =============================================================================    
@@ -198,21 +203,55 @@ def condenseEdges(nodes, edges):
     
 # =============================================================================    
 # NB: Vor condenseEdges ausführen
-#
+# 
     
-def deleteSingleArticle(nodes, edges):
+def deleteArticlesByCount(nodes, edges, versionCount = 1, userCount = 1):
     nodes_reduced = nodes.copy()
+    # articles aus nodes ermitteln (vollständiges item ist nötig zum entfernen)
     articles = [[name, lang, type] for [name, lang, type] in nodes if type == 'article']
+    print('article mit <= ' + str(versionCount) + ' Referenzen und <= ' + str(userCount) + ' beteiligten Usern werden entfernt ..')
+    # für jeden article die Referenzen in edges prüfen
     for item in articles:
         mentions = [user for [user, article, timestamp, id] in edges if article == item[0]]
-        # userabfrage hinzufügen
-        if len(mentions) == 1:
-            print('node ' + str(item) + ' wird entfernt ..')
+        # Zahl mentions prüfen, Zahl unique (weil Set) mentions prüfen
+        if len(mentions) <= versionCount or len(set(mentions)) <= userCount:        
             nodes_reduced.remove(item)
     return nodes_reduced
 
 # =============================================================================
 
+def computeLanguage(nodes, edges):
+    # alle artikel mit zugehöriger Sprache ermitteln
+    articles = [[name, lang] for [name, lang, type] in nodes if type == 'article']
+    for node in nodes:
+        if node[2] == 'user':
+            # alle article des aktuellen users ermitteln
+            edits = [article for [user, article, timestamp, id] in edges if user == node[0]]
+            # alle Sprachen der articles ermitteln
+            languages = [lang for [name, lang] in articles if name in edits]
+            # Sprachen des aktuellen Users ermitteln            
+            en = node[1].get('en', 0)
+            zh = node[1].get('zh', 0)
+            # und mit den Sprachen aus den articles aufsummieren
+            for item in languages:
+                en += item.get('en', 0)
+                zh += item.get('zh', 0)
+            # neue Sprachsummen setzen
+            node[1] = {'en': en, 'zh': zh}
+            
+# =============================================================================
+            
+def langColor(langdict):
+    langvalue = langdict.get('en', 0) / (langdict.get('en', 0) + langdict.get('zh', 0))
+    if langvalue > 0.5:
+        return "blue"
+    elif langvalue <= 0.5:
+        return "red"
+    else:
+        return "white"
+    
+# =============================================================================
+    
 nodes = list()
 edges = list()
 
@@ -234,7 +273,8 @@ edges = list()
 nodes = readDataCSV("nodes4-100-50.csv")
 edges = readDataCSV("edges4-100-50.csv")
 
-nodes_reduced = deleteSingleArticle(nodes, edges)
+computeLanguage(nodes, edges)
+nodes_reduced = deleteArticlesByCount(nodes, edges)
 edges_condensed = condenseEdges(nodes_reduced, edges)
 
 #writeDataCSV(nodes, "nodes4-100-50.csv", ["name", "lang", "type"])

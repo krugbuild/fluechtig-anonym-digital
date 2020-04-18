@@ -1,0 +1,5 @@
+name,lang,type
+stefan,{'en': 0},user
+sören,"{'en': 0, 'zh': 1}",user
+stefan,{'en': 0},user
+sören,"{'en': 0, 'zh': 1}",user
