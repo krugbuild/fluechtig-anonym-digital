@@ -1,0 +1,239 @@
+<?xml version="1.0"?>
+<user><language>zh</language>
+
+
+210.3.92.210的用户贡献 - 维基百科，自由的百科全书
+document.documentElement.className="client-js";RLCONF={"wgBreakFrames":!1,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"zh","wgMonthNames":["","1月","2月","3月","4月","5月","6月","7月","8月","9月","10月","11月","12月"],"wgRequestId":"XptKWQpAIEIAADUmx6kAAACX","wgCSPNonce":!1,"wgCanonicalNamespace":"Special","wgCanonicalSpecialPageName":"Contributions","wgNamespaceNumber":-1,"wgPageName":"Special:用户贡献","wgTitle":"用户贡献","wgCurRevisionId":0,"wgRevisionId":0,"wgArticleId":0,"wgIsArticle":!1,"wgIsRedirect":!1,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgPageContentLanguage":"zh","wgPageContentModel":"wikitext","wgRelevantPageName":"Special:用户贡献","wgRelevantArticleId":0,"wgUserVariant":"zh","wgIsProbablyEditable":!1,"wgRelevantPageIsProbablyEditable":!1,"wgRelevantUserName":"210.3.92.210","wgMediaViewerOnClick":!0,"wgMediaViewerEnabledByDefault":!0,
+"wgPopupsReferencePreviews":!1,"wgPopupsConflictsWithNavPopupGadget":!1,"wgVisualEditor":{"pageLanguageCode":"zh","pageLanguageDir":"ltr","pageVariantFallbacks":["zh-hans","zh-hant","zh-cn","zh-tw","zh-hk","zh-sg","zh-mo","zh-my"]},"wgMFDisplayWikibaseDescriptions":{"search":!0,"nearby":!0,"watchlist":!0,"tagline":!0},"wgWMESchemaEditAttemptStepOversample":!1,"wgULSCurrentAutonym":"中文","wgNoticeProject":"wikipedia","wgCentralAuthMobileDomain":!1,"wgEditSubmitButtonLabelPublish":!0,"oresData":{"59211286":{"damaging":0.321},"59210055":{"damaging":0.594},"59205255":{"damaging":0.433},"59205252":{"damaging":0.541},"59205242":{"damaging":0.504},"59205239":{"damaging":0.376},"59028639":{"damaging":0.568},"59028466":{"damaging":0.586},"59027251":{"damaging":0.462},"59027019":{"damaging":0.42},"59027017":{"damaging":0.464},"59026778":{"damaging":0.467},"58950481":{"damaging":0.391},"58949813":{"damaging":0.727},"58879677":{"damaging":0.726},"58879675":{"damaging":
+0.365},"58879323":{"damaging":0.48},"58878245":{"damaging":0.366},"58877954":{"damaging":0.591},"58877951":{"damaging":0.617},"58877948":{"damaging":0.615},"58874362":{"damaging":0.555},"58873188":{"damaging":0.459},"58873180":{"damaging":0.485},"58872881":{"damaging":0.64},"58872630":{"damaging":0.387},"58872626":{"damaging":0.497},"58872413":{"damaging":0.469},"58793632":{"damaging":0.337},"58793630":{"damaging":0.337},"58720838":{"damaging":0.337},"58719788":{"damaging":0.367},"58719319":{"damaging":0.422},"58719314":{"damaging":0.436},"58719087":{"damaging":0.539},"58719082":{"damaging":0.598},"58718874":{"damaging":0.639},"58717952":{"damaging":0.443},"58717949":{"damaging":0.308},"58717946":{"damaging":0.308},"58717943":{"damaging":0.376},"58717942":{"damaging":0.269},"58717707":{"damaging":0.257},"58716235":{"damaging":0.563},"58716027":{"damaging":0.483},"58714755":{"damaging":0.48},"58714750":{"damaging":0.436},"58714748":{"damaging":0.666},"58714474":{"damaging":0.54}},
+"oresThresholds":{"damaging":{"maybebad":0.037,"likelybad":0.423}}};RLSTATE={"ext.gadget.hideConversionTab":"ready","ext.gadget.large-font":"ready","ext.globalCssJs.user.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","jquery.makeCollapsible.styles":"ready","mediawiki.interface.helpers.styles":"ready","mediawiki.special":"ready","mediawiki.special.changeslist":"ready","mediawiki.helplink":"ready","mediawiki.widgets.DateInputWidget.styles":"ready","oojs-ui-core.styles":"ready","oojs-ui.styles.indicators":"ready","mediawiki.widgets.styles":"ready","oojs-ui-core.icons":"ready","mediawiki.htmlform.ooui.styles":"ready","mediawiki.htmlform.styles":"ready","mediawiki.feedlink":"ready","skins.vector.styles.legacy":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","ext.ores.styles":"ready"};RLPAGEMODULES=[
+"mediawiki.special.recentchanges","mediawiki.page.ready","mediawiki.special.contributions","mediawiki.htmlform","mediawiki.htmlform.ooui","mediawiki.widgets.UserInputWidget","mediawiki.widgets","oojs-ui-widgets","mediawiki.widgets.DateInputWidget","site","mediawiki.page.startup","skins.vector.js","jquery.makeCollapsible","ext.gadget.edit0","ext.gadget.Edittools-refToolbar","ext.gadget.WikiMiniAtlas","ext.gadget.ReferenceTooltips","ext.gadget.UnihanTooltips","ext.gadget.variant-link-fix","ext.gadget.FixedTopBottomLink","ext.gadget.confirm-logout","ext.gadget.shortURL","ext.gadget.AdvancedSiteNotices","ext.gadget.internalLinkHelper-altcolor","ext.gadget.noteTA","ext.gadget.noteTAvector","ext.gadget.NavFrame","ext.gadget.collapsibleTables","ext.gadget.notifyConversion","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents",
+"ext.navigationTiming","ext.uls.compactlinks","ext.uls.interface","ext.cx.eventlogging.campaigns","ext.centralNotice.geoIP"];
+(RLQ=window.RLQ||[]).push(function(){mw.loader.implement("user.options@1hzgi",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<name>210.3.92.210</name>
+
+
+
+
+
+
+
+	
+		
+	
+帮助
+
+
+	用户贡献
+	
+	
+		
+		210.3.92.210 讨论 封禁日志 日志 过滤器日志
+		
+		
+		
+		跳到导航
+		跳到搜索
+		搜索贡献记录展开折叠⧼contribs-top⧽IP地址或用户名：名字空间：所有条目TalkUserUser talk维基百科维基百科讨论FileFile talkMediaWikiMediaWiki talkTemplateTemplate talkHelpHelp talkCategoryCategory talk主题主题讨论草稿草稿讨论模块模块讨论GadgetGadget talkGadget definitionGadget definition talkTopic反向选择关联的名字空间标签过滤器：仅显示最后版本的编辑仅显示创建页面的编辑隐藏小编辑⧼contribs-date⧽起始日：截止日：
+隐藏可能良好编辑
+
+
+搜索
+（最近 | 最旧） 查看（前100个 | 后100个）（20 | 50 | 100 | 250 | 500）<versions><version><id>59211286</id><timestamp>202004171000</timestamp><date>2020-04-17</date><time>10:00</time><title>可摺疊式智能手機</title><comment/></version><version><id>59210055</id><timestamp>202004170846</timestamp><date>2020-04-17</date><time>08:46</time><title>秦國君主列表</title><comment/></version><version><id>59205255</id><timestamp>202004170430</timestamp><date>2020-04-17</date><time>04:30</time><title>2020年大韩民国国会选举</title><comment/></version><version><id>59205252</id><timestamp>202004170430</timestamp><date>2020-04-17</date><time>04:30</time><title>韓國選舉</title><comment/></version><version><id>59205242</id><timestamp>202004170430</timestamp><date>2020-04-17</date><time>04:30</time><title>共同民主党</title><comment/></version><version><id>59205239</id><timestamp>202004170430</timestamp><date>2020-04-17</date><time>04:30</time><title>Template:大韩民国政党</title><comment/></version><version><id>59028639</id><timestamp>202004070330</timestamp><date>2020-04-07</date><time>03:30</time><title>日韓军事情报保护协定</title><comment/></version><version><id>59028466</id><timestamp>202004070315</timestamp><date>2020-04-07</date><time>03:15</time><title>天國的階梯</title><comment/></version><version><id>59027251</id><timestamp>202004070200</timestamp><date>2020-04-07</date><time>02:00</time><title>國立首爾顯忠院</title><comment/></version><version><id>59027019</id><timestamp>202004070145</timestamp><date>2020-04-07</date><time>01:45</time><title>國立大田顯忠院</title><comment/></version><version><id>59027017</id><timestamp>202004070145</timestamp><date>2020-04-07</date><time>01:45</time><title>鄭夢準</title><comment/></version><version><id>59026778</id><timestamp>202004070130</timestamp><date>2020-04-07</date><time>01:30</time><title>全国哀悼日</title><comment/></version><version><id>58950481</id><timestamp>202004030300</timestamp><date>2020-04-03</date><time>03:00</time><title>2020年4月</title><comment/></version><version><id>58949813</id><timestamp>202004030215</timestamp><date>2020-04-03</date><time>02:15</time><title>瑞幸咖啡</title><comment/></version><version><id>58879677</id><timestamp>202003300915</timestamp><date>2020-03-30</date><time>09:15</time><title>韩朝关系</title><comment/></version><version><id>58879675</id><timestamp>202003300915</timestamp><date>2020-03-30</date><time>09:15</time><title>Template:韩国主题</title><comment/></version><version><id>58879323</id><timestamp>202003300900</timestamp><date>2020-03-30</date><time>09:00</time><title>朝韩非军事区</title><comment/></version><version><id>58878245</id><timestamp>202003300815</timestamp><date>2020-03-30</date><time>08:15</time><title>南非边境战争</title><comment/></version><version><id>58877954</id><timestamp>202003300800</timestamp><date>2020-03-30</date><time>08:00</time><title>朴正熙</title><comment/></version><version><id>58877951</id><timestamp>202003300800</timestamp><date>2020-03-30</date><time>08:00</time><title>全斗煥</title><comment/></version><version><id>58877948</id><timestamp>202003300800</timestamp><date>2020-03-30</date><time>08:00</time><title>盧泰愚</title><comment/></version><version><id>58874362</id><timestamp>202003300430</timestamp><date>2020-03-30</date><time>04:30</time><title>陳婉雯</title><comment/></version><version><id>58873188</id><timestamp>202003300330</timestamp><date>2020-03-30</date><time>03:30</time><title>大韩民国</title><comment/></version><version><id>58873180</id><timestamp>202003300330</timestamp><date>2020-03-30</date><time>03:30</time><title>N号房事件</title><comment/></version><version><id>58872881</id><timestamp>202003300315</timestamp><date>2020-03-30</date><time>03:15</time><title>漢字文化圈</title><comment/></version><version><id>58872630</id><timestamp>202003300300</timestamp><date>2020-03-30</date><time>03:00</time><title>2019冠狀病毒病疫情時間軸</title><comment/></version><version><id>58872626</id><timestamp>202003300300</timestamp><date>2020-03-30</date><time>03:00</time><title>2019冠狀病毒病疫情相關爭議</title><comment/></version><version><id>58872413</id><timestamp>202003300245</timestamp><date>2020-03-30</date><time>02:45</time><title>2019冠狀病毒病輿論戰爭議</title><comment/></version><version><id>58793632</id><timestamp>00</timestamp><date>-0-0</date><time>:</time><title>2021年夏季帕拉林匹克運動會</title><comment/></version><version><id>58793630</id><timestamp>00</timestamp><date>-0-0</date><time>:</time><title>2021年夏季殘疾人奧林匹克運動會</title><comment/></version><version><id>58720838</id><timestamp>00</timestamp><date>-0-0</date><time>:</time><title>武漢肺炎時間軸</title><comment/></version><version><id>58719788</id><timestamp>202003200900</timestamp><date>2020-03-20</date><time>09:00</time><title>2019冠狀病毒病朝鮮疫情</title><comment/></version><version><id>58719319</id><timestamp>202003200830</timestamp><date>2020-03-20</date><time>08:30</time><title>1988年夏季奥林匹克运动会</title><comment/></version><version><id>58719314</id><timestamp>202003200830</timestamp><date>2020-03-20</date><time>08:30</time><title>1960年亞足聯亞洲盃</title><comment/></version><version><id>58719087</id><timestamp>202003200815</timestamp><date>2020-03-20</date><time>08:15</time><title>1988年奥运会</title><comment/></version><version><id>58719082</id><timestamp>202003200815</timestamp><date>2020-03-20</date><time>08:15</time><title>朝鲜停战协定</title><comment/></version><version><id>58718874</id><timestamp>202003200800</timestamp><date>2020-03-20</date><time>08:00</time><title>朝鲜停战协定</title><comment/></version><version><id>58717952</id><timestamp>202003200700</timestamp><date>2020-03-20</date><time>07:00</time><title>江青</title><comment/></version><version><id>58717949</id><timestamp>202003200700</timestamp><date>2020-03-20</date><time>07:00</time><title>韩芝俊</title><comment/></version><version><id>58717946</id><timestamp>202003200700</timestamp><date>2020-03-20</date><time>07:00</time><title>卓琳</title><comment/></version><version><id>58717943</id><timestamp>202003200700</timestamp><date>2020-03-20</date><time>07:00</time><title>王冶坪</title><comment/></version><version><id>58717942</id><timestamp>202003200700</timestamp><date>2020-03-20</date><time>07:00</time><title>刘永清</title><comment/></version><version><id>58717707</id><timestamp>202003200645</timestamp><date>2020-03-20</date><time>06:45</time><title>Template:国家机关</title><comment/></version><version><id>58716235</id><timestamp>202003200445</timestamp><date>2020-03-20</date><time>04:45</time><title>二月政爭</title><comment/></version><version><id>58716027</id><timestamp>202003200430</timestamp><date>2020-03-20</date><time>04:30</time><title>钉钉</title><comment/></version><version><id>58714755</id><timestamp>202003200300</timestamp><date>2020-03-20</date><time>03:00</time><title>朝鮮半島統一問題</title><comment/></version><version><id>58714750</id><timestamp>202003200300</timestamp><date>2020-03-20</date><time>03:00</time><title>韩语字母</title><comment/></version><version><id>58714748</id><timestamp>202003200300</timestamp><date>2020-03-20</date><time>03:00</time><title>反韓</title><comment/></version><version><id>58714474</id><timestamp>202003200245</timestamp><date>2020-03-20</date><time>02:45</time><title>朝鮮國家足球隊</title><comment/></version><version><id>58688498</id><timestamp>00</timestamp><date>-0-0</date><time>:</time><title>武漢肺炎馬來西亞封城</title><comment/></version><version><id>58688497</id><timestamp>00</timestamp><date>-0-0</date><time>:</time><title>武漢肺炎馬來西亞鎖國</title><comment/></version><version><id>58687654</id><timestamp>202003180900</timestamp><date>2020-03-18</date><time>09:00</time><title>俄罗斯联邦武装力量</title><comment/></version><version><id>58687452</id><timestamp>202003180845</timestamp><date>2020-03-18</date><time>08:45</time><title>中国人民解放军</title><comment/></version><version><id>58687234</id><timestamp>202003180830</timestamp><date>2020-03-18</date><time>08:30</time><title>大韓民國國軍</title><comment/></version><version><id>58686242</id><timestamp>202003180730</timestamp><date>2020-03-18</date><time>07:30</time><title>熔断机制</title><comment/></version><version><id>58685843</id><timestamp>202003180700</timestamp><date>2020-03-18</date><time>07:00</time><title>Template:Galaxy Note</title><comment/></version><version><id>58670913</id><timestamp>202003170858</timestamp><date>2020-03-17</date><time>08:58</time><title>浪漫主义</title><comment/></version><version><id>58564295</id><timestamp>202003110718</timestamp><date>2020-03-11</date><time>07:18</time><title>香港鄉村列表</title><comment/></version><version><id>58564287</id><timestamp>202003110717</timestamp><date>2020-03-11</date><time>07:17</time><title>香港鄉村列表</title><comment/></version><version><id>58533700</id><timestamp>202003090657</timestamp><date>2020-03-09</date><time>06:57</time><title>陳弼臣</title><comment/></version><version><id>58487045</id><timestamp>202003060945</timestamp><date>2020-03-06</date><time>09:45</time><title>黨國體制</title><comment/></version><version><id>58484891</id><timestamp>202003060730</timestamp><date>2020-03-06</date><time>07:30</time><title>党指挥枪</title><comment/></version><version><id>58484886</id><timestamp>202003060730</timestamp><date>2020-03-06</date><time>07:30</time><title>2019冠狀病毒病國際郵輪疫情</title><comment/></version><version><id>58484664</id><timestamp>202003060715</timestamp><date>2020-03-06</date><time>07:15</time><title>2019冠狀病毒病日本疫情</title><comment/></version><version><id>58484660</id><timestamp>202003060715</timestamp><date>2020-03-06</date><time>07:15</time><title>2019冠狀病毒病日本反應與影響</title><comment/></version><version><id>58484439</id><timestamp>202003060700</timestamp><date>2020-03-06</date><time>07:00</time><title>新天地耶穌教證據帳幕聖殿教會</title><comment/></version><version><id>58484437</id><timestamp>202003060700</timestamp><date>2020-03-06</date><time>07:00</time><title>李万熙</title><comment/></version><version><id>58484239</id><timestamp>202003060645</timestamp><date>2020-03-06</date><time>06:45</time><title>韩朝关系</title><comment/></version><version><id>58484017</id><timestamp>202003060630</timestamp><date>2020-03-06</date><time>06:30</time><title>總司令</title><comment/></version><version><id>58484014</id><timestamp>202003060630</timestamp><date>2020-03-06</date><time>06:30</time><title>統帥權</title><comment/></version><version><id>58483797</id><timestamp>202003060615</timestamp><date>2020-03-06</date><time>06:15</time><title>2019年世界军人运动会</title><comment/></version><version><id>58441990</id><timestamp>202003030945</timestamp><date>2020-03-03</date><time>09:45</time><title>马哈迪·莫哈末</title><comment/></version><version><id>58439876</id><timestamp>202003030730</timestamp><date>2020-03-03</date><time>07:30</time><title>2019冠狀病毒病日本疫情</title><comment/></version><version><id>58439868</id><timestamp>202003030730</timestamp><date>2020-03-03</date><time>07:30</time><title>2019冠狀病毒病韓國疫情</title><comment/></version><version><id>58439867</id><timestamp>202003030730</timestamp><date>2020-03-03</date><time>07:30</time><title>2019冠状病毒病伊朗疫情</title><comment/></version><version><id>58438891</id><timestamp>202003030635</timestamp><date>2020-03-03</date><time>06:35</time><title>2019冠状病毒病中国大陆疫情相关争议</title><comment/></version><version><id>58438822</id><timestamp>202003030630</timestamp><date>2020-03-03</date><time>06:30</time><title>2020年马来西亚政治危机</title><comment/></version><version><id>57718659</id><timestamp>202001160950</timestamp><date>2020-01-16</date><time>09:50</time><title>匈牙利1956年革命</title><comment/></version><version><id>57717864</id><timestamp>202001160900</timestamp><date>2020-01-16</date><time>09:00</time><title>匈牙利1956年革命</title><comment/></version><version><id>57717581</id><timestamp>202001160845</timestamp><date>2020-01-16</date><time>08:45</time><title>卡瑟姆若马尔特·托卡耶夫</title><comment/></version><version><id>57717294</id><timestamp>202001160830</timestamp><date>2020-01-16</date><time>08:30</time><title>努尔苏丹·纳扎尔巴耶夫</title><comment/></version><version><id>57717290</id><timestamp>202001160830</timestamp><date>2020-01-16</date><time>08:30</time><title>Template:哈萨克斯坦政治</title><comment/></version><version><id>57715976</id><timestamp>202001160700</timestamp><date>2020-01-16</date><time>07:00</time><title>努尔苏丹·纳扎尔巴耶夫</title><comment/></version><version><id>57715975</id><timestamp>202001160700</timestamp><date>2020-01-16</date><time>07:00</time><title>哈萨克斯坦</title><comment/></version><version><id>57715973</id><timestamp>202001160700</timestamp><date>2020-01-16</date><time>07:00</time><title>Template:哈薩克共和國首長</title><comment/></version><version><id>57714120</id><timestamp>202001160415</timestamp><date>2020-01-16</date><time>04:15</time><title>1928年冬季奥林匹克运动会</title><comment/></version><version><id>57714118</id><timestamp>202001160415</timestamp><date>2020-01-16</date><time>04:15</time><title>1948年冬季奥林匹克运动会</title><comment/></version><version><id>57714116</id><timestamp>202001160415</timestamp><date>2020-01-16</date><time>04:15</time><title>2018年冬季奧林匹克運動會開幕式</title><comment/></version><version><id>57714020</id><timestamp>202001160404</timestamp><date>2020-01-16</date><time>04:04</time><title>2008年夏季奧林匹克運動會開幕式</title><comment/></version><version><id>57713965</id><timestamp>202001160400</timestamp><date>2020-01-16</date><time>04:00</time><title>2020年冬季青年奧林匹克運動會</title><comment/></version><version><id>57713963</id><timestamp>202001160400</timestamp><date>2020-01-16</date><time>04:00</time><title>冬季青年奧林匹克運動會</title><comment/></version><version><id>57713627</id><timestamp>202001160330</timestamp><date>2020-01-16</date><time>03:30</time><title>陳超明</title><comment/></version><version><id>57713195</id><timestamp>202001160300</timestamp><date>2020-01-16</date><time>03:00</time><title>俄羅斯聯邦政府</title><comment/></version><version><id>57713026</id><timestamp>202001160245</timestamp><date>2020-01-16</date><time>02:45</time><title>弗拉基米尔·普京</title><comment/></version><version><id>57712760</id><timestamp>202001160222</timestamp><date>2020-01-16</date><time>02:22</time><title>弗拉基米尔·普京</title><comment/></version><version><id>57703333</id><timestamp>202001150815</timestamp><date>2020-01-15</date><time>08:15</time><title>不忘初心、牢记使命</title><comment/></version><version><id>57703331</id><timestamp>202001150815</timestamp><date>2020-01-15</date><time>08:15</time><title>中國人民解放軍對六四清場的抵制</title><comment/></version><version><id>57703146</id><timestamp>202001150800</timestamp><date>2020-01-15</date><time>08:00</time><title>反對逃犯條例修訂草案運動過程 (2020年1月)</title><comment/></version><version><id>57702965</id><timestamp>202001150745</timestamp><date>2020-01-15</date><time>07:45</time><title>纳吉·伊姆雷</title><comment/></version><version><id>57702803</id><timestamp>202001150730</timestamp><date>2020-01-15</date><time>07:30</time><title>匈牙利1956年革命</title><comment/></version></versions>
+（最近 | 最旧） 查看（前100个 | 后100个）（20 | 50 | 100 | 250 | 500）
+
+这是一个匿名用户的贡献页面，通过IP地址来识别用户。某些人的IP地址会经常改变，而且可能会多个用户共享一个IP地址。下面的工具可以帮助你了解更多关于这个IP地址的信息。[ 
+
+WHOIS · 
+Google · 
+rDNS · 
+地理位置（备用） · 
+全域贡献与封禁记录 · 
+全局封禁 · 
+代理检查
+
+ ] · [
+RIRs：
+
+美洲 · 
+欧洲 · 
+非洲 · 
+亚太地区 · 
+拉丁美洲
+
+ ]
+
+
+
+		取自“https://zh.wikipedia.org/wiki/Special:用户贡献”
+		
+		
+		
+	
+
+
+	
+
+
+
+	导航菜单
+	
+		
+
+	个人工具
+	
+		没有登录讨论贡献创建账户登录
+	
+
+
+		
+			
+	名字空间
+	
+		特殊页面
+	
+
+
+			
+	
+	
+		变种
+	
+	
+		
+	
+
+
+		
+		
+			
+	视图
+	
+		
+	
+
+
+			
+	
+	
+		更多
+	
+	
+		
+	
+
+
+			
+	
+		搜索
+	
+	
+		
+			
+			
+			
+			
+		
+	
+
+
+		
+	
+	
+
+	
+		
+	
+	
+	
+		导航
+	
+	
+		首页分类索引特色内容新闻动态最近更改随机条目资助维基百科
+		
+	
+
+
+
+	
+	
+		帮助
+	
+	
+		帮助维基社群方针与指引互助客栈知识问答字词转换IRC即时聊天联络我们关于维基百科
+		
+	
+
+
+
+	
+		工具
+	
+	
+		Atom用户贡献日志上传文件特殊页面打印页面
+		
+	
+
+
+
+	
+		其他语言
+	
+	
+		
+		
+	
+
+
+
+
+
+
+
+
+	
+		隐私政策
+		关于维基百科
+		免责声明
+		开发者
+		统计
+		Cookie声明
+		手机版视图
+	
+	
+		
+		
+	
+	
+
+
+
+(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":651,"wgHostname":"mw1329"});});</user>

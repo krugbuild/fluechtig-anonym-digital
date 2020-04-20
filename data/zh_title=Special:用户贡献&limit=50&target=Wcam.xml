@@ -3,12 +3,12 @@
 
 
 Wcam的用户贡献 - 维基百科，自由的百科全书
-document.documentElement.className="client-js";RLCONF={"wgBreakFrames":!1,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"zh","wgMonthNames":["","1月","2月","3月","4月","5月","6月","7月","8月","9月","10月","11月","12月"],"wgRequestId":"Xpf72wpAEJkAAR3K3J8AAACY","wgCSPNonce":!1,"wgCanonicalNamespace":"Special","wgCanonicalSpecialPageName":"Contributions","wgNamespaceNumber":-1,"wgPageName":"Special:用户贡献","wgTitle":"用户贡献","wgCurRevisionId":0,"wgRevisionId":0,"wgArticleId":0,"wgIsArticle":!1,"wgIsRedirect":!1,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgPageContentLanguage":"zh","wgPageContentModel":"wikitext","wgRelevantPageName":"Special:用户贡献","wgRelevantArticleId":0,"wgUserVariant":"zh","wgIsProbablyEditable":!1,"wgRelevantPageIsProbablyEditable":!1,"wgRelevantUserName":"Wcam","wgMediaViewerOnClick":!0,"wgMediaViewerEnabledByDefault":!0,
-"wgPopupsReferencePreviews":!1,"wgPopupsConflictsWithNavPopupGadget":!1,"wgVisualEditor":{"pageLanguageCode":"zh","pageLanguageDir":"ltr","pageVariantFallbacks":["zh-hans","zh-hant","zh-cn","zh-tw","zh-hk","zh-sg","zh-mo","zh-my"]},"wgMFDisplayWikibaseDescriptions":{"search":!0,"nearby":!0,"watchlist":!0,"tagline":!0},"wgWMESchemaEditAttemptStepOversample":!1,"wgULSCurrentAutonym":"中文","wgNoticeProject":"wikipedia","wgCentralAuthMobileDomain":!1,"wgEditSubmitButtonLabelPublish":!0,"oresData":{"59188500":{"damaging":0.01},"59188431":{"damaging":0.01},"59188229":{"damaging":0.009},"59188228":{"damaging":0.008},"59188227":{"damaging":0.006},"59184083":{"damaging":0.013},"59184076":{"damaging":0.011},"59182133":{"damaging":0.008},"59182132":{"damaging":0.006},"59182131":{"damaging":0.008},"59182110":{"damaging":0.008},"59182109":{"damaging":0.008},"59182108":{"damaging":0.008},"59182098":{"damaging":0.051},"59181371":{"damaging":0.015},"59181367":{"damaging":0.013
-},"59181362":{"damaging":0.006},"59181361":{"damaging":0.012},"59181360":{"damaging":0.007},"59179088":{"damaging":0.021},"59178398":{"damaging":0.027},"59178278":{"damaging":0.013},"59167041":{"damaging":0.042},"59166739":{"damaging":0.018},"59166325":{"damaging":0.034},"59166321":{"damaging":0.021},"59166319":{"damaging":0.018},"59164142":{"damaging":0.01},"59163625":{"damaging":0.01},"59163481":{"damaging":0.011},"59162870":{"damaging":0.011},"59162806":{"damaging":0.037},"59162805":{"damaging":0.032},"59162709":{"damaging":0.008},"59162691":{"damaging":0.01},"59162544":{"damaging":0.022},"59162457":{"damaging":0.03},"59162447":{"damaging":0.009},"59162438":{"damaging":0.049},"59162429":{"damaging":0.025},"59162419":{"damaging":0.035},"59162418":{"damaging":0.027},"59162414":{"damaging":0.024},"59162413":{"damaging":0.024},"59162148":{"damaging":0.013},"59162141":{"damaging":0.006},"59162140":{"damaging":0.009},"59156796":{"damaging":0.009},"59156793":{"damaging":0.008},"59156794":{
-"damaging":0.006}},"oresThresholds":{"damaging":{"maybebad":0.037,"likelybad":0.423}}};RLSTATE={"ext.gadget.hideConversionTab":"ready","ext.gadget.large-font":"ready","ext.globalCssJs.user.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","jquery.makeCollapsible.styles":"ready","mediawiki.interface.helpers.styles":"ready","mediawiki.special":"ready","mediawiki.special.changeslist":"ready","mediawiki.helplink":"ready","mediawiki.widgets.DateInputWidget.styles":"ready","oojs-ui-core.styles":"ready","oojs-ui.styles.indicators":"ready","mediawiki.widgets.styles":"ready","oojs-ui-core.icons":"ready","mediawiki.htmlform.ooui.styles":"ready","mediawiki.htmlform.styles":"ready","mediawiki.feedlink":"ready","skins.vector.styles.legacy":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","ext.ores.styles":"ready"};
-RLPAGEMODULES=["mediawiki.special.recentchanges","mediawiki.page.ready","mediawiki.special.contributions","mediawiki.htmlform","mediawiki.htmlform.ooui","mediawiki.widgets.UserInputWidget","mediawiki.widgets","oojs-ui-widgets","mediawiki.widgets.DateInputWidget","site","mediawiki.page.startup","skins.vector.js","jquery.makeCollapsible","ext.gadget.edit0","ext.gadget.Edittools-refToolbar","ext.gadget.WikiMiniAtlas","ext.gadget.ReferenceTooltips","ext.gadget.UnihanTooltips","ext.gadget.variant-link-fix","ext.gadget.FixedTopBottomLink","ext.gadget.confirm-logout","ext.gadget.shortURL","ext.gadget.AdvancedSiteNotices","ext.gadget.internalLinkHelper-altcolor","ext.gadget.noteTA","ext.gadget.noteTAvector","ext.gadget.NavFrame","ext.gadget.collapsibleTables","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming",
-"ext.uls.compactlinks","ext.uls.interface","ext.cx.eventlogging.campaigns","ext.centralNotice.geoIP"];
+document.documentElement.className="client-js";RLCONF={"wgBreakFrames":!1,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"zh","wgMonthNames":["","1月","2月","3月","4月","5月","6月","7月","8月","9月","10月","11月","12月"],"wgRequestId":"XpwEFQpAMNYAAVunxNQAAADB","wgCSPNonce":!1,"wgCanonicalNamespace":"Special","wgCanonicalSpecialPageName":"Contributions","wgNamespaceNumber":-1,"wgPageName":"Special:用户贡献","wgTitle":"用户贡献","wgCurRevisionId":0,"wgRevisionId":0,"wgArticleId":0,"wgIsArticle":!1,"wgIsRedirect":!1,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgPageContentLanguage":"zh","wgPageContentModel":"wikitext","wgRelevantPageName":"Special:用户贡献","wgRelevantArticleId":0,"wgUserVariant":"zh","wgIsProbablyEditable":!1,"wgRelevantPageIsProbablyEditable":!1,"wgRelevantUserName":"Wcam","wgMediaViewerOnClick":!0,"wgMediaViewerEnabledByDefault":!0,
+"wgPopupsReferencePreviews":!1,"wgPopupsConflictsWithNavPopupGadget":!1,"wgVisualEditor":{"pageLanguageCode":"zh","pageLanguageDir":"ltr","pageVariantFallbacks":["zh-hans","zh-hant","zh-cn","zh-tw","zh-hk","zh-sg","zh-mo","zh-my"]},"wgMFDisplayWikibaseDescriptions":{"search":!0,"nearby":!0,"watchlist":!0,"tagline":!0},"wgWMESchemaEditAttemptStepOversample":!1,"wgULSCurrentAutonym":"中文","wgNoticeProject":"wikipedia","wgCentralAuthMobileDomain":!1,"wgEditSubmitButtonLabelPublish":!0,"oresData":{"59238438":{"damaging":0.051},"59234855":{"damaging":0.007},"59234624":{"damaging":0.041},"59234544":{"damaging":0.026},"59234521":{"damaging":0.028},"59234442":{"damaging":0.049},"59234437":{"damaging":0.047},"59234403":{"damaging":0.015},"59223019":{"damaging":0.025},"59222946":{"damaging":0.121},"59219638":{"damaging":0.026},"59219493":{"damaging":0.027},"59217311":{"damaging":0.007},"59216794":{"damaging":0.008},"59216793":{"damaging":0.008},"59215345":{"damaging":
+0.006},"59215344":{"damaging":0.009},"59215343":{"damaging":0.007},"59212811":{"damaging":0.01},"59212793":{"damaging":0.04},"59212593":{"damaging":0.009},"59212591":{"damaging":0.009},"59201370":{"damaging":0.028},"59198319":{"damaging":0.016},"59198316":{"damaging":0.015},"59196679":{"damaging":0.014},"59196667":{"damaging":0.008},"59196663":{"damaging":0.006},"59195257":{"damaging":0.011},"59195142":{"damaging":0.014},"59195134":{"damaging":0.034},"59195106":{"damaging":0.007},"59195075":{"damaging":0.012},"59195006":{"damaging":0.016},"59188500":{"damaging":0.01},"59188431":{"damaging":0.01},"59188229":{"damaging":0.009},"59188228":{"damaging":0.008},"59188227":{"damaging":0.006},"59184083":{"damaging":0.013},"59184076":{"damaging":0.011},"59182133":{"damaging":0.008},"59182131":{"damaging":0.008},"59182110":{"damaging":0.008},"59182109":{"damaging":0.008}},"oresThresholds":{"damaging":{"maybebad":0.037,"likelybad":0.423}}};RLSTATE={"ext.gadget.hideConversionTab":"ready",
+"ext.gadget.large-font":"ready","ext.globalCssJs.user.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","jquery.makeCollapsible.styles":"ready","mediawiki.interface.helpers.styles":"ready","mediawiki.special":"ready","mediawiki.special.changeslist":"ready","mediawiki.helplink":"ready","mediawiki.widgets.DateInputWidget.styles":"ready","oojs-ui-core.styles":"ready","oojs-ui.styles.indicators":"ready","mediawiki.widgets.styles":"ready","oojs-ui-core.icons":"ready","mediawiki.htmlform.ooui.styles":"ready","mediawiki.htmlform.styles":"ready","ext.flow.contributions.styles":"ready","mediawiki.feedlink":"ready","skins.vector.styles.legacy":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","ext.ores.styles":"ready"};RLPAGEMODULES=["mediawiki.special.recentchanges","mediawiki.page.ready",
+"mediawiki.special.contributions","mediawiki.htmlform","mediawiki.htmlform.ooui","mediawiki.widgets.UserInputWidget","mediawiki.widgets","oojs-ui-widgets","mediawiki.widgets.DateInputWidget","ext.flow.contributions","site","mediawiki.page.startup","skins.vector.js","jquery.makeCollapsible","ext.gadget.edit0","ext.gadget.Edittools-refToolbar","ext.gadget.WikiMiniAtlas","ext.gadget.ReferenceTooltips","ext.gadget.UnihanTooltips","ext.gadget.variant-link-fix","ext.gadget.FixedTopBottomLink","ext.gadget.confirm-logout","ext.gadget.shortURL","ext.gadget.AdvancedSiteNotices","ext.gadget.internalLinkHelper-altcolor","ext.gadget.noteTA","ext.gadget.noteTAvector","ext.gadget.NavFrame","ext.gadget.collapsibleTables","ext.gadget.notifyConversion","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.uls.compactlinks",
+"ext.uls.interface","ext.cx.eventlogging.campaigns","ext.centralNotice.geoIP"];
 (RLQ=window.RLQ||[]).push(function(){mw.loader.implement("user.options@1hzgi",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
 });});
 
@@ -47,7 +47,7 @@ RLPAGEMODULES=["mediawiki.special.recentchanges","mediawiki.page.ready","mediawi
 
 
 	
-	
+		
 	
 帮助
 
@@ -67,7 +67,7 @@ RLPAGEMODULES=["mediawiki.special.recentchanges","mediawiki.page.ready","mediawi
 
 
 搜索
-（最近 | 最旧） 查看（前50个 | 后50个）（20 | 50 | 100 | 250 | 500）<versions><version><id>59188500</id><timestamp>202004160405</timestamp><date>2020-04-16</date><time>04:05</time><title>User talk:WonderBoy0609</title><comment/></version><version><id>59188431</id><timestamp>202004160403</timestamp><date>2020-04-16</date><time>04:03</time><title>User talk:WonderBoy0609</title><comment/></version><version><id>59188229</id><timestamp>202004160353</timestamp><date>2020-04-16</date><time>03:53</time><title>Wikipedia:檔案存廢討論/快速刪除提報</title><comment/></version><version><id>59188228</id><timestamp>202004160353</timestamp><date>2020-04-16</date><time>03:53</time><title>User talk:Moshirk</title><comment/></version><version><id>59188227</id><timestamp>202004160353</timestamp><date>2020-04-16</date><time>03:53</time><title>File:2b9d1a40-7f0d-11ea-9fff-b3d2f8b0490c.jpg</title><comment/></version><version><id>59184083</id><timestamp>202004152009</timestamp><date>2020-04-15</date><time>20:09</time><title>Wikipedia:檔案存廢討論/快速刪除提報</title><comment/></version><version><id>59184076</id><timestamp>202004152007</timestamp><date>2020-04-15</date><time>20:07</time><title>Template:No fair use rationale</title><comment/></version><version><id>59182133</id><timestamp>202004151554</timestamp><date>2020-04-15</date><time>15:54</time><title>Wikipedia:檔案存廢討論/快速刪除提報</title><comment/></version><version><id>59182132</id><timestamp>202004151554</timestamp><date>2020-04-15</date><time>15:54</time><title>File:我们高擎人文之光.png</title><comment/></version><version><id>59182131</id><timestamp>202004151554</timestamp><date>2020-04-15</date><time>15:54</time><title>User talk:WonderBoy0609</title><comment/></version><version><id>59182110</id><timestamp>202004151553</timestamp><date>2020-04-15</date><time>15:53</time><title>Wikipedia:檔案存廢討論/記錄/2020/04/15</title><comment/></version><version><id>59182109</id><timestamp>202004151553</timestamp><date>2020-04-15</date><time>15:53</time><title>User talk:WonderBoy0609</title><comment/></version><version><id>59182108</id><timestamp>202004151553</timestamp><date>2020-04-15</date><time>15:53</time><title>File:中国社会科学院大学校徽.png</title><comment/></version><version><id>59182098</id><timestamp>202004151552</timestamp><date>2020-04-15</date><time>15:52</time><title>中国社会科学院大学</title><comment/></version><version><id>59181371</id><timestamp>202004151454</timestamp><date>2020-04-15</date><time>14:54</time><title>File:陳昇瑋執行長.jpg</title><comment/></version><version><id>59181367</id><timestamp>202004151454</timestamp><date>2020-04-15</date><time>14:54</time><title>Wikipedia:檔案存廢討論/記錄/2020/04/15</title><comment/></version><version><id>59181362</id><timestamp>202004151453</timestamp><date>2020-04-15</date><time>14:53</time><title>Wikipedia:檔案存廢討論/記錄/2020/04/15</title><comment/></version><version><id>59181361</id><timestamp>202004151453</timestamp><date>2020-04-15</date><time>14:53</time><title>User talk:佾珜</title><comment/></version><version><id>59181360</id><timestamp>202004151453</timestamp><date>2020-04-15</date><time>14:53</time><title>File:陳昇瑋執行長.jpg</title><comment/></version><version><id>59179088</id><timestamp>202004151203</timestamp><date>2020-04-15</date><time>12:03</time><title>易烊千玺</title><comment/></version><version><id>59178398</id><timestamp>202004151108</timestamp><date>2020-04-15</date><time>11:08</time><title>Wikipedia:合理使用</title><comment/></version><version><id>59178278</id><timestamp>202004151101</timestamp><date>2020-04-15</date><time>11:01</time><title>File:Icon of macOS Mojave 10.14.png</title><comment/></version><version><id>59167041</id><timestamp>202004141846</timestamp><date>2020-04-14</date><time>18:46</time><title>紫峰大厦</title><comment/></version><version><id>59166739</id><timestamp>202004141753</timestamp><date>2020-04-14</date><time>17:53</time><title>洱海</title><comment/></version><version><id>59166325</id><timestamp>202004141703</timestamp><date>2020-04-14</date><time>17:03</time><title>三多路 (樹林區)</title><comment/></version><version><id>59166321</id><timestamp>202004141702</timestamp><date>2020-04-14</date><time>17:02</time><title>普渡大學</title><comment/></version><version><id>59166319</id><timestamp>202004141702</timestamp><date>2020-04-14</date><time>17:02</time><title>普渡大學系統</title><comment/></version><version><id>59164142</id><timestamp>202004141413</timestamp><date>2020-04-14</date><time>14:13</time><title>User talk:Jujiang</title><comment/></version><version><id>59163625</id><timestamp>202004141341</timestamp><date>2020-04-14</date><time>13:41</time><title>User talk:Jujiang</title><comment/></version><version><id>59163481</id><timestamp>202004141333</timestamp><date>2020-04-14</date><time>13:33</time><title>User talk:Jujiang</title><comment/></version><version><id>59162870</id><timestamp>202004141258</timestamp><date>2020-04-14</date><time>12:58</time><title>User:Wcam/ImageInfo</title><comment/></version><version><id>59162806</id><timestamp>202004141254</timestamp><date>2020-04-14</date><time>12:54</time><title>G55/56次列车</title><comment/></version><version><id>59162805</id><timestamp>202004141254</timestamp><date>2020-04-14</date><time>12:54</time><title>D3117/3118次列车</title><comment/></version><version><id>59162709</id><timestamp>202004141249</timestamp><date>2020-04-14</date><time>12:49</time><title>Wikipedia:檔案存廢討論/記錄/2020/04/14</title><comment/></version><version><id>59162691</id><timestamp>202004141248</timestamp><date>2020-04-14</date><time>12:48</time><title>User talk:Olithehandsome</title><comment/></version><version><id>59162544</id><timestamp>202004141238</timestamp><date>2020-04-14</date><time>12:38</time><title>美元硬币</title><comment/></version><version><id>59162457</id><timestamp>202004141233</timestamp><date>2020-04-14</date><time>12:33</time><title>六四事件</title><comment/></version><version><id>59162447</id><timestamp>202004141233</timestamp><date>2020-04-14</date><time>12:33</time><title>File:Tank Man Long Shot by Stuart Franklin.jpg</title><comment/></version><version><id>59162438</id><timestamp>202004141232</timestamp><date>2020-04-14</date><time>12:32</time><title>1989年</title><comment/></version><version><id>59162429</id><timestamp>202004141231</timestamp><date>2020-04-14</date><time>12:31</time><title>蕭隆澤</title><comment/></version><version><id>59162419</id><timestamp>202004141230</timestamp><date>2020-04-14</date><time>12:30</time><title>廖了以</title><comment/></version><version><id>59162418</id><timestamp>202004141230</timestamp><date>2020-04-14</date><time>12:30</time><title>張溢城</title><comment/></version><version><id>59162414</id><timestamp>202004141230</timestamp><date>2020-04-14</date><time>12:30</time><title>主权国家</title><comment/></version><version><id>59162413</id><timestamp>202004141230</timestamp><date>2020-04-14</date><time>12:30</time><title>非洲联盟</title><comment/></version><version><id>59162148</id><timestamp>202004141210</timestamp><date>2020-04-14</date><time>12:10</time><title>Wikipedia:檔案存廢討論/記錄/2020/04/14</title><comment/></version><version><id>59162141</id><timestamp>202004141209</timestamp><date>2020-04-14</date><time>12:09</time><title>Wikipedia:檔案存廢討論/記錄/2020/04/14</title><comment/></version><version><id>59162140</id><timestamp>202004141209</timestamp><date>2020-04-14</date><time>12:09</time><title>User talk:Olithehandsome</title><comment/></version><version><id>59156796</id><timestamp>202004140609</timestamp><date>2020-04-14</date><time>06:09</time><title>Wikipedia:檔案存廢討論/快速刪除提報</title><comment/></version><version><id>59156793</id><timestamp>202004140609</timestamp><date>2020-04-14</date><time>06:09</time><title>User talk:Ape0125</title><comment/></version><version><id>59156794</id><timestamp>202004140609</timestamp><date>2020-04-14</date><time>06:09</time><title>File:攝於2019年8月30日的仁川國際機場.jpg</title><comment/></version></versions>
+（最近 | 最旧） 查看（前50个 | 后50个）（20 | 50 | 100 | 250 | 500）<versions><version><id>59238438</id><timestamp>202004182042</timestamp><date>2020-04-18</date><time>20:42</time><title>司徒華</title><comment/></version><version><id>59234855</id><timestamp>202004181513</timestamp><date>2020-04-18</date><time>15:13</time><title>Wikipedia:檔案存廢討論/記錄/2020/04/17</title><comment/></version><version><id>59234624</id><timestamp>202004181452</timestamp><date>2020-04-18</date><time>14:52</time><title>張韶涵</title><comment/></version><version><id>59234564</id><timestamp>202004181449</timestamp><date>2020-04-18</date><time>14:49</time><title>File:GeelyAutoLOGO.png</title><comment/></version><version><id>59234544</id><timestamp>202004181448</timestamp><date>2020-04-18</date><time>14:48</time><title>鳳凰衛視香港台</title><comment/></version><version><id>59234521</id><timestamp>202004181446</timestamp><date>2020-04-18</date><time>14:46</time><title>鳳凰衛視資訊台</title><comment/></version><version><id>59234442</id><timestamp>202004181440</timestamp><date>2020-04-18</date><time>14:40</time><title>陈晓楠</title><comment/></version><version><id>59234437</id><timestamp>202004181439</timestamp><date>2020-04-18</date><time>14:39</time><title>陈晓楠</title><comment/></version><version><id>59234403</id><timestamp>202004181437</timestamp><date>2020-04-18</date><time>14:37</time><title>凤凰卫视</title><comment/></version><version><id>59223019</id><timestamp>202004180344</timestamp><date>2020-04-18</date><time>03:44</time><title>民安（控股）</title><comment/></version><version><id>59222946</id><timestamp>202004180341</timestamp><date>2020-04-18</date><time>03:41</time><title>想見你 (電視劇)</title><comment/></version><version><id>59219638</id><timestamp>202004180036</timestamp><date>2020-04-18</date><time>00:36</time><title>清华大学</title><comment/></version><version><id>59219493</id><timestamp>202004180011</timestamp><date>2020-04-18</date><time>00:11</time><title>白岩松</title><comment/></version><version><id>59217311</id><timestamp>202004171640</timestamp><date>2020-04-17</date><time>16:40</time><title>Wikipedia:檔案存廢討論/記錄/2020/04/17</title><comment/></version><version><id/><timestamp>202004171601</timestamp><date>2020-04-17</date><time>16:01</time><title>历史</title><comment/></version><version><id>59216794</id><timestamp>202004171601</timestamp><date>2020-04-17</date><time>16:01</time><title>Wikipedia:檔案存廢討論/記錄/2020/04/17</title><comment/></version><version><id>59216793</id><timestamp>202004171601</timestamp><date>2020-04-17</date><time>16:01</time><title>File:SuperM 1st Mini-Album.jpg</title><comment/></version><version><id>59215345</id><timestamp>202004171423</timestamp><date>2020-04-17</date><time>14:23</time><title>Wikipedia:檔案存廢討論/記錄/2020/04/17</title><comment/></version><version><id>59215344</id><timestamp>202004171423</timestamp><date>2020-04-17</date><time>14:23</time><title>User talk:WeHKer</title><comment/></version><version><id>59215343</id><timestamp>202004171423</timestamp><date>2020-04-17</date><time>14:23</time><title>File:Elaine Shiu news report.jpg</title><comment/></version><version><id>59212811</id><timestamp>202004171153</timestamp><date>2020-04-17</date><time>11:53</time><title>User talk:Pinkywu0119</title><comment/></version><version><id>59212793</id><timestamp>202004171152</timestamp><date>2020-04-17</date><time>11:52</time><title>張韶涵</title><comment/></version><version><id>59212593</id><timestamp>202004171137</timestamp><date>2020-04-17</date><time>11:37</time><title>Wikipedia:檔案存廢討論/快速刪除提報</title><comment/></version><version><id>59212591</id><timestamp>202004171137</timestamp><date>2020-04-17</date><time>11:37</time><title>User talk:Pinkywu0119</title><comment/></version><version><id>59201370</id><timestamp>202004162332</timestamp><date>2020-04-16</date><time>23:32</time><title>姚贝娜</title><comment/></version><version><id/><timestamp>202004162127</timestamp><date>2020-04-16</date><time>21:27</time><title>历史</title><comment/></version><version><id/><timestamp>202004162120</timestamp><date>2020-04-16</date><time>21:20</time><title>历史</title><comment/></version><version><id>59198319</id><timestamp>202004161503</timestamp><date>2020-04-16</date><time>15:03</time><title>File:EPRDFsymbol.PNG</title><comment/></version><version><id>59198316</id><timestamp>202004161502</timestamp><date>2020-04-16</date><time>15:02</time><title>File:EPRDFsymbol.PNG</title><comment/></version><version><id>59196679</id><timestamp>202004161306</timestamp><date>2020-04-16</date><time>13:06</time><title>File:EPRDFsymbol.PNG</title><comment/></version><version><id/><timestamp>202004161306</timestamp><date>2020-04-16</date><time>13:06</time><title>历史</title><comment/></version><version><id>59196667</id><timestamp>202004161306</timestamp><date>2020-04-16</date><time>13:06</time><title>Wikipedia:檔案存廢討論/快速刪除提報</title><comment/></version><version><id>59196663</id><timestamp>202004161306</timestamp><date>2020-04-16</date><time>13:06</time><title>File:EPRDFsymbol.PNG</title><comment/></version><version><id>59195257</id><timestamp>202004161140</timestamp><date>2020-04-16</date><time>11:40</time><title>模块讨论:Portal/images/chinese</title><comment/></version><version><id>59195142</id><timestamp>202004161135</timestamp><date>2020-04-16</date><time>11:35</time><title>File:ChinaRailwayHighspeed.svg</title><comment/></version><version><id>59195134</id><timestamp>202004161134</timestamp><date>2020-04-16</date><time>11:34</time><title>泰兴市</title><comment/></version><version><id>59195106</id><timestamp>202004161132</timestamp><date>2020-04-16</date><time>11:32</time><title>模块讨论:Portal/images/chinese</title><comment/></version><version><id>59195075</id><timestamp>202004161131</timestamp><date>2020-04-16</date><time>11:31</time><title>模块:Portal/images/chinese</title><comment/></version><version><id>59195006</id><timestamp>202004161127</timestamp><date>2020-04-16</date><time>11:27</time><title>Wikipedia:合理使用/草稿</title><comment/></version><version><id>59188500</id><timestamp>202004160405</timestamp><date>2020-04-16</date><time>04:05</time><title>User talk:WonderBoy0609</title><comment/></version><version><id>59188431</id><timestamp>202004160403</timestamp><date>2020-04-16</date><time>04:03</time><title>User talk:WonderBoy0609</title><comment/></version><version><id>59188229</id><timestamp>202004160353</timestamp><date>2020-04-16</date><time>03:53</time><title>Wikipedia:檔案存廢討論/快速刪除提報</title><comment/></version><version><id>59188228</id><timestamp>202004160353</timestamp><date>2020-04-16</date><time>03:53</time><title>User talk:Moshirk</title><comment/></version><version><id>59188227</id><timestamp>202004160353</timestamp><date>2020-04-16</date><time>03:53</time><title>File:2b9d1a40-7f0d-11ea-9fff-b3d2f8b0490c.jpg</title><comment/></version><version><id>59184083</id><timestamp>202004152009</timestamp><date>2020-04-15</date><time>20:09</time><title>Wikipedia:檔案存廢討論/快速刪除提報</title><comment/></version><version><id>59184076</id><timestamp>202004152007</timestamp><date>2020-04-15</date><time>20:07</time><title>Template:No fair use rationale</title><comment/></version><version><id>59182133</id><timestamp>202004151554</timestamp><date>2020-04-15</date><time>15:54</time><title>Wikipedia:檔案存廢討論/快速刪除提報</title><comment/></version><version><id>59182131</id><timestamp>202004151554</timestamp><date>2020-04-15</date><time>15:54</time><title>User talk:WonderBoy0609</title><comment/></version><version><id>59182110</id><timestamp>202004151553</timestamp><date>2020-04-15</date><time>15:53</time><title>Wikipedia:檔案存廢討論/記錄/2020/04/15</title><comment/></version><version><id>59182109</id><timestamp>202004151553</timestamp><date>2020-04-15</date><time>15:53</time><title>User talk:WonderBoy0609</title><comment/></version></versions>
 （最近 | 最旧） 查看（前50个 | 后50个）（20 | 50 | 100 | 250 | 500）
 Wcam： 檢視子頁面 · 用户權限 · 編輯次數 ·  贡献报告 · 上傳的檔案（共享）·  所創條目 ·  跨語言活動 ·  SUL / 帐号 
 
@@ -82,111 +82,118 @@ Wcam： 檢視子頁面 · 用户權限 · 編輯次數 ·  贡献报告 · 上�
 
 
 
-    导航菜单
-    
-        
-        
-        	个人工具
-        	
-        		
-        		没有登录
-        		讨论贡献创建账户登录
-        	
-        
-        
-            
-            	名字空间
-            	
-            		特殊页面
-            	
-            
-            
-            	
-            	
-            		变种
-            	
-            	
-            		
-            	
-            
-        
-        
-            
-            	视图
-            	
-            		
-            	
-            
-            
-            	
-            	
-            		更多
-            	
-            	
-            		
-            	
-            
-            
-            	
-            		搜索
-            	
-            	
-            		
-            			
-            			
-            			
-            			
-            		
-            	
-            
-        
-    
-    
-    
-    	
-    		
-    	
-    	
-    		
-    			导航
-    		
-    		
-    			首页分类索引特色内容新闻动态最近更改随机条目资助维基百科
-    			
-    		
-    	
-    	
-    	
-    		
-    			帮助
-    		
-    		
-    			帮助维基社群方针与指引互助客栈知识问答字词转换IRC即时聊天联络我们关于维基百科
-    			
-    		
-    	
-    	
-    	
-    		
-    			工具
-    		
-    		
-    			Atom用户贡献日志查看用户组上传文件特殊页面打印页面
-    			
-    		
-    	
-    	
-    	
-    		
-    			其他语言
-    		
-    		
-    			
-    			
-    		
-    	
-    	
-    
+	导航菜单
+	
+		
+
+	个人工具
+	
+		没有登录讨论贡献创建账户登录
+	
+
+
+		
+			
+	名字空间
+	
+		特殊页面
+	
+
+
+			
+	
+	
+		变种
+	
+	
+		
+	
+
+
+		
+		
+			
+	视图
+	
+		
+	
+
+
+			
+	
+	
+		更多
+	
+	
+		
+	
+
+
+			
+	
+		搜索
+	
+	
+		
+			
+			
+			
+			
+		
+	
+
+
+		
+	
+	
+
+	
+		
+	
+	
+	
+		导航
+	
+	
+		首页分类索引特色内容新闻动态最近更改随机条目资助维基百科
+		
+	
+
+
+
+	
+	
+		帮助
+	
+	
+		帮助维基社群方针与指引互助客栈知识问答字词转换IRC即时聊天联络我们关于维基百科
+		
+	
+
+
+
+	
+		工具
+	
+	
+		Atom用户贡献日志查看用户组上传文件特殊页面打印页面
+		
+	
+
+
+
+	
+		其他语言
+	
+	
+		
+		
+	
+
+
+
+
+
 
 
 
@@ -206,4 +213,5 @@ Wcam： 檢視子頁面 · 用户權限 · 編輯次數 ·  贡献报告 · 上�
 	
 
 
-(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":582,"wgHostname":"mw1395"});});</user>
+
+(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":685,"wgHostname":"mw1372"});});</user>

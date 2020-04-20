@@ -1,0 +1,218 @@
+<?xml version="1.0"?>
+<user><language>zh</language>
+
+
+Xiplus的用户贡献 - 维基百科，自由的百科全书
+document.documentElement.className="client-js";RLCONF={"wgBreakFrames":!1,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"zh","wgMonthNames":["","1月","2月","3月","4月","5月","6月","7月","8月","9月","10月","11月","12月"],"wgRequestId":"22cb0584-30ef-40f1-b602-f3ec7171596b","wgCSPNonce":!1,"wgCanonicalNamespace":"Special","wgCanonicalSpecialPageName":"Contributions","wgNamespaceNumber":-1,"wgPageName":"Special:用户贡献","wgTitle":"用户贡献","wgCurRevisionId":0,"wgRevisionId":0,"wgArticleId":0,"wgIsArticle":!1,"wgIsRedirect":!1,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgPageContentLanguage":"zh","wgPageContentModel":"wikitext","wgRelevantPageName":"Special:用户贡献","wgRelevantArticleId":0,"wgUserVariant":"zh","wgIsProbablyEditable":!1,"wgRelevantPageIsProbablyEditable":!1,"wgRelevantUserName":"Xiplus","wgMediaViewerOnClick":!0,"wgMediaViewerEnabledByDefault":!0,
+"wgPopupsReferencePreviews":!1,"wgPopupsConflictsWithNavPopupGadget":!1,"wgVisualEditor":{"pageLanguageCode":"zh","pageLanguageDir":"ltr","pageVariantFallbacks":["zh-hans","zh-hant","zh-cn","zh-tw","zh-hk","zh-sg","zh-mo","zh-my"]},"wgMFDisplayWikibaseDescriptions":{"search":!0,"nearby":!0,"watchlist":!0,"tagline":!0},"wgWMESchemaEditAttemptStepOversample":!1,"wgULSCurrentAutonym":"中文","wgNoticeProject":"wikipedia","wgCentralAuthMobileDomain":!1,"wgEditSubmitButtonLabelPublish":!0,"oresData":{"59235354":{"damaging":0.015},"59232635":{"damaging":0.007},"59230097":{"damaging":0.008},"59230094":{"damaging":0.011},"59228924":{"damaging":0.014},"59225443":{"damaging":0.039},"59223705":{"damaging":0.011},"59223551":{"damaging":0.006},"59223495":{"damaging":0.006},"59222229":{"damaging":0.012},"59219957":{"damaging":0.013},"59219950":{"damaging":0.022},"59219865":{"damaging":0.014},"59219858":{"damaging":0.01},"59219850":{"damaging":0.011},"59219838":{"damaging":
+0.011},"59219830":{"damaging":0.007},"59219817":{"damaging":0.007},"59219815":{"damaging":0.007},"59219792":{"damaging":0.008},"59219791":{"damaging":0.008},"59219789":{"damaging":0.008},"59219787":{"damaging":0.007},"59219786":{"damaging":0.007},"59219784":{"damaging":0.008},"59219783":{"damaging":0.008},"59219782":{"damaging":0.008},"59219781":{"damaging":0.008},"59219779":{"damaging":0.008},"59219778":{"damaging":0.008},"59219774":{"damaging":0.011},"59219765":{"damaging":0.011},"59219763":{"damaging":0.007},"59219761":{"damaging":0.007},"59219760":{"damaging":0.007},"59219759":{"damaging":0.007},"59219757":{"damaging":0.008},"59219754":{"damaging":0.007},"59219747":{"damaging":0.008},"59219745":{"damaging":0.009},"59219741":{"damaging":0.008},"59219720":{"damaging":0.017},"59219718":{"damaging":0.007},"59219685":{"damaging":0.013},"59219671":{"damaging":0.008},"59219668":{"damaging":0.01},"59209833":{"damaging":0.007},"59209402":{"damaging":0.008},"59209401":{"damaging":0.008},
+"59207469":{"damaging":0.009},"59207429":{"damaging":0.012},"59205579":{"damaging":0.022},"59205341":{"damaging":0.022},"59205327":{"damaging":0.007},"59205324":{"damaging":0.012},"59205209":{"damaging":0.013},"59201460":{"damaging":0.02},"59197999":{"damaging":0.01},"59195293":{"damaging":0.011},"59188209":{"damaging":0.007},"59188208":{"damaging":0.008},"59188181":{"damaging":0.007},"59188152":{"damaging":0.007},"59188145":{"damaging":0.018},"59188132":{"damaging":0.008},"59188123":{"damaging":0.026},"59187213":{"damaging":0.009},"59185567":{"damaging":0.015},"59185563":{"damaging":0.016},"59185546":{"damaging":0.008},"59185503":{"damaging":0.018},"59185502":{"damaging":0.006},"59185501":{"damaging":0.006},"59185489":{"damaging":0.014},"59185483":{"damaging":0.008},"59185471":{"damaging":0.012},"59185465":{"damaging":0.008},"59185464":{"damaging":0.008},"59185432":{"damaging":0.008},"59179486":{"damaging":0.019},"59179468":{"damaging":0.009},"59178954":{"damaging":0.025},"59177154":{
+"damaging":0.007},"59177138":{"damaging":0.019},"59177127":{"damaging":0.011},"59176375":{"damaging":0.014},"59176359":{"damaging":0.026},"59174264":{"damaging":0.011},"59174248":{"damaging":0.007},"59174070":{"damaging":0.01},"59174012":{"damaging":0.015}},"oresThresholds":{"damaging":{"maybebad":0.037,"likelybad":0.423}}};RLSTATE={"ext.gadget.hideConversionTab":"ready","ext.gadget.large-font":"ready","ext.globalCssJs.user.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","jquery.makeCollapsible.styles":"ready","mediawiki.interface.helpers.styles":"ready","mediawiki.special":"ready","mediawiki.special.changeslist":"ready","mediawiki.helplink":"ready","mediawiki.widgets.DateInputWidget.styles":"ready","oojs-ui-core.styles":"ready","oojs-ui.styles.indicators":"ready","mediawiki.widgets.styles":"ready","oojs-ui-core.icons":"ready","mediawiki.htmlform.ooui.styles":"ready",
+"mediawiki.htmlform.styles":"ready","mediawiki.feedlink":"ready","skins.vector.styles.legacy":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","ext.ores.styles":"ready"};RLPAGEMODULES=["mediawiki.special.recentchanges","mediawiki.page.ready","mediawiki.special.contributions","mediawiki.htmlform","mediawiki.htmlform.ooui","mediawiki.widgets.UserInputWidget","mediawiki.widgets","oojs-ui-widgets","mediawiki.widgets.DateInputWidget","site","mediawiki.page.startup","skins.vector.js","jquery.makeCollapsible","ext.gadget.edit0","ext.gadget.Edittools-refToolbar","ext.gadget.WikiMiniAtlas","ext.gadget.ReferenceTooltips","ext.gadget.UnihanTooltips","ext.gadget.variant-link-fix","ext.gadget.FixedTopBottomLink","ext.gadget.confirm-logout","ext.gadget.shortURL","ext.gadget.AdvancedSiteNotices","ext.gadget.internalLinkHelper-altcolor","ext.gadget.noteTA","ext.gadget.noteTAvector","ext.gadget.NavFrame",
+"ext.gadget.collapsibleTables","ext.gadget.notifyConversion","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.uls.compactlinks","ext.uls.interface","ext.cx.eventlogging.campaigns","ext.centralNotice.geoIP"];
+(RLQ=window.RLQ||[]).push(function(){mw.loader.implement("user.options@1hzgi",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<name>Xiplus</name>
+
+
+
+
+
+
+
+	
+		
+	
+帮助
+
+
+	用户贡献
+	
+	
+		
+		Xiplus 讨论 封禁日志 上传 日志 过滤器日志
+		
+		
+		
+		跳到导航
+		跳到搜索
+		搜索贡献记录展开折叠⧼contribs-top⧽IP地址或用户名：名字空间：所有条目TalkUserUser talk维基百科维基百科讨论FileFile talkMediaWikiMediaWiki talkTemplateTemplate talkHelpHelp talkCategoryCategory talk主题主题讨论草稿草稿讨论模块模块讨论GadgetGadget talkGadget definitionGadget definition talkTopic反向选择关联的名字空间标签过滤器：仅显示最后版本的编辑仅显示创建页面的编辑隐藏小编辑⧼contribs-date⧽起始日：截止日：
+隐藏可能良好编辑
+
+
+搜索
+（最近 | 最旧） 查看（前100个 | 后100个）（20 | 50 | 100 | 250 | 500）<versions><version><id>59235354</id><timestamp>202004181550</timestamp><date>2020-04-18</date><time>15:50</time><title>Wikipedia:維基百科政策簡報/指南</title><comment/></version><version><id>59232635</id><timestamp>202004181256</timestamp><date>2020-04-18</date><time>12:56</time><title>Wikipedia:请求保护页面</title><comment/></version><version><id>59230097</id><timestamp>202004181021</timestamp><date>2020-04-18</date><time>10:21</time><title>Wikipedia:机器人/申请/存档/2020年/复核/不活跃机器人</title><comment/></version><version><id>59230094</id><timestamp>202004181021</timestamp><date>2020-04-18</date><time>10:21</time><title>Wikipedia:机器人/申请/复核/不活跃机器人</title><comment/></version><version><id>59228924</id><timestamp>202004180923</timestamp><date>2020-04-18</date><time>09:23</time><title>Wikipedia:互助客栈/其他</title><comment/></version><version><id>59225443</id><timestamp>202004180613</timestamp><date>2020-04-18</date><time>06:13</time><title>IP地址</title><comment/></version><version><id>59223705</id><timestamp>202004180417</timestamp><date>2020-04-18</date><time>04:17</time><title>Wikipedia:維基百科政策簡報/指南</title><comment/></version><version><id>59223551</id><timestamp>202004180408</timestamp><date>2020-04-18</date><time>04:08</time><title>Template:Editnotices/Group/Wikipedia:維基百科政策簡報</title><comment/></version><version><id>59223495</id><timestamp>202004180405</timestamp><date>2020-04-18</date><time>04:05</time><title>Template:Editnotices/Group/Wikipedia:維基百科政策簡報/存檔</title><comment/></version><version><id>59222229</id><timestamp>202004180311</timestamp><date>2020-04-18</date><time>03:11</time><title>Eminem</title><comment/></version><version><id>59222227</id><timestamp>202004180311</timestamp><date>2020-04-18</date><time>03:11</time><title>Eminem</title><comment/></version><version><id>59219957</id><timestamp>202004180059</timestamp><date>2020-04-18</date><time>00:59</time><title>User talk:73.18.156.164</title><comment/></version><version><id>59219950</id><timestamp>202004180059</timestamp><date>2020-04-18</date><time>00:59</time><title>就職宣誓</title><comment/></version><version><id>59219865</id><timestamp>202004180053</timestamp><date>2020-04-18</date><time>00:53</time><title>Wikipedia:机器人/申请/和平-bot/1</title><comment/></version><version><id>59219858</id><timestamp>202004180053</timestamp><date>2020-04-18</date><time>00:53</time><title>Wikipedia:机器人/申请/存档/2015年</title><comment/></version><version><id>59219850</id><timestamp>202004180052</timestamp><date>2020-04-18</date><time>00:52</time><title>Wikipedia:机器人/申请/存档/2009年</title><comment/></version><version><id>59219838</id><timestamp>202004180052</timestamp><date>2020-04-18</date><time>00:52</time><title>Wikipedia:机器人/申请/存档/2013年</title><comment/></version><version><id>59219830</id><timestamp>202004180052</timestamp><date>2020-04-18</date><time>00:52</time><title>Wikipedia:机器人/申请/Liangent-adminbot</title><comment/></version><version><id>59219827</id><timestamp>202004180051</timestamp><date>2020-04-18</date><time>00:51</time><title>Wikipedia:机器人/申请/Liangent-adminbot/1</title><comment/></version><version><id>59219817</id><timestamp>202004180051</timestamp><date>2020-04-18</date><time>00:51</time><title>Wikipedia:机器人/申请/Liangent-adminbot/2</title><comment/></version><version><id>59219815</id><timestamp>202004180051</timestamp><date>2020-04-18</date><time>00:51</time><title>Wikipedia:机器人/申请/Liangent-adminbot/1</title><comment/></version><version><id>59219792</id><timestamp>202004180049</timestamp><date>2020-04-18</date><time>00:49</time><title>Wikipedia:机器人/申请/Liangent-bot/1</title><comment/></version><version><id>59219791</id><timestamp>202004180049</timestamp><date>2020-04-18</date><time>00:49</time><title>Wikipedia:机器人/申请/Liangent-bot/9</title><comment/></version><version><id>59219789</id><timestamp>202004180049</timestamp><date>2020-04-18</date><time>00:49</time><title>Wikipedia:机器人/申请/Liangent-bot/8</title><comment/></version><version><id>59219787</id><timestamp>202004180049</timestamp><date>2020-04-18</date><time>00:49</time><title>Wikipedia:机器人/申请/Liangent-bot/7</title><comment/></version><version><id>59219786</id><timestamp>202004180049</timestamp><date>2020-04-18</date><time>00:49</time><title>Wikipedia:机器人/申请/Liangent-bot/6</title><comment/></version><version><id>59219784</id><timestamp>202004180049</timestamp><date>2020-04-18</date><time>00:49</time><title>Wikipedia:机器人/申请/Liangent-bot/5</title><comment/></version><version><id>59219783</id><timestamp>202004180049</timestamp><date>2020-04-18</date><time>00:49</time><title>Wikipedia:机器人/申请/Liangent-bot/4</title><comment/></version><version><id>59219782</id><timestamp>202004180049</timestamp><date>2020-04-18</date><time>00:49</time><title>Wikipedia:机器人/申请/Liangent-bot/3</title><comment/></version><version><id>59219781</id><timestamp>202004180049</timestamp><date>2020-04-18</date><time>00:49</time><title>Wikipedia:机器人/申请/Liangent-bot/2</title><comment/></version><version><id>59219779</id><timestamp>202004180049</timestamp><date>2020-04-18</date><time>00:49</time><title>Wikipedia:机器人/申请/Liangent-bot/19</title><comment/></version><version><id>59219778</id><timestamp>202004180049</timestamp><date>2020-04-18</date><time>00:49</time><title>Wikipedia:机器人/申请/Liangent-bot/18</title><comment/></version><version><id>59219774</id><timestamp>202004180049</timestamp><date>2020-04-18</date><time>00:49</time><title>Wikipedia:机器人/申请/Liangent-bot/10</title><comment/></version><version><id>59219765</id><timestamp>202004180048</timestamp><date>2020-04-18</date><time>00:48</time><title>Wikipedia:机器人/申请/Liangent-bot/17</title><comment/></version><version><id>59219763</id><timestamp>202004180048</timestamp><date>2020-04-18</date><time>00:48</time><title>Wikipedia:机器人/申请/Liangent-bot/17</title><comment/></version><version><id>59219761</id><timestamp>202004180048</timestamp><date>2020-04-18</date><time>00:48</time><title>Wikipedia:机器人/申请/Liangent-bot/16</title><comment/></version><version><id>59219760</id><timestamp>202004180048</timestamp><date>2020-04-18</date><time>00:48</time><title>Wikipedia:机器人/申请/Liangent-bot/15</title><comment/></version><version><id>59219759</id><timestamp>202004180048</timestamp><date>2020-04-18</date><time>00:48</time><title>Wikipedia:机器人/申请/Liangent-bot/14</title><comment/></version><version><id>59219757</id><timestamp>202004180048</timestamp><date>2020-04-18</date><time>00:48</time><title>Wikipedia:机器人/申请/Liangent-bot/13</title><comment/></version><version><id>59219754</id><timestamp>202004180048</timestamp><date>2020-04-18</date><time>00:48</time><title>Wikipedia:机器人/申请/Liangent-bot/12</title><comment/></version><version><id>59219747</id><timestamp>202004180047</timestamp><date>2020-04-18</date><time>00:47</time><title>Wikipedia:机器人/申请/Liangent-bot/11</title><comment/></version><version><id>59219745</id><timestamp>202004180047</timestamp><date>2020-04-18</date><time>00:47</time><title>Wikipedia:机器人/申请/Liangent-bot/10</title><comment/></version><version><id>59219741</id><timestamp>202004180047</timestamp><date>2020-04-18</date><time>00:47</time><title>Wikipedia:机器人/申请/Liangent-bot/10</title><comment/></version><version><id>59219720</id><timestamp>202004180044</timestamp><date>2020-04-18</date><time>00:44</time><title>Wikipedia:机器人/申请/Liangent-bot/1</title><comment/></version><version><id>59219718</id><timestamp>202004180044</timestamp><date>2020-04-18</date><time>00:44</time><title>Wikipedia:机器人/申请/Liangent-bot</title><comment/></version><version><id>59219716</id><timestamp>202004180044</timestamp><date>2020-04-18</date><time>00:44</time><title>Wikipedia:机器人/申请/Liangent-bot/1</title><comment/></version><version><id>59219685</id><timestamp>202004180041</timestamp><date>2020-04-18</date><time>00:41</time><title>Wikipedia:机器人/申请</title><comment/></version><version><id>59219671</id><timestamp>202004180040</timestamp><date>2020-04-18</date><time>00:40</time><title>Wikipedia:机器人/列表</title><comment/></version><version><id>59219668</id><timestamp>202004180040</timestamp><date>2020-04-18</date><time>00:40</time><title>Wikipedia:机器人/申请/和平-bot/1</title><comment/></version><version><id>59209833</id><timestamp>202004170833</timestamp><date>2020-04-17</date><time>08:33</time><title>Wikipedia talk:維基百科政策簡報/存檔/2020.03.04</title><comment/></version><version><id>59209402</id><timestamp>202004170806</timestamp><date>2020-04-17</date><time>08:06</time><title>User talk:Johnny874</title><comment/></version><version><id>59209401</id><timestamp>202004170806</timestamp><date>2020-04-17</date><time>08:06</time><title>User:Johnny874</title><comment/></version><version><id>59207469</id><timestamp>202004170623</timestamp><date>2020-04-17</date><time>06:23</time><title>Wikipedia:持续出没的破坏者/速删候选破坏者</title><comment/></version><version><id>59207429</id><timestamp>202004170621</timestamp><date>2020-04-17</date><time>06:21</time><title>User:Xiplus/twinkleoptions.js</title><comment/></version><version><id>59205579</id><timestamp>202004170444</timestamp><date>2020-04-17</date><time>04:44</time><title>黎以德</title><comment/></version><version><id>59205341</id><timestamp>202004170434</timestamp><date>2020-04-17</date><time>04:34</time><title>Wikipedia:机器人/申请/和平-bot/1</title><comment/></version><version><id>59205327</id><timestamp>202004170433</timestamp><date>2020-04-17</date><time>04:33</time><title>Wikipedia:机器人/申请/和平-bot</title><comment/></version><version><id>59205324</id><timestamp>202004170433</timestamp><date>2020-04-17</date><time>04:33</time><title>Wikipedia:机器人/申请</title><comment/></version><version><id>59205306</id><timestamp>202004170433</timestamp><date>2020-04-17</date><time>04:33</time><title>Wikipedia:机器人/申请/和平-bot/1</title><comment/></version><version><id>59205209</id><timestamp>202004170429</timestamp><date>2020-04-17</date><time>04:29</time><title>Wikipedia:機械人審核小組</title><comment/></version><version><id>59201460</id><timestamp>202004162350</timestamp><date>2020-04-16</date><time>23:50</time><title>Wikipedia:互助客栈/其他</title><comment/></version><version><id>59197999</id><timestamp>202004161434</timestamp><date>2020-04-16</date><time>14:34</time><title>User talk:Ketsu1213</title><comment/></version><version><id>59195293</id><timestamp>202004161143</timestamp><date>2020-04-16</date><time>11:43</time><title>模块讨论:Portal/images/chinese</title><comment/></version><version><id>59188209</id><timestamp>202004160353</timestamp><date>2020-04-16</date><time>03:53</time><title>User talk:CHIULENNY</title><comment/></version><version><id>59188208</id><timestamp>202004160353</timestamp><date>2020-04-16</date><time>03:53</time><title>User:CHIULENNY</title><comment/></version><version><id>59188181</id><timestamp>202004160351</timestamp><date>2020-04-16</date><time>03:51</time><title>Wikipedia:防滥用过滤器/错误报告</title><comment/></version><version><id>59188152</id><timestamp>202004160350</timestamp><date>2020-04-16</date><time>03:50</time><title>User talk:211.75.212.115</title><comment/></version><version><id>59188145</id><timestamp>202004160349</timestamp><date>2020-04-16</date><time>03:49</time><title>潔淨的盜賊</title><comment/></version><version><id>59188132</id><timestamp>202004160349</timestamp><date>2020-04-16</date><time>03:49</time><title>User talk:CHIULENNY</title><comment/></version><version><id>59188123</id><timestamp>202004160348</timestamp><date>2020-04-16</date><time>03:48</time><title>月饼</title><comment/></version><version><id>59187213</id><timestamp>202004160252</timestamp><date>2020-04-16</date><time>02:52</time><title>Talk:2019冠狀病毒病疫情世界衛生組織相關爭議</title><comment/></version><version><id>59187211</id><timestamp>202004160252</timestamp><date>2020-04-16</date><time>02:52</time><title>Talk:2019冠狀病毒病疫情世界衛生組織相關爭議</title><comment/></version><version><id>59185567</id><timestamp>202004160044</timestamp><date>2020-04-16</date><time>00:44</time><title>Wikipedia:互助客栈/方针</title><comment/></version><version><id>59185563</id><timestamp>202004160044</timestamp><date>2020-04-16</date><time>00:44</time><title>Wikipedia:互助客栈/方针</title><comment/></version><version><id>59185546</id><timestamp>00</timestamp><date>-0-0</date><time>:</time><title>Wikipedia:匯入</title><comment/></version><version><id>59185536</id><timestamp>00</timestamp><date>-0-0</date><time>:</time><title>Wikipedia:跨維基導入者</title><comment/></version><version><id>59185535</id><timestamp>202004160041</timestamp><date>2020-04-16</date><time>00:41</time><title>Wikipedia:跨維基匯入者</title><comment/></version><version><id>59185503</id><timestamp>202004160038</timestamp><date>2020-04-16</date><time>00:38</time><title>Wikipedia:机器人/申请</title><comment/></version><version><id>59185502</id><timestamp>202004160038</timestamp><date>2020-04-16</date><time>00:38</time><title>Wikipedia:机器人/申请/存档/2020年/未獲批的申請</title><comment/></version><version><id>59185501</id><timestamp>202004160037</timestamp><date>2020-04-16</date><time>00:37</time><title>Wikipedia:机器人/申请/存档/2020年/獲批的申請</title><comment/></version><version><id>59185489</id><timestamp>202004160036</timestamp><date>2020-04-16</date><time>00:36</time><title>Wikipedia:机器人/申请/和平-bot/2</title><comment/></version><version><id>59185483</id><timestamp>202004160035</timestamp><date>2020-04-16</date><time>00:35</time><title>Wikipedia:机器人/列表</title><comment/></version><version><id>59185471</id><timestamp>202004160034</timestamp><date>2020-04-16</date><time>00:34</time><title>Wikipedia:机器人/申请</title><comment/></version><version><id>59185465</id><timestamp>202004160033</timestamp><date>2020-04-16</date><time>00:33</time><title>Wikipedia:机器人/申请/和平-bot/7</title><comment/></version><version><id>59185464</id><timestamp>202004160033</timestamp><date>2020-04-16</date><time>00:33</time><title>Wikipedia:机器人/申请/和平-bot/6</title><comment/></version><version><id>59185432</id><timestamp>202004160029</timestamp><date>2020-04-16</date><time>00:29</time><title>Wikipedia:机器人/申请/和平-bot/2</title><comment/></version><version><id>59179486</id><timestamp>202004151229</timestamp><date>2020-04-15</date><time>12:29</time><title>Wikipedia:跨維基匯入者</title><comment/></version><version><id>59179468</id><timestamp>202004151228</timestamp><date>2020-04-15</date><time>12:28</time><title>模块讨论:TemplateParameters</title><comment/></version><version><id>59178954</id><timestamp>202004151154</timestamp><date>2020-04-15</date><time>11:54</time><title>Bitch</title><comment/></version><version><id>59177154</id><timestamp>202004150948</timestamp><date>2020-04-15</date><time>09:48</time><title>Wikipedia:互助客栈/方针</title><comment/></version><version><id>59177138</id><timestamp>202004150947</timestamp><date>2020-04-15</date><time>09:47</time><title>Wikipedia:跨維基匯入者</title><comment/></version><version><id>59177127</id><timestamp>202004150946</timestamp><date>2020-04-15</date><time>09:46</time><title>Wikipedia:跨維基匯入者</title><comment/></version><version><id>59176375</id><timestamp>202004150901</timestamp><date>2020-04-15</date><time>09:01</time><title>秋收起义</title><comment/></version><version><id>59176373</id><timestamp>202004150901</timestamp><date>2020-04-15</date><time>09:01</time><title>秋收起义</title><comment/></version><version><id>59176359</id><timestamp>202004150901</timestamp><date>2020-04-15</date><time>09:01</time><title>秋收起义</title><comment/></version><version><id>59174264</id><timestamp>202004150651</timestamp><date>2020-04-15</date><time>06:51</time><title>林書豪</title><comment/></version><version><id>59174260</id><timestamp>202004150651</timestamp><date>2020-04-15</date><time>06:51</time><title>林書豪</title><comment/></version><version><id>59174248</id><timestamp>202004150650</timestamp><date>2020-04-15</date><time>06:50</time><title>User talk:Liangw02</title><comment/></version><version><id>59174070</id><timestamp>202004150632</timestamp><date>2020-04-15</date><time>06:32</time><title>User talk:高晶</title><comment/></version><version><id>59174012</id><timestamp>202004150627</timestamp><date>2020-04-15</date><time>06:27</time><title>謝和弦</title><comment/></version></versions>
+（最近 | 最旧） 查看（前100个 | 后100个）（20 | 50 | 100 | 250 | 500）
+Xiplus： 檢視子頁面 · 用户權限 · 編輯次數 ·  贡献报告 · 上傳的檔案（共享）·  所創條目 ·  跨語言活動 ·  SUL / 帐号 
+
+		取自“https://zh.wikipedia.org/wiki/Special:用户贡献”
+		
+		
+		
+	
+
+
+	
+
+
+
+	导航菜单
+	
+		
+
+	个人工具
+	
+		没有登录讨论贡献创建账户登录
+	
+
+
+		
+			
+	名字空间
+	
+		特殊页面
+	
+
+
+			
+	
+	
+		变种
+	
+	
+		
+	
+
+
+		
+		
+			
+	视图
+	
+		
+	
+
+
+			
+	
+	
+		更多
+	
+	
+		
+	
+
+
+			
+	
+		搜索
+	
+	
+		
+			
+			
+			
+			
+		
+	
+
+
+		
+	
+	
+
+	
+		
+	
+	
+	
+		导航
+	
+	
+		首页分类索引特色内容新闻动态最近更改随机条目资助维基百科
+		
+	
+
+
+
+	
+	
+		帮助
+	
+	
+		帮助维基社群方针与指引互助客栈知识问答字词转换IRC即时聊天联络我们关于维基百科
+		
+	
+
+
+
+	
+		工具
+	
+	
+		Atom用户贡献日志查看用户组上传文件特殊页面打印页面
+		
+	
+
+
+
+	
+		其他语言
+	
+	
+		
+		
+	
+
+
+
+
+
+
+
+
+	
+		隐私政策
+		关于维基百科
+		免责声明
+		开发者
+		统计
+		Cookie声明
+		手机版视图
+	
+	
+		
+		
+	
+	
+
+
+
+(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":1542,"wgHostname":"mw1263"});});</user>

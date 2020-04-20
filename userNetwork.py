@@ -243,9 +243,11 @@ def computeLanguage(nodes, edges):
             
 def langColor(langdict):
     langvalue = langdict.get('en', 0) / (langdict.get('en', 0) + langdict.get('zh', 0))
-    if langvalue > 0.5:
+    if langvalue > 0.66:
         return "blue"
-    elif langvalue <= 0.5:
+    elif langvalue <= 0.66 and langvalue > 0.33:
+        return "yellow"
+    elif langvalue <= 0.33:
         return "red"
     else:
         return "white"
@@ -256,29 +258,29 @@ nodes = list()
 edges = list()
 
 # Articles Abrufen und als XML speichern. NB Limit anpassen
-# en article
-#addArticleData(nodes, edges, getXMLdata('https://en.wikipedia.org/w/index.php?title=1989_Tiananmen_Square_protests&action=history&limit=100', 'history.xsl'))
-#addArticleData(nodes, edges, getXMLdata('https://en.wikipedia.org/w/index.php?title=Hong_Kong&action=history&limit=100', 'history.xsl'))
+## en article
+#addArticleData(nodes, edges, getXMLdata('https://en.wikipedia.org/w/index.php?title=1989_Tiananmen_Square_protests&action=history&limit=500', 'history.xsl'))
+#addArticleData(nodes, edges, getXMLdata('https://en.wikipedia.org/w/index.php?title=Hong_Kong&action=history&limit=500', 'history.xsl'))
 ### zh article
-#addArticleData(nodes, edges, getXMLdata('https://zh.wikipedia.org/w/index.php?title=%E5%85%AD%E5%9B%9B%E4%BA%8B%E4%BB%B6&action=history&limit=100', 'history.xsl'))
-#addArticleData(nodes, edges, getXMLdata('https://zh.wikipedia.org/w/index.php?title=%E9%A6%99%E6%B8%AF&action=history&limit=100', 'history.xsl'))
+#addArticleData(nodes, edges, getXMLdata('https://zh.wikipedia.org/w/index.php?title=%E5%85%AD%E5%9B%9B%E4%BA%8B%E4%BB%B6&action=history&limit=500', 'history.xsl'))
+#addArticleData(nodes, edges, getXMLdata('https://zh.wikipedia.org/w/index.php?title=%E9%A6%99%E6%B8%AF&action=history&limit=500', 'history.xsl'))
 ##
 ### zugehörige user-netzwerke ermitteln
 #for node in nodes:
 #    if node[2] == "user":
 #        # Aufruf je Sprachversion, NB &target=USERNAME muss als letztes Element notiert sein (sonst liefert das Schema nichts)
-#        addUserData(nodes, edges, getXMLdata('https://en.wikipedia.org/w/index.php?title=Special:Contributions&limit=50&target=' + node[0], 'user.xsl'))
-#        addUserData(nodes, edges, getXMLdata('https://zh.wikipedia.org/w/index.php?title=Special:用户贡献&limit=50&target=' + node[0], 'user.xsl'))
+#        addUserData(nodes, edges, getXMLdata('https://en.wikipedia.org/w/index.php?title=Special:Contributions&limit=100&target=' + node[0], 'user.xsl'))
+#        addUserData(nodes, edges, getXMLdata('https://zh.wikipedia.org/w/index.php?title=Special:用户贡献&limit=100&target=' + node[0], 'user.xsl'))
 
-nodes = readDataCSV("nodes4-100-50.csv")
-edges = readDataCSV("edges4-100-50.csv")
+nodes = readDataCSV("nodes_4-500-100.csv")
+edges = readDataCSV("edges_4-500-100.csv")
 
 computeLanguage(nodes, edges)
 nodes_reduced = deleteArticlesByCount(nodes, edges)
 edges_condensed = condenseEdges(nodes_reduced, edges)
 
-#writeDataCSV(nodes, "nodes4-100-50.csv", ["name", "lang", "type"])
-#writeDataCSV(edges, "edges4-100-50.csv", ["user", "article", "timestamp", "id"])
+#writeDataCSV(nodes, "nodes_4-500-100.csv", ["name", "lang", "type"])
+#writeDataCSV(edges, "edges_4-500-100.csv", ["user", "article", "timestamp", "id"])
 
 #createNetxNetwork(nodes_reduced, edges_condensed)
 createPyvisNetwork(nodes_reduced, edges_condensed)

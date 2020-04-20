@@ -1,0 +1,218 @@
+<?xml version="1.0"?>
+<user><language>zh</language>
+
+
+Ddmmyyy8的用户贡献 - 维基百科，自由的百科全书
+document.documentElement.className="client-js";RLCONF={"wgBreakFrames":!1,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"zh","wgMonthNames":["","1月","2月","3月","4月","5月","6月","7月","8月","9月","10月","11月","12月"],"wgRequestId":"XptMiwpAIC8AAAP@FwoAAACC","wgCSPNonce":!1,"wgCanonicalNamespace":"Special","wgCanonicalSpecialPageName":"Contributions","wgNamespaceNumber":-1,"wgPageName":"Special:用户贡献","wgTitle":"用户贡献","wgCurRevisionId":0,"wgRevisionId":0,"wgArticleId":0,"wgIsArticle":!1,"wgIsRedirect":!1,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgPageContentLanguage":"zh","wgPageContentModel":"wikitext","wgRelevantPageName":"Special:用户贡献","wgRelevantArticleId":0,"wgUserVariant":"zh","wgIsProbablyEditable":!1,"wgRelevantPageIsProbablyEditable":!1,"wgRelevantUserName":"Ddmmyyy8","wgMediaViewerOnClick":!0,"wgMediaViewerEnabledByDefault":!0,
+"wgPopupsReferencePreviews":!1,"wgPopupsConflictsWithNavPopupGadget":!1,"wgVisualEditor":{"pageLanguageCode":"zh","pageLanguageDir":"ltr","pageVariantFallbacks":["zh-hans","zh-hant","zh-cn","zh-tw","zh-hk","zh-sg","zh-mo","zh-my"]},"wgMFDisplayWikibaseDescriptions":{"search":!0,"nearby":!0,"watchlist":!0,"tagline":!0},"wgWMESchemaEditAttemptStepOversample":!1,"wgULSCurrentAutonym":"中文","wgNoticeProject":"wikipedia","wgCentralAuthMobileDomain":!1,"wgEditSubmitButtonLabelPublish":!0,"oresData":{"59237698":{"damaging":0.052},"59237660":{"damaging":0.045},"59237635":{"damaging":0.036},"59237603":{"damaging":0.041},"59237591":{"damaging":0.04},"59237586":{"damaging":0.041},"59237580":{"damaging":0.028},"59237566":{"damaging":0.042},"59237560":{"damaging":0.041},"59237556":{"damaging":0.04},"59237552":{"damaging":0.023},"59237365":{"damaging":0.04},"59237358":{"damaging":0.04},"59237338":{"damaging":0.04},"59237330":{"damaging":0.038},"59237238":{"damaging":0.043},
+"59211225":{"damaging":0.023},"59211214":{"damaging":0.027},"59194418":{"damaging":0.064},"59188239":{"damaging":0.055},"59188043":{"damaging":0.018},"59187975":{"damaging":0.046},"59187026":{"damaging":0.031},"59186927":{"damaging":0.037},"59186918":{"damaging":0.036},"59180866":{"damaging":0.052},"59180154":{"damaging":0.021},"59180124":{"damaging":0.03},"59180008":{"damaging":0.023},"59179984":{"damaging":0.021},"59179788":{"damaging":0.026},"59170320":{"damaging":0.042},"59170300":{"damaging":0.018},"59161520":{"damaging":0.053},"59157450":{"damaging":0.062},"59157402":{"damaging":0.027},"59157217":{"damaging":0.02},"59147943":{"damaging":0.036},"59147494":{"damaging":0.036},"59147434":{"damaging":0.018},"59147320":{"damaging":0.038},"59147098":{"damaging":0.036},"59147081":{"damaging":0.039},"59147065":{"damaging":0.041},"59147025":{"damaging":0.04},"59146972":{"damaging":0.036},"59146946":{"damaging":0.058},"59146939":{"damaging":0.048},"59146746":{"damaging":0.034},"59146710":{
+"damaging":0.021},"59146679":{"damaging":0.046},"59146668":{"damaging":0.056},"59145202":{"damaging":0.053},"59144546":{"damaging":0.046},"59144457":{"damaging":0.046},"59144426":{"damaging":0.033},"59144393":{"damaging":0.032},"59143392":{"damaging":0.018},"59142907":{"damaging":0.031},"59142726":{"damaging":0.027},"59142474":{"damaging":0.027},"59142321":{"damaging":0.038},"59142294":{"damaging":0.045},"59142217":{"damaging":0.033},"59142188":{"damaging":0.049},"59142152":{"damaging":0.045},"59142131":{"damaging":0.031},"59142067":{"damaging":0.032},"59141988":{"damaging":0.024},"59141847":{"damaging":0.011},"59141540":{"damaging":0.067},"59141502":{"damaging":0.035},"59141482":{"damaging":0.055},"59141453":{"damaging":0.024},"59141438":{"damaging":0.04},"59141427":{"damaging":0.031},"59141413":{"damaging":0.049},"59141361":{"damaging":0.019},"59141071":{"damaging":0.022},"59141046":{"damaging":0.039},"59141029":{"damaging":0.039},"59140940":{"damaging":0.03},"59140924":{"damaging":
+0.039},"59140889":{"damaging":0.029},"59140865":{"damaging":0.029},"59140859":{"damaging":0.047},"59140845":{"damaging":0.029},"59140813":{"damaging":0.021},"59140463":{"damaging":0.018},"59140453":{"damaging":0.035},"59140443":{"damaging":0.018},"59140408":{"damaging":0.023},"59140355":{"damaging":0.023},"59140274":{"damaging":0.04},"59140261":{"damaging":0.021},"59140218":{"damaging":0.024},"59140092":{"damaging":0.038},"59140083":{"damaging":0.038},"59140018":{"damaging":0.019},"59139959":{"damaging":0.028}},"oresThresholds":{"damaging":{"maybebad":0.037,"likelybad":0.423}}};RLSTATE={"ext.gadget.hideConversionTab":"ready","ext.gadget.large-font":"ready","ext.globalCssJs.user.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","jquery.makeCollapsible.styles":"ready","mediawiki.interface.helpers.styles":"ready","mediawiki.special":"ready","mediawiki.special.changeslist":"ready",
+"mediawiki.helplink":"ready","mediawiki.widgets.DateInputWidget.styles":"ready","oojs-ui-core.styles":"ready","oojs-ui.styles.indicators":"ready","mediawiki.widgets.styles":"ready","oojs-ui-core.icons":"ready","mediawiki.htmlform.ooui.styles":"ready","mediawiki.htmlform.styles":"ready","mediawiki.feedlink":"ready","skins.vector.styles.legacy":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","ext.ores.styles":"ready"};RLPAGEMODULES=["mediawiki.special.recentchanges","mediawiki.page.ready","mediawiki.special.contributions","mediawiki.htmlform","mediawiki.htmlform.ooui","mediawiki.widgets.UserInputWidget","mediawiki.widgets","oojs-ui-widgets","mediawiki.widgets.DateInputWidget","site","mediawiki.page.startup","skins.vector.js","jquery.makeCollapsible","ext.gadget.edit0","ext.gadget.Edittools-refToolbar","ext.gadget.WikiMiniAtlas","ext.gadget.ReferenceTooltips","ext.gadget.UnihanTooltips",
+"ext.gadget.variant-link-fix","ext.gadget.FixedTopBottomLink","ext.gadget.confirm-logout","ext.gadget.shortURL","ext.gadget.AdvancedSiteNotices","ext.gadget.internalLinkHelper-altcolor","ext.gadget.noteTA","ext.gadget.noteTAvector","ext.gadget.NavFrame","ext.gadget.collapsibleTables","ext.gadget.notifyConversion","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.uls.compactlinks","ext.uls.interface","ext.cx.eventlogging.campaigns","ext.centralNotice.geoIP"];
+(RLQ=window.RLQ||[]).push(function(){mw.loader.implement("user.options@1hzgi",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<name>Ddmmyyy8</name>
+
+
+
+
+
+
+
+	
+		
+	
+帮助
+
+
+	用户贡献
+	
+	
+		
+		Ddmmyyy8 讨论 封禁日志 上传 日志 过滤器日志
+		
+		
+		
+		跳到导航
+		跳到搜索
+		搜索贡献记录展开折叠⧼contribs-top⧽IP地址或用户名：名字空间：所有条目TalkUserUser talk维基百科维基百科讨论FileFile talkMediaWikiMediaWiki talkTemplateTemplate talkHelpHelp talkCategoryCategory talk主题主题讨论草稿草稿讨论模块模块讨论GadgetGadget talkGadget definitionGadget definition talkTopic反向选择关联的名字空间标签过滤器：仅显示最后版本的编辑仅显示创建页面的编辑隐藏小编辑⧼contribs-date⧽起始日：截止日：
+隐藏可能良好编辑
+
+
+搜索
+（最近 | 最旧） 查看（前100个 | 后100个）（20 | 50 | 100 | 250 | 500）<versions><version><id>59237698</id><timestamp>202004181804</timestamp><date>2020-04-18</date><time>18:04</time><title>新古惑仔之少年激鬥篇</title><comment/></version><version><id>59237660</id><timestamp>202004181800</timestamp><date>2020-04-18</date><time>18:00</time><title>古惑仔電影系列</title><comment/></version><version><id>59237635</id><timestamp>202004181756</timestamp><date>2020-04-18</date><time>17:56</time><title>石金華</title><comment/></version><version><id>59237603</id><timestamp>202004181752</timestamp><date>2020-04-18</date><time>17:52</time><title>古惑仔電影系列</title><comment/></version><version><id>59237591</id><timestamp>202004181751</timestamp><date>2020-04-18</date><time>17:51</time><title>古惑仔之人在江湖</title><comment/></version><version><id>59237586</id><timestamp>202004181750</timestamp><date>2020-04-18</date><time>17:50</time><title>动漫系列作品虚构宇宙列表</title><comment/></version><version><id>59237580</id><timestamp>202004181748</timestamp><date>2020-04-18</date><time>17:48</time><title>影视系列作品虚构宇宙列表</title><comment/></version><version><id>59237566</id><timestamp>202004181745</timestamp><date>2020-04-18</date><time>17:45</time><title>动漫系列作品虚构宇宙列表</title><comment/></version><version><id>59237560</id><timestamp>202004181745</timestamp><date>2020-04-18</date><time>17:45</time><title>动漫系列作品虚构宇宙列表</title><comment/></version><version><id>59237556</id><timestamp>202004181744</timestamp><date>2020-04-18</date><time>17:44</time><title>古惑仔之人在江湖</title><comment/></version><version><id>59237552</id><timestamp>202004181744</timestamp><date>2020-04-18</date><time>17:44</time><title>动漫系列作品虚构宇宙列表</title><comment/></version><version><id>59237365</id><timestamp>202004181719</timestamp><date>2020-04-18</date><time>17:19</time><title>陳振華 (印度裔香港演員)</title><comment/></version><version><id>59237358</id><timestamp>202004181718</timestamp><date>2020-04-18</date><time>17:18</time><title>喬寶寶</title><comment/></version><version><id>59237338</id><timestamp>202004181716</timestamp><date>2020-04-18</date><time>17:16</time><title>陳振華 (印度裔香港演員)</title><comment/></version><version><id>59237330</id><timestamp>202004181715</timestamp><date>2020-04-18</date><time>17:15</time><title>陳振華 (印度裔香港演員)</title><comment/></version><version><id>59237238</id><timestamp>202004181705</timestamp><date>2020-04-18</date><time>17:05</time><title>金宵大廈</title><comment/></version><version><id>59211225</id><timestamp>202004170957</timestamp><date>2020-04-17</date><time>09:57</time><title>體通天下</title><comment/></version><version><id>59211214</id><timestamp>202004170956</timestamp><date>2020-04-17</date><time>09:56</time><title>樂視體育香港</title><comment/></version><version><id>59194418</id><timestamp>202004161049</timestamp><date>2020-04-16</date><time>10:49</time><title>粵港澳大灣區</title><comment/></version><version><id>59188239</id><timestamp>202004160354</timestamp><date>2020-04-16</date><time>03:54</time><title>廣佛同城化</title><comment/></version><version><id>59188043</id><timestamp>202004160345</timestamp><date>2020-04-16</date><time>03:45</time><title>Template:粤港澳大湾区</title><comment/></version><version><id>59187975</id><timestamp>202004160342</timestamp><date>2020-04-16</date><time>03:42</time><title>澳門大學新校區</title><comment/></version><version><id>59187026</id><timestamp>202004160240</timestamp><date>2020-04-16</date><time>02:40</time><title>Now TV</title><comment/></version><version><id>59186927</id><timestamp>202004160235</timestamp><date>2020-04-16</date><time>02:35</time><title>Now E</title><comment/></version><version><id>59186918</id><timestamp>202004160234</timestamp><date>2020-04-16</date><time>02:34</time><title>Now E</title><comment/></version><version><id>59180866</id><timestamp>202004151417</timestamp><date>2020-04-15</date><time>14:17</time><title>賽馬會動物醫學及生命科學院</title><comment/></version><version><id>59180154</id><timestamp>202004151325</timestamp><date>2020-04-15</date><time>13:25</time><title>Now TV</title><comment/></version><version><id>59180124</id><timestamp>202004151324</timestamp><date>2020-04-15</date><time>13:24</time><title>Now E</title><comment/></version><version><id>59180008</id><timestamp>202004151317</timestamp><date>2020-04-15</date><time>13:17</time><title>恩雨之聲</title><comment/></version><version><id>59179984</id><timestamp>202004151315</timestamp><date>2020-04-15</date><time>13:15</time><title>恩雨之聲</title><comment/></version><version><id>59179788</id><timestamp>202004151257</timestamp><date>2020-04-15</date><time>12:57</time><title>頭文字D (電影)</title><comment/></version><version><id>59170320</id><timestamp>202004150213</timestamp><date>2020-04-15</date><time>02:13</time><title>香港移民潮</title><comment/></version><version><id>59170300</id><timestamp>202004150212</timestamp><date>2020-04-15</date><time>02:12</time><title>Template:香港人</title><comment/></version><version><id>59161520</id><timestamp>202004141123</timestamp><date>2020-04-14</date><time>11:23</time><title>古惑仔電影系列</title><comment/></version><version><id>59157450</id><timestamp>202004140659</timestamp><date>2020-04-14</date><time>06:59</time><title>香港電台</title><comment/></version><version><id>59157402</id><timestamp>202004140655</timestamp><date>2020-04-14</date><time>06:55</time><title>Now E</title><comment/></version><version><id>59157217</id><timestamp>202004140642</timestamp><date>2020-04-14</date><time>06:42</time><title>Template:香港OTT平台</title><comment/></version><version><id>59147943</id><timestamp>202004131442</timestamp><date>2020-04-13</date><time>14:42</time><title>香港考試及評核局</title><comment/></version><version><id>59147494</id><timestamp>202004131411</timestamp><date>2020-04-13</date><time>14:11</time><title>創世電視</title><comment/></version><version><id>59147434</id><timestamp>202004131407</timestamp><date>2020-04-13</date><time>14:07</time><title>恩雨之聲</title><comment/></version><version><id>59147320</id><timestamp>202004131358</timestamp><date>2020-04-13</date><time>13:58</time><title>新法書院</title><comment/></version><version><id>59147098</id><timestamp>202004131340</timestamp><date>2020-04-13</date><time>13:40</time><title>葉傲冬</title><comment/></version><version><id>59147081</id><timestamp>202004131339</timestamp><date>2020-04-13</date><time>13:39</time><title>余振強紀念中學</title><comment/></version><version><id>59147065</id><timestamp>202004131338</timestamp><date>2020-04-13</date><time>13:38</time><title>余振強紀念中學</title><comment/></version><version><id>59147025</id><timestamp>202004131336</timestamp><date>2020-04-13</date><time>13:36</time><title>余振強紀念中學</title><comment/></version><version><id>59146972</id><timestamp>202004131332</timestamp><date>2020-04-13</date><time>13:32</time><title>Now E</title><comment/></version><version><id>59146946</id><timestamp>202004131330</timestamp><date>2020-04-13</date><time>13:30</time><title>賴汝正</title><comment/></version><version><id>59146939</id><timestamp>202004131329</timestamp><date>2020-04-13</date><time>13:29</time><title>賴汝正</title><comment/></version><version><id>59146746</id><timestamp>202004131314</timestamp><date>2020-04-13</date><time>13:14</time><title>賴汝正</title><comment/></version><version><id>59146710</id><timestamp>202004131312</timestamp><date>2020-04-13</date><time>13:12</time><title>賴汝正</title><comment/></version><version><id>59146679</id><timestamp>202004131309</timestamp><date>2020-04-13</date><time>13:09</time><title>賴汝正</title><comment/></version><version><id>59146668</id><timestamp>202004131308</timestamp><date>2020-04-13</date><time>13:08</time><title>賴汝正</title><comment/></version><version><id>59145202</id><timestamp>202004131130</timestamp><date>2020-04-13</date><time>11:30</time><title>樂視體育香港</title><comment/></version><version><id>59144546</id><timestamp>202004131037</timestamp><date>2020-04-13</date><time>10:37</time><title>賴汝正</title><comment/></version><version><id>59144457</id><timestamp>202004131028</timestamp><date>2020-04-13</date><time>10:28</time><title>賴汝正</title><comment/></version><version><id>59144426</id><timestamp>202004131026</timestamp><date>2020-04-13</date><time>10:26</time><title>賴汝正</title><comment/></version><version><id>59144393</id><timestamp>202004131024</timestamp><date>2020-04-13</date><time>10:24</time><title>賴汝正</title><comment/></version><version><id>59143392</id><timestamp>202004130917</timestamp><date>2020-04-13</date><time>09:17</time><title>Template:電訊盈科/香港電訊</title><comment/></version><version><id>59142907</id><timestamp>202004130853</timestamp><date>2020-04-13</date><time>08:53</time><title>非本地畢業生留港╱回港就業安排</title><comment/></version><version><id>59142726</id><timestamp>202004130845</timestamp><date>2020-04-13</date><time>08:45</time><title>Now E</title><comment/></version><version><id>59142474</id><timestamp>202004130832</timestamp><date>2020-04-13</date><time>08:32</time><title>賴汝正</title><comment/></version><version><id>59142321</id><timestamp>202004130824</timestamp><date>2020-04-13</date><time>08:24</time><title>馮堅成</title><comment/></version><version><id>59142294</id><timestamp>202004130822</timestamp><date>2020-04-13</date><time>08:22</time><title>賴汝正</title><comment/></version><version><id>59142217</id><timestamp>202004130817</timestamp><date>2020-04-13</date><time>08:17</time><title>香港足球評述員協會</title><comment/></version><version><id>59142188</id><timestamp>202004130815</timestamp><date>2020-04-13</date><time>08:15</time><title>香港足球評述員協會</title><comment/></version><version><id>59142152</id><timestamp>202004130814</timestamp><date>2020-04-13</date><time>08:14</time><title>賴汝正</title><comment/></version><version><id>59142131</id><timestamp>202004130812</timestamp><date>2020-04-13</date><time>08:12</time><title>賴汝正</title><comment/></version><version><id>59142067</id><timestamp>202004130807</timestamp><date>2020-04-13</date><time>08:07</time><title>賴汝正</title><comment/></version><version><id>59141988</id><timestamp>202004130802</timestamp><date>2020-04-13</date><time>08:02</time><title>賴汝正</title><comment/></version><version><id>59141847</id><timestamp>202004130756</timestamp><date>2020-04-13</date><time>07:56</time><title>恩雨之聲</title><comment/></version><version><id>59141540</id><timestamp>202004130741</timestamp><date>2020-04-13</date><time>07:41</time><title>賴汝正</title><comment/></version><version><id>59141502</id><timestamp>202004130739</timestamp><date>2020-04-13</date><time>07:39</time><title>伍伦贡大学</title><comment/></version><version><id>59141482</id><timestamp>202004130738</timestamp><date>2020-04-13</date><time>07:38</time><title>馬啓仁</title><comment/></version><version><id>59141453</id><timestamp>202004130737</timestamp><date>2020-04-13</date><time>07:37</time><title>鍾國雄</title><comment/></version><version><id>59141438</id><timestamp>202004130736</timestamp><date>2020-04-13</date><time>07:36</time><title>賴汝正</title><comment/></version><version><id>59141427</id><timestamp>202004130735</timestamp><date>2020-04-13</date><time>07:35</time><title>賴汝正</title><comment/></version><version><id>59141413</id><timestamp>202004130735</timestamp><date>2020-04-13</date><time>07:35</time><title>香港足球評述員協會</title><comment/></version><version><id>59141361</id><timestamp>202004130732</timestamp><date>2020-04-13</date><time>07:32</time><title>賴汝正</title><comment/></version><version><id>59141071</id><timestamp>202004130716</timestamp><date>2020-04-13</date><time>07:16</time><title>賴汝正</title><comment/></version><version><id>59141046</id><timestamp>202004130713</timestamp><date>2020-04-13</date><time>07:13</time><title>賴汝正</title><comment/></version><version><id>59141029</id><timestamp>202004130711</timestamp><date>2020-04-13</date><time>07:11</time><title>賴汝正</title><comment/></version><version><id>59140940</id><timestamp>202004130708</timestamp><date>2020-04-13</date><time>07:08</time><title>賴汝正</title><comment/></version><version><id>59140924</id><timestamp>202004130707</timestamp><date>2020-04-13</date><time>07:07</time><title>賴汝正</title><comment/></version><version><id>59140889</id><timestamp>202004130705</timestamp><date>2020-04-13</date><time>07:05</time><title>賴汝正</title><comment/></version><version><id>59140865</id><timestamp>202004130704</timestamp><date>2020-04-13</date><time>07:04</time><title>賴汝正</title><comment/></version><version><id>59140859</id><timestamp>202004130704</timestamp><date>2020-04-13</date><time>07:04</time><title>賴汝正</title><comment/></version><version><id>59140845</id><timestamp>202004130703</timestamp><date>2020-04-13</date><time>07:03</time><title>賴汝正</title><comment/></version><version><id>59140813</id><timestamp>202004130701</timestamp><date>2020-04-13</date><time>07:01</time><title>賴汝正</title><comment/></version><version><id>59140463</id><timestamp>202004130635</timestamp><date>2020-04-13</date><time>06:35</time><title>Template:香港有線電視頻道</title><comment/></version><version><id>59140453</id><timestamp>202004130634</timestamp><date>2020-04-13</date><time>06:34</time><title>Template:香港有線電視頻道</title><comment/></version><version><id>59140443</id><timestamp>202004130634</timestamp><date>2020-04-13</date><time>06:34</time><title>Template:香港有線電視頻道</title><comment/></version><version><id>59140408</id><timestamp>202004130631</timestamp><date>2020-04-13</date><time>06:31</time><title>Template:香港有線電視頻道</title><comment/></version><version><id>59140355</id><timestamp>202004130628</timestamp><date>2020-04-13</date><time>06:28</time><title>Template:香港有線電視頻道</title><comment/></version><version><id>59140274</id><timestamp>202004130623</timestamp><date>2020-04-13</date><time>06:23</time><title>體通天下</title><comment/></version><version><id>59140261</id><timestamp>202004130623</timestamp><date>2020-04-13</date><time>06:23</time><title>GolfNow 高爾夫球資訊頻道</title><comment/></version><version><id>59140218</id><timestamp>202004130620</timestamp><date>2020-04-13</date><time>06:20</time><title>賴汝正</title><comment/></version><version><id>59140092</id><timestamp>202004130612</timestamp><date>2020-04-13</date><time>06:12</time><title>賴汝正</title><comment/></version><version><id>59140083</id><timestamp>202004130612</timestamp><date>2020-04-13</date><time>06:12</time><title>賴汝正</title><comment/></version><version><id>59140018</id><timestamp>202004130608</timestamp><date>2020-04-13</date><time>06:08</time><title>賴汝正</title><comment/></version><version><id>59139959</id><timestamp>202004130604</timestamp><date>2020-04-13</date><time>06:04</time><title>體通天下</title><comment/></version></versions>
+（最近 | 最旧） 查看（前100个 | 后100个）（20 | 50 | 100 | 250 | 500）
+Ddmmyyy8： 檢視子頁面 · 用户權限 · 編輯次數 ·  贡献报告 · 上傳的檔案（共享）·  所創條目 ·  跨語言活動 ·  SUL / 帐号 
+
+		取自“https://zh.wikipedia.org/wiki/Special:用户贡献”
+		
+		
+		
+	
+
+
+	
+
+
+
+	导航菜单
+	
+		
+
+	个人工具
+	
+		没有登录讨论贡献创建账户登录
+	
+
+
+		
+			
+	名字空间
+	
+		特殊页面
+	
+
+
+			
+	
+	
+		变种
+	
+	
+		
+	
+
+
+		
+		
+			
+	视图
+	
+		
+	
+
+
+			
+	
+	
+		更多
+	
+	
+		
+	
+
+
+			
+	
+		搜索
+	
+	
+		
+			
+			
+			
+			
+		
+	
+
+
+		
+	
+	
+
+	
+		
+	
+	
+	
+		导航
+	
+	
+		首页分类索引特色内容新闻动态最近更改随机条目资助维基百科
+		
+	
+
+
+
+	
+	
+		帮助
+	
+	
+		帮助维基社群方针与指引互助客栈知识问答字词转换IRC即时聊天联络我们关于维基百科
+		
+	
+
+
+
+	
+		工具
+	
+	
+		Atom用户贡献日志查看用户组上传文件特殊页面打印页面
+		
+	
+
+
+
+	
+		其他语言
+	
+	
+		
+		
+	
+
+
+
+
+
+
+
+
+	
+		隐私政策
+		关于维基百科
+		免责声明
+		开发者
+		统计
+		Cookie声明
+		手机版视图
+	
+	
+		
+		
+	
+	
+
+
+
+(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":483,"wgHostname":"mw1326"});});</user>

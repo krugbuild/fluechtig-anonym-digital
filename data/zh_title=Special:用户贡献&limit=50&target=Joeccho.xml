@@ -3,10 +3,10 @@
 
 
 Joeccho的用户贡献 - 维基百科，自由的百科全书
-document.documentElement.className="client-js";RLCONF={"wgBreakFrames":!1,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"zh","wgMonthNames":["","1月","2月","3月","4月","5月","6月","7月","8月","9月","10月","11月","12月"],"wgRequestId":"Xpf8cwpAAL0AA1kU0UIAAABS","wgCSPNonce":!1,"wgCanonicalNamespace":"Special","wgCanonicalSpecialPageName":"Contributions","wgNamespaceNumber":-1,"wgPageName":"Special:用户贡献","wgTitle":"用户贡献","wgCurRevisionId":0,"wgRevisionId":0,"wgArticleId":0,"wgIsArticle":!1,"wgIsRedirect":!1,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgPageContentLanguage":"zh","wgPageContentModel":"wikitext","wgRelevantPageName":"Special:用户贡献","wgRelevantArticleId":0,"wgUserVariant":"zh","wgIsProbablyEditable":!1,"wgRelevantPageIsProbablyEditable":!1,"wgRelevantUserName":"Joeccho","wgMediaViewerOnClick":!0,"wgMediaViewerEnabledByDefault":!0,
-"wgPopupsReferencePreviews":!1,"wgPopupsConflictsWithNavPopupGadget":!1,"wgVisualEditor":{"pageLanguageCode":"zh","pageLanguageDir":"ltr","pageVariantFallbacks":["zh-hans","zh-hant","zh-cn","zh-tw","zh-hk","zh-sg","zh-mo","zh-my"]},"wgMFDisplayWikibaseDescriptions":{"search":!0,"nearby":!0,"watchlist":!0,"tagline":!0},"wgWMESchemaEditAttemptStepOversample":!1,"wgULSCurrentAutonym":"中文","wgNoticeProject":"wikipedia","wgCentralAuthMobileDomain":!1,"wgEditSubmitButtonLabelPublish":!0,"oresData":{"58929068":{"damaging":0.042},"58924922":{"damaging":0.037},"58924857":{"damaging":0.037},"58924843":{"damaging":0.038},"58839617":{"damaging":0.037},"58839511":{"damaging":0.039},"58672592":{"damaging":0.029},"58672579":{"damaging":0.029}},"oresThresholds":{"damaging":{"maybebad":0.037,"likelybad":0.423}}};RLSTATE={"ext.gadget.hideConversionTab":"ready","ext.gadget.large-font":"ready","ext.globalCssJs.user.styles":"ready","site.styles":"ready","noscript":"ready",
-"user.styles":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","jquery.makeCollapsible.styles":"ready","mediawiki.interface.helpers.styles":"ready","mediawiki.special":"ready","mediawiki.special.changeslist":"ready","mediawiki.helplink":"ready","mediawiki.widgets.DateInputWidget.styles":"ready","oojs-ui-core.styles":"ready","oojs-ui.styles.indicators":"ready","mediawiki.widgets.styles":"ready","oojs-ui-core.icons":"ready","mediawiki.htmlform.ooui.styles":"ready","mediawiki.htmlform.styles":"ready","mediawiki.feedlink":"ready","skins.vector.styles.legacy":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","ext.ores.styles":"ready"};RLPAGEMODULES=["mediawiki.special.recentchanges","mediawiki.page.ready","mediawiki.special.contributions","mediawiki.htmlform","mediawiki.htmlform.ooui","mediawiki.widgets.UserInputWidget","mediawiki.widgets","oojs-ui-widgets",
-"mediawiki.widgets.DateInputWidget","site","mediawiki.page.startup","skins.vector.js","jquery.makeCollapsible","ext.gadget.edit0","ext.gadget.Edittools-refToolbar","ext.gadget.WikiMiniAtlas","ext.gadget.ReferenceTooltips","ext.gadget.UnihanTooltips","ext.gadget.variant-link-fix","ext.gadget.FixedTopBottomLink","ext.gadget.confirm-logout","ext.gadget.shortURL","ext.gadget.AdvancedSiteNotices","ext.gadget.internalLinkHelper-altcolor","ext.gadget.noteTA","ext.gadget.noteTAvector","ext.gadget.NavFrame","ext.gadget.collapsibleTables","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.uls.compactlinks","ext.uls.interface","ext.cx.eventlogging.campaigns","ext.centralNotice.geoIP"];
+document.documentElement.className="client-js";RLCONF={"wgBreakFrames":!1,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"zh","wgMonthNames":["","1月","2月","3月","4月","5月","6月","7月","8月","9月","10月","11月","12月"],"wgRequestId":"XpwE9ApAMNIAAkoJ41wAAAAC","wgCSPNonce":!1,"wgCanonicalNamespace":"Special","wgCanonicalSpecialPageName":"Contributions","wgNamespaceNumber":-1,"wgPageName":"Special:用户贡献","wgTitle":"用户贡献","wgCurRevisionId":0,"wgRevisionId":0,"wgArticleId":0,"wgIsArticle":!1,"wgIsRedirect":!1,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgPageContentLanguage":"zh","wgPageContentModel":"wikitext","wgRelevantPageName":"Special:用户贡献","wgRelevantArticleId":0,"wgUserVariant":"zh","wgIsProbablyEditable":!1,"wgRelevantPageIsProbablyEditable":!1,"wgRelevantUserName":"Joeccho","wgMediaViewerOnClick":!0,"wgMediaViewerEnabledByDefault":!0,
+"wgPopupsReferencePreviews":!1,"wgPopupsConflictsWithNavPopupGadget":!1,"wgVisualEditor":{"pageLanguageCode":"zh","pageLanguageDir":"ltr","pageVariantFallbacks":["zh-hans","zh-hant","zh-cn","zh-tw","zh-hk","zh-sg","zh-mo","zh-my"]},"wgMFDisplayWikibaseDescriptions":{"search":!0,"nearby":!0,"watchlist":!0,"tagline":!0},"wgWMESchemaEditAttemptStepOversample":!1,"wgULSCurrentAutonym":"中文","wgNoticeProject":"wikipedia","wgCentralAuthMobileDomain":!1,"wgEditSubmitButtonLabelPublish":!0,"oresData":{"59219689":{"damaging":0.02},"58929068":{"damaging":0.042},"58924922":{"damaging":0.037},"58924857":{"damaging":0.037},"58924843":{"damaging":0.038},"58839617":{"damaging":0.037},"58839511":{"damaging":0.039}},"oresThresholds":{"damaging":{"maybebad":0.037,"likelybad":0.423}}};RLSTATE={"ext.gadget.hideConversionTab":"ready","ext.gadget.large-font":"ready","ext.globalCssJs.user.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready",
+"ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","jquery.makeCollapsible.styles":"ready","mediawiki.interface.helpers.styles":"ready","mediawiki.special":"ready","mediawiki.special.changeslist":"ready","mediawiki.helplink":"ready","mediawiki.widgets.DateInputWidget.styles":"ready","oojs-ui-core.styles":"ready","oojs-ui.styles.indicators":"ready","mediawiki.widgets.styles":"ready","oojs-ui-core.icons":"ready","mediawiki.htmlform.ooui.styles":"ready","mediawiki.htmlform.styles":"ready","mediawiki.feedlink":"ready","skins.vector.styles.legacy":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","ext.ores.styles":"ready"};RLPAGEMODULES=["mediawiki.special.recentchanges","mediawiki.page.ready","mediawiki.special.contributions","mediawiki.htmlform","mediawiki.htmlform.ooui","mediawiki.widgets.UserInputWidget","mediawiki.widgets","oojs-ui-widgets","mediawiki.widgets.DateInputWidget","site",
+"mediawiki.page.startup","skins.vector.js","jquery.makeCollapsible","ext.gadget.edit0","ext.gadget.Edittools-refToolbar","ext.gadget.WikiMiniAtlas","ext.gadget.ReferenceTooltips","ext.gadget.UnihanTooltips","ext.gadget.variant-link-fix","ext.gadget.FixedTopBottomLink","ext.gadget.confirm-logout","ext.gadget.shortURL","ext.gadget.AdvancedSiteNotices","ext.gadget.internalLinkHelper-altcolor","ext.gadget.noteTA","ext.gadget.noteTAvector","ext.gadget.NavFrame","ext.gadget.collapsibleTables","ext.gadget.notifyConversion","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.uls.compactlinks","ext.uls.interface","ext.cx.eventlogging.campaigns","ext.centralNotice.geoIP"];
 (RLQ=window.RLQ||[]).push(function(){mw.loader.implement("user.options@1hzgi",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
 });});
 
@@ -45,7 +45,7 @@ document.documentElement.className="client-js";RLCONF={"wgBreakFrames":!1,"wgSep
 
 
 	
-	
+		
 	
 帮助
 
@@ -65,7 +65,7 @@ document.documentElement.className="client-js";RLCONF={"wgBreakFrames":!1,"wgSep
 
 
 搜索
-（最近 | 最旧） 查看（前50个 | 后50个）（20 | 50 | 100 | 250 | 500）<versions><version><id>58929068</id><timestamp>202004020127</timestamp><date>2020-04-02</date><time>01:27</time><title>香港粵語</title><comment/></version><version><id>58924922</id><timestamp>202004011509</timestamp><date>2020-04-01</date><time>15:09</time><title>香港網民投訴聖經不雅事件</title><comment/></version><version><id>58924857</id><timestamp>202004011505</timestamp><date>2020-04-01</date><time>15:05</time><title>維護公民社會價值，反對宗教右翼霸權大遊行</title><comment/></version><version><id>58924843</id><timestamp>202004011504</timestamp><date>2020-04-01</date><time>15:04</time><title>維護公民社會價值，反對宗教右翼霸權大遊行</title><comment/></version><version><id>58839617</id><timestamp>202003280209</timestamp><date>2020-03-28</date><time>02:09</time><title>解散警隊，刻不容緩</title><comment/></version><version><id>58839511</id><timestamp>202003280202</timestamp><date>2020-03-28</date><time>02:02</time><title>「燃點香港·全民覺醒」觀塘遊行</title><comment/></version><version><id>58672592</id><timestamp>202003171031</timestamp><date>2020-03-17</date><time>10:31</time><title>止暴制亂</title><comment/></version><version><id>58672579</id><timestamp>202003171031</timestamp><date>2020-03-17</date><time>10:31</time><title>止暴制亂</title><comment/></version><version><id>58663455</id><timestamp>202003162047</timestamp><date>2020-03-16</date><time>20:47</time><title>人类演化历程</title><comment/></version><version><id>58663449</id><timestamp>202003162045</timestamp><date>2020-03-16</date><time>20:45</time><title>人类演化历程</title><comment/></version><version><id>58663421</id><timestamp>202003162030</timestamp><date>2020-03-16</date><time>20:30</time><title>人类演化历程</title><comment/></version><version><id>58562598</id><timestamp>00</timestamp><date>-0-0</date><time>:</time><title>五毛黨</title><comment/></version><version><id>58562538</id><timestamp>202003110515</timestamp><date>2020-03-11</date><time>05:15</time><title>三毛</title><comment/></version><version><id>58562502</id><timestamp>202003110513</timestamp><date>2020-03-11</date><time>05:13</time><title>五毛</title><comment/></version><version><id>58548115</id><timestamp>00</timestamp><date>-0-0</date><time>:</time><title>仇警文宣</title><comment/></version><version><id>58539839</id><timestamp>202003091427</timestamp><date>2020-03-09</date><time>14:27</time><title>Wikipedia:頁面存廢討論/記錄/2020/03/09</title><comment/></version><version><id>58539817</id><timestamp>202003091426</timestamp><date>2020-03-09</date><time>14:26</time><title>Wikipedia:頁面存廢討論/記錄/2020/03/09</title><comment/></version><version><id>58539762</id><timestamp>202003091423</timestamp><date>2020-03-09</date><time>14:23</time><title>贝尔定理</title><comment/></version><version><id>58496381</id><timestamp>202003070235</timestamp><date>2020-03-07</date><time>02:35</time><title>非人化</title><comment/></version><version><id>58479974</id><timestamp>00</timestamp><date>-0-0</date><time>:</time><title>人造阴道</title><comment/></version><version><id>58479957</id><timestamp>202003060051</timestamp><date>2020-03-06</date><time>00:51</time><title>人工陰道</title><comment/></version><version><id>58479956</id><timestamp>202003060051</timestamp><date>2020-03-06</date><time>00:51</time><title>人工陰道</title><comment/></version><version><id>58479947</id><timestamp>202003060050</timestamp><date>2020-03-06</date><time>00:50</time><title>人工陰道 (工具)</title><comment/></version><version><id>58479945</id><timestamp>202003060049</timestamp><date>2020-03-06</date><time>00:49</time><title>人工陰道 (工具)</title><comment/></version><version><id>58479936</id><timestamp>202003060048</timestamp><date>2020-03-06</date><time>00:48</time><title>人工陰道 (工具)</title><comment/></version><version><id>58479903</id><timestamp>202003060043</timestamp><date>2020-03-06</date><time>00:43</time><title>人工陰道 (工具)</title><comment/></version><version><id>58479899</id><timestamp>202003060042</timestamp><date>2020-03-06</date><time>00:42</time><title>人工陰道</title><comment/></version><version><id>58479892</id><timestamp>202003060041</timestamp><date>2020-03-06</date><time>00:41</time><title>人工陰道</title><comment/></version><version><id>58479889</id><timestamp>202003060041</timestamp><date>2020-03-06</date><time>00:41</time><title>人工陰道</title><comment/></version><version><id>58479885</id><timestamp>202003060041</timestamp><date>2020-03-06</date><time>00:41</time><title>人工陰道</title><comment/></version><version><id>58479851</id><timestamp>202003060036</timestamp><date>2020-03-06</date><time>00:36</time><title>人工陰道</title><comment/></version><version><id>58479850</id><timestamp>202003060036</timestamp><date>2020-03-06</date><time>00:36</time><title>人工陰道 (工具)</title><comment/></version><version><id>58479769</id><timestamp>202003060022</timestamp><date>2020-03-06</date><time>00:22</time><title>Wikipedia:存廢覆核請求</title><comment/></version><version><id>58479708</id><timestamp>202003060012</timestamp><date>2020-03-06</date><time>00:12</time><title>人工陰道 (工具)</title><comment/></version><version><id>58479701</id><timestamp>202003060011</timestamp><date>2020-03-06</date><time>00:11</time><title>人工陰道 (工具)</title><comment/></version><version><id>58479698</id><timestamp>202003060010</timestamp><date>2020-03-06</date><time>00:10</time><title>人工陰道 (工具)</title><comment/></version><version><id>58476689</id><timestamp>202003051545</timestamp><date>2020-03-05</date><time>15:45</time><title>Wikipedia:存廢覆核請求</title><comment/></version><version><id>58476666</id><timestamp>202003051543</timestamp><date>2020-03-05</date><time>15:43</time><title>Wikipedia:存廢覆核請求</title><comment/></version><version><id>58460818</id><timestamp>202003041445</timestamp><date>2020-03-04</date><time>14:45</time><title>重研輕教</title><comment/></version><version><id>58460812</id><timestamp>202003041445</timestamp><date>2020-03-04</date><time>14:45</time><title>流浪講師</title><comment/></version><version><id>58460803</id><timestamp>202003041444</timestamp><date>2020-03-04</date><time>14:44</time><title>重研輕教</title><comment/></version><version><id>58460797</id><timestamp>202003041443</timestamp><date>2020-03-04</date><time>14:43</time><title>流浪講師</title><comment/></version><version><id>58460788</id><timestamp>202003041442</timestamp><date>2020-03-04</date><time>14:42</time><title>重研輕教</title><comment/></version><version><id>58460783</id><timestamp>202003041442</timestamp><date>2020-03-04</date><time>14:42</time><title>重研輕教</title><comment/></version><version><id>58460586</id><timestamp>202003041427</timestamp><date>2020-03-04</date><time>14:27</time><title>反警情緒</title><comment/></version><version><id>58458229</id><timestamp>00</timestamp><date>-0-0</date><time>:</time><title>香港仇警文宣</title><comment/></version><version><id>58458228</id><timestamp>00</timestamp><date>-0-0</date><time>:</time><title>香港仇警文宣</title><comment/></version><version><id>58458219</id><timestamp>00</timestamp><date>-0-0</date><time>:</time><title>香港仇警文宣</title><comment/></version><version><id>58458214</id><timestamp>202003041131</timestamp><date>2020-03-04</date><time>11:31</time><title>香港黑警</title><comment/></version><version><id>58458212</id><timestamp>202003041130</timestamp><date>2020-03-04</date><time>11:30</time><title>反警情緒</title><comment/></version></versions>
+（最近 | 最旧） 查看（前50个 | 后50个）（20 | 50 | 100 | 250 | 500）<versions><version><id>59219689</id><timestamp>202004180041</timestamp><date>2020-04-18</date><time>00:41</time><title>互联网历史</title><comment/></version><version><id>58929068</id><timestamp>202004020127</timestamp><date>2020-04-02</date><time>01:27</time><title>香港粵語</title><comment/></version><version><id>58924922</id><timestamp>202004011509</timestamp><date>2020-04-01</date><time>15:09</time><title>香港網民投訴聖經不雅事件</title><comment/></version><version><id>58924857</id><timestamp>202004011505</timestamp><date>2020-04-01</date><time>15:05</time><title>維護公民社會價值，反對宗教右翼霸權大遊行</title><comment/></version><version><id>58924843</id><timestamp>202004011504</timestamp><date>2020-04-01</date><time>15:04</time><title>維護公民社會價值，反對宗教右翼霸權大遊行</title><comment/></version><version><id>58839617</id><timestamp>202003280209</timestamp><date>2020-03-28</date><time>02:09</time><title>解散警隊，刻不容緩</title><comment/></version><version><id>58839511</id><timestamp>202003280202</timestamp><date>2020-03-28</date><time>02:02</time><title>「燃點香港·全民覺醒」觀塘遊行</title><comment/></version><version><id>58672592</id><timestamp>202003171031</timestamp><date>2020-03-17</date><time>10:31</time><title>止暴制亂</title><comment/></version><version><id>58672579</id><timestamp>202003171031</timestamp><date>2020-03-17</date><time>10:31</time><title>止暴制亂</title><comment/></version><version><id>58663455</id><timestamp>202003162047</timestamp><date>2020-03-16</date><time>20:47</time><title>人类演化历程</title><comment/></version><version><id>58663449</id><timestamp>202003162045</timestamp><date>2020-03-16</date><time>20:45</time><title>人类演化历程</title><comment/></version><version><id>58663421</id><timestamp>202003162030</timestamp><date>2020-03-16</date><time>20:30</time><title>人类演化历程</title><comment/></version><version><id>58562598</id><timestamp>00</timestamp><date>-0-0</date><time>:</time><title>五毛黨</title><comment/></version><version><id>58562538</id><timestamp>202003110515</timestamp><date>2020-03-11</date><time>05:15</time><title>三毛</title><comment/></version><version><id>58562502</id><timestamp>202003110513</timestamp><date>2020-03-11</date><time>05:13</time><title>五毛</title><comment/></version><version><id>58548115</id><timestamp>00</timestamp><date>-0-0</date><time>:</time><title>仇警文宣</title><comment/></version><version><id>58539839</id><timestamp>202003091427</timestamp><date>2020-03-09</date><time>14:27</time><title>Wikipedia:頁面存廢討論/記錄/2020/03/09</title><comment/></version><version><id>58539817</id><timestamp>202003091426</timestamp><date>2020-03-09</date><time>14:26</time><title>Wikipedia:頁面存廢討論/記錄/2020/03/09</title><comment/></version><version><id>58539762</id><timestamp>202003091423</timestamp><date>2020-03-09</date><time>14:23</time><title>贝尔定理</title><comment/></version><version><id>58496381</id><timestamp>202003070235</timestamp><date>2020-03-07</date><time>02:35</time><title>非人化</title><comment/></version><version><id>58479974</id><timestamp>00</timestamp><date>-0-0</date><time>:</time><title>人造阴道</title><comment/></version><version><id>58479957</id><timestamp>202003060051</timestamp><date>2020-03-06</date><time>00:51</time><title>人工陰道</title><comment/></version><version><id>58479956</id><timestamp>202003060051</timestamp><date>2020-03-06</date><time>00:51</time><title>人工陰道</title><comment/></version><version><id>58479947</id><timestamp>202003060050</timestamp><date>2020-03-06</date><time>00:50</time><title>人工陰道 (工具)</title><comment/></version><version><id>58479945</id><timestamp>202003060049</timestamp><date>2020-03-06</date><time>00:49</time><title>人工陰道 (工具)</title><comment/></version><version><id>58479936</id><timestamp>202003060048</timestamp><date>2020-03-06</date><time>00:48</time><title>人工陰道 (工具)</title><comment/></version><version><id>58479903</id><timestamp>202003060043</timestamp><date>2020-03-06</date><time>00:43</time><title>人工陰道 (工具)</title><comment/></version><version><id>58479899</id><timestamp>202003060042</timestamp><date>2020-03-06</date><time>00:42</time><title>人工陰道</title><comment/></version><version><id>58479892</id><timestamp>202003060041</timestamp><date>2020-03-06</date><time>00:41</time><title>人工陰道</title><comment/></version><version><id>58479889</id><timestamp>202003060041</timestamp><date>2020-03-06</date><time>00:41</time><title>人工陰道</title><comment/></version><version><id>58479885</id><timestamp>202003060041</timestamp><date>2020-03-06</date><time>00:41</time><title>人工陰道</title><comment/></version><version><id>58479851</id><timestamp>202003060036</timestamp><date>2020-03-06</date><time>00:36</time><title>人工陰道</title><comment/></version><version><id>58479850</id><timestamp>202003060036</timestamp><date>2020-03-06</date><time>00:36</time><title>人工陰道 (工具)</title><comment/></version><version><id>58479769</id><timestamp>202003060022</timestamp><date>2020-03-06</date><time>00:22</time><title>Wikipedia:存廢覆核請求</title><comment/></version><version><id>58479708</id><timestamp>202003060012</timestamp><date>2020-03-06</date><time>00:12</time><title>人工陰道 (工具)</title><comment/></version><version><id>58479701</id><timestamp>202003060011</timestamp><date>2020-03-06</date><time>00:11</time><title>人工陰道 (工具)</title><comment/></version><version><id>58479698</id><timestamp>202003060010</timestamp><date>2020-03-06</date><time>00:10</time><title>人工陰道 (工具)</title><comment/></version><version><id>58476689</id><timestamp>202003051545</timestamp><date>2020-03-05</date><time>15:45</time><title>Wikipedia:存廢覆核請求</title><comment/></version><version><id>58476666</id><timestamp>202003051543</timestamp><date>2020-03-05</date><time>15:43</time><title>Wikipedia:存廢覆核請求</title><comment/></version><version><id>58460818</id><timestamp>202003041445</timestamp><date>2020-03-04</date><time>14:45</time><title>重研輕教</title><comment/></version><version><id>58460812</id><timestamp>202003041445</timestamp><date>2020-03-04</date><time>14:45</time><title>流浪講師</title><comment/></version><version><id>58460803</id><timestamp>202003041444</timestamp><date>2020-03-04</date><time>14:44</time><title>重研輕教</title><comment/></version><version><id>58460797</id><timestamp>202003041443</timestamp><date>2020-03-04</date><time>14:43</time><title>流浪講師</title><comment/></version><version><id>58460788</id><timestamp>202003041442</timestamp><date>2020-03-04</date><time>14:42</time><title>重研輕教</title><comment/></version><version><id>58460783</id><timestamp>202003041442</timestamp><date>2020-03-04</date><time>14:42</time><title>重研輕教</title><comment/></version><version><id>58460586</id><timestamp>202003041427</timestamp><date>2020-03-04</date><time>14:27</time><title>反警情緒</title><comment/></version><version><id>58458229</id><timestamp>00</timestamp><date>-0-0</date><time>:</time><title>香港仇警文宣</title><comment/></version><version><id>58458228</id><timestamp>00</timestamp><date>-0-0</date><time>:</time><title>香港仇警文宣</title><comment/></version><version><id>58458219</id><timestamp>00</timestamp><date>-0-0</date><time>:</time><title>香港仇警文宣</title><comment/></version><version><id>58458214</id><timestamp>202003041131</timestamp><date>2020-03-04</date><time>11:31</time><title>香港黑警</title><comment/></version></versions>
 （最近 | 最旧） 查看（前50个 | 后50个）（20 | 50 | 100 | 250 | 500）
 Joeccho： 檢視子頁面 · 用户權限 · 編輯次數 ·  贡献报告 · 上傳的檔案（共享）·  所創條目 ·  跨語言活動 ·  SUL / 帐号 
 
@@ -80,111 +80,118 @@ Joeccho： 檢視子頁面 · 用户權限 · 編輯次數 ·  贡献报告 · �
 
 
 
-    导航菜单
-    
-        
-        
-        	个人工具
-        	
-        		
-        		没有登录
-        		讨论贡献创建账户登录
-        	
-        
-        
-            
-            	名字空间
-            	
-            		特殊页面
-            	
-            
-            
-            	
-            	
-            		变种
-            	
-            	
-            		
-            	
-            
-        
-        
-            
-            	视图
-            	
-            		
-            	
-            
-            
-            	
-            	
-            		更多
-            	
-            	
-            		
-            	
-            
-            
-            	
-            		搜索
-            	
-            	
-            		
-            			
-            			
-            			
-            			
-            		
-            	
-            
-        
-    
-    
-    
-    	
-    		
-    	
-    	
-    		
-    			导航
-    		
-    		
-    			首页分类索引特色内容新闻动态最近更改随机条目资助维基百科
-    			
-    		
-    	
-    	
-    	
-    		
-    			帮助
-    		
-    		
-    			帮助维基社群方针与指引互助客栈知识问答字词转换IRC即时聊天联络我们关于维基百科
-    			
-    		
-    	
-    	
-    	
-    		
-    			工具
-    		
-    		
-    			Atom用户贡献日志查看用户组上传文件特殊页面打印页面
-    			
-    		
-    	
-    	
-    	
-    		
-    			其他语言
-    		
-    		
-    			
-    			
-    		
-    	
-    	
-    
+	导航菜单
+	
+		
+
+	个人工具
+	
+		没有登录讨论贡献创建账户登录
+	
+
+
+		
+			
+	名字空间
+	
+		特殊页面
+	
+
+
+			
+	
+	
+		变种
+	
+	
+		
+	
+
+
+		
+		
+			
+	视图
+	
+		
+	
+
+
+			
+	
+	
+		更多
+	
+	
+		
+	
+
+
+			
+	
+		搜索
+	
+	
+		
+			
+			
+			
+			
+		
+	
+
+
+		
+	
+	
+
+	
+		
+	
+	
+	
+		导航
+	
+	
+		首页分类索引特色内容新闻动态最近更改随机条目资助维基百科
+		
+	
+
+
+
+	
+	
+		帮助
+	
+	
+		帮助维基社群方针与指引互助客栈知识问答字词转换IRC即时聊天联络我们关于维基百科
+		
+	
+
+
+
+	
+		工具
+	
+	
+		Atom用户贡献日志查看用户组上传文件特殊页面打印页面
+		
+	
+
+
+
+	
+		其他语言
+	
+	
+		
+		
+	
+
+
+
+
+
 
 
 
@@ -204,4 +211,5 @@ Joeccho： 檢視子頁面 · 用户權限 · 編輯次數 ·  贡献报告 · �
 	
 
 
-(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":410,"wgHostname":"mw1385"});});</user>
+
+(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":505,"wgHostname":"mw1368"});});</user>

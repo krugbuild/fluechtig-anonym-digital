@@ -1,0 +1,217 @@
+<?xml version="1.0"?>
+<user><language>en</language>
+
+
+User contributions for ClueBot NG - Wikipedia
+document.documentElement.className="client-js";RLCONF={"wgBreakFrames":!1,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgRequestId":"Xps-kgpAAEQAAAf0WssAAAAM","wgCSPNonce":!1,"wgCanonicalNamespace":"Special","wgCanonicalSpecialPageName":"Contributions","wgNamespaceNumber":-1,"wgPageName":"Special:Contributions","wgTitle":"Contributions","wgCurRevisionId":0,"wgRevisionId":0,"wgArticleId":0,"wgIsArticle":!1,"wgIsRedirect":!1,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgRelevantPageName":"Special:Contributions","wgRelevantArticleId":0,"wgIsProbablyEditable":!1,"wgRelevantPageIsProbablyEditable":!1,"wgRelevantUserName":"ClueBot NG","wgMediaViewerOnClick":!0,"wgMediaViewerEnabledByDefault":!0,
+"wgPopupsReferencePreviews":!1,"wgPopupsConflictsWithNavPopupGadget":!1,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en"},"wgMFDisplayWikibaseDescriptions":{"search":!0,"nearby":!0,"watchlist":!0,"tagline":!1},"wgWMESchemaEditAttemptStepOversample":!1,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralAuthMobileDomain":!1,"wgEditSubmitButtonLabelPublish":!0,"oresData":{"951748714":{"damaging":0.002},"951748709":{"damaging":0.005},"951747283":{"damaging":0.002},"951747281":{"damaging":0.006},"951745138":{"damaging":0.002},"951745137":{"damaging":0.004},"951743713":{"damaging":0.003},"951743712":{"damaging":0.005},"951740654":{"damaging":0.002},"951740650":{"damaging":0.003},"951739571":{"damaging":0.002},"951739568":{"damaging":0.006},"951735703":{"damaging":0.002},"951735700":{"damaging":0.007},"951735424":{"damaging":0.002},"951735422":{"damaging":0.005},"951732532":{"damaging":0.002},"951732527":
+{"damaging":0.004},"951730750":{"damaging":0.002},"951730747":{"damaging":0.005},"951730373":{"damaging":0.002},"951730369":{"damaging":0.005},"951729651":{"damaging":0.002},"951729650":{"damaging":0.009},"951728508":{"damaging":0.002},"951728502":{"damaging":0.005},"951727713":{"damaging":0.002},"951727712":{"damaging":0.004},"951727677":{"damaging":0.002},"951727674":{"damaging":0.007},"951720700":{"damaging":0.002},"951720697":{"damaging":0.007},"951720163":{"damaging":0.002},"951720158":{"damaging":0.005},"951716181":{"damaging":0.002},"951716177":{"damaging":0.008},"951716119":{"damaging":0.002},"951716116":{"damaging":0.006},"951714282":{"damaging":0.002},"951714280":{"damaging":0.005},"951712420":{"damaging":0.002},"951712418":{"damaging":0.003},"951711709":{"damaging":0.002},"951711707":{"damaging":0.005},"951710265":{"damaging":0.002},"951710264":{"damaging":0.003},"951710232":{"damaging":0.002},"951710229":{"damaging":0.006},"951707102":{"damaging":0.002},"951707098":{
+"damaging":0.005},"951705630":{"damaging":0.002},"951705628":{"damaging":0.006},"951700853":{"damaging":0.003},"951700849":{"damaging":0.005},"951694970":{"damaging":0.002},"951694968":{"damaging":0.004},"951693283":{"damaging":0.002},"951693282":{"damaging":0.007},"951692829":{"damaging":0.002},"951692827":{"damaging":0.005},"951688828":{"damaging":0.002},"951688824":{"damaging":0.006},"951688299":{"damaging":0.002},"951688296":{"damaging":0.006},"951683929":{"damaging":0.002},"951683925":{"damaging":0.003},"951682397":{"damaging":0.003},"951682394":{"damaging":0.002},"951681240":{"damaging":0.002},"951681237":{"damaging":0.005},"951679031":{"damaging":0.002},"951679029":{"damaging":0.006},"951677982":{"damaging":0.003},"951677981":{"damaging":0.005},"951677237":{"damaging":0.002},"951677234":{"damaging":0.005},"951677091":{"damaging":0.002},"951677087":{"damaging":0.006},"951675028":{"damaging":0.002},"951675026":{"damaging":0.006},"951671804":{"damaging":0.002},"951671802":{
+"damaging":0.006},"951671108":{"damaging":0.002},"951671106":{"damaging":0.004},"951670744":{"damaging":0.002},"951670742":{"damaging":0.005},"951668572":{"damaging":0.002},"951668571":{"damaging":0.01},"951668053":{"damaging":0.002},"951668051":{"damaging":0.007},"951667395":{"damaging":0.002},"951667393":{"damaging":0.004},"951665858":{"damaging":0.002},"951665856":{"damaging":0.003},"951665358":{"damaging":0.002},"951665357":{"damaging":0.003},"951662920":{"damaging":0.002},"951662919":{"damaging":0.003},"951662631":{"damaging":0.002},"951662628":{"damaging":0.005}},"oresThresholds":{"damaging":{"maybebad":0.15,"likelybad":0.641,"verylikelybad":0.919}}};RLSTATE={"ext.globalCssJs.user.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","jquery.makeCollapsible.styles":"ready","mediawiki.interface.helpers.styles":"ready","mediawiki.special":"ready","mediawiki.special.changeslist":"ready",
+"mediawiki.helplink":"ready","mediawiki.widgets.DateInputWidget.styles":"ready","oojs-ui-core.styles":"ready","oojs-ui.styles.indicators":"ready","mediawiki.widgets.styles":"ready","oojs-ui-core.icons":"ready","mediawiki.htmlform.ooui.styles":"ready","mediawiki.htmlform.styles":"ready","mediawiki.feedlink":"ready","skins.vector.styles.legacy":"ready","ext.flaggedRevs.basic":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","ext.ores.styles":"ready"};RLPAGEMODULES=["mediawiki.special.recentchanges","mediawiki.page.ready","mediawiki.special.contributions","mediawiki.htmlform","mediawiki.htmlform.ooui","mediawiki.widgets.UserInputWidget","mediawiki.widgets","oojs-ui-widgets","mediawiki.widgets.DateInputWidget","site","mediawiki.page.startup","skins.vector.js","jquery.makeCollapsible","ext.gadget.ReferenceTooltips","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons",
+"ext.gadget.switcher","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.uls.compactlinks","ext.uls.interface","ext.cx.eventlogging.campaigns","ext.centralNotice.geoIP"];
+(RLQ=window.RLQ||[]).push(function(){mw.loader.implement("user.options@1hzgi",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<name>ClueBot%20NG</name>
+
+
+
+
+
+
+
+	
+		
+	
+Help
+
+
+	User contributions
+	
+	
+		
+		For ClueBot NG talk block log uploads logs filter log
+		
+		
+		
+		Jump to navigation
+		Jump to search
+		Search for contributionsshowhide⧼contribs-top⧽User:Namespace:all(Article)TalkUserUser talkWikipediaWikipedia talkFileFile talkMediaWikiMediaWiki talkTemplateTemplate talkHelpHelp talkCategoryCategory talkPortalPortal talkBookBook talkDraftDraft talkEducation ProgramEducation Program talkTimedTextTimedText talkModuleModule talkGadgetGadget talkGadget definitionGadget definition talkInvert selectionAssociated namespaceTag filter:Only show edits that are latest revisionsOnly show edits that are page creationsHide minor edits⧼contribs-date⧽From date:To date:
+Hide probably good edits
+
+
+Search
+(newest | oldest) View (newer 100 |  older 100) (20 | 50 | 100 | 250 | 500)<versions><version><id>951748714</id><timestamp>202004181745</timestamp><date>2020-04-18</date><time>17:45</time><title>User talk:64.229.6.94</title><comment/></version><version><id>951748709</id><timestamp>202004181745</timestamp><date>2020-04-18</date><time>17:45</time><title>Rev (drink)</title><comment/></version><version><id>951747283</id><timestamp>202004181735</timestamp><date>2020-04-18</date><time>17:35</time><title>User talk:2804:431:C7C6:D161:E19E:F1E3:CCBB:B124</title><comment/></version><version><id>951747281</id><timestamp>202004181735</timestamp><date>2020-04-18</date><time>17:35</time><title>Dmitry Dolgopyat</title><comment/></version><version><id>951745138</id><timestamp>202004181724</timestamp><date>2020-04-18</date><time>17:24</time><title>User talk:46.240.185.105</title><comment/></version><version><id>951745137</id><timestamp>202004181724</timestamp><date>2020-04-18</date><time>17:24</time><title>Narcissus jonquilla</title><comment/></version><version><id>951743713</id><timestamp>202004181715</timestamp><date>2020-04-18</date><time>17:15</time><title>Wikipedia:Administrator intervention against vandalism/TB2</title><comment/></version><version><id>951743712</id><timestamp>202004181715</timestamp><date>2020-04-18</date><time>17:15</time><title>Price index</title><comment/></version><version><id>951740654</id><timestamp>202004181655</timestamp><date>2020-04-18</date><time>16:55</time><title>User talk:80.111.243.95</title><comment/></version><version><id>951740650</id><timestamp>202004181655</timestamp><date>2020-04-18</date><time>16:55</time><title>Names of large numbers</title><comment/></version><version><id>951739571</id><timestamp>202004181647</timestamp><date>2020-04-18</date><time>16:47</time><title>User talk:2606:A000:AE83:1000:651F:F700:7049:70BA</title><comment/></version><version><id>951739568</id><timestamp>202004181647</timestamp><date>2020-04-18</date><time>16:47</time><title>Alma Rosa Aguirre</title><comment/></version><version><id>951735703</id><timestamp>202004181621</timestamp><date>2020-04-18</date><time>16:21</time><title>User talk:47.217.13.240</title><comment/></version><version><id>951735700</id><timestamp>202004181621</timestamp><date>2020-04-18</date><time>16:21</time><title>Enid, Oklahoma</title><comment/></version><version><id>951735424</id><timestamp>202004181619</timestamp><date>2020-04-18</date><time>16:19</time><title>User talk:2601:183:C700:CB0:988C:CF23:A90:B5D4</title><comment/></version><version><id>951735422</id><timestamp>202004181619</timestamp><date>2020-04-18</date><time>16:19</time><title>Weimaraner</title><comment/></version><version><id>951732532</id><timestamp>202004181600</timestamp><date>2020-04-18</date><time>16:00</time><title>User talk:2409:4060:209:D81A:B367:AE9E:57D7:196D</title><comment/></version><version><id>951732527</id><timestamp>202004181600</timestamp><date>2020-04-18</date><time>16:00</time><title>Garden High School</title><comment/></version><version><id>951730750</id><timestamp>202004181549</timestamp><date>2020-04-18</date><time>15:49</time><title>User talk:104.218.174.65</title><comment/></version><version><id>951730747</id><timestamp>202004181549</timestamp><date>2020-04-18</date><time>15:49</time><title>Leaf</title><comment/></version><version><id>951730373</id><timestamp>202004181547</timestamp><date>2020-04-18</date><time>15:47</time><title>User talk:2601:187:807F:103E:3D5A:3A95:E11E:AAE3</title><comment/></version><version><id>951730369</id><timestamp>202004181546</timestamp><date>2020-04-18</date><time>15:46</time><title>Pinocchio paradox</title><comment/></version><version><id>951729651</id><timestamp>202004181542</timestamp><date>2020-04-18</date><time>15:42</time><title>User talk:131.100.242.229</title><comment/></version><version><id>951729650</id><timestamp>202004181542</timestamp><date>2020-04-18</date><time>15:42</time><title>2020 Easter tornado outbreak</title><comment/></version><version><id>951728508</id><timestamp>202004181534</timestamp><date>2020-04-18</date><time>15:34</time><title>User talk:68.199.24.247</title><comment/></version><version><id>951728502</id><timestamp>202004181534</timestamp><date>2020-04-18</date><time>15:34</time><title>Omar Lulu</title><comment/></version><version><id>951727713</id><timestamp>202004181529</timestamp><date>2020-04-18</date><time>15:29</time><title>User talk:121.6.187.0</title><comment/></version><version><id>951727712</id><timestamp>202004181529</timestamp><date>2020-04-18</date><time>15:29</time><title>Binary form</title><comment/></version><version><id>951727677</id><timestamp>202004181529</timestamp><date>2020-04-18</date><time>15:29</time><title>User talk:Moestang69420</title><comment/></version><version><id>951727674</id><timestamp>202004181529</timestamp><date>2020-04-18</date><time>15:29</time><title>List of most-followed Facebook pages</title><comment/></version><version><id>951720700</id><timestamp>202004181443</timestamp><date>2020-04-18</date><time>14:43</time><title>User talk:2600:1014:B102:3513:3983:F9DC:253E:ED10</title><comment/></version><version><id>951720697</id><timestamp>202004181443</timestamp><date>2020-04-18</date><time>14:43</time><title>Nik Dodani</title><comment/></version><version><id>951720163</id><timestamp>202004181439</timestamp><date>2020-04-18</date><time>14:39</time><title>User talk:78.17.68.39</title><comment/></version><version><id>951720158</id><timestamp>202004181439</timestamp><date>2020-04-18</date><time>14:39</time><title>Moville</title><comment/></version><version><id>951716181</id><timestamp>202004181411</timestamp><date>2020-04-18</date><time>14:11</time><title>User talk:23.233.17.216</title><comment/></version><version><id>951716177</id><timestamp>202004181411</timestamp><date>2020-04-18</date><time>14:11</time><title>List of municipalities in Nova Scotia</title><comment/></version><version><id>951716119</id><timestamp>202004181411</timestamp><date>2020-04-18</date><time>14:11</time><title>User talk:87.165.112.239</title><comment/></version><version><id>951716116</id><timestamp>202004181411</timestamp><date>2020-04-18</date><time>14:11</time><title>Ryan McCartan</title><comment/></version><version><id>951714282</id><timestamp>202004181357</timestamp><date>2020-04-18</date><time>13:57</time><title>User talk:69.127.211.182</title><comment/></version><version><id>951714280</id><timestamp>202004181357</timestamp><date>2020-04-18</date><time>13:57</time><title>Wings of Fire (novel series)</title><comment/></version><version><id>951712420</id><timestamp>202004181344</timestamp><date>2020-04-18</date><time>13:44</time><title>User talk:70.106.196.183</title><comment/></version><version><id>951712418</id><timestamp>202004181344</timestamp><date>2020-04-18</date><time>13:44</time><title>Adult Top 40</title><comment/></version><version><id>951711709</id><timestamp>202004181339</timestamp><date>2020-04-18</date><time>13:39</time><title>User talk:2600:1007:B1A9:CAC6:464:F9BD:7156:F57E</title><comment/></version><version><id>951711707</id><timestamp>202004181339</timestamp><date>2020-04-18</date><time>13:39</time><title>Jay Glazer</title><comment/></version><version><id>951710265</id><timestamp>202004181329</timestamp><date>2020-04-18</date><time>13:29</time><title>User talk:41.113.24.35</title><comment/></version><version><id>951710264</id><timestamp>202004181328</timestamp><date>2020-04-18</date><time>13:28</time><title>Culture Spears</title><comment/></version><version><id>951710232</id><timestamp>202004181328</timestamp><date>2020-04-18</date><time>13:28</time><title>User talk:103.82.210.142</title><comment/></version><version><id>951710229</id><timestamp>202004181328</timestamp><date>2020-04-18</date><time>13:28</time><title>Adobe Dimension</title><comment/></version><version><id>951707102</id><timestamp>202004181305</timestamp><date>2020-04-18</date><time>13:05</time><title>User talk:42.110.225.182</title><comment/></version><version><id>951707098</id><timestamp>202004181305</timestamp><date>2020-04-18</date><time>13:05</time><title>Indian Certificate of Secondary Education</title><comment/></version><version><id>951705630</id><timestamp>202004181253</timestamp><date>2020-04-18</date><time>12:53</time><title>User talk:88.108.17.194</title><comment/></version><version><id>951705628</id><timestamp>202004181253</timestamp><date>2020-04-18</date><time>12:53</time><title>List of songs recorded by Ariana Grande</title><comment/></version><version><id>951700853</id><timestamp>202004181217</timestamp><date>2020-04-18</date><time>12:17</time><title>User talk:138.88.99.179</title><comment/></version><version><id>951700849</id><timestamp>202004181217</timestamp><date>2020-04-18</date><time>12:17</time><title>Rockin' in the Free World</title><comment/></version><version><id>951694970</id><timestamp>202004181136</timestamp><date>2020-04-18</date><time>11:36</time><title>User talk:103.244.172.197</title><comment/></version><version><id>951694968</id><timestamp>202004181136</timestamp><date>2020-04-18</date><time>11:36</time><title>Office 365</title><comment/></version><version><id>951693283</id><timestamp>202004181123</timestamp><date>2020-04-18</date><time>11:23</time><title>User talk:112.205.216.17</title><comment/></version><version><id>951693282</id><timestamp>202004181123</timestamp><date>2020-04-18</date><time>11:23</time><title>Vitreous chamber</title><comment/></version><version><id>951692829</id><timestamp>202004181120</timestamp><date>2020-04-18</date><time>11:20</time><title>User talk:93.34.144.190</title><comment/></version><version><id>951692827</id><timestamp>202004181120</timestamp><date>2020-04-18</date><time>11:20</time><title>Haikyu!!</title><comment/></version><version><id>951688828</id><timestamp>202004181057</timestamp><date>2020-04-18</date><time>10:57</time><title>User talk:106.207.137.215</title><comment/></version><version><id>951688824</id><timestamp>202004181057</timestamp><date>2020-04-18</date><time>10:57</time><title>Chomu</title><comment/></version><version><id>951688299</id><timestamp>202004181054</timestamp><date>2020-04-18</date><time>10:54</time><title>User talk:2601:2C1:8500:A960:6058:D184:35D2:26EC</title><comment/></version><version><id>951688296</id><timestamp>202004181054</timestamp><date>2020-04-18</date><time>10:54</time><title>Nicole Scherzinger</title><comment/></version><version><id>951683929</id><timestamp>202004181021</timestamp><date>2020-04-18</date><time>10:21</time><title>User talk:94.2.54.178</title><comment/></version><version><id>951683925</id><timestamp>202004181021</timestamp><date>2020-04-18</date><time>10:21</time><title>Launch (boat)</title><comment/></version><version><id>951682397</id><timestamp>202004181007</timestamp><date>2020-04-18</date><time>10:07</time><title>User talk:MinecraftMaster22</title><comment/></version><version><id>951682394</id><timestamp>202004181007</timestamp><date>2020-04-18</date><time>10:07</time><title>Paramount Network (British TV channel)</title><comment/></version><version><id>951681240</id><timestamp>202004180957</timestamp><date>2020-04-18</date><time>09:57</time><title>User talk:210.186.25.249</title><comment/></version><version><id>951681237</id><timestamp>202004180957</timestamp><date>2020-04-18</date><time>09:57</time><title>Metaplasia</title><comment/></version><version><id>951679031</id><timestamp>202004180936</timestamp><date>2020-04-18</date><time>09:36</time><title>User talk:171.76.206.70</title><comment/></version><version><id>951679029</id><timestamp>202004180936</timestamp><date>2020-04-18</date><time>09:36</time><title>Coates Kinney</title><comment/></version><version><id>951677982</id><timestamp>202004180927</timestamp><date>2020-04-18</date><time>09:27</time><title>User talk:96.40.210.163</title><comment/></version><version><id>951677981</id><timestamp>202004180927</timestamp><date>2020-04-18</date><time>09:27</time><title>XYY syndrome</title><comment/></version><version><id>951677237</id><timestamp>202004180920</timestamp><date>2020-04-18</date><time>09:20</time><title>User talk:2001:8004:1D13:3451:1574:FCFC:5A4F:BA92</title><comment/></version><version><id>951677234</id><timestamp>202004180920</timestamp><date>2020-04-18</date><time>09:20</time><title>List of methods of torture</title><comment/></version><version><id>951677091</id><timestamp>202004180918</timestamp><date>2020-04-18</date><time>09:18</time><title>User talk:Quangvinhvnz</title><comment/></version><version><id>951677087</id><timestamp>202004180918</timestamp><date>2020-04-18</date><time>09:18</time><title>VN-Zoom</title><comment/></version><version><id>951675028</id><timestamp>202004180859</timestamp><date>2020-04-18</date><time>08:59</time><title>User talk:14.201.99.108</title><comment/></version><version><id>951675026</id><timestamp>202004180859</timestamp><date>2020-04-18</date><time>08:59</time><title>Crime + Investigation (Australian TV channel)</title><comment/></version><version><id>951671804</id><timestamp>202004180827</timestamp><date>2020-04-18</date><time>08:27</time><title>User talk:97.86.194.80</title><comment/></version><version><id>951671802</id><timestamp>202004180827</timestamp><date>2020-04-18</date><time>08:27</time><title>Triad Community Unit School District 2</title><comment/></version><version><id>951671108</id><timestamp>202004180820</timestamp><date>2020-04-18</date><time>08:20</time><title>User talk:Yardfoul</title><comment/></version><version><id>951671106</id><timestamp>202004180820</timestamp><date>2020-04-18</date><time>08:20</time><title>Colm Imbert</title><comment/></version><version><id>951670744</id><timestamp>202004180817</timestamp><date>2020-04-18</date><time>08:17</time><title>User talk:49.204.115.43</title><comment/></version><version><id>951670742</id><timestamp>202004180817</timestamp><date>2020-04-18</date><time>08:17</time><title>Child Rights and You</title><comment/></version><version><id>951668572</id><timestamp>202004180805</timestamp><date>2020-04-18</date><time>08:05</time><title>User talk:2600:100A:B11C:1437:DCF3:28EE:2705:EED6</title><comment/></version><version><id>951668571</id><timestamp>202004180805</timestamp><date>2020-04-18</date><time>08:05</time><title>Iran–United States relations</title><comment/></version><version><id>951668053</id><timestamp>202004180800</timestamp><date>2020-04-18</date><time>08:00</time><title>User talk:122.169.14.132</title><comment/></version><version><id>951668051</id><timestamp>202004180800</timestamp><date>2020-04-18</date><time>08:00</time><title>Karan Bhagat</title><comment/></version><version><id>951667395</id><timestamp>202004180754</timestamp><date>2020-04-18</date><time>07:54</time><title>User talk:176.59.40.244</title><comment/></version><version><id>951667393</id><timestamp>202004180754</timestamp><date>2020-04-18</date><time>07:54</time><title>The Guard (2011 film)</title><comment/></version><version><id>951665858</id><timestamp>202004180740</timestamp><date>2020-04-18</date><time>07:40</time><title>User talk:49.188.31.136</title><comment/></version><version><id>951665856</id><timestamp>202004180740</timestamp><date>2020-04-18</date><time>07:40</time><title>Bubsy 3D</title><comment/></version><version><id>951665358</id><timestamp>202004180735</timestamp><date>2020-04-18</date><time>07:35</time><title>User talk:Kapil Sharma Kagdana</title><comment/></version><version><id>951665357</id><timestamp>202004180735</timestamp><date>2020-04-18</date><time>07:35</time><title>Pankosi</title><comment/></version><version><id>951662920</id><timestamp>202004180711</timestamp><date>2020-04-18</date><time>07:11</time><title>Wikipedia:Administrator intervention against vandalism/TB2</title><comment/></version><version><id>951662919</id><timestamp>202004180711</timestamp><date>2020-04-18</date><time>07:11</time><title>Palos Verdes Peninsula High School</title><comment/></version><version><id>951662631</id><timestamp>202004180708</timestamp><date>2020-04-18</date><time>07:08</time><title>User talk:2600:1000:B11E:49DB:B96D:42F7:F62D:BECC</title><comment/></version><version><id>951662628</id><timestamp>202004180708</timestamp><date>2020-04-18</date><time>07:08</time><title>Amesbury Middle School</title><comment/></version></versions>
+(newest | oldest) View (newer 100 |  older 100) (20 | 50 | 100 | 250 | 500)
+
+ClueBot NG: Subpages
+User rights
+Edit count
+Edit summary search
+Articles created
+Global: contributions
+log
+accounts(meta)
+
+
+		Retrieved from "https://en.wikipedia.org/wiki/Special:Contributions"
+		
+		
+		
+	
+
+
+	
+
+
+
+	Navigation menu
+	
+		
+
+	Personal tools
+	
+		Not logged inTalkContributionsCreate accountLog in
+	
+
+
+		
+			
+	Namespaces
+	
+		Special page
+	
+
+
+			
+	
+	
+		Variants
+	
+	
+		
+	
+
+
+		
+		
+			
+	Views
+	
+		
+	
+
+
+			
+	
+	
+		More
+	
+	
+		
+	
+
+
+			
+	
+		Search
+	
+	
+		
+			
+			
+			
+			
+		
+	
+
+
+		
+	
+	
+
+	
+		
+	
+	
+	
+		Navigation
+	
+	
+		Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store
+		
+	
+
+
+
+	
+	
+		Interaction
+	
+	
+		HelpAbout WikipediaCommunity portalRecent changesContact page
+		
+	
+
+
+
+	
+		Tools
+	
+	
+		AtomUser contributionsLogsView user groupsUpload fileSpecial pagesPrintable version
+		
+	
+
+
+
+	
+		Languages
+	
+	
+		
+		
+	
+
+
+
+
+
+
+
+
+	
+		Privacy policy
+		About Wikipedia
+		Disclaimers
+		Contact Wikipedia
+		Developers
+		Statistics
+		Cookie statement
+		Mobile view
+	
+	
+		
+		
+	
+	
+
+
+
+(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":522,"wgHostname":"mw1273"});});</user>

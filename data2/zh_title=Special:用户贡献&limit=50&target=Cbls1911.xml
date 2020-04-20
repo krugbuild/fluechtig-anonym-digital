@@ -1,0 +1,209 @@
+<?xml version="1.0"?>
+<user><language>zh</language>
+
+
+Cbls1911的用户贡献 - 维基百科，自由的百科全书
+document.documentElement.className="client-js";RLCONF={"wgBreakFrames":!1,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"zh","wgMonthNames":["","1月","2月","3月","4月","5月","6月","7月","8月","9月","10月","11月","12月"],"wgRequestId":"Xpf8zQpAML8AACYgDy4AAABM","wgCSPNonce":!1,"wgCanonicalNamespace":"Special","wgCanonicalSpecialPageName":"Contributions","wgNamespaceNumber":-1,"wgPageName":"Special:用户贡献","wgTitle":"用户贡献","wgCurRevisionId":0,"wgRevisionId":0,"wgArticleId":0,"wgIsArticle":!1,"wgIsRedirect":!1,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgPageContentLanguage":"zh","wgPageContentModel":"wikitext","wgRelevantPageName":"Special:用户贡献","wgRelevantArticleId":0,"wgUserVariant":"zh","wgIsProbablyEditable":!1,"wgRelevantPageIsProbablyEditable":!1,"wgRelevantUserName":"Cbls1911","wgMediaViewerOnClick":!0,"wgMediaViewerEnabledByDefault":!0,
+"wgPopupsReferencePreviews":!1,"wgPopupsConflictsWithNavPopupGadget":!1,"wgVisualEditor":{"pageLanguageCode":"zh","pageLanguageDir":"ltr","pageVariantFallbacks":["zh-hans","zh-hant","zh-cn","zh-tw","zh-hk","zh-sg","zh-mo","zh-my"]},"wgMFDisplayWikibaseDescriptions":{"search":!0,"nearby":!0,"watchlist":!0,"tagline":!0},"wgWMESchemaEditAttemptStepOversample":!1,"wgULSCurrentAutonym":"中文","wgNoticeProject":"wikipedia","wgCentralAuthMobileDomain":!1,"wgEditSubmitButtonLabelPublish":!0,"oresData":{"59166239":{"damaging":0.041},"59165834":{"damaging":0.051},"59165769":{"damaging":0.051},"59165260":{"damaging":0.048},"59149439":{"damaging":0.053},"59149428":{"damaging":0.047},"59149398":{"damaging":0.058},"59149388":{"damaging":0.068},"59141443":{"damaging":0.05},"59141429":{"damaging":0.042},"59128282":{"damaging":0.044},"59124268":{"damaging":0.017},"59124248":{"damaging":0.069},"59123630":{"damaging":0.05},"59123616":{"damaging":0.05},"59123596":{"damaging":0.05},
+"59123586":{"damaging":0.05},"59123580":{"damaging":0.062},"59123562":{"damaging":0.107},"59123514":{"damaging":0.053},"59123392":{"damaging":0.066},"59123380":{"damaging":0.056},"59122591":{"damaging":0.028},"59122547":{"damaging":0.044},"59122220":{"damaging":0.035},"59122212":{"damaging":0.044},"59122187":{"damaging":0.06},"59122163":{"damaging":0.027},"59122139":{"damaging":0.051},"59104505":{"damaging":0.037},"59104408":{"damaging":0.053},"59099282":{"damaging":0.046},"59099277":{"damaging":0.046},"59099211":{"damaging":0.046},"59099204":{"damaging":0.046},"59099193":{"damaging":0.046},"59097860":{"damaging":0.052},"59071773":{"damaging":0.027},"59071580":{"damaging":0.055},"59071502":{"damaging":0.047},"59066532":{"damaging":0.061},"59064680":{"damaging":0.042},"59064387":{"damaging":0.042},"59064198":{"damaging":0.041},"59057616":{"damaging":0.052},"59046931":{"damaging":0.013},"59038328":{"damaging":0.064},"59038293":{"damaging":0.051},"59038283":{"damaging":0.039},"59038268":{
+"damaging":0.025}},"oresThresholds":{"damaging":{"maybebad":0.037,"likelybad":0.423}}};RLSTATE={"ext.gadget.hideConversionTab":"ready","ext.gadget.large-font":"ready","ext.globalCssJs.user.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","jquery.makeCollapsible.styles":"ready","mediawiki.interface.helpers.styles":"ready","mediawiki.special":"ready","mediawiki.special.changeslist":"ready","mediawiki.helplink":"ready","mediawiki.widgets.DateInputWidget.styles":"ready","oojs-ui-core.styles":"ready","oojs-ui.styles.indicators":"ready","mediawiki.widgets.styles":"ready","oojs-ui-core.icons":"ready","mediawiki.htmlform.ooui.styles":"ready","mediawiki.htmlform.styles":"ready","mediawiki.feedlink":"ready","skins.vector.styles.legacy":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","ext.ores.styles":"ready"};
+RLPAGEMODULES=["mediawiki.special.recentchanges","mediawiki.page.ready","mediawiki.special.contributions","mediawiki.htmlform","mediawiki.htmlform.ooui","mediawiki.widgets.UserInputWidget","mediawiki.widgets","oojs-ui-widgets","mediawiki.widgets.DateInputWidget","site","mediawiki.page.startup","skins.vector.js","jquery.makeCollapsible","ext.gadget.edit0","ext.gadget.Edittools-refToolbar","ext.gadget.WikiMiniAtlas","ext.gadget.ReferenceTooltips","ext.gadget.UnihanTooltips","ext.gadget.variant-link-fix","ext.gadget.FixedTopBottomLink","ext.gadget.confirm-logout","ext.gadget.shortURL","ext.gadget.AdvancedSiteNotices","ext.gadget.internalLinkHelper-altcolor","ext.gadget.noteTA","ext.gadget.noteTAvector","ext.gadget.NavFrame","ext.gadget.collapsibleTables","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming",
+"ext.uls.compactlinks","ext.uls.interface","ext.cx.eventlogging.campaigns","ext.centralNotice.geoIP"];
+(RLQ=window.RLQ||[]).push(function(){mw.loader.implement("user.options@1hzgi",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<name>Cbls1911</name>
+
+
+
+
+
+
+
+	
+	
+	
+帮助
+
+
+	用户贡献
+	
+	
+		
+		Cbls1911 讨论 封禁日志 上传 日志 过滤器日志
+		
+		
+		
+		跳到导航
+		跳到搜索
+		搜索贡献记录展开折叠⧼contribs-top⧽IP地址或用户名：名字空间：所有条目TalkUserUser talk维基百科维基百科讨论FileFile talkMediaWikiMediaWiki talkTemplateTemplate talkHelpHelp talkCategoryCategory talk主题主题讨论草稿草稿讨论模块模块讨论GadgetGadget talkGadget definitionGadget definition talkTopic反向选择关联的名字空间标签过滤器：仅显示最后版本的编辑仅显示创建页面的编辑隐藏小编辑⧼contribs-date⧽起始日：截止日：
+隐藏可能良好编辑
+
+
+搜索
+（最近 | 最旧） 查看（前50个 | 后50个）（20 | 50 | 100 | 250 | 500）<versions><version><id>59166239</id><timestamp>202004141652</timestamp><date>2020-04-14</date><time>16:52</time><title>葉君璋</title><comment/></version><version><id>59165834</id><timestamp>202004141621</timestamp><date>2020-04-14</date><time>16:21</time><title>海軍 (ONE PIECE)</title><comment/></version><version><id>59165769</id><timestamp>202004141615</timestamp><date>2020-04-14</date><time>16:15</time><title>海軍 (ONE PIECE)</title><comment/></version><version><id>59165260</id><timestamp>202004141538</timestamp><date>2020-04-14</date><time>15:38</time><title>ONE PIECE角色列表</title><comment/></version><version><id>59149439</id><timestamp>202004131639</timestamp><date>2020-04-13</date><time>16:39</time><title>惡魔果實</title><comment/></version><version><id>59149428</id><timestamp>202004131638</timestamp><date>2020-04-13</date><time>16:38</time><title>巴洛克華克</title><comment/></version><version><id>59149398</id><timestamp>202004131636</timestamp><date>2020-04-13</date><time>16:36</time><title>巴洛克華克</title><comment/></version><version><id>59149388</id><timestamp>202004131635</timestamp><date>2020-04-13</date><time>16:35</time><title>惡魔果實</title><comment/></version><version><id>59141443</id><timestamp>202004130736</timestamp><date>2020-04-13</date><time>07:36</time><title>安德鲁·库默</title><comment/></version><version><id>59141429</id><timestamp>202004130735</timestamp><date>2020-04-13</date><time>07:35</time><title>安德鲁·库默</title><comment/></version><version><id>59128282</id><timestamp>202004121109</timestamp><date>2020-04-12</date><time>11:09</time><title>ONE PIECE海賊列表</title><comment/></version><version><id>59124268</id><timestamp>202004120719</timestamp><date>2020-04-12</date><time>07:19</time><title>Template:ONE PIECE</title><comment/></version><version><id>59124248</id><timestamp>202004120718</timestamp><date>2020-04-12</date><time>07:18</time><title>和之國</title><comment/></version><version><id>59123630</id><timestamp>202004120632</timestamp><date>2020-04-12</date><time>06:32</time><title>草山行館</title><comment/></version><version><id>59123616</id><timestamp>202004120631</timestamp><date>2020-04-12</date><time>06:31</time><title>草山行館</title><comment/></version><version><id>59123596</id><timestamp>202004120629</timestamp><date>2020-04-12</date><time>06:29</time><title>草山行館</title><comment/></version><version><id>59123586</id><timestamp>202004120628</timestamp><date>2020-04-12</date><time>06:28</time><title>草山行館</title><comment/></version><version><id>59123580</id><timestamp>202004120628</timestamp><date>2020-04-12</date><time>06:28</time><title>草山行館</title><comment/></version><version><id>59123562</id><timestamp>202004120627</timestamp><date>2020-04-12</date><time>06:27</time><title>草山行館</title><comment/></version><version><id>59123514</id><timestamp>202004120624</timestamp><date>2020-04-12</date><time>06:24</time><title>昭和天皇</title><comment/></version><version><id>59123392</id><timestamp>202004120616</timestamp><date>2020-04-12</date><time>06:16</time><title>文斯莫克·香吉士</title><comment/></version><version><id>59123380</id><timestamp>202004120615</timestamp><date>2020-04-12</date><time>06:15</time><title>文斯莫克·香吉士</title><comment/></version><version><id>59122591</id><timestamp>202004120503</timestamp><date>2020-04-12</date><time>05:03</time><title>昭和天皇</title><comment/></version><version><id>59122547</id><timestamp>202004120501</timestamp><date>2020-04-12</date><time>05:01</time><title>草山御賓館</title><comment/></version><version><id>59122220</id><timestamp>202004120430</timestamp><date>2020-04-12</date><time>04:30</time><title>多米尼克·拉布</title><comment/></version><version><id>59122212</id><timestamp>202004120429</timestamp><date>2020-04-12</date><time>04:29</time><title>多米尼克·拉布</title><comment/></version><version><id>59122187</id><timestamp>202004120426</timestamp><date>2020-04-12</date><time>04:26</time><title>佐久間左馬太</title><comment/></version><version><id>59122163</id><timestamp>202004120424</timestamp><date>2020-04-12</date><time>04:24</time><title>佐久間左馬太</title><comment/></version><version><id>59122139</id><timestamp>202004120421</timestamp><date>2020-04-12</date><time>04:21</time><title>兒玉源太郎</title><comment/></version><version><id>59104505</id><timestamp>202004110455</timestamp><date>2020-04-11</date><time>04:55</time><title>傑克 (ONE PIECE)</title><comment/></version><version><id>59104408</id><timestamp>202004110451</timestamp><date>2020-04-11</date><time>04:51</time><title>傑克 (ONE PIECE)</title><comment/></version><version><id>59099282</id><timestamp>202004101952</timestamp><date>2020-04-10</date><time>19:52</time><title>ONE PIECE海賊列表</title><comment/></version><version><id>59099277</id><timestamp>202004101951</timestamp><date>2020-04-10</date><time>19:51</time><title>ONE PIECE海賊列表</title><comment/></version><version><id>59099211</id><timestamp>202004101936</timestamp><date>2020-04-10</date><time>19:36</time><title>ONE PIECE海賊列表</title><comment/></version><version><id>59099204</id><timestamp>202004101935</timestamp><date>2020-04-10</date><time>19:35</time><title>ONE PIECE海賊列表</title><comment/></version><version><id>59099193</id><timestamp>202004101932</timestamp><date>2020-04-10</date><time>19:32</time><title>ONE PIECE海賊列表</title><comment/></version><version><id>59097860</id><timestamp>202004101702</timestamp><date>2020-04-10</date><time>17:02</time><title>克洛克達爾</title><comment/></version><version><id>59071773</id><timestamp>202004090945</timestamp><date>2020-04-09</date><time>09:45</time><title>多米尼克·拉布</title><comment/></version><version><id>59071580</id><timestamp>202004090935</timestamp><date>2020-04-09</date><time>09:35</time><title>燕窩</title><comment/></version><version><id>59071502</id><timestamp>202004090931</timestamp><date>2020-04-09</date><time>09:31</time><title>鹿茸</title><comment/></version><version><id>59066532</id><timestamp>202004090408</timestamp><date>2020-04-09</date><time>04:08</time><title>BIG MOM海賊團</title><comment/></version><version><id>59064680</id><timestamp>202004090151</timestamp><date>2020-04-09</date><time>01:51</time><title>航海王電影：Z</title><comment/></version><version><id>59064387</id><timestamp>202004090120</timestamp><date>2020-04-09</date><time>01:20</time><title>航海王電影：Z</title><comment/></version><version><id>59064198</id><timestamp>202004090100</timestamp><date>2020-04-09</date><time>01:00</time><title>航海王電影：Z</title><comment/></version><version><id>59057616</id><timestamp>202004081234</timestamp><date>2020-04-08</date><time>12:34</time><title>艾德華·紐蓋特</title><comment/></version><version><id>59046931</id><timestamp>202004080303</timestamp><date>2020-04-08</date><time>03:03</time><title>Talk:多米尼克·拉布</title><comment/></version><version><id>59038328</id><timestamp>202004071232</timestamp><date>2020-04-07</date><time>12:32</time><title>我們真的學不來！</title><comment/></version><version><id>59038293</id><timestamp>202004071231</timestamp><date>2020-04-07</date><time>12:31</time><title>我們真的學不來！</title><comment/></version><version><id>59038283</id><timestamp>202004071230</timestamp><date>2020-04-07</date><time>12:30</time><title>我們真的學不來！</title><comment/></version><version><id>59038268</id><timestamp>202004071229</timestamp><date>2020-04-07</date><time>12:29</time><title>我們真的學不來！</title><comment/></version></versions>
+（最近 | 最旧） 查看（前50个 | 后50个）（20 | 50 | 100 | 250 | 500）
+Cbls1911： 檢視子頁面 · 用户權限 · 編輯次數 ·  贡献报告 · 上傳的檔案（共享）·  所創條目 ·  跨語言活動 ·  SUL / 帐号 
+
+		取自“https://zh.wikipedia.org/wiki/Special:用户贡献”
+		
+		
+		
+	
+
+
+	
+
+
+
+    导航菜单
+    
+        
+        
+        	个人工具
+        	
+        		
+        		没有登录
+        		讨论贡献创建账户登录
+        	
+        
+        
+            
+            	名字空间
+            	
+            		特殊页面
+            	
+            
+            
+            	
+            	
+            		变种
+            	
+            	
+            		
+            	
+            
+        
+        
+            
+            	视图
+            	
+            		
+            	
+            
+            
+            	
+            	
+            		更多
+            	
+            	
+            		
+            	
+            
+            
+            	
+            		搜索
+            	
+            	
+            		
+            			
+            			
+            			
+            			
+            		
+            	
+            
+        
+    
+    
+    
+    	
+    		
+    	
+    	
+    		
+    			导航
+    		
+    		
+    			首页分类索引特色内容新闻动态最近更改随机条目资助维基百科
+    			
+    		
+    	
+    	
+    	
+    		
+    			帮助
+    		
+    		
+    			帮助维基社群方针与指引互助客栈知识问答字词转换IRC即时聊天联络我们关于维基百科
+    			
+    		
+    	
+    	
+    	
+    		
+    			工具
+    		
+    		
+    			Atom用户贡献日志查看用户组上传文件特殊页面打印页面
+    			
+    		
+    	
+    	
+    	
+    		
+    			其他语言
+    		
+    		
+    			
+    			
+    		
+    	
+    	
+    
+
+
+
+	
+		隐私政策
+		关于维基百科
+		免责声明
+		开发者
+		统计
+		Cookie声明
+		手机版视图
+	
+	
+		
+		
+	
+	
+
+
+(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":419,"wgHostname":"mw1349"});});</user>
