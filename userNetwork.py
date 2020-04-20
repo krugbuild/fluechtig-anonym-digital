@@ -115,9 +115,11 @@ def createPyvisNetwork(nodes, edges):
     #netGraph.add_nodes([name for [name, lang, type] in nodes if type == "user"])
     for node in nodes:
         if node[2] == "user":
-            netGraph.add_node(node[0], shape="dot", color = langColor(node[1]))
+            netGraph.add_node(node[0], shape="dot", size=80)#, color = langColor(node[1]))
         elif node[2] == "article":
-            netGraph.add_node(node[0], shape="star", title = node[0], color = langColor(node[1]))
+            netGraph.add_node(node[0], shape="star", size=100, title = node[0])#, color = langColor(node[1]))
+        elif node[2] == "language":
+            netGraph.add_node(node[0], shape="triangle", size=100, mass=200, title = node[0])
     print('füge edges hinzu ..')
     for edge in edges:
         # die Anzahl der Versionen dient als Indikator für die Stärke der edge
@@ -181,7 +183,7 @@ def readDataCSV(path):
 def condenseEdges(nodes, edges):
     edges_condensed = list()
     print('fasse parallele edges zusammen ..')
-    articles = [name for [name, lang, type] in nodes if type == 'article']
+    articles = [name for [name, lang, type] in nodes if type == 'article' or type == 'language']
     for edge in edges:
         if edge[1] in articles:
             # Duplikate via user-article-Relation ermitteln
@@ -231,13 +233,46 @@ def computeLanguage(nodes, edges):
             languages = [lang for [name, lang] in articles if name in edits]
             # Sprachen des aktuellen Users ermitteln            
             en = node[1].get('en', 0)
+            fr = node[1].get('fr', 0)
+            de = node[1].get('de', 0)
+            es = node[1].get('es', 0)
+            ja = node[1].get('ja', 0)
+            ru = node[1].get('ru', 0)
+            it = node[1].get('it', 0)
             zh = node[1].get('zh', 0)
+            fa = node[1].get('fa', 0)
+            ar = node[1].get('ar', 0)
             # und mit den Sprachen aus den articles aufsummieren
             for item in languages:
                 en += item.get('en', 0)
+                fr += item.get('fr', 0)
+                de += item.get('de', 0)
+                es += item.get('es', 0)
+                ja += item.get('ja', 0)
+                ru += item.get('ru', 0)
+                it += item.get('it', 0)
                 zh += item.get('zh', 0)
+                fa += item.get('fa', 0)
+                ar += item.get('ar', 0)
             # neue Sprachsummen setzen
-            node[1] = {'en': en, 'zh': zh}
+            node[1] = {'en': en, 'fr' : fr, 'de' : de, 'es' : es, 'ja' : ja
+                , 'ru' : ru, 'it' : it, 'zh': zh, 'fa' : fa, 'ar' : ar}
+            
+# =============================================================================
+            
+def createLanguageEdges(nodes, edges):
+    languages = ['en', 'fr', 'de', 'es', 'ja', 'ru', 'it', 'zh', 'fa', 'ar']
+    # language Nodes anlegen
+    for lang in languages:
+        print("füge Sprache hinzu: " + lang)
+        nodes.append([lang, {}, 'language']) # name, languages, type 
+    # edges je User anlegen
+    for node in nodes:
+        if node[2] == "user":
+            for lang in node[1].items():
+                if int(lang[1]) > 0:
+                    # id wird als Indikator für Häufigkeit genommen, dabei zählt die Länge des []
+                    edges.append([node[0], lang[0], '', lang[1]*[1]])
             
 # =============================================================================
             
@@ -253,13 +288,39 @@ def langColor(langdict):
         return "white"
     
 # =============================================================================
+# Ermittelt für eine Liste an Usern 
+
+def addUserContributions(nodes, edges, depth = "100"):
+    # URLs müssen dem Schema {wiki & sprache}/w/index.php?title={Spezialseite:Beiträge nach Sprache}    entsprechen
+    contribution_strings = { "en" : "https://en.wikipedia.org/w/index.php?title=Special:Contributions"
+                            , "fr" : "https://fr.wikipedia.org/w/index.php?title=Sp%C3%A9cial:Contributions"
+                            , "de" : "https://de.wikipedia.org/w/index.php?title=Spezial:Beitr%C3%A4ge"
+                            , "es" : "https://es.wikipedia.org/w/index.php?title=Especial:Contribuciones"
+                            , "ja" : "https://ja.wikipedia.org/w/index.php?title=特別:投稿記録"
+                            , "ru" : "https://ru.wikipedia.org/w/index.php?title=Служебная%3AВклад"
+                            , "it" : "https://it.wikipedia.org/w/index.php?title=Speciale:Contributi"
+                            , "zh" : "https://zh.wikipedia.org/w/index.php?title=Special:用户贡献"
+                            , "fa" : "https://fa.wikipedia.org/w/index.php?title=ویژه%3Aمشارکت%E2%80%8Cها"
+                            , "ar" : "https://ar.wikipedia.org/w/index.php?title=خاص%3Aمساهمات"}
+    for node in nodes:
+        if node[2] == "user":
+            print("ermittle Artikel für User " + node[0] + " ..")
+            for cont in contribution_strings.items():
+                # Aufruf je Sprachversion, NB &target=USERNAME muss als letztes Element notiert sein (sonst liefert das Schema nichts)
+                addUserData(nodes, edges, getXMLdata(cont[1] + '&limit=' + depth + '&target=' + node[0], 'user.xsl'))
+    
+# =============================================================================
     
 nodes = list()
 edges = list()
 
+nodes = readDataCSV("nodes_covid_500.csv")
+edges = readDataCSV("edges_covid_500.csv")
+
+
 # Articles Abrufen und als XML speichern. NB Limit anpassen
 ## en article
-#addArticleData(nodes, edges, getXMLdata('https://en.wikipedia.org/w/index.php?title=1989_Tiananmen_Square_protests&action=history&limit=500', 'history.xsl'))
+#addArticleData(nodes, edges, getXMLdata('https://en.wikipedia.org/w/index.php?title=Coronavirus_disease_2019&offset=&limit=500&action=history', 'history.xsl'))
 #addArticleData(nodes, edges, getXMLdata('https://en.wikipedia.org/w/index.php?title=Hong_Kong&action=history&limit=500', 'history.xsl'))
 ### zh article
 #addArticleData(nodes, edges, getXMLdata('https://zh.wikipedia.org/w/index.php?title=%E5%85%AD%E5%9B%9B%E4%BA%8B%E4%BB%B6&action=history&limit=500', 'history.xsl'))
@@ -271,18 +332,23 @@ edges = list()
 #        # Aufruf je Sprachversion, NB &target=USERNAME muss als letztes Element notiert sein (sonst liefert das Schema nichts)
 #        addUserData(nodes, edges, getXMLdata('https://en.wikipedia.org/w/index.php?title=Special:Contributions&limit=100&target=' + node[0], 'user.xsl'))
 #        addUserData(nodes, edges, getXMLdata('https://zh.wikipedia.org/w/index.php?title=Special:用户贡献&limit=100&target=' + node[0], 'user.xsl'))
+#
 
-nodes = readDataCSV("nodes_4-500-100.csv")
-edges = readDataCSV("edges_4-500-100.csv")
-
+#addUserContributions(nodes, edges)
+#
+#writeDataCSV(nodes, "nodes_covid_500.csv", ["id", "lang", "type"])
+#writeDataCSV(edges, "edges_covid_500.csv", ["source", "target", "timestamp", "id"])
+#
+##
 computeLanguage(nodes, edges)
-nodes_reduced = deleteArticlesByCount(nodes, edges)
+createLanguageEdges(nodes, edges)
+nodes_reduced = deleteArticlesByCount(nodes, edges, 1, 100)
 edges_condensed = condenseEdges(nodes_reduced, edges)
-
-#writeDataCSV(nodes, "nodes_4-500-100.csv", ["name", "lang", "type"])
-#writeDataCSV(edges, "edges_4-500-100.csv", ["user", "article", "timestamp", "id"])
-
-#createNetxNetwork(nodes_reduced, edges_condensed)
+##
+#writeDataCSV(nodes_reduced, "nodes_red_covid_500.csv", ["id", "lang", "type"])
+#writeDataCSV(edges_condensed, "edges_red_covid_500.csv", ["source", "target", "timestamp", "id"])
+#
+##createNetxNetwork(nodes_reduced, edges_condensed)
 createPyvisNetwork(nodes_reduced, edges_condensed)
 
 
