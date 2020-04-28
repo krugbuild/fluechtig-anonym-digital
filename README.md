@@ -2,8 +2,6 @@
 
 https://krugbuild.github.io/netWikiAnalysis/networkmap.html
 
-
-
 bezügllich user-accounts in verschiedenen sprachversionen: https://meta.wikimedia.org/wiki/Help:Unified_login
 
 Aufstellung Top 10 : Wikis nach aktiven Nutzern (Abgerufen 2020-04-20):
