@@ -14,18 +14,33 @@ from lxml import etree
 from urllib.parse import urlparse
 
 class UserNetwork:
-    """Klasse zur Datenerhebung- und -verarbeitung von Usernetzwerken in Wikipedia"""
+    """ Klasse zur Datenerhebung- und -verarbeitung von Usernetzwerken in 
+        Wikipedia. Dient als Grundlage für Netzwerkanalysen.
+    """
     
     def __init__(self):
-        """ dictionary definition:
+        """ Dictionary definition:
         nodes { name(title/user), lang, type(article/user) }
         edges { user, article, timestamp, id }
+        languages { kürzel (z.B. en) : contributions-url}
+        -> URLs müssen dem Schema {wiki & sprache}/w/index.php?title={Spezialseite:Beiträge nach Sprache} entsprechen
+        -> Auswahl entspricht TOP 10 Sprachen nach aktivsten Usern auf Wikipedia
         """
         self.nodes = list()
         self.edges = list()
-        
+        self.cont_languages = { "en" : "https://en.wikipedia.org/w/index.php?title=Special:Contributions"
+                               , "fr" : "https://fr.wikipedia.org/w/index.php?title=Sp%C3%A9cial:Contributions"
+                               , "de" : "https://de.wikipedia.org/w/index.php?title=Spezial:Beitr%C3%A4ge"
+                               , "es" : "https://es.wikipedia.org/w/index.php?title=Especial:Contribuciones"
+                               , "ja" : "https://ja.wikipedia.org/w/index.php?title=特別:投稿記録"
+                               , "ru" : "https://ru.wikipedia.org/w/index.php?title=Служебная%3AВклад"
+                               , "it" : "https://it.wikipedia.org/w/index.php?title=Speciale:Contributi"
+                               , "zh" : "https://zh.wikipedia.org/w/index.php?title=Special:用户贡献"
+                               , "fa" : "https://fa.wikipedia.org/w/index.php?title=ویژه%3Aمشارکت%E2%80%8Cها"
+                               , "ar" : "https://ar.wikipedia.org/w/index.php?title=خاص%3Aمساهمات"}
+
 # =============================================================================    
-# CSV, read & write
+# CSV: read & write
 # =============================================================================                
     def _write_data_csv(self, data, path, header):
         """ Schreibt die Inhalte aus data in eine CSV mit definiertem header.
@@ -79,7 +94,7 @@ class UserNetwork:
         self.edges = self._read_data_csv("edges" + file_suffix + ".csv")
         
 # =============================================================================
-# request & XML       
+# HTML request & XML       
 # =============================================================================
     def _get_xml_data(self, url, stylesheet):
         """ Ruft eine Seite ab und transformiert diese nach XML.
@@ -111,7 +126,7 @@ class UserNetwork:
         return xml
     
 # =============================================================================
-# WikiData: Nodes & Edges        
+# Nodes & Edges: Datenbezug        
 # =============================================================================
         
     def add_article_data(self, url):
@@ -156,6 +171,7 @@ class UserNetwork:
             aufgeführten Artikel in nodes[] und edges[] ein. 
             url = Parametrisierte URL der Usercontribution in der Form:
                 https://en.wikipedia.org/w/index.php?title=Special:Contributions&limit={LIMIT}&target={USER}
+                NB: &target=USER muss unbedingt als letztes Element notiert werden!
         """
         # article beziehen bzw. lokale Kopie laden
         user = self._get_xml_data(url, "user.xsl")
@@ -185,6 +201,24 @@ class UserNetwork:
                                 , version.xpath('./id')[0].text] #version id
                 if version_edge not in self.edges:
                     self.edges.append(version_edge)
+    
+    
+    def add_usercontributions(self, depth = "100"):
+        """ Fügt für alle User des aktuellen Netzwerkes für alle definierten 
+            Sprachen (self.cont_languages) die User-Contributions als Nodes 
+            hinzu und verknüpft diese mit dem User.
+            Dient der Ermittlung der User-Sprachen über die Contributions und
+            zur Sichtbarmachung eventueller Contributionnetzwerke.
+            depth = Anzahl an Einträgen je Contribution die geladen werden soll.
+                default = 100
+        """
+        for node in self.nodes:
+            if node[2] == "user":
+                print("ermittle Artikel für User " + node[0] + " ..")
+                for cont in self.cont_languages.items():
+                    # Aufruf je Sprachversion, NB &target=USERNAME muss als letztes 
+                    # .. Element notiert sein (sonst liefert das Schema nichts)
+                    self.add_user_data(cont[1] + '&limit=' + depth + '&target=' + node[0])
     
 # =============================================================================    
 # Nodes & Edges: Datenmanipulation         
@@ -221,36 +255,50 @@ class UserNetwork:
         #return edges_condensed
         
         
-    def delete_articles_by_count(self, versionCount = 1, userCount = 1):
-        """ NB: Vor condenseEdges ausführen
+    def delete_articles_by_count(self, versionCount = 2, userCount = 2):
+        """ Entfernt sämtliche Artikel-Nodes mit weniger als n Versionen gesamt
+            (versionCount) oder mit weniger als n zugeordneten Benutzern (userCount)
+            NB: Vor condenseEdges ausführen!
+            versionCount = Anzahl an Versionen (edges) unter der ein Artikel
+                gelöscht wird. Optional, default = 2
+            userCount = Anzahl an Usern, die einem Artikel zugeordnet sein 
+                müssen. Unterschreitung -> Löschung. Optional, default = 2
         """
         nodes_reduced = self.nodes.copy()
         # articles aus nodes ermitteln (vollständiges item ist nötig zum entfernen)
         articles = [[name, lang, type] for [name, lang, type] in 
                     self.nodes if type == 'article']
-        print('article mit <= ' + str(versionCount) + ' Referenzen und <= ' + str(userCount) + ' beteiligten Usern werden entfernt ..')
+        print('article mit < ' + str(versionCount) + ' Referenzen und < ' + str(userCount) + ' beteiligten Usern werden entfernt ..')
         # für jeden article die Referenzen in edges prüfen
         for item in articles:
             mentions = [user for [user, article, timestamp, id] in 
                         self.edges if article == item[0]]
             # Zahl mentions prüfen, Zahl unique (weil Set) mentions prüfen
-            if len(mentions) <= versionCount or len(set(mentions)) <= userCount:        
+            if len(mentions) < versionCount or len(set(mentions)) < userCount:        
                 nodes_reduced.remove(item)
         self.nodes = nodes_reduced.copy()
         #return nodes_reduced
     
     #TODO
     
-    def computeLanguage(nodes, edges):
+    def computeLanguage(self):
+        """ Ermittelt über die User Contributions die Sprachen und deren
+            absolute Häufigkeit je User
+        """
+        
+        for item in self.cont_languages.keys():
+            print(item)
+        
         # alle artikel mit zugehöriger Sprache ermitteln
-        articles = [[name, lang] for [name, lang, type] in nodes if type == 'article']
-        for node in nodes:
+        articles = [[name, lang] for [name, lang, type] in self.nodes if type == 'article']
+        for node in self.nodes:
             if node[2] == 'user':
                 # alle article des aktuellen users ermitteln
-                edits = [article for [user, article, timestamp, id] in edges if user == node[0]]
+                edits = [article for [user, article, timestamp, id] in self.edges if user == node[0]]
                 # alle Sprachen der articles ermitteln
                 languages = [lang for [name, lang] in articles if name in edits]
                 # Sprachen des aktuellen Users ermitteln            
+                # !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!morgen            
                 en = node[1].get('en', 0)
                 fr = node[1].get('fr', 0)
                 de = node[1].get('de', 0)
@@ -279,41 +327,29 @@ class UserNetwork:
                 
     # =============================================================================
                 
-    def createLanguageEdges(nodes, edges):
+    def create_language_network(self, artcl_also = False):
+        """ Erzeugt Nodes für alle definierten Sprachen (self.languages) und
+            verknüpft diese mit Usern und bei artlc_also=True auch mit Artiklen.
+            Das Feld ID wird mit der Häufigkeit befüllt, timestamp bleibt leer.
+            artcl_aslo = Auch Artikel mit Sprachen verknäpfen. Default False.
+        """
         languages = ['en', 'fr', 'de', 'es', 'ja', 'ru', 'it', 'zh', 'fa', 'ar']
         # language Nodes anlegen
         for lang in languages:
             print("füge Sprache hinzu: " + lang)
-            nodes.append([lang, {}, 'language']) # name, languages, type 
+            self.nodes.append([lang, {}, 'language']) # name, languages, type 
         # edges je User anlegen
-        for node in nodes:
+        for node in self.nodes:
             if node[2] == "user":
                 for lang in node[1].items():
                     if int(lang[1]) > 0:
                         # id wird als Indikator für Häufigkeit genommen, dabei zählt die Länge des []
-                        edges.append([node[0], lang[0], '', lang[1]*[1]])
+                        self.edges.append([node[0], lang[0], '', lang[1]*[1]])
                      
     # =============================================================================
     # Ermittelt für eine Liste an Usern 
     
-    def addUserContributions(nodes, edges, depth = "100"):
-        # URLs müssen dem Schema {wiki & sprache}/w/index.php?title={Spezialseite:Beiträge nach Sprache}    entsprechen
-        contribution_strings = { "en" : "https://en.wikipedia.org/w/index.php?title=Special:Contributions"
-                                , "fr" : "https://fr.wikipedia.org/w/index.php?title=Sp%C3%A9cial:Contributions"
-                                , "de" : "https://de.wikipedia.org/w/index.php?title=Spezial:Beitr%C3%A4ge"
-                                , "es" : "https://es.wikipedia.org/w/index.php?title=Especial:Contribuciones"
-                                , "ja" : "https://ja.wikipedia.org/w/index.php?title=特別:投稿記録"
-                                , "ru" : "https://ru.wikipedia.org/w/index.php?title=Служебная%3AВклад"
-                                , "it" : "https://it.wikipedia.org/w/index.php?title=Speciale:Contributi"
-                                , "zh" : "https://zh.wikipedia.org/w/index.php?title=Special:用户贡献"
-                                , "fa" : "https://fa.wikipedia.org/w/index.php?title=ویژه%3Aمشارکت%E2%80%8Cها"
-                                , "ar" : "https://ar.wikipedia.org/w/index.php?title=خاص%3Aمساهمات"}
-        for node in nodes:
-            if node[2] == "user":
-                print("ermittle Artikel für User " + node[0] + " ..")
-                for cont in contribution_strings.items():
-                    # Aufruf je Sprachversion, NB &target=USERNAME muss als letztes Element notiert sein (sonst liefert das Schema nichts)
-                    addUserData(nodes, edges, getXMLdata(cont[1] + '&limit=' + depth + '&target=' + node[0], 'user.xsl'))
+   
         
     # =============================================================================
     
