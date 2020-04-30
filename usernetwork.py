@@ -20,7 +20,7 @@ class UserNetwork:
     
     def __init__(self):
         """ Dictionary definition:
-        nodes { name(title/user), lang, type(article/user) }
+        nodes { name(title/user), lang{}, type(article/user) }
         edges { user, article, timestamp, id }
         languages { kürzel (z.B. en) : contributions-url}
         -> URLs müssen dem Schema {wiki & sprache}/w/index.php?title={Spezialseite:Beiträge nach Sprache} entsprechen
@@ -279,51 +279,61 @@ class UserNetwork:
         self.nodes = nodes_reduced.copy()
         #return nodes_reduced
     
-    #TODO
     
-    def computeLanguage(self):
+    def compute_language(self):
         """ Ermittelt über die User Contributions die Sprachen und deren
             absolute Häufigkeit je User
+            potentieller Parameter: unique -> nur unteschiedl. Artikel zählen
         """
-        
-        for item in self.cont_languages.keys():
-            print(item)
-        
-        # alle artikel mit zugehöriger Sprache ermitteln
+        # aus nodes[] _alle_ Artikel und deren Sprache (z.B. {"en":1}) auflisten
         articles = [[name, lang] for [name, lang, type] in self.nodes if type == 'article']
         for node in self.nodes:
             if node[2] == 'user':
-                # alle article des aktuellen users ermitteln
+                # alle Artikel-User-Relationen für den aktuellen User aus edges[] auslesen
                 edits = [article for [user, article, timestamp, id] in self.edges if user == node[0]]
-                # alle Sprachen der articles ermitteln
+                # für die ermittelten Artikel die Sprache{} ermitteln
+                # languages ist also: [{},]
                 languages = [lang for [name, lang] in articles if name in edits]
-                # Sprachen des aktuellen Users ermitteln            
-                # !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!morgen            
-                en = node[1].get('en', 0)
-                fr = node[1].get('fr', 0)
-                de = node[1].get('de', 0)
-                es = node[1].get('es', 0)
-                ja = node[1].get('ja', 0)
-                ru = node[1].get('ru', 0)
-                it = node[1].get('it', 0)
-                zh = node[1].get('zh', 0)
-                fa = node[1].get('fa', 0)
-                ar = node[1].get('ar', 0)
-                # und mit den Sprachen aus den articles aufsummieren
+                # node[1] = Sprachen, sollte bei einem User ein leeres dict sein
+                if type(node[1]) != type(dict()):
+                    node[1] = dict()
+                # für jedes {} in languages wird dessen wert 
                 for item in languages:
-                    en += item.get('en', 0)
-                    fr += item.get('fr', 0)
-                    de += item.get('de', 0)
-                    es += item.get('es', 0)
-                    ja += item.get('ja', 0)
-                    ru += item.get('ru', 0)
-                    it += item.get('it', 0)
-                    zh += item.get('zh', 0)
-                    fa += item.get('fa', 0)
-                    ar += item.get('ar', 0)
-                # neue Sprachsummen setzen
-                node[1] = {'en': en, 'fr' : fr, 'de' : de, 'es' : es, 'ja' : ja
-                    , 'ru' : ru, 'it' : it, 'zh': zh, 'fa' : fa, 'ar' : ar}
+                    # je item wird jeder bekannte Sprachkey geprüft
+                    for lang in self.cont_languages.keys():
+                        # je Sprachkey wird der Wert aus item abgerufen und im node aufaddiert
+                        if lang in node[1].keys():
+                            node[1][lang] += item.get(lang, 0)
+                        else:
+                            node[1].update({lang: item.get(lang, 0)})
+                
+#                # Sprachen des aktuellen Users ermitteln            
+#                # !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!morgen            
+#                en = node[1].get('en', 0)
+#                fr = node[1].get('fr', 0)
+#                de = node[1].get('de', 0)
+#                es = node[1].get('es', 0)
+#                ja = node[1].get('ja', 0)
+#                ru = node[1].get('ru', 0)
+#                it = node[1].get('it', 0)
+#                zh = node[1].get('zh', 0)
+#                fa = node[1].get('fa', 0)
+#                ar = node[1].get('ar', 0)
+#                # und mit den Sprachen aus den articles aufsummieren
+#                for item in languages:
+#                    en += item.get('en', 0)
+#                    fr += item.get('fr', 0)
+#                    de += item.get('de', 0)
+#                    es += item.get('es', 0)
+#                    ja += item.get('ja', 0)
+#                    ru += item.get('ru', 0)
+#                    it += item.get('it', 0)
+#                    zh += item.get('zh', 0)
+#                    fa += item.get('fa', 0)
+#                    ar += item.get('ar', 0)
+#                # neue Sprachsummen setzen
+#                node[1] = {'en': en, 'fr' : fr, 'de' : de, 'es' : es, 'ja' : ja
+#                    , 'ru' : ru, 'it' : it, 'zh': zh, 'fa' : fa, 'ar' : ar}
                 
     # =============================================================================
                 
@@ -353,5 +363,8 @@ class UserNetwork:
         
     # =============================================================================
     
-    
-    
+
+usrntwrk = UserNetwork()
+usrntwrk.add_article_data("https://en.wikipedia.org/w/index.php?title=Coronavirus_disease_2019&offset=&limit=50&action=history")
+usrntwrk.add_usercontributions("5")
+usrntwrk.compute_language()
