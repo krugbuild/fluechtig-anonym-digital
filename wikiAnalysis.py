@@ -14,7 +14,12 @@ from usernetwork import UserNetwork
 # =============================================================================    
 # Visualisierung über Pyvis, browserbasiert, physics
                 
-def createPyvisNetwork(nodes, edges):
+def create_pyvis_network(nodes, edges, highlight = ""):
+    """
+    
+    highlight:
+        Erwartet einen Language Key ("en") und färbt den entsprechenden Node rot. Default "".
+    """
     ## Graph anlegen   
     netGraph = Network(height='750pt', width='100%', bgcolor="#222222", font_color="white")
     print("erzeuge Graph ..")
@@ -26,18 +31,24 @@ def createPyvisNetwork(nodes, edges):
         elif node[2] == "article":
             netGraph.add_node(node[0], shape="star", size=100, title = node[0])#, color = langColor(node[1]))
         elif node[2] == "language":
-            netGraph.add_node(node[0], shape="triangle", size=100, mass=200, title = node[0])
+            if node[0] == highlight:
+                netGraph.add_node(node[0], shape="triangle", size=200, mass=400, title = node[0], color ="red")
+            else:
+                netGraph.add_node(node[0], shape="triangle", size=100, mass=200, title = node[0])
     print('füge edges hinzu ..')
     for edge in edges:
-        # die Anzahl der Versionen dient als Indikator für die Stärke der edge
-        netGraph.add_edge(edge[0], edge[1], value=len(edge[3]))
+        # die Anzahl der Versionen dient als Indikator für die Stärke der edge    
+        if edge[3] is not None:
+            netGraph.add_edge(edge[0], edge[1], value=len(edge[3]))
+        else:            
+            netGraph.add_edge(edge[0], edge[1], value=1)
     netGraph.barnes_hut()
     netGraph.show('networkmap.html')        
 
 # =============================================================================  
 # Visualisierung über Networkx, minimalistisch
     
-def createNetxNetwork(nodes, edges):  
+def create_netx_network(nodes, edges):  
     graph = nx.Graph()
     plt.rcParams["figure.figsize"] = (25, 15)
     print('erzeuge Graph ..')
@@ -46,7 +57,7 @@ def createNetxNetwork(nodes, edges):
         graph.add_edge(edge[0], edge[1], weight=len(edge[3]))
 
     #nx.draw_circular(graph)
-    nx.draw_kamada_kawai(graph, with_labels=False, node_size=300)
+    nx.draw_kamada_kawai(graph, with_labels=True, node_size=300)
     #nx.draw_networkx(graph)
     
     plt.savefig("graph.png")
@@ -68,11 +79,17 @@ def createNetxNetwork(nodes, edges):
 
 # =============================================================================  
 
-nodes = list()
-edges = list()
-
-network = UserNetwork()
-network.add_article_data("https://en.wikipedia.org/w/index.php?title=Coronavirus_disease_2019&offset=&limit=500&action=history")
+usrntwrk = UserNetwork()
+usrntwrk.add_article_data("https://en.wikipedia.org/w/index.php?title=Coronavirus_disease_2019&offset=&limit=100&action=history")
+usrntwrk.add_usercontributions("10")
+usrntwrk.compute_language()
+usrntwrk.create_language_network()
+usrntwrk.delete_articles_by_count(userCount = 3)
+usrntwrk.condense_edges()
+edges = usrntwrk.return_interval(202001010000, 202005020000)
+#
+#create_netx_network(usrntwrk.nodes, usrntwrk.edges)
+#create_pyvis_network(usrntwrk.nodes, usrntwrk.edges, "zh")
 
 #
 #nodes = un.readDataCSV("nodes_covid_500.csv")

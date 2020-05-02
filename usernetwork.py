@@ -12,19 +12,50 @@ import requests
 
 from lxml import etree
 from urllib.parse import urlparse
+from urllib.parse import unquote
 
 class UserNetwork:
     """ Klasse zur Datenerhebung- und -verarbeitung von Usernetzwerken in 
         Wikipedia. Dient als Grundlage für Netzwerkanalysen.
+        
+        Exemplarischer Aufruf:
+            
+            Initialisierung und Abruf der letzten 500 Versionen einer Artikelhistorie:
+                
+            >>> usrntwrk = UserNetwork()
+            >>> usrntwrk.add_article_data("https://en.wikipedia.org/w/index.php?
+            title=Coronavirus_disease_2019&offset=&limit=500&action=history")
+            
+            Abruf der letzten 50 Edits für jeden User der abgerufenen Historie
+            in allen definierten Sprachen (self.cont_languages). Zuordnung von
+            Sprachen zu Nutzern und Erweiterung des Netzwerkes um Sprachknoten.
+            
+            >>> usrntwrk.add_usercontributions("50")
+            >>> usrntwrk.compute_language()
+            >>> usrntwrk.create_language_network()
+            
+            Entfernen aller Artikel mit weniger als 5 referenzierten Usern.
+            Zusammenfassen von gleichartigen Edges (selbe Relation).
+            
+            >>> usrntwrk.delete_articles_by_count(userCount = 5)
+            >>> usrntwrk.condense_edges()
+                        
     """
     
     def __init__(self):
-        """ Dictionary definition:
-        nodes { name(title/user), lang{}, type(article/user) }
-        edges { user, article, timestamp, id }
-        languages { kürzel (z.B. en) : contributions-url}
-        -> URLs müssen dem Schema {wiki & sprache}/w/index.php?title={Spezialseite:Beiträge nach Sprache} entsprechen
-        -> Auswahl entspricht TOP 10 Sprachen nach aktivsten Usern auf Wikipedia
+        """ List definition:
+            
+            - nodes [[ name(title/user), lang{}, type(article/user/language) ]]
+            
+            - edges [[ user, article, timestamp, id ]]
+            
+            - languages { kürzel (z.B. en) : contributions-url}
+                    
+                -> contribution-URLs müssen dem Schema {Kennzeichen Sprache}.wikipedia.org/w/index.php?title={Spezialseite:Beiträge nach Sprache} entsprechen
+                
+                -> z.B. {"en" : "https://en.wikipedia.org/w/index.php?title=Special:Contributions"}
+            
+                -> Auswahl entspricht TOP 10 Sprachen gem. Useraktivität auf Wikipedia
         """
         self.nodes = list()
         self.edges = list()
@@ -38,6 +69,38 @@ class UserNetwork:
                                , "zh" : "https://zh.wikipedia.org/w/index.php?title=Special:用户贡献"
                                , "fa" : "https://fa.wikipedia.org/w/index.php?title=ویژه%3Aمشارکت%E2%80%8Cها"
                                , "ar" : "https://ar.wikipedia.org/w/index.php?title=خاص%3Aمساهمات"}
+
+# =============================================================================
+# HTML request & XML       
+# =============================================================================
+    def _get_xml_data(self, url, stylesheet):
+        """ Ruft eine Seite ab und transformiert diese nach XML.
+            url = parametrisierte URL der Artikelhistorie oder User contributions
+            stylesheet = xslt zur Transformation der abzurufenden Daten
+            return: etree-Objekt mit XML
+        """
+        datadir = "data/"
+        lang = urlparse(url).netloc.split(".")[0] + "_"
+        # Dateiname wird aus Query-Teil der URL und Endung .xml gebildet
+        if urlparse(url).query:
+            file = urlparse(url).query + ".xml"
+        # Falls kein Queryteil vorhanden, letzter Pfadteil +.xml
+        else:
+            file = str(urlparse(url).path.rsplit("/")[-1]) + ".xml"
+        # vollständiger Pfad aus Verzeichnis/Sprachversion_Dateiname.xml
+        file = datadir + lang + file
+        
+        # Wenn XML bereits vorhanden, die verwenden
+        if os.path.exists(file):            
+            xml = etree.parse(open(file, "r"))
+        # HTML abrufen, mittels Schema transformieren und lokal speichern
+        else:
+            html = requests.get(url).content
+            tree = etree.fromstring(html, parser = etree.XMLParser(recover=True))
+            xml = etree.XSLT(etree.parse(stylesheet))(tree)
+            with open(file, "w") as f:
+                f.write(str(xml))
+        return xml
 
 # =============================================================================    
 # CSV: read & write
@@ -92,39 +155,7 @@ class UserNetwork:
         """
         self.nodes = self._read_data_csv("nodes" + file_suffix + ".csv")
         self.edges = self._read_data_csv("edges" + file_suffix + ".csv")
-        
-# =============================================================================
-# HTML request & XML       
-# =============================================================================
-    def _get_xml_data(self, url, stylesheet):
-        """ Ruft eine Seite ab und transformiert diese nach XML.
-            url = parametrisierte URL der Artikelhistorie oder User contributions
-            stylesheet = xslt zur Transformation der abzurufenden Daten
-            return: etree-Objekt mit XML
-        """
-        datadir = "data/"
-        lang = urlparse(url).netloc.split(".")[0] + "_"
-        # Dateiname wird aus Query-Teil der URL und Endung .xml gebildet
-        if urlparse(url).query:
-            file = urlparse(url).query + ".xml"
-        # Falls kein Queryteil vorhanden, letzter Pfadteil +.xml
-        else:
-            file = str(urlparse(url).path.rsplit("/")[-1]) + ".xml"
-        # vollständiger Pfad aus Verzeichnis/Sprachversion_Dateiname.xml
-        file = datadir + lang + file
-        
-        # Wenn XML bereits vorhanden, die verwenden
-        if os.path.exists(file):            
-            xml = etree.parse(open(file, "r"))
-        # HTML abrufen, mittels Schema transformieren und lokal speichern
-        else:
-            html = requests.get(url).content
-            tree = etree.fromstring(html, parser = etree.XMLParser(recover=True))
-            xml = etree.XSLT(etree.parse(stylesheet))(tree)
-            with open(file, "w") as f:
-                f.write(str(xml))
-        return xml
-    
+            
 # =============================================================================
 # Nodes & Edges: Datenbezug        
 # =============================================================================
@@ -132,14 +163,16 @@ class UserNetwork:
     def add_article_data(self, url):
         """ Lädt eine via URL definierte Artikelhistorie der Wikipedia herunter
             oder lädt ein lokales Abbild und trägt den Artikel sowie die
-            zugehörigen Benutzer in nodes[] und edges[] ein. 
+            zugehörigen Benutzer in nodes[] und edges[] ein.
+            
             url = Parametrisierte URL der Artikelhistorie in der Form:
                 https://en.wikipedia.org/w/index.php?title=TITLE&limit=LIMIT&action=history
         """
         # article beziehen bzw. lokale Kopie laden
         article = self._get_xml_data(url, "history.xsl")
-        # article-node zusammenstellen
-        article_node = [article.xpath('/article/title')[0].text.rsplit(": ", 1)[0] # name
+        # article-node zusammenstellen (name wird decodiert um keine %-encodings zu haben)
+        article_name = unquote(article.xpath('/article/title')[0].text.rsplit(": ", 1)[0])
+        article_node = [article_name # name
                         , {article.xpath('/article/language')[0].text : 1} # language
                         , 'article'] # type
         # article hinzufügen, sofern neu
@@ -148,8 +181,8 @@ class UserNetwork:
             print('article added: ' + str(article_node))
         # user als nodes, versions als edges hinzufügen
         for version in article.xpath('/article/versions/version'):
-            # user-node zusammenstellen
-            user_node = [version.xpath('./user')[0].text # name
+            # user-node zusammenstellen (name wird decodiert um keine %-encodings zu haben)
+            user_node = [unquote(version.xpath('./user')[0].text) # name
                          , {} # language
                          , 'user'] # type
             # user hinzufügen, sofern neu
@@ -168,15 +201,17 @@ class UserNetwork:
     def add_user_data(self, url):
         """ Lädt die via URL definierte Usercontribution der Wikipedia herunter
             oder lädt ein lokales Abbild und trägt den User sowie die
-            aufgeführten Artikel in nodes[] und edges[] ein. 
+            aufgeführten Artikel in nodes[] und edges[] ein.
+            
             url = Parametrisierte URL der Usercontribution in der Form:
                 https://en.wikipedia.org/w/index.php?title=Special:Contributions&limit={LIMIT}&target={USER}
+            
                 NB: &target=USER muss unbedingt als letztes Element notiert werden!
         """
         # article beziehen bzw. lokale Kopie laden
         user = self._get_xml_data(url, "user.xsl")
         # user-node zusammenstellen
-        user_node = [user.xpath('/user/name')[0].text #name
+        user_node = [unquote(user.xpath('/user/name')[0].text) #name
                      , {} #language
                      , 'user'] #type
         # user hinzufügen, sofern neu
@@ -186,8 +221,8 @@ class UserNetwork:
         # articles als nodes, versions als edges hinzufügen
         if user.xpath('/user/versions/version') is not None:
             for version in user.xpath('/user/versions/version'):
-                # article-node zusammenstellen
-                article_node = [version.xpath('./title')[0].text #name
+                # article-node zusammenstellen (name wird decodiert -> Einheitlichkeit)
+                article_node = [unquote(version.xpath('./title')[0].text) #name
                                 , {user.xpath('/user/language')[0].text : 1} # lang: bessere quelle haben wir aktuell nicht
                                 , 'article'] # type
                 # article hinzufügen, sofern neu
@@ -222,13 +257,103 @@ class UserNetwork:
     
 # =============================================================================    
 # Nodes & Edges: Datenmanipulation         
+# =============================================================================          
+            
+    def compute_language(self):
+        """ Ermittelt über die User Contributions die Sprachen und deren
+            absolute Häufigkeit je User.
+            
+            potentieller Parameter: unique 
+                -> nur unteschiedl. Artikel zählen
+        """
+        # aus nodes[] _alle_ Artikel und deren Sprache (z.B. {"en":1}) auflisten
+        articles = [[name, lang] for [name, lang, type] in self.nodes if type == 'article']
+        for node in self.nodes:
+            if node[2] == 'user':
+                # alle Artikel-User-Relationen für den aktuellen User aus edges[] auslesen
+                edits = [article for [user, article, timestamp, id] in self.edges if user == node[0]]
+                # für die ermittelten Artikel die Sprache{} ermitteln
+                # languages ist also: [{},]
+                languages = [lang for [name, lang] in articles if name in edits]
+                # node[1] = Sprachen, sollte bei einem User ein leeres dict sein
+                if type(node[1]) != type(dict()):
+                    node[1] = dict()
+                # für jedes {} in languages wird dessen wert 
+                for item in languages:
+                    # je item wird jeder bekannte Sprachkey geprüft
+                    for lang in self.cont_languages.keys():
+                        # je Sprachkey wird der Wert aus item abgerufen und im node aufaddiert
+                        if lang in node[1].keys():
+                            node[1][lang] += item.get(lang, 0)
+                        else:
+                            node[1].update({lang: item.get(lang, 0)})
+                                    
 # =============================================================================    
-
+# Nodes & Edges: Netzwerkmanipulation       
+# =============================================================================
+                    
+    def create_language_network(self, artcl_also = False):
+        """ Erzeugt Nodes für alle definierten Sprachen (self.languages) und
+            verknüpft diese mit Usern und ggf. mit Artiklen.
+            
+            Das Feld ID wird mit der Häufigkeit befüllt, timestamp bleibt leer.
+            
+            artcl_aslo
+                Auch Artikel mit Sprachen verknüpfen. Default False.
+            
+            NB: Nach compute_language() ausführen, um ein besseres Ergebnis zu erhalten.
+        """
+        #languages = ['en', 'fr', 'de', 'es', 'ja', 'ru', 'it', 'zh', 'fa', 'ar']
+        # language Nodes anlegen
+        for lang in self.cont_languages.keys():
+            print("füge Sprache hinzu: " + lang)
+            self.nodes.append([lang, {}, 'language']) # name, languages, type 
+        # edges je User anlegen
+        for node in self.nodes:
+            if node[2] == "user" or (node[2] == "article" and artcl_also == True):
+                for lang in node[1].items():
+                    if int(lang[1]) > 0:
+                        # id wird als Indikator für Häufigkeit genommen, dabei zählt die Länge des []
+                        self.edges.append([node[0], lang[0], '', lang[1]*[1]])
+                    
+                    
+    def delete_articles_by_count(self, versionCount = 2, userCount = 2):
+        """ Entfernt sämtliche Artikel-Nodes mit weniger als n Versionen gesamt
+            (versionCount) oder mit weniger als n zugeordneten Benutzern (userCount)
+            
+            versionCount
+                Anzahl an Versionen (edges) unter der ein Artikel gelöscht wird.
+                Optional, default = 2
+            
+            userCount
+                Anzahl an Usern, die einem Artikel zugeordnet sein müssen.
+                Unterschreitung -> Löschung. Optional, default = 2
+                
+            NB: Vor condenseEdges ausführen!
+        """
+        nodes_reduced = self.nodes.copy()
+        # articles aus nodes ermitteln (vollständiges item ist nötig zum entfernen)
+        articles = [[name, lang, type] for [name, lang, type] in 
+                    self.nodes if type == 'article']
+        print('article mit < ' + str(versionCount) + ' Referenzen und < ' + str(userCount) + ' beteiligten Usern werden entfernt ..')
+        # für jeden article die Referenzen in edges prüfen
+        for item in articles:
+            mentions = [user for [user, article, timestamp, id] in 
+                        self.edges if article == item[0]]
+            # Zahl mentions prüfen, Zahl unique (weil Set) mentions prüfen
+            if len(mentions) < versionCount or len(set(mentions)) < userCount:        
+                nodes_reduced.remove(item)
+        self.nodes = nodes_reduced.copy()
+        #return nodes_reduced
+                    
+        
     def condense_edges(self):
-        """ NB: NACH delete_articles_by_count() ausführen
-            Ermittelt edges mit gleicher Relation und fügt diese zusammen
-            Prüft das Ziel der Edges und entfernt Edges ohne passenden Artikel
-            edges { user, article, timestamp, id } zu [user, article, [timestamps], [ids]]
+        """ Ermittelt edges mit gleicher Relation und fügt diese zusammen.
+            Prüft das Ziel der Edges und entfernt Edges ohne passenden Artikel.
+            
+            Aus edge[user, article, timestamp, id] wird [user, article, [timestamps], [ids]].
+            
+            NB: NACH delete_articles_by_count() ausführen.
         """
         edges_condensed = list()
         print('fasse parallele edges zusammen ..')
@@ -252,119 +377,48 @@ class UserNetwork:
                 if condensed not in edges_condensed:
                     edges_condensed.append(condensed)
         self.edges = edges_condensed.copy()
-        #return edges_condensed
+        #return edges_condensed  
+                         
         
+    def return_interval(self, begin, end):
+        """ Vergleicht die Timestamps in edges[] mit den übergebenen Grenzwerten
+            und gibt ein (nodes[], edges[]) tuple für den gegebenen Zeitraum zurück.
+            Relationen zu nachträglich erzeugten Sprach-Nodes werden immer übernommen.
         
-    def delete_articles_by_count(self, versionCount = 2, userCount = 2):
-        """ Entfernt sämtliche Artikel-Nodes mit weniger als n Versionen gesamt
-            (versionCount) oder mit weniger als n zugeordneten Benutzern (userCount)
-            NB: Vor condenseEdges ausführen!
-            versionCount = Anzahl an Versionen (edges) unter der ein Artikel
-                gelöscht wird. Optional, default = 2
-            userCount = Anzahl an Usern, die einem Artikel zugeordnet sein 
-                müssen. Unterschreitung -> Löschung. Optional, default = 2
+            begin:
+                Datetime in YYYYMMDDHHMM (ISO 8601) <= Intervall.
+            end:
+                Datetime in YYYYMMDDHHMM (ISO 8601) >= Intervall.
         """
-        nodes_reduced = self.nodes.copy()
-        # articles aus nodes ermitteln (vollständiges item ist nötig zum entfernen)
-        articles = [[name, lang, type] for [name, lang, type] in 
-                    self.nodes if type == 'article']
-        print('article mit < ' + str(versionCount) + ' Referenzen und < ' + str(userCount) + ' beteiligten Usern werden entfernt ..')
-        # für jeden article die Referenzen in edges prüfen
-        for item in articles:
-            mentions = [user for [user, article, timestamp, id] in 
-                        self.edges if article == item[0]]
-            # Zahl mentions prüfen, Zahl unique (weil Set) mentions prüfen
-            if len(mentions) < versionCount or len(set(mentions)) < userCount:        
-                nodes_reduced.remove(item)
-        self.nodes = nodes_reduced.copy()
-        #return nodes_reduced
-    
-    
-    def compute_language(self):
-        """ Ermittelt über die User Contributions die Sprachen und deren
-            absolute Häufigkeit je User
-            potentieller Parameter: unique -> nur unteschiedl. Artikel zählen
-        """
-        # aus nodes[] _alle_ Artikel und deren Sprache (z.B. {"en":1}) auflisten
-        articles = [[name, lang] for [name, lang, type] in self.nodes if type == 'article']
-        for node in self.nodes:
-            if node[2] == 'user':
-                # alle Artikel-User-Relationen für den aktuellen User aus edges[] auslesen
-                edits = [article for [user, article, timestamp, id] in self.edges if user == node[0]]
-                # für die ermittelten Artikel die Sprache{} ermitteln
-                # languages ist also: [{},]
-                languages = [lang for [name, lang] in articles if name in edits]
-                # node[1] = Sprachen, sollte bei einem User ein leeres dict sein
-                if type(node[1]) != type(dict()):
-                    node[1] = dict()
-                # für jedes {} in languages wird dessen wert 
-                for item in languages:
-                    # je item wird jeder bekannte Sprachkey geprüft
-                    for lang in self.cont_languages.keys():
-                        # je Sprachkey wird der Wert aus item abgerufen und im node aufaddiert
-                        if lang in node[1].keys():
-                            node[1][lang] += item.get(lang, 0)
-                        else:
-                            node[1].update({lang: item.get(lang, 0)})
-                
-#                # Sprachen des aktuellen Users ermitteln            
-#                # !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!morgen            
-#                en = node[1].get('en', 0)
-#                fr = node[1].get('fr', 0)
-#                de = node[1].get('de', 0)
-#                es = node[1].get('es', 0)
-#                ja = node[1].get('ja', 0)
-#                ru = node[1].get('ru', 0)
-#                it = node[1].get('it', 0)
-#                zh = node[1].get('zh', 0)
-#                fa = node[1].get('fa', 0)
-#                ar = node[1].get('ar', 0)
-#                # und mit den Sprachen aus den articles aufsummieren
-#                for item in languages:
-#                    en += item.get('en', 0)
-#                    fr += item.get('fr', 0)
-#                    de += item.get('de', 0)
-#                    es += item.get('es', 0)
-#                    ja += item.get('ja', 0)
-#                    ru += item.get('ru', 0)
-#                    it += item.get('it', 0)
-#                    zh += item.get('zh', 0)
-#                    fa += item.get('fa', 0)
-#                    ar += item.get('ar', 0)
-#                # neue Sprachsummen setzen
-#                node[1] = {'en': en, 'fr' : fr, 'de' : de, 'es' : es, 'ja' : ja
-#                    , 'ru' : ru, 'it' : it, 'zh': zh, 'fa' : fa, 'ar' : ar}
-                
-    # =============================================================================
-                
-    def create_language_network(self, artcl_also = False):
-        """ Erzeugt Nodes für alle definierten Sprachen (self.languages) und
-            verknüpft diese mit Usern und bei artlc_also=True auch mit Artiklen.
-            Das Feld ID wird mit der Häufigkeit befüllt, timestamp bleibt leer.
-            artcl_aslo = Auch Artikel mit Sprachen verknäpfen. Default False.
-        """
-        languages = ['en', 'fr', 'de', 'es', 'ja', 'ru', 'it', 'zh', 'fa', 'ar']
-        # language Nodes anlegen
-        for lang in languages:
-            print("füge Sprache hinzu: " + lang)
-            self.nodes.append([lang, {}, 'language']) # name, languages, type 
-        # edges je User anlegen
-        for node in self.nodes:
-            if node[2] == "user":
-                for lang in node[1].items():
-                    if int(lang[1]) > 0:
-                        # id wird als Indikator für Häufigkeit genommen, dabei zählt die Länge des []
-                        self.edges.append([node[0], lang[0], '', lang[1]*[1]])
-                     
-    # =============================================================================
-    # Ermittelt für eine Liste an Usern 
-    
-   
         
-    # =============================================================================
+        nodes_slice = list()
+        edges_slice = list()
+        lang_edges = [[user, article, timestamp, id] for [user, article, timestamp, id] in self.edges if article in self.cont_languages.keys()]
+        # Edges über timestamp ermitteln
+        # { user, article, timestamp, id } oder { user, article, [timestamp], [id] }
+        for edge in self.edges:
+            # Sprach-Relationen haben kein Timestamp und müssen gesondert behandelt werden
+            if edge not in lang_edges:
+                # liste -> also condensed -> also auf Listeneinträge prüfen
+                if type(edge[2]) == type(list()):
+                    # todo nur timestamps & ids einfügen, die der Einschränkung entsprechen    
+                    timestamps = [timestamp for timestamp in edge[2] if int(timestamp) >= begin and int(timestamp) <= end]
+                    if len(timestamps) > 0:
+                        # add this edge
+                        edges_slice.append(edge)
+                # keine Liste -> nicht condensed
+                else:                    
+                    if int(edge[2]) >= begin and int(edge[2]) <= end:
+                        edges_slice.append(edge)
+        # alle Nodes übernehmen, die in edges_slice referenziert werden
+        # nodes { name(title/user), lang{}, type(article/user/language) }
+#        nodes_slice = [[name, lang, type] from [name, lang, type] in self.nodes if name in edges_slice[0] or name in edges_slice[1]]    
+        nodes_in_edges = [user for [user, article, timestamp, id ] in edges_slice]
+        nodes_in_edges += [article for [user, article, timestamp, id ] in edges_slice]
+#        return((nodes_slice, edges_slice))
+        nodes_in_edges = set(nodes_in_edges)
+        return(nodes_in_edges)    
     
-
-usrntwrk = UserNetwork()
-usrntwrk.add_article_data("https://en.wikipedia.org/w/index.php?title=Coronavirus_disease_2019&offset=&limit=50&action=history")
-usrntwrk.add_usercontributions("5")
-usrntwrk.compute_language()
+    
+    
+    

@@ -1,0 +1,221 @@
+<?xml version="1.0"?>
+<user><language>en</language>
+
+
+User contributions for Dfdooger - Wikipedia
+document.documentElement.className="client-js";RLCONF={"wgBreakFrames":!1,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgRequestId":"Xqv1FApAIC4AAI6fkoUAAABX","wgCSPNonce":!1,"wgCanonicalNamespace":"Special","wgCanonicalSpecialPageName":"Contributions","wgNamespaceNumber":-1,"wgPageName":"Special:Contributions","wgTitle":"Contributions","wgCurRevisionId":0,"wgRevisionId":0,"wgArticleId":0,"wgIsArticle":!1,"wgIsRedirect":!1,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgRelevantPageName":"Special:Contributions","wgRelevantArticleId":0,"wgIsProbablyEditable":!1,"wgRelevantPageIsProbablyEditable":!1,"wgRelevantUserName":"Dfdooger","wgMediaViewerOnClick":!0,"wgMediaViewerEnabledByDefault":!0,
+"wgPopupsReferencePreviews":!1,"wgPopupsConflictsWithNavPopupGadget":!1,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en"},"wgMFDisplayWikibaseDescriptions":{"search":!0,"nearby":!0,"watchlist":!0,"tagline":!1},"wgWMESchemaEditAttemptStepOversample":!1,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralAuthMobileDomain":!1,"wgEditSubmitButtonLabelPublish":!0,"oresData":{"950418820":{"damaging":0.213},"950418683":{"damaging":0.445},"950418454":{"damaging":0.445},"950417541":{"damaging":0.299},"950417467":{"damaging":0.19},"950416217":{"damaging":0.337},"950415386":{"damaging":0.462},"950415362":{"damaging":0.452},"950415206":{"damaging":0.12},"949859618":{"damaging":0.226},"949859264":{"damaging":0.022},"949547449":{"damaging":0.356},"949544221":{"damaging":0.097},"949544115":{"damaging":0.045},"949543581":{"damaging":0.212},"949543180":{"damaging":0.128},"949426180":{"damaging":0.352},"949413361":{
+"damaging":0.319},"949413029":{"damaging":0.273},"949411980":{"damaging":0.065},"949240637":{"damaging":0.131},"949240531":{"damaging":0.096},"949167235":{"damaging":0.228},"949019250":{"damaging":0.129},"949019140":{"damaging":0.112},"949019101":{"damaging":0.022},"949014206":{"damaging":0.065},"949012155":{"damaging":0.033},"949011842":{"damaging":0.224},"949008290":{"damaging":0.518},"949007640":{"damaging":0.174},"949006248":{"damaging":0.015},"948983933":{"damaging":0.015},"948983802":{"damaging":0.346},"948983064":{"damaging":0.022},"948982960":{"damaging":0.165},"948982878":{"damaging":0.571},"948844182":{"damaging":0.285},"948844150":{"damaging":0.377},"948844124":{"damaging":0.547},"948843652":{"damaging":0.82},"948842325":{"damaging":0.317},"948842271":{"damaging":0.075},"948842105":{"damaging":0.126},"948840844":{"damaging":0.299},"948840770":{"damaging":0.314},"948804026":{"damaging":0.241},"948803735":{"damaging":0.297},"948803688":{"damaging":0.019},"948803611":{
+"damaging":0.742},"948802106":{"damaging":0.019},"948801176":{"damaging":0.556},"948800981":{"damaging":0.161},"948800485":{"damaging":0.014},"948800094":{"damaging":0.266},"948799970":{"damaging":0.266},"948798731":{"damaging":0.178},"948798413":{"damaging":0.487},"948797555":{"damaging":0.486},"948797166":{"damaging":0.099},"948796805":{"damaging":0.443},"948796483":{"damaging":0.741}},"oresThresholds":{"damaging":{"maybebad":0.15,"likelybad":0.641,"verylikelybad":0.919}}};RLSTATE={"ext.globalCssJs.user.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","jquery.makeCollapsible.styles":"ready","mediawiki.interface.helpers.styles":"ready","mediawiki.special":"ready","mediawiki.special.changeslist":"ready","mediawiki.helplink":"ready","mediawiki.widgets.DateInputWidget.styles":"ready","oojs-ui-core.styles":"ready","oojs-ui.styles.indicators":"ready","mediawiki.widgets.styles":"ready",
+"oojs-ui-core.icons":"ready","mediawiki.htmlform.ooui.styles":"ready","mediawiki.htmlform.styles":"ready","mediawiki.feedlink":"ready","skins.vector.styles.legacy":"ready","ext.flaggedRevs.basic":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","ext.ores.styles":"ready"};RLPAGEMODULES=["mediawiki.special.recentchanges","mediawiki.page.ready","mediawiki.special.contributions","mediawiki.htmlform","mediawiki.htmlform.ooui","mediawiki.widgets.UserInputWidget","mediawiki.widgets","oojs-ui-widgets","mediawiki.widgets.DateInputWidget","site","mediawiki.page.startup","skins.vector.js","jquery.makeCollapsible","ext.gadget.ReferenceTooltips","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader",
+"ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.uls.compactlinks","ext.uls.interface","ext.cx.eventlogging.campaigns","ext.centralNotice.geoIP"];
+(RLQ=window.RLQ||[]).push(function(){mw.loader.implement("user.options@1hzgi",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<name>Dfdooger</name>
+
+
+
+
+
+
+
+	
+		
+	
+Help
+
+
+	User contributions
+	
+	
+		
+		For Dfdooger talk block log uploads logs filter log
+		
+		
+		
+		Jump to navigation
+		Jump to search
+		This account is currently blocked.
+The latest block log entry is provided below for reference:
+
+ 00:27, 12 April 2020 El C talk contribs blocked Dfdooger talk contribs with an expiration time of indefinite (account creation blocked) (Personal attacks or violations of the harassment policy)  
+
+View full logSearch for contributionsshowhide⧼contribs-top⧽User:Namespace:all(Article)TalkUserUser talkWikipediaWikipedia talkFileFile talkMediaWikiMediaWiki talkTemplateTemplate talkHelpHelp talkCategoryCategory talkPortalPortal talkBookBook talkDraftDraft talkEducation ProgramEducation Program talkTimedTextTimedText talkModuleModule talkGadgetGadget talkGadget definitionGadget definition talkInvert selectionAssociated namespaceTag filter:Only show edits that are latest revisionsOnly show edits that are page creationsHide minor edits⧼contribs-date⧽From date:To date:
+Hide probably good edits
+
+
+Search
+<versions><version><id>950418820</id><timestamp>202004120025</timestamp><date>2020-04-12</date><time>00:25</time><title>Inter-Agency Task Force on Emerging Infectious Diseases</title><comment/></version><version><id>950418683</id><timestamp>202004120024</timestamp><date>2020-04-12</date><time>00:24</time><title>Inter-Agency Task Force on Emerging Infectious Diseases</title><comment/></version><version><id>950418454</id><timestamp>202004120023</timestamp><date>2020-04-12</date><time>00:23</time><title>Inter-Agency Task Force on Emerging Infectious Diseases</title><comment/></version><version><id>950417541</id><timestamp>202004120016</timestamp><date>2020-04-12</date><time>00:16</time><title>Coronavirus disease 2019</title><comment/></version><version><id>950417467</id><timestamp>202004120016</timestamp><date>2020-04-12</date><time>00:16</time><title>User talk:Dfdooger</title><comment/></version><version><id>950416217</id><timestamp>202004120006</timestamp><date>2020-04-12</date><time>00:06</time><title>Coral Princess</title><comment/></version><version><id>950415386</id><timestamp>202004120000</timestamp><date>2020-04-12</date><time>00:00</time><title>Frustration</title><comment/></version><version><id>950415362</id><timestamp>202004120000</timestamp><date>2020-04-12</date><time>00:00</time><title>Unit 731</title><comment/></version><version><id>950415206</id><timestamp>202004112359</timestamp><date>2020-04-11</date><time>23:59</time><title>User talk:Dfdooger</title><comment/></version><version><id>949859618</id><timestamp>202004082247</timestamp><date>2020-04-08</date><time>22:47</time><title>User talk:Dfdooger</title><comment/></version><version><id>949859264</id><timestamp>202004082244</timestamp><date>2020-04-08</date><time>22:44</time><title>User talk:Dfdooger</title><comment/></version><version><id>949547449</id><timestamp>202004070318</timestamp><date>2020-04-07</date><time>03:18</time><title>2020 coronavirus pandemic on cruise ships</title><comment/></version><version><id>949544221</id><timestamp>202004070252</timestamp><date>2020-04-07</date><time>02:52</time><title>User talk:JBW</title><comment/></version><version><id>949544115</id><timestamp>000</timestamp><date>-00-0</date><time>:</time><title>Pullmantur Horizon</title><comment/></version><version><id>949543581</id><timestamp>202004070246</timestamp><date>2020-04-07</date><time>02:46</time><title>User talk:Dfdooger</title><comment/></version><version><id>949543180</id><timestamp>202004070243</timestamp><date>2020-04-07</date><time>02:43</time><title>Grand Princess</title><comment/></version><version><id>949426180</id><timestamp>202004061212</timestamp><date>2020-04-06</date><time>12:12</time><title>Werewolf</title><comment/></version><version><id>949413361</id><timestamp>202004061010</timestamp><date>2020-04-06</date><time>10:10</time><title>User talk:JBW</title><comment/></version><version><id>949413029</id><timestamp>202004061006</timestamp><date>2020-04-06</date><time>10:06</time><title>G-Man (Half-Life)</title><comment/></version><version><id>949411980</id><timestamp>202004060956</timestamp><date>2020-04-06</date><time>09:56</time><title>G-Man (Half-Life)</title><comment/></version><version><id>949411923</id><timestamp>202004060955</timestamp><date>2020-04-06</date><time>09:55</time><title>File:HalfLife GMan.jpg</title><comment/></version><version><id>949240637</id><timestamp>202004051039</timestamp><date>2020-04-05</date><time>10:39</time><title>User talk:Dfdooger</title><comment/></version><version><id>949240531</id><timestamp>202004051037</timestamp><date>2020-04-05</date><time>10:37</time><title>Cacodemon</title><comment/></version><version><id>949167235</id><timestamp>202004050046</timestamp><date>2020-04-05</date><time>00:46</time><title>Trigonometry</title><comment/></version><version><id>949019250</id><timestamp>202004040716</timestamp><date>2020-04-04</date><time>07:16</time><title>User:Dfdooger</title><comment/></version><version><id>949019140</id><timestamp>202004040715</timestamp><date>2020-04-04</date><time>07:15</time><title>User:Dfdooger</title><comment/></version><version><id>949019101</id><timestamp>202004040715</timestamp><date>2020-04-04</date><time>07:15</time><title>User talk:JBW</title><comment/></version><version><id>949014206</id><timestamp>202004040619</timestamp><date>2020-04-04</date><time>06:19</time><title>Licker</title><comment/></version><version><id>949012155</id><timestamp>202004040555</timestamp><date>2020-04-04</date><time>05:55</time><title>Talk:Hospital ships designated for the 2019–20 coronavirus pandemic</title><comment/></version><version><id>949011842</id><timestamp>202004040552</timestamp><date>2020-04-04</date><time>05:52</time><title>Coral Princess</title><comment/></version><version><id>949008290</id><timestamp>202004040508</timestamp><date>2020-04-04</date><time>05:08</time><title>Coral Princess</title><comment/></version><version><id>949007640</id><timestamp>202004040501</timestamp><date>2020-04-04</date><time>05:01</time><title>Ruby Princess</title><comment/></version><version><id>949006248</id><timestamp>202004040449</timestamp><date>2020-04-04</date><time>04:49</time><title>Cytokine</title><comment/></version><version><id>948983933</id><timestamp>202004040152</timestamp><date>2020-04-04</date><time>01:52</time><title>Talk:Costa Luminosa</title><comment/></version><version><id>948983802</id><timestamp>202004040151</timestamp><date>2020-04-04</date><time>01:51</time><title>Costa Luminosa</title><comment/></version><version><id>948983064</id><timestamp>202004040146</timestamp><date>2020-04-04</date><time>01:46</time><title>Talk:Diamond Princess (ship)</title><comment/></version><version><id>948982960</id><timestamp>202004040145</timestamp><date>2020-04-04</date><time>01:45</time><title>Talk:Diamond Princess (ship)</title><comment/></version><version><id>948982878</id><timestamp>202004040145</timestamp><date>2020-04-04</date><time>01:45</time><title>Diamond Princess (ship)</title><comment/></version><version><id>948844182</id><timestamp>202004031014</timestamp><date>2020-04-03</date><time>10:14</time><title>Nemesis (Resident Evil)</title><comment/></version><version><id>948844150</id><timestamp>202004031013</timestamp><date>2020-04-03</date><time>10:13</time><title>Nemesis (Resident Evil)</title><comment/></version><version><id>948844124</id><timestamp>202004031013</timestamp><date>2020-04-03</date><time>10:13</time><title>Nemesis (Resident Evil)</title><comment/></version><version><id>948843652</id><timestamp>202004031009</timestamp><date>2020-04-03</date><time>10:09</time><title>Claire Redfield</title><comment/></version><version><id>948843591</id><timestamp>202004031008</timestamp><date>2020-04-03</date><time>10:08</time><title>File:Claire Redfield.png</title><comment/></version><version><id>948842325</id><timestamp>202004030955</timestamp><date>2020-04-03</date><time>09:55</time><title>Zombie dog (Resident Evil)</title><comment/></version><version><id>948842271</id><timestamp>202004030955</timestamp><date>2020-04-03</date><time>09:55</time><title>File:Zombie Dog (Resident Evil).jpg</title><comment/></version><version><id>948842246</id><timestamp>202004030955</timestamp><date>2020-04-03</date><time>09:55</time><title>File:Zombie Dog (Resident Evil).jpg</title><comment/></version><version><id>948842105</id><timestamp>202004030953</timestamp><date>2020-04-03</date><time>09:53</time><title>Zombie dog (Resident Evil)</title><comment/></version><version><id>948841973</id><timestamp>202004030951</timestamp><date>2020-04-03</date><time>09:51</time><title>File:Zombie Dog (Resident Evil).jpg</title><comment/></version><version><id>948840844</id><timestamp>202004030938</timestamp><date>2020-04-03</date><time>09:38</time><title>Nemesis (Resident Evil)</title><comment/></version><version><id>948840770</id><timestamp>202004030937</timestamp><date>2020-04-03</date><time>09:37</time><title>Nemesis (Resident Evil)</title><comment/></version><version><id>948840629</id><timestamp>202004030935</timestamp><date>2020-04-03</date><time>09:35</time><title>File:Nemesis0.png</title><comment/></version><version><id>948804026</id><timestamp>202004030306</timestamp><date>2020-04-03</date><time>03:06</time><title>User talk:Dfdooger</title><comment/></version><version><id>948803735</id><timestamp>202004030303</timestamp><date>2020-04-03</date><time>03:03</time><title>User talk:Dekimasu</title><comment/></version><version><id>948803688</id><timestamp>202004030302</timestamp><date>2020-04-03</date><time>03:02</time><title>User talk:Dekimasu</title><comment/></version><version><id>948803611</id><timestamp>202004030302</timestamp><date>2020-04-03</date><time>03:02</time><title>Severe acute respiratory syndrome coronavirus 2</title><comment/></version><version><id>948802106</id><timestamp>202004030249</timestamp><date>2020-04-03</date><time>02:49</time><title>User talk:Dekimasu</title><comment/></version><version><id>948801176</id><timestamp>202004030242</timestamp><date>2020-04-03</date><time>02:42</time><title>User:Dfdooger</title><comment/></version><version><id>948800981</id><timestamp>202004030240</timestamp><date>2020-04-03</date><time>02:40</time><title>Wikipedia:Requests for page protection</title><comment/></version><version><id>948800485</id><timestamp>202004030237</timestamp><date>2020-04-03</date><time>02:37</time><title>User talk:Dfdooger</title><comment/></version><version><id>948800094</id><timestamp>202004030235</timestamp><date>2020-04-03</date><time>02:35</time><title>Severe acute respiratory syndrome coronavirus 2</title><comment/></version><version><id>948799970</id><timestamp>202004030234</timestamp><date>2020-04-03</date><time>02:34</time><title>Severe acute respiratory syndrome coronavirus 2</title><comment/></version><version><id>948798731</id><timestamp>202004030226</timestamp><date>2020-04-03</date><time>02:26</time><title>User talk:Dekimasu</title><comment/></version><version><id>948798413</id><timestamp>202004030223</timestamp><date>2020-04-03</date><time>02:23</time><title>Severe acute respiratory syndrome coronavirus 2</title><comment/></version><version><id>948797555</id><timestamp>202004030217</timestamp><date>2020-04-03</date><time>02:17</time><title>Coronavirus disease 2019</title><comment/></version><version><id>948797166</id><timestamp>202004030214</timestamp><date>2020-04-03</date><time>02:14</time><title>Severe acute respiratory syndrome coronavirus 2</title><comment/></version><version><id>948796805</id><timestamp>202004030212</timestamp><date>2020-04-03</date><time>02:12</time><title>Severe acute respiratory syndrome coronavirus 2</title><comment/></version><version><id>948796483</id><timestamp>202004030209</timestamp><date>2020-04-03</date><time>02:09</time><title>Severe acute respiratory syndrome coronavirus 2</title><comment/></version><version><id>947915780</id><timestamp>202003290447</timestamp><date>2020-03-29</date><time>04:47</time><title>User talk:Dfdooger</title><comment/></version><version><id>947915534</id><timestamp>202003290445</timestamp><date>2020-03-29</date><time>04:45</time><title>User talk:Dfdooger</title><comment/></version><version><id>947914179</id><timestamp>202003290435</timestamp><date>2020-03-29</date><time>04:35</time><title>MS Zaandam</title><comment/></version><version><id>947914084</id><timestamp>202003290434</timestamp><date>2020-03-29</date><time>04:34</time><title>Talk:Cryptozoology</title><comment/></version><version><id>947913681</id><timestamp>202003290431</timestamp><date>2020-03-29</date><time>04:31</time><title>Talk:Cryptozoology</title><comment/></version><version><id>947912706</id><timestamp>202003290422</timestamp><date>2020-03-29</date><time>04:22</time><title>Talk:Cryptozoology</title><comment/></version><version><id>947912604</id><timestamp>202003290422</timestamp><date>2020-03-29</date><time>04:22</time><title>MS Zaandam</title><comment/></version><version><id>947909343</id><timestamp>202003290354</timestamp><date>2020-03-29</date><time>03:54</time><title>MS Zaandam</title><comment/></version><version><id>947909226</id><timestamp>202003290353</timestamp><date>2020-03-29</date><time>03:53</time><title>Talk:Cryptozoology</title><comment/></version><version><id>947908999</id><timestamp>202003290351</timestamp><date>2020-03-29</date><time>03:51</time><title>2020 coronavirus pandemic in France</title><comment/></version><version><id>947907865</id><timestamp>202003290343</timestamp><date>2020-03-29</date><time>03:43</time><title>MS Zaandam</title><comment/></version><version><id>947907172</id><timestamp>202003290338</timestamp><date>2020-03-29</date><time>03:38</time><title>User:Dfdooger</title><comment/></version><version><id>947907095</id><timestamp>202003290338</timestamp><date>2020-03-29</date><time>03:38</time><title>Cryptozoology</title><comment/></version><version><id>947906842</id><timestamp>202003290336</timestamp><date>2020-03-29</date><time>03:36</time><title>Cryptozoology</title><comment/></version></versions>
+
+
+Dfdooger: Subpages
+User rights
+Edit count
+Edit summary search
+Articles created
+Global: contributions
+log
+accounts(meta)
+
+
+		Retrieved from "https://en.wikipedia.org/wiki/Special:Contributions"
+		
+		
+		
+	
+
+
+	
+
+
+
+	Navigation menu
+	
+		
+
+	Personal tools
+	
+		Not logged inTalkContributionsCreate accountLog in
+	
+
+
+		
+			
+	Namespaces
+	
+		Special page
+	
+
+
+			
+	
+	
+		Variants
+	
+	
+		
+	
+
+
+		
+		
+			
+	Views
+	
+		
+	
+
+
+			
+	
+	
+		More
+	
+	
+		
+	
+
+
+			
+	
+		Search
+	
+	
+		
+			
+			
+			
+			
+		
+	
+
+
+		
+	
+	
+
+	
+		
+	
+	
+	
+		Navigation
+	
+	
+		Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store
+		
+	
+
+
+
+	
+	
+		Interaction
+	
+	
+		HelpAbout WikipediaCommunity portalRecent changesContact page
+		
+	
+
+
+
+	
+		Tools
+	
+	
+		AtomUser contributionsLogsView user groupsUpload fileSpecial pagesPrintable version
+		
+	
+
+
+
+	
+		Languages
+	
+	
+		
+		
+	
+
+
+
+
+
+
+
+
+	
+		Privacy policy
+		About Wikipedia
+		Disclaimers
+		Contact Wikipedia
+		Developers
+		Statistics
+		Cookie statement
+		Mobile view
+	
+	
+		
+		
+	
+	
+
+
+
+(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":356,"wgHostname":"mw1325"});});</user>
