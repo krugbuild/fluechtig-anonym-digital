@@ -41,23 +41,30 @@
 				<version>
 					<id><xsl:value-of select="@data-mw-revid"/></id>
 					<timestamp>	<!-- zur Filterung -->
-						<xsl:call-template name="formatDate">
-							<xsl:with-param name="dateTime" select='*[@class="mw-changeslist-date"]' />
-							<xsl:with-param name="outputType" select="1" />
-						</xsl:call-template>
+						<xsl:choose>
+							<xsl:when test="$lang != 'en' and $lang != 'zh'">		<!-- bei unbekannten Sprachen originalen Timestamp übernehmen -->
+								<xsl:value-of select='*[@class="mw-changeslist-date"]' />
+							</xsl:when>
+							<xsl:otherwise>		<!-- bei en und zh wird die implementierte Auflösung benutzt -> performanter! -->
+								<xsl:call-template name="formatDate">
+									<xsl:with-param name="dateTime" select='*[@class="mw-changeslist-date"]' />
+									<xsl:with-param name="outputType" select="1" />
+								</xsl:call-template>
+							</xsl:otherwise>
+						</xsl:choose>
 					</timestamp>
-					<date>	<!-- lesbares Datum -->
+					<!--<date>	
 						<xsl:call-template name="formatDate">
 							<xsl:with-param name="dateTime" select='*[@class="mw-changeslist-date"]' />
 							<xsl:with-param name="outputType" select="2" />
 						</xsl:call-template>
 					</date>
-					<time>	<!-- lesbare Zeit -->
+					<time>
 						<xsl:call-template name="formatDate">
 							<xsl:with-param name="dateTime" select='*[@class="mw-changeslist-date"]' />
 							<xsl:with-param name="outputType" select="3" />
 						</xsl:call-template>
-					</time>
+					</time>-->
 					<title>	
 						<xsl:value-of select="a/@title"/>
 					</title>			

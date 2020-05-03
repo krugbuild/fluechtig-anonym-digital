@@ -50,11 +50,11 @@ def create_pyvis_network(nodes, edges, highlight = ""):
     
 def create_netx_network(nodes, edges):  
     graph = nx.Graph()
-    plt.rcParams["figure.figsize"] = (25, 15)
+    plt.rcParams["figure.figsize"] = (19, 15)
     print('erzeuge Graph ..')
     graph.add_nodes_from([name for [name, lang, type] in nodes])
     for edge in edges:        
-        graph.add_edge(edge[0], edge[1], weight=len(edge[3]))
+        graph.add_edge(edge[0], edge[1], weight=2*(len(edge[3])))
 
     #nx.draw_circular(graph)
     nx.draw_kamada_kawai(graph, with_labels=True, node_size=300)
@@ -80,15 +80,17 @@ def create_netx_network(nodes, edges):
 # =============================================================================  
 
 usrntwrk = UserNetwork()
-usrntwrk.add_article_data("https://en.wikipedia.org/w/index.php?title=Coronavirus_disease_2019&offset=&limit=100&action=history")
+usrntwrk.add_article_data("https://en.wikipedia.org/w/index.php?title=Coronavirus_disease_2019&offset=&limit=200&action=history")
 usrntwrk.add_usercontributions("10")
-usrntwrk.compute_language()
-usrntwrk.create_language_network()
-usrntwrk.delete_articles_by_count(userCount = 3)
-usrntwrk.condense_edges()
-edges = usrntwrk.return_interval(202001010000, 202005020000)
+#usrntwrk.compute_language()
+#usrntwrk.create_language_network()
+#usrntwrk.delete_articles_by_count(userCount = 3)
+#usrntwrk.write_csv("class_small")
+#usrntwrk.read_csv("class_small")
+#usrntwrk.condense_edges()
+#edges = usrntwrk.return_interval(202001010000, 202005020000)
 #
-#create_netx_network(usrntwrk.nodes, usrntwrk.edges)
+create_netx_network(usrntwrk.nodes, usrntwrk.edges)
 #create_pyvis_network(usrntwrk.nodes, usrntwrk.edges, "zh")
 
 #
