@@ -181,27 +181,59 @@ class UserNetwork:
         https://docs.python.org/3/library/datetime.html#strftime-and-strptime-behavior
         
         """
+        
+        month = {# fr:
+                "janvier" : "01", "février" : "02", "mars" : "03", "avril" : "04", 
+                 "mai" : "05", "juin" : "06", "juillet" : "07", "août" : "08",
+                 "septembre" : "09", "octobre" : "10", "novembre" : "11", 
+                 "décembre" : "12",
+                 # it:
+                 "gennaio" : "01", "febbraio" : "02", "mar" : "03", "aprile" : "04",
+                 "mag" : "05", "giugno" : "06", "luglio"	 : "07", "agosto" : "08",
+                 "settembre" : "09", "ottobre" : "10", "novembre" : "11",
+                 "dicembre" : "12"}
+        
+        if lang == 'en' or lang == 'zh':
+            # Beispiel: 202005031408
+            value = datetime.strptime(value, '%Y%m%d%H%M')
+        elif lang == 'fr':
+            # Beispiel: 25 avril 2020 à 10:57
+            m = value.split(" ")[1]
+            value = value.replace(m, month[m])
+            value = datetime.strptime(value, '%d %m %Y à %H:%M')
+        elif lang == 'ja':
+            # Beispiel: 2018年1月1日 (水) 00:36
+            # str wird auf digits reduziert
+            value = ''.join(e for e in value if e.isdigit())
+            # für Eindeutigkeit zwischen date und time ein . eingefügt
+            value = "".join((value[:-4], '.', value[-4:]))
+            value = datetime.strptime(value, '%Y%m%d.%H%M')
+        elif lang == 'it':
+            # 17:23, 15 mar 2017
+            m = value.split(" ")[2]
+            value = value.replace(m, month[m])
+            value = datetime.strptime(value, '%H:%M, %d %m %Y')
+        
         #datetime_object = datetime.strptime('Jun 1 2005  1:33PM', '%b %d %Y %I:%M%p')
         #date = parse(zh, fuzzy=True)
-        print(lang + value)
-        timestamp = None
-        #try:
-### TODO
-        calendar.different_locale("fr")
-       # if lang = "fr"
-        
-        timestamp = time.strptime(value, "%Y%m%d%H%M")
-        timestamp = datetime.fromtimestamp(time.mktime(timestamp))
-        #timestamp = parse(value, fuzzy = True) 
-            
-#        except calendar.IllegalMonthError:
-#            print("month")
-#        except TypeError:
-#            print("TypeError\t" + lang)
-#        #if lang != "fr":
-              
-        return timestamp
+        #print(lang + value)
+        #timestamp = None
 
+
+#        timestamp = datetime.fromtimestamp(time.mktime(timestamp))
+#        #timestamp = parse(value, fuzzy = True) 
+#            
+##        except calendar.IllegalMonthError:
+##            print("month")
+##        except TypeError:
+##            print("TypeError\t" + lang)
+##        #if lang != "fr":
+#              
+        return value
+
+
+
+    
 # =============================================================================
 # HTML request & XML
 # =============================================================================
