@@ -1,21 +1,215 @@
 # netWikiAnalysis
 
-https://krugbuild.github.io/netWikiAnalysis/networkmap.html
+## Wege der Internetzensur: Akteursanalysen in der Wikipedia als Bestandteil einer digitalen Quellenkritik
 
-bezügllich user-accounts in verschiedenen sprachversionen: https://meta.wikimedia.org/wiki/Help:Unified_login
+Repositorium zum Abschlussprojekt. Status: in Arbeit.
 
-Aufstellung Top 10 : Wikis nach aktiven Nutzern (Abgerufen 2020-04-20):
+---
 
-|                          Language                           |                     Language (local)                      |                     Wiki                      |                           Articles                           |   Total    |                            Edits                             |                          Admins                           |                            Users                             |                         Active users                         |                           Images                           | Depth  |
-| :---------------------------------------------------------: | :-------------------------------------------------------: | :-------------------------------------------: | :----------------------------------------------------------: | :--------: | :----------------------------------------------------------: | :-------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--------------------------------------------------------: | :----: |
-|  [English](https://en.wikipedia.org/wiki/English_language)  | [English](https://en.wikipedia.org/wiki/English_language) | [en](https://en.wikipedia.org/wiki/Main_Page) | [**6,061,695**](https://en.wikipedia.org/w/index.php?title=Special:Statistics&action=raw) | 50,119,172 | [947,367,153](https://en.wikipedia.org/wiki/Special:Statistics) | [1,145](https://en.wikipedia.org/wiki/Special:ListAdmins) | [38,825,576](https://en.wikipedia.org/wiki/Special:ListUsers) | [136,857](https://en.wikipedia.org/wiki/Special:ActiveUsers) | [882,072](https://en.wikipedia.org/wiki/Special:ListFiles) | 998.54 |
-|   [French](https://en.wikipedia.org/wiki/French_language)   |    [français](https://fr.wikipedia.org/wiki/français)     |     [fr](https://fr.wikipedia.org/wiki/)      | [**2,200,534**](https://fr.wikipedia.org/wiki/Special:Statistics?action=raw) | 10,681,169 | [168,981,958](https://fr.wikipedia.org/wiki/Special:Statistics) |  [161](https://fr.wikipedia.org/wiki/Special:Listadmins)  | [3,754,989](https://fr.wikipedia.org/wiki/Special:Listusers) | [19,952](https://fr.wikipedia.org/wiki/Special:ActiveUsers)  | [60,290](https://fr.wikipedia.org/wiki/Special:Imagelist)  | 234.98 |
-|   [German](https://en.wikipedia.org/wiki/German_language)   | [Deutsch](https://de.wikipedia.org/wiki/Deutsche_Sprache) |     [de](https://de.wikipedia.org/wiki/)      | [**2,419,372**](https://de.wikipedia.org/wiki/Special:Statistics?action=raw) | 6,764,084  | [197,305,758](https://de.wikipedia.org/wiki/Special:Statistics) |  [192](https://de.wikipedia.org/wiki/Special:Listadmins)  | [3,432,977](https://de.wikipedia.org/wiki/Special:Listusers) | [18,767](https://de.wikipedia.org/wiki/Special:ActiveUsers)  | [130,010](https://de.wikipedia.org/wiki/Special:Imagelist) | 94.07  |
-|  [Spanish](https://en.wikipedia.org/wiki/Spanish_language)  |  [español](https://es.wikipedia.org/wiki/Idioma_español)  |     [es](https://es.wikipedia.org/wiki/)      | [**1,589,960**](https://es.wikipedia.org/wiki/Special:Statistics?action=raw) | 7,000,313  | [124,651,449](https://es.wikipedia.org/wiki/Special:Statistics) |  [67](https://es.wikipedia.org/wiki/Special:Listadmins)   | [5,782,872](https://es.wikipedia.org/wiki/Special:Listusers) | [16,810](https://es.wikipedia.org/wiki/Special:ActiveUsers)  |    [0](https://es.wikipedia.org/wiki/Special:Imagelist)    | 206.19 |
-| [Japanese](https://en.wikipedia.org/wiki/Japanese_language) |      [日本語](https://ja.wikipedia.org/wiki/日本語)       |     [ja](https://ja.wikipedia.org/wiki/)      | [**1,199,629**](https://ja.wikipedia.org/wiki/Special:Statistics?action=raw) | 3,557,697  | [76,816,332](https://ja.wikipedia.org/wiki/Special:Statistics) |  [41](https://ja.wikipedia.org/wiki/Special:Listadmins)   | [1,617,972](https://ja.wikipedia.org/wiki/Special:Listusers) | [14,558](https://ja.wikipedia.org/wiki/Special:ActiveUsers)  | [86,061](https://ja.wikipedia.org/wiki/Special:Imagelist)  | 83.43  |
-|  [Russian](https://en.wikipedia.org/wiki/Russian_language)  |     [русский](https://ru.wikipedia.org/wiki/русский)      |     [ru](https://ru.wikipedia.org/wiki/)      | [**1,613,284**](https://ru.wikipedia.org/wiki/Special:Statistics?action=raw) | 6,159,333  | [105,999,874](https://ru.wikipedia.org/wiki/Special:Statistics) |  [84](https://ru.wikipedia.org/wiki/Special:Listadmins)   | [2,732,542](https://ru.wikipedia.org/wiki/Special:Listusers) | [11,903](https://ru.wikipedia.org/wiki/Special:ActiveUsers)  | [225,131](https://ru.wikipedia.org/wiki/Special:Imagelist) | 136.65 |
-|  [Italian](https://en.wikipedia.org/wiki/Italian_language)  | [italiano](https://it.wikipedia.org/wiki/Lingua_italiana) |     [it](https://it.wikipedia.org/wiki/)      | [**1,597,100**](https://it.wikipedia.org/wiki/Special:Statistics?action=raw) | 6,597,871  | [111,812,081](https://it.wikipedia.org/wiki/Special:Statistics) |  [109](https://it.wikipedia.org/wiki/Special:Listadmins)  | [1,961,251](https://it.wikipedia.org/wiki/Special:Listusers) |  [9,051](https://it.wikipedia.org/wiki/Special:ActiveUsers)  | [141,228](https://it.wikipedia.org/wiki/Special:Imagelist) | 166.15 |
-|  [Chinese](https://en.wikipedia.org/wiki/Chinese_language)  |        [中文](https://zh.wikipedia.org/wiki/中文)         |     [zh](https://zh.wikipedia.org/wiki/)      | [**1,110,829**](https://zh.wikipedia.org/wiki/Special:Statistics?action=raw) | 6,157,610  | [58,813,572](https://zh.wikipedia.org/wiki/Special:Statistics) |  [80](https://zh.wikipedia.org/wiki/Special:Listadmins)   | [2,924,727](https://zh.wikipedia.org/wiki/Special:Listusers) |  [9,008](https://zh.wikipedia.org/wiki/Special:ActiveUsers)  | [53,153](https://zh.wikipedia.org/wiki/Special:Imagelist)  | 197.15 |
-|  [Persian](https://en.wikipedia.org/wiki/Persian_language)  |       [فارسی](https://fa.wikipedia.org/wiki/فارسی)        |     [fa](https://fa.wikipedia.org/wiki/)      | [**718,548**](https://fa.wikipedia.org/wiki/Special:Statistics?action=raw) | 4,587,187  | [28,635,712](https://fa.wikipedia.org/wiki/Special:Statistics) |  [34](https://fa.wikipedia.org/wiki/Special:Listadmins)   |  [910,664](https://fa.wikipedia.org/wiki/Special:Listusers)  |  [6,009](https://fa.wikipedia.org/wiki/Special:ActiveUsers)  | [62,230](https://fa.wikipedia.org/wiki/Special:Imagelist)  | 180.95 |
-|   [Arabic](https://en.wikipedia.org/wiki/Arabic_language)   |     [العربية](https://ar.wikipedia.org/wiki/العربية)      |     [ar](https://ar.wikipedia.org/wiki/)      | [**1,038,490**](https://ar.wikipedia.org/wiki/Special:Statistics?action=raw) | 6,493,874  | [45,681,247](https://ar.wikipedia.org/wiki/Special:Statistics) |  [25](https://ar.wikipedia.org/wiki/Special:Listadmins)   | [1,834,477](https://ar.wikipedia.org/wiki/Special:Listusers) |  [5,806](https://ar.wikipedia.org/wiki/Special:ActiveUsers)  | [35,059](https://ar.wikipedia.org/wiki/Special:Imagelist)  | 194.12 |
+Quellcodedokumentation, Stand: 2020-05-05
 
+``` Python
+class UserNetwork(builtins.object)
+ |  Klasse zur Datenerhebung- und -verarbeitung von Usernetzwerken in 
+ |  Wikipedia. Dient als Grundlage für Netzwerkanalysen.
+ |  
+ |  Exemplarischer Aufruf:
+ |      
+ |      Initialisierung und Abruf der letzten 500 Versionen einer Artikelhistorie:
+ |          
+ |      >>> usrntwrk = UserNetwork()
+ |      >>> usrntwrk.add_article_data("https://en.wikipedia.org/w/index.php?
+ |      title=Coronavirus_disease_2019&offset=&limit=500&action=history")
+ |      
+ |      Abruf der letzten 50 Edits für jeden User der abgerufenen Historie
+ |      in allen definierten Sprachen (self.cont_languages). Zuordnung von
+ |      Sprachen zu Nutzern und Erweiterung des Netzwerkes um Sprachknoten.
+ |      
+ |      >>> usrntwrk.add_usercontributions("50")
+ |      >>> usrntwrk.compute_language()
+ |      >>> usrntwrk.create_language_network()
+ |      
+ |      Entfernen aller Artikel mit weniger als 5 referenzierten Usern.
+ |      Zusammenfassen von gleichartigen Edges (selbe Relation).
+ |      
+ |      >>> usrntwrk.delete_articles_by_count(userCount = 5)
+ |      >>> usrntwrk.condense_edges()
+ |  
+ |  Methods defined here:
+ |  
+ |  __init__(self)
+ |      List definition:
+ |      
+ |      - nodes [[ name(title/user), lang{}, type(article/user/language) ]]
+ |      
+ |      - edges [[ user, article, timestamp, id ]]
+ |      
+ |      - languages { kürzel (z.B. en) : contributions-url}
+ |              
+ |          -> contribution-URLs müssen dem Schema {Kennzeichen Sprache}.wikipedia.org/w/index.php?title={Spezialseite:Beiträge nach Sprache} entsprechen
+ |          
+ |          -> z.B. {"en" : "https://en.wikipedia.org/w/index.php?title=Special:Contributions"}
+ |      
+ |          -> Auswahl entspricht TOP 8 Sprachen gem. Useraktivität auf Wikipedia
+ |  
+ |  add_article_data(self, url)
+ |      Lädt eine via URL definierte Artikelhistorie der Wikipedia herunter
+ |      oder lädt ein lokales Abbild und trägt den Artikel sowie die
+ |      zugehörigen Benutzer in nodes[] und edges[] ein.
+ |      
+ |      url:
+ |          Parametrisierte URL der Artikelhistorie in der Form: https://en.wikipedia.org/w/index.php?title=TITLE&limit=LIMIT&action=history
+ |  
+ |  add_user_data(self, url)
+ |      Lädt die via URL definierte Usercontribution der Wikipedia herunter
+ |      oder lädt ein lokales Abbild und trägt den User sowie die
+ |      aufgeführten Artikel in nodes[] und edges[] ein.
+ |      
+ |      url:
+ |          Parametrisierte URL der Usercontribution in der Form: https://en.wikipedia.org/w/index.php?title=Special:Contributions&limit={LIMIT}&target={USER}
+ |          NB: &target=USER muss unbedingt als letztes Element notiert werden!
+ |  
+ |  add_usercontributions(self, depth='100', users=None)
+ |      Fügt für alle User des aktuellen Netzwerkes für alle definierten 
+ |      Sprachen (self.cont_languages) die User-Contributions als Nodes 
+ |      hinzu und verknüpft diese mit dem User.
+ |      Dient der Ermittlung der User-Sprachen über die Contributions und
+ |      zur Sichtbarmachung eventueller Contributionnetzwerke.
+ |      
+ |      depth:
+ |          Int. Default = 100. Anzahl an Einträgen je Contribution die geladen 
+ |          werden soll.
+ |          
+ |      user:
+ |          List. Default = None. Ermittelt die Contributions für die direkt
+ |          als Liste übergebenen User. Die lokale nodes[] wird hierbei ignoriert.
+ |  
+ |  compute_language(self)
+ |      Ermittelt über die User Contributions die Sprachen und deren
+ |      absolute Häufigkeit je User.
+ |      
+ |      potentieller Parameter: unique 
+ |          -> nur unteschiedl. Artikel zählen
+ |  
+ |  condense_edges(self)
+ |      Ermittelt edges mit gleicher Relation und fügt diese zusammen.
+ |      Prüft das Ziel der Edges und entfernt Edges ohne passenden Artikel.
+ |      
+ |      Aus edge[user, article, timestamp, id] wird [user, article, [timestamps], [ids]].
+ |      
+ |      NB: NACH delete_articles_by_count() ausführen.
+ |  
+ |  create_language_network(self, artcl_also=False)
+ |      Erzeugt Nodes für alle definierten Sprachen (self.languages) und
+ |      verknüpft diese mit Usern und ggf. mit Artiklen.
+ |      
+ |      Das Feld ID wird mit der Häufigkeit befüllt, timestamp bleibt leer.
+ |      
+ |      artcl_aslo
+ |          Auch Artikel mit Sprachen verknüpfen. Default False.
+ |      
+ |      NB: Nach compute_language() ausführen, um ein besseres Ergebnis zu erhalten.
+ |  
+ |  delete_articles_by_count(self, versionCount=2, userCount=2)
+ |      Entfernt sämtliche Artikel-Nodes mit weniger als n Versionen gesamt
+ |      (versionCount) oder mit weniger als n zugeordneten Benutzern (userCount)
+ |      
+ |      versionCount
+ |          Anzahl an Versionen (edges) unter der ein Artikel gelöscht wird.
+ |          Optional, default = 2
+ |      
+ |      userCount
+ |          Anzahl an Usern, die einem Artikel zugeordnet sein müssen.
+ |          Unterschreitung -> Löschung. Optional, default = 2
+ |          
+ |      NB: Vor condenseEdges ausführen!
+ |  
+ |  edges_append(self, user, article, timestamp, versionid, language)
+ |      Erweitert edges[] um ein Element mit dem übergebenen Werten.
+ |      Gewährleistet die Typsicherheit. Gibt die eingefügte edge[] zurück.
+ |      Es findet eine Duplikatsprüfung statt. Timestamps werden normalisiert.
+ |      
+ |      user:
+ |          Str. Eindeutiger Bezeichner eines Users. Eventuelle
+ |          Codierungen (z.B. %20 für Leerzeichen) werden aufgelöst.
+ |          
+ |      article:
+ |          Str. Eindeutiger Bezeichner eines Artikels oder eines Sprach-Nodes.
+ |          Eventuelle Codierungen (z.B. %20 für Leerzeichen) werden aufgelöst.
+ |          
+ |      timestamp:
+ |          Str. Datetime im Format YYYYMMDDHHMM oder sprachabhängigem Format.
+ |          
+ |      versionid:
+ |          Str. Id zur Identifikation einzelner Artikelversionen.
+ |          
+ |      language:
+ |          Str. Sprachkennzeichen (zweistellig, z.B. "de").
+ |  
+ |  nodes_append(self, name, nodetype, langcode, langcount=1)
+ |      Erweitert nodes[] um ein Element mit dem übergebenen Werten.
+ |      Gewährleistet die Typsicherheit. Gibt den eingefügten Node[] zurück.
+ |      Es findet eine Duplikatsprüfung statt.
+ |      
+ |      name:
+ |          Str. Eindeutiger Bezeichner eines Artikels oder Users. Eventuelle
+ |          Codierungen (z.B. %20 für Leerzeichen) werden aufgelöst, da Name
+ |          als Identifikator benutzt wird. Sprachen werden ggf. ebenfalls als 
+ |          Nodes gespeichert.
+ |          
+ |      nodetype:
+ |          Str. Identifiziert die Art des Nodes. Muss ('article', 'user', 
+ |          'language') entsprechen.
+ |          
+ |      langcode:
+ |          Str. Sprachcode (z.B. "en"). Muss aus zwei Zeichen bestehen, sonst
+ |          wird ein Leerstring als Platzhalter eingetragen.
+ |          
+ |      langcount:
+ |          Int. Default = 1. Vorkommen einer Sprache: Dient der Berechnung
+ |          von Sprahverteilungen auf Node-Ebene. Wird langcode nicht korrekt
+ |          übergeben, wird langcount ignoriert.
+ |          
+ |      langcode und langcount werden zu einem dict-Eintrag zusammengefasst: {"en" : 1}
+ |  
+ |  read_csv(self, file_suffix='')
+ |      Liest die Inhalte von nodes[] und edges[] aus einer CSV.
+ |      NB: condensed Edges werden nicht übernommen.
+ |      file_suffix = Kennzeichen, zur identifikation von besonderen
+ |      Dateien. Optional, default "".
+ |  
+ |  return_interval(self, begin, end)
+ |      Vergleicht die Timestamps in edges[] mit den übergebenen Grenzwerten
+ |      und gibt ein (nodes[], edges[]) tuple für den gegebenen Zeitraum zurück.
+ |      Relationen zu nachträglich erzeugten Sprach-Nodes werden immer übernommen.
+ |      
+ |      begin:
+ |          Datetime in YYYYMMDDHHMM (ISO 8601) <= Intervall.
+ |      end:
+ |          Datetime in YYYYMMDDHHMM (ISO 8601) >= Intervall.
+ |  
+ |  write_csv(self, file_suffix='')
+ |      Speichert die Inhalte von nodes[] und edges[] als CSV.
+ |      NB: condensed Edges werden dabei aufgelöst.
+ |      file_suffix = Kennzeichen, das den Dateinamen angehangen werden
+ |          kann. Optional, default "".
+ |  
+ |  ----------------------------------------------------------------------
+ |  Data descriptors defined here:
+ |  
+ |  __dict__
+ |      dictionary for instance variables (if defined)
+ |  
+ |  __weakref__
+ |      list of weak references to the object (if defined)
+ |  
+ |  edges
+ |      edges [[ user, article, timestamp, id ]]
+ |  
+ |  nodes
+ |      nodes [[ name(title/user), lang{}, type(article/user/language) ]]
+```
+
+---
+
+[![Creative Commons Lizenzvertrag](https://i.creativecommons.org/l/by-sa/3.0/de/88x31.png)](http://creativecommons.org/licenses/by-sa/3.0/de/) Sofern in den einzelnen Dateien nicht anders angegeben, ist dieses Werk lizenziert unter einer [Creative Commons Namensnennung - Weitergabe unter gleichen Bedingungen 3.0 Deutschland Lizenz](http://creativecommons.org/licenses/by-sa/3.0/de/). Der Autor folgt hierbei der CC BY-SA-Lizenzierung der Wikipediaartikel, welche die Quellenbasis des Projektes bilden.

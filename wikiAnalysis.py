@@ -80,7 +80,7 @@ def create_netx_network(nodes, edges):
 # =============================================================================  
 
 usrntwrk = UserNetwork()
-usrntwrk.add_article_data("https://en.wikipedia.org/w/index.php?title=Coronavirus_disease_2019&offset=&limit=100&action=history")
+usrntwrk.add_article_data("https://en.wikipedia.org/w/index.php?title=Coronavirus_disease_2019&offset=&limit=200&action=history")
 usrntwrk.add_usercontributions("5")
 #usrntwrk.compute_language()
 #usrntwrk.create_language_network()
@@ -90,7 +90,7 @@ usrntwrk.add_usercontributions("5")
 #usrntwrk.condense_edges()
 #edges = usrntwrk.return_interval(202001010000, 202005020000)
 #
-create_netx_network(usrntwrk.nodes, usrntwrk.edges)
+#create_netx_network(usrntwrk.nodes, usrntwrk.edges)
 #create_pyvis_network(usrntwrk.nodes, usrntwrk.edges, "zh")
 
 

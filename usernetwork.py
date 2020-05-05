@@ -9,13 +9,9 @@ import os.path
 import csv
 import ast
 import requests
-import calendar
-import time
-import locale
 
 from lxml import etree
 from datetime import datetime
-from dateutil.parser import parse
 from urllib.parse import urlparse
 from urllib.parse import unquote
 
@@ -60,7 +56,7 @@ class UserNetwork:
                 
                 -> z.B. {"en" : "https://en.wikipedia.org/w/index.php?title=Special:Contributions"}
             
-                -> Auswahl entspricht TOP 10 Sprachen gem. Useraktivität auf Wikipedia
+                -> Auswahl entspricht TOP 8 Sprachen gem. Useraktivität auf Wikipedia
         """
         self._nodes = list()
         self._edges = list()
@@ -142,7 +138,7 @@ class UserNetwork:
     def edges_append(self, user, article, timestamp, versionid, language):
         """ Erweitert edges[] um ein Element mit dem übergebenen Werten.
             Gewährleistet die Typsicherheit. Gibt die eingefügte edge[] zurück.
-            Es findet eine Duplikatsprüfung statt.
+            Es findet eine Duplikatsprüfung statt. Timestamps werden normalisiert.
             
             user:
                 Str. Eindeutiger Bezeichner eines Users. Eventuelle
@@ -153,10 +149,13 @@ class UserNetwork:
                 Eventuelle Codierungen (z.B. %20 für Leerzeichen) werden aufgelöst.
                 
             timestamp:
-                ?
+                Str. Datetime im Format YYYYMMDDHHMM oder sprachabhängigem Format.
                 
             versionid:
-                ?
+                Str. Id zur Identifikation einzelner Artikelversionen.
+                
+            language:
+                Str. Sprachkennzeichen (zweistellig, z.B. "de").
         """
         # Parameter prüfen
         if isinstance(user, str) and isinstance(article, str):
@@ -177,63 +176,87 @@ class UserNetwork:
         
         
     def _parse_datetime(self, value, lang):
-        """
-        https://docs.python.org/3/library/datetime.html#strftime-and-strptime-behavior
-        
-        """
-        
+        """ Parser für Datetime-Formate der verschiedenen Sprachversionen. Gibt
+            ein datetime() zurück. Explizite Auflösung ist für folgende Sprachen
+            implementiert:
+                fr, ja, it, es, ru (en und zh werden schon via Schema vereinheitlicht)
+            
+            value:
+                Str. Datetime im Format YYYYMMDDHHMM sofern nicht explizit behandelt.
+                
+            lang:
+                Str. Sprachkennzeichen (zweistellig, z.B. "de") zur eindeutigen
+                Identifikation des Datumsformats.
+                
+            Gibt Leerstring nach fehlgeschlagenem Versuch zurück.
+        """        
         month = {# fr:
                 "janvier" : "01", "février" : "02", "mars" : "03", "avril" : "04", 
                  "mai" : "05", "juin" : "06", "juillet" : "07", "août" : "08",
                  "septembre" : "09", "octobre" : "10", "novembre" : "11", 
                  "décembre" : "12",
                  # it:
-                 "gennaio" : "01", "febbraio" : "02", "mar" : "03", "aprile" : "04",
-                 "mag" : "05", "giugno" : "06", "luglio"	 : "07", "agosto" : "08",
-                 "settembre" : "09", "ottobre" : "10", "novembre" : "11",
-                 "dicembre" : "12"}
+                 "gen" : "01", "feb" : "02", "mar" : "03", "apr" : "04",
+                 "mag" : "05", "giu" : "06", "lug"	 : "07", "ago" : "08",
+                 "set" : "09", "ott" : "10", "nov" : "11",
+                 "dic" : "12",
+                 # es (nur div)
+                 "ene" : "01", "abr" : "04", "may" : "05", "jun" : "06",
+                 "jul" : "07", "sep" : "09", "oct" : "10",
+                 # de
+                 "Jan." : "01", "Feb." : "02", "Mär" : "03", "Apr." : "04",
+                 "Mai" : "05", "Jun." : "06", "Jul." : "07", "Aug." : "08",
+                 "Sep." : "09", "Okt." : "10", "Nov." : "11", "Dez." : "12",
+                 # ru
+                 "январь" : "01", "февраль" : "02", "март" : "03",
+                 "апрель" : "04", "май" : "05", "июнь" : "06", "июль" : "07",
+                 "август" : "08", "сентябрь" : "09", "октябрь" : "10",
+                 "ноябрь" : "11", "декабрь" : "12"}
         
-        if lang == 'en' or lang == 'zh':
-            # Beispiel: 202005031408
-            value = datetime.strptime(value, '%Y%m%d%H%M')
-        elif lang == 'fr':
-            # Beispiel: 25 avril 2020 à 10:57
-            m = value.split(" ")[1]
-            value = value.replace(m, month[m])
-            value = datetime.strptime(value, '%d %m %Y à %H:%M')
-        elif lang == 'ja':
-            # Beispiel: 2018年1月1日 (水) 00:36
-            # str wird auf digits reduziert
-            value = ''.join(e for e in value if e.isdigit())
-            # für Eindeutigkeit zwischen date und time ein . eingefügt
-            value = "".join((value[:-4], '.', value[-4:]))
-            value = datetime.strptime(value, '%Y%m%d.%H%M')
-        elif lang == 'it':
-            # 17:23, 15 mar 2017
-            m = value.split(" ")[2]
-            value = value.replace(m, month[m])
-            value = datetime.strptime(value, '%H:%M, %d %m %Y')
-        
-        #datetime_object = datetime.strptime('Jun 1 2005  1:33PM', '%b %d %Y %I:%M%p')
-        #date = parse(zh, fuzzy=True)
-        #print(lang + value)
-        #timestamp = None
-
-
-#        timestamp = datetime.fromtimestamp(time.mktime(timestamp))
-#        #timestamp = parse(value, fuzzy = True) 
-#            
-##        except calendar.IllegalMonthError:
-##            print("month")
-##        except TypeError:
-##            print("TypeError\t" + lang)
-##        #if lang != "fr":
-#              
-        return value
-
-
-
-    
+        try:
+            if lang == 'fr':
+                # Beispiel: 25 avril 2020 à 10:57
+                m = value.split(" ")[1]
+                value = value.replace(m, month[m])
+                value = datetime.strptime(value, '%d %m %Y à %H:%M')
+            elif lang == 'ja':
+                # Beispiel: 2018年1月1日 (水) 00:36
+                # str wird auf digits reduziert
+                value = ''.join(e for e in value if e.isdigit())
+                # für Eindeutigkeit zwischen date und time ein . eingefügt
+                value = "".join((value[:-4], '.', value[-4:]))
+                value = datetime.strptime(value, '%Y%m%d.%H%M')
+            elif lang == 'it':
+                # 17:23, 15 mar 2017
+                m = value.split(" ")[2]
+                value = value.replace(m, month[m])
+                value = datetime.strptime(value, '%H:%M, %d %m %Y')
+            elif lang == 'es':
+                # 08:25 2 feb 2013
+                m = value.split(" ")[2]
+                value = value.replace(m, month[m])
+                value = datetime.strptime(value, '%H:%M %d %m %Y')
+            elif lang == 'de':
+                # 17:47, 25. Aug. 2018
+                m = value.split(" ")[2]
+                value = value.replace(m, month[m])
+                value = datetime.strptime(value, '%H:%M, %d. %m %Y')
+            elif lang == 'ru':
+                # 09:22, 4 марта 2012
+                m = value.split(" ")[2]
+                value = value.replace(m, month[m])
+                value = datetime.strptime(value, '%H:%M, %d %m %Y')
+            else:
+                # en & zh, Sonstige
+                # Erwartet: 202005031408
+                value = datetime.strptime(value, '%Y%m%d%H%M')
+        except ValueError:
+            print("Value Error. Language: " + lang)
+            return str()
+        finally:
+            return value
+         
+                
 # =============================================================================
 # HTML request & XML
 # =============================================================================
