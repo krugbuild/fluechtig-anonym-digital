@@ -39,8 +39,7 @@ class UserNetwork:
             Zusammenfassen von gleichartigen Edges (selbe Relation).
             
             >>> usrntwrk.delete_articles_by_count(userCount = 5)
-            >>> usrntwrk.condense_edges()
-                        
+            >>> usrntwrk.condense_edges()                 
     """
     
     def __init__(self):
@@ -564,23 +563,30 @@ class UserNetwork:
             Relationen zu nachträglich erzeugten Sprach-Nodes werden immer übernommen.
         
             begin:
-                Datetime in YYYYMMDDHHMM (ISO 8601) <= Intervall.
+                Datetime. <= Intervall.
             end:
-                Datetime in YYYYMMDDHHMM (ISO 8601) >= Intervall.
+                Datetime. >= Intervall.
+                
+            Parametersignatur:
+                datetime(YYYY, M, D, h, m)
         """
         
         nodes_slice = list()
         edges_slice = list()
+        
+        
         lang_edges = [[user, article, timestamp, id] for [user, article, timestamp, id] in self.edges if article in self.cont_languages.keys()]
         # Edges über timestamp ermitteln
         # { user, article, timestamp, id } oder { user, article, [timestamp], [id] }
+        
         for edge in self.edges:
             # Sprach-Relationen haben kein Timestamp und müssen gesondert behandelt werden
             if edge not in lang_edges:
+                
                 # liste -> also condensed -> also auf Listeneinträge prüfen
                 if type(edge[2]) == type(list()):
                     # todo nur timestamps & ids einfügen, die der Einschränkung entsprechen    
-                    timestamps = [timestamp for timestamp in edge[2] if int(timestamp) >= begin and int(timestamp) <= end]
+                    timestamps = [timestamp for timestamp in edge[2] if timestamp >= begin and timestamp <= end]
                     if len(timestamps) > 0:
                         # add this edge
                         edges_slice.append(edge)
@@ -588,14 +594,16 @@ class UserNetwork:
                 else:                    
                     if int(edge[2]) >= begin and int(edge[2]) <= end:
                         edges_slice.append(edge)
-        # alle Nodes übernehmen, die in edges_slice referenziert werden
-        # nodes { name(title/user), lang{}, type(article/user/language) }
-#        nodes_slice = [[name, lang, type] from [name, lang, type] in self.nodes if name in edges_slice[0] or name in edges_slice[1]]    
-        nodes_in_edges = [user for [user, article, timestamp, id ] in edges_slice]
-        nodes_in_edges += [article for [user, article, timestamp, id ] in edges_slice]
-#        return((nodes_slice, edges_slice))
-        nodes_in_edges = set(nodes_in_edges)
-        return(nodes_in_edges)    
+        
+        return edges_slice
+#        # alle Nodes übernehmen, die in edges_slice referenziert werden
+#        # nodes { name(title/user), lang{}, type(article/user/language) }
+##        nodes_slice = [[name, lang, type] from [name, lang, type] in self.nodes if name in edges_slice[0] or name in edges_slice[1]]    
+#        nodes_in_edges = [user for [user, article, timestamp, id ] in edges_slice]
+#        nodes_in_edges += [article for [user, article, timestamp, id ] in edges_slice]
+##        return((nodes_slice, edges_slice))
+#        nodes_in_edges = set(nodes_in_edges)
+#        return(nodes_in_edges)    
     
     
     

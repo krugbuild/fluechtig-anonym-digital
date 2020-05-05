@@ -1,14 +1,15 @@
 #!/usr/bin/env python3 
 # -*- coding: utf-8 -*-
-"""Visualisiert Daten aus userNetwork.py
+"""Visualisiert Daten aus usernetwork.py
 @author:  Stefan Krug
 @license: CC BY 3.0 DE 
 """
 
 import matplotlib.pyplot as plt
 import networkx as nx
-from pyvis.network import Network
 
+from pyvis.network import Network
+from datetime import datetime
 from usernetwork import UserNetwork
 
 # =============================================================================    
@@ -88,8 +89,8 @@ usrntwrk.add_usercontributions("5")
 #usrntwrk.write_csv("class_small")
 #usrntwrk.read_csv("class_small")
 #usrntwrk.condense_edges()
-#edges = usrntwrk.return_interval(202001010000, 202005020000)
-#
+edges = usrntwrk.return_interval(datetime(2020,5,1), datetime(2020,5,5))
+
 #create_netx_network(usrntwrk.nodes, usrntwrk.edges)
 #create_pyvis_network(usrntwrk.nodes, usrntwrk.edges, "zh")
 
