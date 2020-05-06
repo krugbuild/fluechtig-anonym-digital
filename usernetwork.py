@@ -162,8 +162,9 @@ class UserNetwork:
             user = unquote(user, encoding='utf-8')
             article = unquote(article, encoding='utf-8')
             
-            # datetime parsen, ggf. sprachspezifisch
-            timestamp = self._parse_datetime(timestamp, language)
+            # datetime parsen sofern kein dt(), ggf. sprachspezifisch
+            if not isinstance(timestamp, datetime):
+                timestamp = self._parse_datetime(timestamp, language)
             
             edge = [user, article, timestamp, versionid, language]
             if edge not in self._edges:
@@ -184,74 +185,84 @@ class UserNetwork:
                 Str. Datetime im Format YYYYMMDDHHMM sofern nicht explizit behandelt.
                 
             lang:
-                Str. Sprachkennzeichen (zweistellig, z.B. "de") zur eindeutigen
-                Identifikation des Datumsformats.
+                Str. Sprachkennzeichen (zweistellig, z.B. 'de') zur eindeutigen
+                Identifikation des Datumsformats. Ausnahme 'csv' zum Einlesen
+                von zuvor schon formatierten Datumsangaben.
                 
             Gibt Leerstring nach fehlgeschlagenem Versuch zurück.
         """        
-        month = {# fr:
-                "janvier" : "01", "février" : "02", "mars" : "03", "avril" : "04", 
-                 "mai" : "05", "juin" : "06", "juillet" : "07", "août" : "08",
-                 "septembre" : "09", "octobre" : "10", "novembre" : "11", 
-                 "décembre" : "12",
+        month = {# en:
+                    "January" : "01", "February" : "02", "March" : "03", 
+                    "April" : "04", "May" : "05", "June" : "06", "July" : "07",
+                    "August" : "08", "September" : "09", "October" : "10",
+                    "November" : "11", "December" : "12",
+                # fr:
+                    "janvier" : "01", "février" : "02", "mars" : "03", "avril" : "04", 
+                     "mai" : "05", "juin" : "06", "juillet" : "07", "août" : "08",
+                     "septembre" : "09", "octobre" : "10", "novembre" : "11", 
+                     "décembre" : "12",
                  # it:
-                 "gen" : "01", "feb" : "02", "mar" : "03", "apr" : "04",
-                 "mag" : "05", "giu" : "06", "lug"	 : "07", "ago" : "08",
-                 "set" : "09", "ott" : "10", "nov" : "11",
-                 "dic" : "12",
+                     "gen" : "01", "feb" : "02", "mar" : "03", "apr" : "04",
+                     "mag" : "05", "giu" : "06", "lug"	 : "07", "ago" : "08",
+                     "set" : "09", "ott" : "10", "nov" : "11",
+                     "dic" : "12",
                  # es (nur div)
-                 "ene" : "01", "abr" : "04", "may" : "05", "jun" : "06",
-                 "jul" : "07", "sep" : "09", "oct" : "10",
-                 # de
-                 "Jan." : "01", "Feb." : "02", "Mär" : "03", "Apr." : "04",
-                 "Mai" : "05", "Jun." : "06", "Jul." : "07", "Aug." : "08",
-                 "Sep." : "09", "Okt." : "10", "Nov." : "11", "Dez." : "12",
+                     "ene" : "01", "abr" : "04", "may" : "05", "jun" : "06",
+                     "jul" : "07", "sep" : "09", "oct" : "10",
+                 # de 
+                     "Jan." : "01", "Feb." : "02", "Mär." : "03", "Apr." : "04",
+                     "Mai" : "05", "Jun." : "06", "Jul." : "07", "Aug." : "08",
+                     "Sep." : "09", "Okt." : "10", "Nov." : "11", "Dez." : "12",
                  # ru
-                 "январь" : "01", "февраль" : "02", "март" : "03",
-                 "апрель" : "04", "май" : "05", "июнь" : "06", "июль" : "07",
-                 "август" : "08", "сентябрь" : "09", "октябрь" : "10",
-                 "ноябрь" : "11", "декабрь" : "12"}
+                     "января" : "01", "февраля" : "02", "март" : "03", "марта" : "03",
+                     "апреля" : "04",  "мая" : "05", "июня" : "06", "июля" : "07",
+                     "августа" : "08", "сентября" : "09", "октября" : "10",
+                     "ноября" : "11", "декабря" : "12"}
+        
+        # Relationen zu Sprachen haben kein Datum (tritt beim Einlesen von CSV auf)
+        if value == None or value == "":
+            print("\tLeerer Timestamp.")
+            return value
         
         try:
-            if lang == 'fr':
-                # Beispiel: 25 avril 2020 à 10:57
+            if lang == 'en' or lang == 'it' or lang == 'ru':
+                # en z.B. 07:41, 4 May 2020
+                # it z.B. 17:23, 15 mar 2017
+                # ru z.B. 09:22, 4 марта 2012
+                m = value.split(" ")[2]
+                value = value.replace(m, month[m])
+                value = datetime.strptime(value, '%H:%M, %d %m %Y')
+            elif lang == 'fr':
+                # z.B. 25 avril 2020 à 10:57
                 m = value.split(" ")[1]
                 value = value.replace(m, month[m])
                 value = datetime.strptime(value, '%d %m %Y à %H:%M')
-            elif lang == 'ja':
-                # Beispiel: 2018年1月1日 (水) 00:36
+            elif lang == 'ja' or lang == 'zh':
+                # z.B. 2018年1月1日 (水) 00:36
                 # str wird auf digits reduziert
                 value = ''.join(e for e in value if e.isdigit())
                 # für Eindeutigkeit zwischen date und time ein . eingefügt
                 value = "".join((value[:-4], '.', value[-4:]))
-                value = datetime.strptime(value, '%Y%m%d.%H%M')
-            elif lang == 'it':
-                # 17:23, 15 mar 2017
-                m = value.split(" ")[2]
-                value = value.replace(m, month[m])
-                value = datetime.strptime(value, '%H:%M, %d %m %Y')
+                value = datetime.strptime(value, '%Y%m%d.%H%M')                
             elif lang == 'es':
-                # 08:25 2 feb 2013
+                # z.B. 08:25 2 feb 2013
                 m = value.split(" ")[2]
                 value = value.replace(m, month[m])
                 value = datetime.strptime(value, '%H:%M %d %m %Y')
             elif lang == 'de':
-                # 17:47, 25. Aug. 2018
+                # z.B. 17:47, 25. Aug. 2018
                 m = value.split(" ")[2]
                 value = value.replace(m, month[m])
                 value = datetime.strptime(value, '%H:%M, %d. %m %Y')
-            elif lang == 'ru':
-                # 09:22, 4 марта 2012
-                m = value.split(" ")[2]
-                value = value.replace(m, month[m])
-                value = datetime.strptime(value, '%H:%M, %d %m %Y')
+            elif lang == 'csv':
+                # z.B. 2020-05-03 16:25:00
+                value = datetime.strptime(value, '%Y-%m-%d %H:%M:%S')
             else:
-                # en & zh, Sonstige
-                # Erwartet: 202005031408
+                # Sonstige in YYYYMMDDhhmm
                 value = datetime.strptime(value, '%Y%m%d%H%M')
         except ValueError:
             print("Value Error. Language: " + lang)
-            return str()
+            return value
         finally:
             return value
          
@@ -295,6 +306,15 @@ class UserNetwork:
         """ Schreibt die Inhalte aus data in eine CSV mit definiertem header.
             NB: Condensed Edges werden autom. aufgespalten geschrieben, gleichen
             also uncondensed Edges.
+            
+            data:
+                List. Zu schreibende Liste.
+            
+            path:
+                Str. Pfadangabe zur .csv
+                
+            header:
+                List[Str]. Liste mit Strings zur Identifikation der Spalten. 
         """
         with open(path, 'w', newline='') as csvfile:
             writer = csv.writer(csvfile)
@@ -307,15 +327,29 @@ class UserNetwork:
     def _read_data_csv(self, path):
         """ Liest gegebene CSV ein und gibt data[] zurück. Bei großen
             Datenmengen viel performanter, als die XML erneut zu parsen.
+            Datumsangaben werden in datetime() umgewandelt.
+            
+            path:
+                Str. Pfadangabe zur .csv
         """
         with open(path, 'r', newline='') as csvfile:
             reader = csv.reader(csvfile)
             header = next(reader)
+            print(header)
             print("lese .. " + csvfile.name + " - header: " + str(header))
             data = list()
             if header[1] == 'lang':
-                # Zeile: user, {dict language via ast}, type
-                data = [[row[0], ast.literal_eval(row[1]), row[2]] for row in reader]
+                # Für Nodes mit Lang-Dict: user, {dict language via ast}, type
+                data = [[row[0], # user/article
+                         ast.literal_eval(row[1]), # {dict language}
+                         row[2]] for row in reader] # type
+            elif header[2] == 'timestamp':
+                # Für Edges mit formatiertem datetime
+                data = [[row[0], # source 
+                         row[1], # target
+                         self._parse_datetime(row[2], 'csv'), # timestamp
+                         row[3], # vid
+                         row[4]] for row in reader] # lang
             else:
                 data = [row for row in reader]
             return data
@@ -323,21 +357,26 @@ class UserNetwork:
 
     def write_csv(self, file_suffix = ""):
         """ Speichert die Inhalte von nodes[] und edges[] als CSV.
-            NB: condensed Edges werden dabei aufgelöst.
-            file_suffix = Kennzeichen, das den Dateinamen angehangen werden
-                kann. Optional, default "". 
+            NB: Condensed edges werden dabei aufgelöst.
+            
+            file_suffix:
+                Str. Default "". Kennzeichen zur identifikation von Dateien.
+                Entspricht dem Bereich zwischen nodes/edges und .csv im Dateinamen.
         """
         self._write_data_csv(self.nodes, "nodes" + file_suffix + ".csv", 
                              ["id", "lang", "type"])
         self._write_data_csv(self.edges, "edges" + file_suffix + ".csv", 
-                             ["source", "target", "timestamp", "id"])
+                             ["source", "target", "timestamp", "id", "lang"])
                 
         
     def read_csv(self, file_suffix = ""):
         """ Liest die Inhalte von nodes[] und edges[] aus einer CSV.
-            NB: condensed Edges werden nicht übernommen.
-            file_suffix = Kennzeichen, zur identifikation von besonderen
-            Dateien. Optional, default "". 
+            NB: condensed Edges werden nicht übernommen. Nach dem Einlesen muss
+            condense_edges ggf. erneut ausgeführt werden.
+            
+            file_suffix:
+                Str. Default "". Kennzeichen zur identifikation von Dateien. Wird
+                im Dateinamen zwischen nodes/edges und .csv eingefügt.
         """
         self.nodes = self._read_data_csv("nodes" + file_suffix + ".csv")
         self.edges = self._read_data_csv("edges" + file_suffix + ".csv")
@@ -406,7 +445,7 @@ class UserNetwork:
                                   version.xpath('./id')[0].text,
                                   article_lang)
     
-#### TODO testen  
+ 
     def add_usercontributions(self, depth = "100", users = None):
         """ Fügt für alle User des aktuellen Netzwerkes für alle definierten 
             Sprachen (self.cont_languages) die User-Contributions als Nodes 
@@ -418,13 +457,18 @@ class UserNetwork:
                 Int. Default = 100. Anzahl an Einträgen je Contribution die geladen 
                 werden soll.
                 
-            user:
+            users:
                 List. Default = None. Ermittelt die Contributions für die direkt
                 als Liste übergebenen User. Die lokale nodes[] wird hierbei ignoriert.
         """
+        # wenn Users nicht gesetzt ist -> vorhandene User ermitteln
         if users is None or len(users) == 0:
             users = [name for [name, lang, nodetype] in self._nodes if nodetype == "user"]
-                    
+         
+        # (falsche) Stringeingaben abfangen und in Liste umwandeln
+        if isinstance(users, str) and len(users) > 0:
+            users = [users]
+            
         for user in users:
             print("ermittle Artikel für User " + user + " ..")
             for cont in self.cont_languages.items():
@@ -448,7 +492,7 @@ class UserNetwork:
         for node in self.nodes:
             if node[2] == 'user':
                 # alle Artikel-User-Relationen für den aktuellen User aus edges[] auslesen
-                edits = [article for [user, article, timestamp, id] in self.edges if user == node[0]]
+                edits = [article for [user, article, timestamp, vid, lang] in self.edges if user == node[0]]
                 # für die ermittelten Artikel die Sprache{} ermitteln
                 # languages ist also: [{},]
                 languages = [lang for [name, lang] in articles if name in edits]
@@ -491,7 +535,7 @@ class UserNetwork:
                 for lang in node[1].items():
                     if int(lang[1]) > 0:
                         # id wird als Indikator für Häufigkeit genommen, dabei zählt die Länge des []
-                        self.edges.append([node[0], lang[0], '', lang[1]*[1]])
+                        self.edges_append(node[0], lang[0], '', lang[1]*[1], lang[0])
                     
                     
     def delete_articles_by_count(self, versionCount = 2, userCount = 2):
@@ -515,7 +559,7 @@ class UserNetwork:
         print('article mit < ' + str(versionCount) + ' Referenzen und < ' + str(userCount) + ' beteiligten Usern werden entfernt ..')
         # für jeden article die Referenzen in edges prüfen
         for item in articles:
-            mentions = [user for [user, article, timestamp, id] in 
+            mentions = [user for [user, article, timestamp, vid, lang] in 
                         self.edges if article == item[0]]
             # Zahl mentions prüfen, Zahl unique (weil Set) mentions prüfen
             if len(mentions) < versionCount or len(set(mentions)) < userCount:        
@@ -539,17 +583,17 @@ class UserNetwork:
         for edge in self.edges:
             if edge[1] in articles:
                 # Duplikate via user-article-Relation ermitteln
-                duplicates = [[user, article, timestamp, nodeid] for 
-                              [user, article, timestamp, nodeid] in 
+                duplicates = [[user, article, timestamp, nodeid, lang] for 
+                              [user, article, timestamp, nodeid, lang] in 
                               self.edges if user == edge[0] and article == edge[1]]    
                 # alle Timestamps aus Duplikaten ermitteln
-                    # NB Timestamp und ID werden unzusammenhängend ausgelesen -> da Listen aber sortiert sind, ist das kein Problem
+                # NB Timestamp und ID werden unzusammenhängend ausgelesen -> da Listen aber sortiert sind, ist das kein Problem
                 timestamps = [timestamp for 
-                              [user, article, timestamp, nodeid] in duplicates]
+                              [user, article, timestamp, nodeid, lang] in duplicates]
                 # alle IDs aus Duplikat ermitteln
-                ids = [nodeid for [user, article, timestamp, nodeid] in duplicates]
+                ids = [nodeid for [user, article, timestamp, nodeid, lang] in duplicates]
                 # condensed sind urspr. User und Artikel, sowie Timestamp und ID als []
-                condensed = [duplicates[0][0], duplicates[0][1], timestamps, ids]
+                condensed = [duplicates[0][0], duplicates[0][1], timestamps, ids, duplicates[0][4]]
                 # Duplikatsprüfung vor append
                 if condensed not in edges_condensed:
                     edges_condensed.append(condensed)
@@ -560,7 +604,8 @@ class UserNetwork:
     def return_interval(self, begin, end):
         """ Vergleicht die Timestamps in edges[] mit den übergebenen Grenzwerten
             und gibt ein (nodes[], edges[]) tuple für den gegebenen Zeitraum zurück.
-            Relationen zu nachträglich erzeugten Sprach-Nodes werden immer übernommen.
+            Relationen zu den nachträglich erzeugten Sprach-Nodes werden immer
+            übernommen, sind also interval-unabhängig.
         
             begin:
                 Datetime. <= Intervall.
@@ -569,42 +614,58 @@ class UserNetwork:
                 
             Parametersignatur:
                 datetime(YYYY, M, D, h, m)
+                
+            returns:
+                tuple(nodes[], edges[])
         """
         
         nodes_slice = list()
         edges_slice = list()
         
-        
-        lang_edges = [[user, article, timestamp, id] for [user, article, timestamp, id] in self.edges if article in self.cont_languages.keys()]
-        # Edges über timestamp ermitteln
-        # { user, article, timestamp, id } oder { user, article, [timestamp], [id] }
+        # Edges der Sprachrelationen ermitteln -> die haben keine Timestamps
+        lang_edges = [[user, language, timestamp, vid, lang] 
+                        for [user, language, timestamp, vid, lang] 
+                        in self.edges if language in self.cont_languages.keys()]
+        # Edges über timestamp ermitteln. Edges: [user, article, timestamp, id, lang]
+        # oder condensed: [user, article, [timestamp], [id], lang]
         
         for edge in self.edges:
             # Sprach-Relationen haben kein Timestamp und müssen gesondert behandelt werden
             if edge not in lang_edges:
-                
-                # liste -> also condensed -> also auf Listeneinträge prüfen
-                if type(edge[2]) == type(list()):
-                    # todo nur timestamps & ids einfügen, die der Einschränkung entsprechen    
-                    timestamps = [timestamp for timestamp in edge[2] if timestamp >= begin and timestamp <= end]
-                    if len(timestamps) > 0:
-                        # add this edge
-                        edges_slice.append(edge)
-                # keine Liste -> nicht condensed
-                else:                    
-                    if int(edge[2]) >= begin and int(edge[2]) <= end:
-                        edges_slice.append(edge)
+                try: 
+                    # liste -> also condensed -> also auf Listeneinträge prüfen
+                    if type(edge[2]) == type(list()):
+                        # todo nur timestamps & ids einfügen, die der Einschränkung entsprechen    
+                        timestamps = [timestamp for timestamp in edge[2] if timestamp >= begin and timestamp <= end]
+                        if len(timestamps) > 0:
+                            # add this edge
+                            edges_slice.append(edge)
+                    # keine Liste -> nicht condensed -> datetime()
+                    else:
+                        if edge[2] >= begin and edge[2] <= end:
+                            edges_slice.append(edge)
+                except TypeError:
+                    print("Wrong timestamp type: " + str(edge))
+                        
+        # alle adressierten Nodes (user & article) ermitteln und unnötige Duplikate entfernen
+        users_in_edges = set([user for [user, article, timestamp, vid, lang] in edges_slice])
+        articles_in_edges = set([article for [user, article, timestamp, vid, lang] in edges_slice]    )
+
+        # Sprachrelationen für User hinzufügen
+        edges_slice += [[user, language, timestamp, vid, lang] 
+                        for [user, language, timestamp, vid, lang] 
+                        in lang_edges if user in users_in_edges]
         
-        return edges_slice
-#        # alle Nodes übernehmen, die in edges_slice referenziert werden
-#        # nodes { name(title/user), lang{}, type(article/user/language) }
-##        nodes_slice = [[name, lang, type] from [name, lang, type] in self.nodes if name in edges_slice[0] or name in edges_slice[1]]    
-#        nodes_in_edges = [user for [user, article, timestamp, id ] in edges_slice]
-#        nodes_in_edges += [article for [user, article, timestamp, id ] in edges_slice]
-##        return((nodes_slice, edges_slice))
-#        nodes_in_edges = set(nodes_in_edges)
-#        return(nodes_in_edges)    
-    
+        # alle Nodes übernehmen, die in edges_slice oder _cont_languages referenziert werden
+        nodes_slice = [[name, lang, ntype] 
+                        for [name, lang, ntype] 
+                        in self.nodes 
+                        if name in users_in_edges
+                        or name in articles_in_edges 
+                        or name in self.cont_languages.keys()]
+
+        return (nodes_slice, edges_slice)
+
     
     
     

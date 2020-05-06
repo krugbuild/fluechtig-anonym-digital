@@ -28,19 +28,19 @@ def create_pyvis_network(nodes, edges, highlight = ""):
     #netGraph.add_nodes([name for [name, lang, type] in nodes if type == "user"])
     for node in nodes:
         if node[2] == "user":
-            netGraph.add_node(node[0], shape="dot", size=80)#, color = langColor(node[1]))
+            netGraph.add_node(node[0], shape="dot", size=75)#, color = langColor(node[1]))
         elif node[2] == "article":
-            netGraph.add_node(node[0], shape="star", size=100, title = node[0])#, color = langColor(node[1]))
+            netGraph.add_node(node[0], shape="star", size=75, title = node[0])#, color = langColor(node[1]))
         elif node[2] == "language":
             if node[0] == highlight:
-                netGraph.add_node(node[0], shape="triangle", size=200, mass=400, title = node[0], color ="red")
+                netGraph.add_node(node[0], shape="square", size=100, mass=30, title = node[0], color ="red")
             else:
-                netGraph.add_node(node[0], shape="triangle", size=100, mass=200, title = node[0])
+                netGraph.add_node(node[0], shape="square", size=100, mass=30, title = node[0])
     print('füge edges hinzu ..')
     for edge in edges:
         # die Anzahl der Versionen dient als Indikator für die Stärke der edge    
         if edge[3] is not None:
-            netGraph.add_edge(edge[0], edge[1], value=len(edge[3]))
+            netGraph.add_edge(edge[0], edge[1], value=2*len(edge[3]))
         else:            
             netGraph.add_edge(edge[0], edge[1], value=1)
     netGraph.barnes_hut()
@@ -81,18 +81,23 @@ def create_netx_network(nodes, edges):
 # =============================================================================  
 
 usrntwrk = UserNetwork()
+
+#usrntwrk.add_usercontributions(users = ['Sawol', 'IceTiki', 'CommonsDelinker'])
+
+# tiananmen massaker
+#usrntwrk.add_article_data("https://zh.wikipedia.org/w/index.php?title=六四事件&action=history&limit=200")
 usrntwrk.add_article_data("https://en.wikipedia.org/w/index.php?title=Coronavirus_disease_2019&offset=&limit=200&action=history")
-usrntwrk.add_usercontributions("5")
-#usrntwrk.compute_language()
-#usrntwrk.create_language_network()
-#usrntwrk.delete_articles_by_count(userCount = 3)
-#usrntwrk.write_csv("class_small")
-#usrntwrk.read_csv("class_small")
-#usrntwrk.condense_edges()
-edges = usrntwrk.return_interval(datetime(2020,5,1), datetime(2020,5,5))
+usrntwrk.add_usercontributions("1")
+usrntwrk.compute_language()
+usrntwrk.create_language_network()
+usrntwrk.delete_articles_by_count(userCount = 2)
+#usrntwrk.write_csv("_classtest")
+#usrntwrk.read_csv("_classtest")
+usrntwrk.condense_edges()
+interval = usrntwrk.return_interval(datetime(2000,1,1), datetime(2021,5,5))
 
 #create_netx_network(usrntwrk.nodes, usrntwrk.edges)
-#create_pyvis_network(usrntwrk.nodes, usrntwrk.edges, "zh")
+create_pyvis_network(interval[0], interval[1], "zh")
 
 
 #
