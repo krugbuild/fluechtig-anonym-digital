@@ -8,7 +8,7 @@ Repositorium zum Abschlussprojekt. Status: in Arbeit.
 
 Quellcodedokumentation, Stand: 2020-05-05
 
-``` Python
+``` Python 3.6.9
 class UserNetwork(builtins.object)
  |  Klasse zur Datenerhebung- und -verarbeitung von Usernetzwerken in 
  |  Wikipedia. Dient als Grundlage für Netzwerkanalysen.
@@ -80,7 +80,7 @@ class UserNetwork(builtins.object)
  |          Int. Default = 100. Anzahl an Einträgen je Contribution die geladen 
  |          werden soll.
  |          
- |      user:
+ |      users:
  |          List. Default = None. Ermittelt die Contributions für die direkt
  |          als Liste übergebenen User. Die lokale nodes[] wird hierbei ignoriert.
  |  
@@ -174,25 +174,37 @@ class UserNetwork(builtins.object)
  |  
  |  read_csv(self, file_suffix='')
  |      Liest die Inhalte von nodes[] und edges[] aus einer CSV.
- |      NB: condensed Edges werden nicht übernommen.
- |      file_suffix = Kennzeichen, zur identifikation von besonderen
- |      Dateien. Optional, default "".
+ |      NB: condensed Edges werden nicht übernommen. Nach dem Einlesen muss
+ |      condense_edges ggf. erneut ausgeführt werden.
+ |      
+ |      file_suffix:
+ |          Str. Default "". Kennzeichen zur identifikation von Dateien. Wird
+ |          im Dateinamen zwischen nodes/edges und .csv eingefügt.
  |  
  |  return_interval(self, begin, end)
  |      Vergleicht die Timestamps in edges[] mit den übergebenen Grenzwerten
  |      und gibt ein (nodes[], edges[]) tuple für den gegebenen Zeitraum zurück.
- |      Relationen zu nachträglich erzeugten Sprach-Nodes werden immer übernommen.
+ |      Relationen zu den nachträglich erzeugten Sprach-Nodes werden immer
+ |      übernommen, sind also interval-unabhängig.
  |      
  |      begin:
- |          Datetime in YYYYMMDDHHMM (ISO 8601) <= Intervall.
+ |          Datetime. <= Intervall.
  |      end:
- |          Datetime in YYYYMMDDHHMM (ISO 8601) >= Intervall.
+ |          Datetime. >= Intervall.
+ |          
+ |      Parametersignatur:
+ |          datetime(YYYY, M, D, h, m)
+ |          
+ |      returns:
+ |          tuple(nodes[], edges[])
  |  
  |  write_csv(self, file_suffix='')
  |      Speichert die Inhalte von nodes[] und edges[] als CSV.
- |      NB: condensed Edges werden dabei aufgelöst.
- |      file_suffix = Kennzeichen, das den Dateinamen angehangen werden
- |          kann. Optional, default "".
+ |      NB: Condensed edges werden dabei aufgelöst.
+ |      
+ |      file_suffix:
+ |          Str. Default "". Kennzeichen zur identifikation von Dateien.
+ |          Entspricht dem Bereich zwischen nodes/edges und .csv im Dateinamen.
  |  
  |  ----------------------------------------------------------------------
  |  Data descriptors defined here:
