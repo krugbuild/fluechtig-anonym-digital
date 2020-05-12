@@ -47,7 +47,7 @@ class UserNetwork:
             
             - nodes [[ name(title/user), lang{}, type(article/user/language) ]]
             
-            - edges [[ user, article, timestamp, id ]]
+            - edges [[ user, article, timestamp, versionid, language ]]
             
             - languages { kürzel (z.B. en) : contributions-url}
                     
@@ -59,8 +59,8 @@ class UserNetwork:
         """
         self._nodes = list()
         self._edges = list()
-        self.cont_languages = { "en" : "https://en.wikipedia.org/w/index.php?title=Special:Contributions"
-                               , "fr" : "https://fr.wikipedia.org/w/index.php?title=Sp%C3%A9cial:Contributions"
+        self._cont_languages = { "en" : "https://en.wikipedia.org/w/index.php?title=Special:Contributions"
+                               , "fr" : "https://fr.wikipedia.org/w/index.php?title=Spécial:Contributions"
                                , "de" : "https://de.wikipedia.org/w/index.php?title=Spezial:Beitr%C3%A4ge"
                                , "es" : "https://es.wikipedia.org/w/index.php?title=Especial:Contribuciones"
                                , "ja" : "https://ja.wikipedia.org/w/index.php?title=特別:投稿記録"
@@ -69,7 +69,7 @@ class UserNetwork:
                                , "zh" : "https://zh.wikipedia.org/w/index.php?title=Special:用户贡献"}
 
 # =============================================================================
-# getter, setter & parser       
+# getter & setter
 # =============================================================================
 
     @property
@@ -79,7 +79,20 @@ class UserNetwork:
     
     @nodes.setter
     def nodes(self, value):
-        self._nodes = value
+        """ Fügt eine nodes[] der lokalen nodes[] hinzu. Führt eine
+            Duplikatsprüfung durch.
+            
+            value:
+                Liste mit nodes.
+        """
+        try:
+            for node in value:
+                if node not in self.nodes:
+                    self.nodes.append(node)
+                    print("Node hinzugefügt: " + node[0])
+        except ValueError:
+            print("Erwartet eine Liste mit nodes.")
+        
 
     def nodes_append(self, name, nodetype, langcode, langcount = 1):
         """ Erweitert nodes[] um ein Element mit dem übergebenen Werten.
@@ -132,7 +145,20 @@ class UserNetwork:
     
     @edges.setter
     def edges(self, value):
-        self._edges = value
+        """ Fügt eine edges[] der lokalen edges[] hinzu. Führt eine
+            Duplikatsprüfung durch.
+            
+            value:
+                Liste mit edges.
+        """
+        try:
+            for edge in value:
+                if edge not in self.edges:
+                    self.edges.append(edge)
+                    print("Edge hinzugefügt: " + edge[0] + " - " + edge[1])
+        except ValueError:
+            print("Erwartet eine Liste mit edges.")
+        
         
     def edges_append(self, user, article, timestamp, versionid, language):
         """ Erweitert edges[] um ein Element mit dem übergebenen Werten.
@@ -173,7 +199,10 @@ class UserNetwork:
             return edge
         else:
             print("edge[user, article] erwarten Strings als Werte. Vorgang abgebrochen.")        
-        
+   
+# =============================================================================
+# parser
+# =============================================================================     
         
     def _parse_datetime(self, value, lang):
         """ Parser für Datetime-Formate der verschiedenen Sprachversionen. Gibt
@@ -221,7 +250,7 @@ class UserNetwork:
         
         # Relationen zu Sprachen haben kein Datum (tritt beim Einlesen von CSV auf)
         if value == None or value == "":
-            print("\tLeerer Timestamp.")
+            #print("\tLeerer Timestamp.")
             return value
         
         try:
@@ -448,7 +477,7 @@ class UserNetwork:
  
     def add_usercontributions(self, depth = "100", users = None):
         """ Fügt für alle User des aktuellen Netzwerkes für alle definierten 
-            Sprachen (self.cont_languages) die User-Contributions als Nodes 
+            Sprachen (self._cont_languages) die User-Contributions als Nodes 
             hinzu und verknüpft diese mit dem User.
             Dient der Ermittlung der User-Sprachen über die Contributions und
             zur Sichtbarmachung eventueller Contributionnetzwerke.
@@ -471,7 +500,7 @@ class UserNetwork:
             
         for user in users:
             print("ermittle Artikel für User " + user + " ..")
-            for cont in self.cont_languages.items():
+            for cont in self._cont_languages.items():
                 # Aufruf je Sprachversion, NB &target=USERNAME muss als letztes 
                 # .. Element notiert sein (sonst liefert das Schema nichts)
                 self.add_user_data(cont[1] + '&limit=' + str(depth) + '&target=' + user)
@@ -502,13 +531,36 @@ class UserNetwork:
                 # für jedes {} in languages wird dessen wert 
                 for item in languages:
                     # je item wird jeder bekannte Sprachkey geprüft
-                    for lang in self.cont_languages.keys():
+                    for lang in self._cont_languages.keys():
                         # je Sprachkey wird der Wert aus item abgerufen und im node aufaddiert
                         if lang in node[1].keys():
                             node[1][lang] += item.get(lang, 0)
                         else:
                             node[1].update({lang: item.get(lang, 0)})
                                     
+                            
+    def _check_integrity(self, force = False):
+        """ Überprüft die Integrität der Daten auf zusammenpassende Edge und 
+            Nodes Listen. 
+            
+            force:
+                Entfernt 
+        """
+        edges_reduced = self._edges.copy()
+        
+        users = [name for [name, lang, ntype] in self._nodes 
+                    if ntype == 'user']
+        articles = [name for [name, lang, ntype] in self._nodes 
+                    if ntype == 'article']
+        
+        for edge in self._edges:
+            if edge[0] not in users or edge[1] not in articles:
+                print("not in list: " + str(edge))
+                if force:
+                    edges_reduced.remove(edge)
+                    print("\tremoved")
+        self._edges = edges_reduced.copy()
+        
 # =============================================================================    
 # Nodes & Edges: Netzwerkmanipulation       
 # =============================================================================
@@ -524,9 +576,8 @@ class UserNetwork:
             
             NB: Nach compute_language() ausführen, um ein besseres Ergebnis zu erhalten.
         """
-        #languages = ['en', 'fr', 'de', 'es', 'ja', 'ru', 'it', 'zh', 'fa', 'ar']
         # language Nodes anlegen
-        for lang in self.cont_languages.keys():
+        for lang in self._cont_languages.keys():
             print("füge Sprache hinzu: " + lang)
             self.nodes.append([lang, {}, 'language']) # name, languages, type 
         # edges je User anlegen
@@ -538,41 +589,49 @@ class UserNetwork:
                         self.edges_append(node[0], lang[0], '', lang[1]*[1], lang[0])
                     
                     
-    def delete_articles_by_count(self, versionCount = 2, userCount = 2):
-        """ Entfernt sämtliche Artikel-Nodes mit weniger als n Versionen gesamt
-            (versionCount) oder mit weniger als n zugeordneten Benutzern (userCount)
+    def delete_nodes_by_count(self, edgeCount = 2, user = False):
+        """ Entfernt sämtliche Article-Nodes mit weniger als n Versionen gesamt
+            (versionCount) oder mit weniger als n zugeordneten Benutzern (userCount).
+            Optional werden auch Usernodes entfernt (user).
             
-            versionCount
+            versionCount:
                 Anzahl an Versionen (edges) unter der ein Artikel gelöscht wird.
                 Optional, default = 2
             
-            userCount
+            userCount:
                 Anzahl an Usern, die einem Artikel zugeordnet sein müssen.
                 Unterschreitung -> Löschung. Optional, default = 2
+            
+            user:
+                Bool. Default = False. Wenn gesetzt, werden User analog zu Artikeln
+                entfernt.
                 
             NB: Vor condenseEdges ausführen!
         """
+        # lokale Kopie zur Manipulation
         nodes_reduced = self.nodes.copy()
-        # articles aus nodes ermitteln (vollständiges item ist nötig zum entfernen)
-        articles = [[name, lang, type] for [name, lang, type] in 
-                    self.nodes if type == 'article']
-        print('article mit < ' + str(versionCount) + ' Referenzen und < ' + str(userCount) + ' beteiligten Usern werden entfernt ..')
-        # für jeden article die Referenzen in edges prüfen
-        for item in articles:
-            mentions = [user for [user, article, timestamp, vid, lang] in 
-                        self.edges if article == item[0]]
-            # Zahl mentions prüfen, Zahl unique (weil Set) mentions prüfen
-            if len(mentions) < versionCount or len(set(mentions)) < userCount:        
+        for item in self.nodes:
+            mentions = None
+            if user and item[2] == 'user':
+                # Referenzen für User ermitteln
+                mentions = [article for [user, article, timestamp, vid, lang] in 
+                            self.edges if user == item[0]]
+            elif item[2] == 'article':
+                # Referenzen für Artikel ermitteln
+                mentions = [user for [user, article, timestamp, vid, lang] in 
+                            self.edges if article == item[0]]
+            # Wenn Referenzen < Parameter, Item löschen
+            if mentions is not None and len(set(mentions)) < edgeCount:
                 nodes_reduced.remove(item)
-        self.nodes = nodes_reduced.copy()
-        #return nodes_reduced
+        # reduzierte Liste übergeben (an private, da setter appended)
+        self._nodes = nodes_reduced.copy()
                     
         
     def condense_edges(self):
         """ Ermittelt edges mit gleicher Relation und fügt diese zusammen.
             Prüft das Ziel der Edges und entfernt Edges ohne passenden Artikel.
             
-            Aus edge[user, article, timestamp, id] wird [user, article, [timestamps], [ids]].
+            Aus edge[user, article, timestamp, id, lang] wird [user, article, [timestamps], [ids], lang].
             
             NB: NACH delete_articles_by_count() ausführen.
         """
@@ -580,12 +639,12 @@ class UserNetwork:
         print('fasse parallele edges zusammen ..')
         articles = [name for [name, lang, type] in self.nodes 
                     if type == 'article' or type == 'language']
-        for edge in self.edges:
+        for edge in self._edges:
             if edge[1] in articles:
                 # Duplikate via user-article-Relation ermitteln
                 duplicates = [[user, article, timestamp, nodeid, lang] for 
                               [user, article, timestamp, nodeid, lang] in 
-                              self.edges if user == edge[0] and article == edge[1]]    
+                              self._edges if user == edge[0] and article == edge[1]]    
                 # alle Timestamps aus Duplikaten ermitteln
                 # NB Timestamp und ID werden unzusammenhängend ausgelesen -> da Listen aber sortiert sind, ist das kein Problem
                 timestamps = [timestamp for 
@@ -597,9 +656,9 @@ class UserNetwork:
                 # Duplikatsprüfung vor append
                 if condensed not in edges_condensed:
                     edges_condensed.append(condensed)
-        self.edges = edges_condensed.copy()
-        #return edges_condensed  
-                         
+        self._edges = edges_condensed.copy()
+        self._check_integrity(True)
+        
         
     def return_interval(self, begin, end):
         """ Vergleicht die Timestamps in edges[] mit den übergebenen Grenzwerten
@@ -625,11 +684,11 @@ class UserNetwork:
         # Edges der Sprachrelationen ermitteln -> die haben keine Timestamps
         lang_edges = [[user, language, timestamp, vid, lang] 
                         for [user, language, timestamp, vid, lang] 
-                        in self.edges if language in self.cont_languages.keys()]
+                        in self._edges if language in self._cont_languages.keys()]
         # Edges über timestamp ermitteln. Edges: [user, article, timestamp, id, lang]
         # oder condensed: [user, article, [timestamp], [id], lang]
         
-        for edge in self.edges:
+        for edge in self._edges:
             # Sprach-Relationen haben kein Timestamp und müssen gesondert behandelt werden
             if edge not in lang_edges:
                 try: 
@@ -659,13 +718,28 @@ class UserNetwork:
         # alle Nodes übernehmen, die in edges_slice oder _cont_languages referenziert werden
         nodes_slice = [[name, lang, ntype] 
                         for [name, lang, ntype] 
-                        in self.nodes 
+                        in self._nodes 
                         if name in users_in_edges
                         or name in articles_in_edges 
-                        or name in self.cont_languages.keys()]
+                        or name in self._cont_languages.keys()]
 
         return (nodes_slice, edges_slice)
 
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
     
     
     

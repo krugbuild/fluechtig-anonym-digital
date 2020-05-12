@@ -7,6 +7,7 @@
 
 import matplotlib.pyplot as plt
 import networkx as nx
+import numpy as np
 
 from pyvis.network import Network
 from datetime import datetime
@@ -30,7 +31,7 @@ def create_pyvis_network(nodes, edges, highlight = ""):
         if node[2] == "user":
             netGraph.add_node(node[0], shape="dot", size=75)#, color = langColor(node[1]))
         elif node[2] == "article":
-            netGraph.add_node(node[0], shape="star", size=75, title = node[0])#, color = langColor(node[1]))
+            netGraph.add_node(node[0], shape="star", size=100, title = node[0])#, color = langColor(node[1]))
         elif node[2] == "language":
             if node[0] == highlight:
                 netGraph.add_node(node[0], shape="square", size=100, mass=30, title = node[0], color ="red")
@@ -65,158 +66,68 @@ def create_netx_network(nodes, edges):
     plt.show()
 
 # =============================================================================
-            
-#def langColor(langdict):
-#    langvalue = langdict.get('en', 0) / (langdict.get('en', 0) + langdict.get('zh', 0))
-#    if langvalue > 0.66:
-#        return "blue"
-#    elif langvalue <= 0.66 and langvalue > 0.33:
-#        return "yellow"
-#    elif langvalue <= 0.33:
-#        return "red"
-#    else:
-#        return "white"
-#    
+# Visualisierung Zeitserie nach Sprachgruppen
 
-# =============================================================================  
+def plot_stuff():
+    # https://www.youtube.com/watch?v=nKxLfUrkLE8
+    zh = [21, 19, 20, 18, 30, 35, 19, 20]
+    en = [30, 32, 31, 33, 21, 16, 32, 31]
+    version = [1, 2, 3, 4, 5, 6, 7, 8]
+    
+    #width = 0.3
+    
+    #lang_indexes = np.arrange(len( ))
+    
+    plt.bar(version, zh, color="yellow", label="zh")
+    plt.bar(version, en, color='blue', label="en")
+    plt.legend()
+    plt.title("Sprachverteilung nach Version")
+    plt.xlabel("Versionsnummer")
+    plt.ylabel("Sprachhäufigkeit")
+    
+# =============================================================================
 
-usrntwrk = UserNetwork()
+#plot_stuff()
 
-#usrntwrk.add_usercontributions(users = ['Sawol', 'IceTiki', 'CommonsDelinker'])
+usrntwrk_zh = UserNetwork()
+usrntwrk_en = UserNetwork()
+##usrntwrk = UserNetwork()
+##usrntwrk.add_usercontributions(depth="500", users = ['Robertiki', 'Rayukk'])
+#
+## tiananmen massaker
+usrntwrk_zh.add_article_data("https://zh.wikipedia.org/w/index.php?title=六四事件&action=history&limit=500")
+usrntwrk_en.add_article_data("https://en.wikipedia.org/w/index.php?title=1989_Tiananmen_Square_protests&action=history&limit=500")
+#
+usrntwrk_zh.add_usercontributions("10")
+usrntwrk_en.add_usercontributions("10")
 
-# tiananmen massaker
-#usrntwrk.add_article_data("https://zh.wikipedia.org/w/index.php?title=六四事件&action=history&limit=200")
-usrntwrk.add_article_data("https://en.wikipedia.org/w/index.php?title=Coronavirus_disease_2019&offset=&limit=200&action=history")
-usrntwrk.add_usercontributions("1")
-usrntwrk.compute_language()
-usrntwrk.create_language_network()
-usrntwrk.delete_articles_by_count(userCount = 2)
-#usrntwrk.write_csv("_classtest")
-#usrntwrk.read_csv("_classtest")
-usrntwrk.condense_edges()
-interval = usrntwrk.return_interval(datetime(2000,1,1), datetime(2021,5,5))
+usrntwrk_zh.write_csv("_zh_500")
+usrntwrk_en.write_csv("_en_500")
+
+#interval = usrntwrk_tiananmen.return_interval(datetime(2010,1,1), datetime(2015,1,1))
+
+usrntwrk_combined = UserNetwork()
+
+usrntwrk_combined.nodes = usrntwrk_zh.nodes
+usrntwrk_combined.nodes = usrntwrk_en.nodes
+
+usrntwrk_combined.edges = usrntwrk_zh.edges
+usrntwrk_combined.edges = usrntwrk_en.edges
+
+usrntwrk_combined.delete_nodes_by_count(edgeCount = 2, user = True)
+usrntwrk_combined.condense_edges()
+usrntwrk_combined.compute_language()
+usrntwrk_combined.create_language_network()
+
+
+#
+usrntwrk_combined.write_csv("_comb_en_zh_200")
+#
+create_pyvis_network(usrntwrk_combined.nodes, usrntwrk_combined.edges, "zh")
+
+#create_pyvis_network(usrntwrk.nodes, usrntwrk.edges)
 
 #create_netx_network(usrntwrk.nodes, usrntwrk.edges)
-create_pyvis_network(interval[0], interval[1], "zh")
-
-
-#
-#nodes = un.readDataCSV("nodes_covid_500.csv")
-#edges = un.readDataCSV("edges_covid_500.csv")
-#
-#un.computeLanguage(nodes, edges)
-#un.createLanguageEdges(nodes, edges)
-#
-#nodes_reduced = un.deleteArticlesByCount(nodes, edges, 1, 100)
-#edges_condensed = un.condenseEdges(nodes_reduced, edges)
-#
-#un.writeDataCSV(nodes, "nodes_covid_500_gephi.csv", ["id", "lang", "type"])
-#un.writeDataCSV(edges, "edges_covid_500_gephi.csv", ["source", "target", "timestamp", "id"])
-#
-##createPyvisNetwork(nodes_reduced, edges_condensed)
-#
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# Articles Abrufen und als XML speichern. NB Limit anpassen
-## en article
-#addArticleData(nodes, edges, getXMLdata('https://en.wikipedia.org/w/index.php?title=Coronavirus_disease_2019&offset=&limit=500&action=history', 'history.xsl'))
-#addArticleData(nodes, edges, getXMLdata('https://en.wikipedia.org/w/index.php?title=Hong_Kong&action=history&limit=500', 'history.xsl'))
-### zh article
-#addArticleData(nodes, edges, getXMLdata('https://zh.wikipedia.org/w/index.php?title=%E5%85%AD%E5%9B%9B%E4%BA%8B%E4%BB%B6&action=history&limit=500', 'history.xsl'))
-#addArticleData(nodes, edges, getXMLdata('https://zh.wikipedia.org/w/index.php?title=%E9%A6%99%E6%B8%AF&action=history&limit=500', 'history.xsl'))
-##
-### zugehörige user-netzwerke ermitteln
-#for node in nodes:
-#    if node[2] == "user":
-#        # Aufruf je Sprachversion, NB &target=USERNAME muss als letztes Element notiert sein (sonst liefert das Schema nichts)
-#        addUserData(nodes, edges, getXMLdata('https://en.wikipedia.org/w/index.php?title=Special:Contributions&limit=100&target=' + node[0], 'user.xsl'))
-#        addUserData(nodes, edges, getXMLdata('https://zh.wikipedia.org/w/index.php?title=Special:用户贡献&limit=100&target=' + node[0], 'user.xsl'))
-#
-
-#addUserContributions(nodes, edges)
-#
-#writeDataCSV(nodes, "nodes_covid_500.csv", ["id", "lang", "type"])
-#writeDataCSV(edges, "edges_covid_500.csv", ["source", "target", "timestamp", "id"])
-#
-###)
-##
-#writeDataCSV(nodes_reduced, "nodes_red_covid_500.csv", ["id", "lang", "type"])
-#writeDataCSV(edges_condensed, "edges_red_covid_500.csv", ["source", "target", "timestamp", "id"])
-#
-
-# ================== Stuff ================================
-
-
-#addHistoryData_list(nodes, edges, getHistoryXML('https://en.wikipedia.org/w/index.php?title=Taiwan&action=history&limit=1000'))
-
-
-#countOccurences(nodes, edges)
-
-#for node in nodes:
-#    if {"id": node["id"], "language": node["language"], "occ": nodes.count(node)} not in nodes_unique:
-#        nodes_unique.append({"id": node["id"], "language": node["language"], "occ": nodes.count(node)})
-
-#netGraph = Network(height='750pt', width='100%', bgcolor="#222222", font_color="white")        
-#
-#for node in nodes:                   
-#    #netGraph.add_node(node["id"], size=node["occ"])
-#    netGraph.add_node(node["name"])
-#for edge in edges:
-#    netGraph.add_edge(edge["user"], edge["article"])
-
-#netGraph.show_buttons()                   
-#                   
-#addHistoryData(netGraph, getHistoryXML('https://en.wikipedia.org/w/index.php?title=1989_Tiananmen_Square_protests&action=history&limit=1000'))
-#addHistoryData(netGraph, getHistoryXML('https://en.wikipedia.org/w/index.php?title=Taiwan&action=history&limit=1000'))
-#addHistoryData(netGraph, getHistoryXML('https://en.wikipedia.org/w/index.php?title=Hong_Kong&action=history&limit=1000'))
-## taiwan
-#addHistoryData(netGraph, getHistoryXML('https://zh.wikipedia.org/w/index.php?title=%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B&action=history&limit=1000'))
-## tiananmen
-#addHistoryData(netGraph, getHistoryXML('https://zh.wikipedia.org/w/index.php?title=%E5%85%AD%E5%9B%9B%E4%BA%8B%E4%BB%B6&action=history&limit=1000'))
-## hong kong
-#addHistoryData(netGraph, getHistoryXML('https://zh.wikipedia.org/w/index.php?title=%E9%A6%99%E6%B8%AF&action=history&limit=1000'))
-#
-#netGraph.show('networkmap.html')
-
-
-
-
-
-
-
-#def countOccurences(nodes, edges):
-#    temp_list = list()
-#    for node in nodes:
-#        if {"id": node["id"], "language": node["language"], "occ": nodes.count(node)} not in temp_list:
-#            temp_list.append({"id": node["id"], "language": node["language"], "occ": nodes.count(node)})    
-#    nodes.clear()
-#    nodes += temp_list
-#    temp_list.clear()
-#    # edges haben timestamps -.-
-
-
-
-
-
-
-
-
-
-
 
 
 

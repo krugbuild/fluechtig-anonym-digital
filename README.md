@@ -6,7 +6,7 @@ Repositorium zum Abschlussprojekt. Status: in Arbeit.
 
 ---
 
-Quellcodedokumentation, Stand: 2020-05-05
+Quellcodedokumentation, Stand: 2020-05-12
 
 ``` Python 3.6.9
 class UserNetwork(builtins.object)
@@ -42,7 +42,7 @@ class UserNetwork(builtins.object)
  |      
  |      - nodes [[ name(title/user), lang{}, type(article/user/language) ]]
  |      
- |      - edges [[ user, article, timestamp, id ]]
+ |      - edges [[ user, article, timestamp, versionid, language ]]
  |      
  |      - languages { kürzel (z.B. en) : contributions-url}
  |              
@@ -71,7 +71,7 @@ class UserNetwork(builtins.object)
  |  
  |  add_usercontributions(self, depth='100', users=None)
  |      Fügt für alle User des aktuellen Netzwerkes für alle definierten 
- |      Sprachen (self.cont_languages) die User-Contributions als Nodes 
+ |      Sprachen (self._cont_languages) die User-Contributions als Nodes 
  |      hinzu und verknüpft diese mit dem User.
  |      Dient der Ermittlung der User-Sprachen über die Contributions und
  |      zur Sichtbarmachung eventueller Contributionnetzwerke.
@@ -95,7 +95,7 @@ class UserNetwork(builtins.object)
  |      Ermittelt edges mit gleicher Relation und fügt diese zusammen.
  |      Prüft das Ziel der Edges und entfernt Edges ohne passenden Artikel.
  |      
- |      Aus edge[user, article, timestamp, id] wird [user, article, [timestamps], [ids]].
+ |      Aus edge[user, article, timestamp, id, lang] wird [user, article, [timestamps], [ids], lang].
  |      
  |      NB: NACH delete_articles_by_count() ausführen.
  |  
@@ -110,17 +110,22 @@ class UserNetwork(builtins.object)
  |      
  |      NB: Nach compute_language() ausführen, um ein besseres Ergebnis zu erhalten.
  |  
- |  delete_articles_by_count(self, versionCount=2, userCount=2)
- |      Entfernt sämtliche Artikel-Nodes mit weniger als n Versionen gesamt
- |      (versionCount) oder mit weniger als n zugeordneten Benutzern (userCount)
+ |  delete_nodes_by_count(self, edgeCount=2, user=False)
+ |      Entfernt sämtliche Article-Nodes mit weniger als n Versionen gesamt
+ |      (versionCount) oder mit weniger als n zugeordneten Benutzern (userCount).
+ |      Optional werden auch Usernodes entfernt (user).
  |      
- |      versionCount
+ |      versionCount:
  |          Anzahl an Versionen (edges) unter der ein Artikel gelöscht wird.
  |          Optional, default = 2
  |      
- |      userCount
+ |      userCount:
  |          Anzahl an Usern, die einem Artikel zugeordnet sein müssen.
  |          Unterschreitung -> Löschung. Optional, default = 2
+ |      
+ |      user:
+ |          Bool. Default = False. Wenn gesetzt, werden User analog zu Artikeln
+ |          entfernt.
  |          
  |      NB: Vor condenseEdges ausführen!
  |  
