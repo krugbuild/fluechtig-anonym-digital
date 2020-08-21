@@ -23,7 +23,7 @@ def create_pyvis_network(nodes, edges, highlight = ""):
         Erwartet einen Language Key ("en") und färbt den entsprechenden Node rot. Default "".
     """
     ## Graph anlegen   
-    netGraph = Network(height='750pt', width='100%', bgcolor="#222222", font_color="white")
+    netGraph = Network(height='750pt', width='100%', bgcolor="#ffffff", font_color="black")
     print("erzeuge Graph ..")
     # Daten in Graph eintragen                   
     #netGraph.add_nodes([name for [name, lang, type] in nodes if type == "user"])
@@ -95,14 +95,14 @@ usrntwrk_en = UserNetwork()
 ##usrntwrk.add_usercontributions(depth="500", users = ['Robertiki', 'Rayukk'])
 #
 ## tiananmen massaker
-usrntwrk_zh.add_article_data("https://zh.wikipedia.org/w/index.php?title=六四事件&action=history&limit=500")
-usrntwrk_en.add_article_data("https://en.wikipedia.org/w/index.php?title=1989_Tiananmen_Square_protests&action=history&limit=500")
+usrntwrk_zh.add_article_data("https://zh.wikipedia.org/w/index.php?title=六四事件&action=history&limit=6576")
+usrntwrk_en.add_article_data("https://en.wikipedia.org/w/index.php?title=1989_Tiananmen_Square_protests&action=history&limit=9452")
 #
 usrntwrk_zh.add_usercontributions("10")
 usrntwrk_en.add_usercontributions("10")
 
-usrntwrk_zh.write_csv("_zh_500")
-usrntwrk_en.write_csv("_en_500")
+usrntwrk_zh.write_csv("_zh0_6576_cont10")
+usrntwrk_en.write_csv("_en0_9452_cont10")
 
 #interval = usrntwrk_tiananmen.return_interval(datetime(2010,1,1), datetime(2015,1,1))
 
@@ -114,14 +114,15 @@ usrntwrk_combined.nodes = usrntwrk_en.nodes
 usrntwrk_combined.edges = usrntwrk_zh.edges
 usrntwrk_combined.edges = usrntwrk_en.edges
 
-usrntwrk_combined.delete_nodes_by_count(edgeCount = 2, user = True)
+usrntwrk_combined.delete_nodes_by_count(edgeCount = 2, user = False)
 usrntwrk_combined.condense_edges()
 usrntwrk_combined.compute_language()
 usrntwrk_combined.create_language_network()
 
 
 #
-usrntwrk_combined.write_csv("_comb_en_zh_200")
+usrntwrk_combined.write_csv("_Fall1b_en0_zh0_16028_cont10")
+#usrntwrk_combined.read_csv("_Fall1_en0_zh0_16028")
 #
 create_pyvis_network(usrntwrk_combined.nodes, usrntwrk_combined.edges, "zh")
 

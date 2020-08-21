@@ -64,7 +64,7 @@ class UserNetwork:
                                , "de" : "https://de.wikipedia.org/w/index.php?title=Spezial:Beitr%C3%A4ge"
                                , "es" : "https://es.wikipedia.org/w/index.php?title=Especial:Contribuciones"
                                , "ja" : "https://ja.wikipedia.org/w/index.php?title=特別:投稿記録"
-                               , "ru" : "https://ru.wikipedia.org/w/index.php?title=Служебная%3AВклад"
+                               , "ru" : "https://ru.wikipedia.org/w/index.php?title=Служебная:Вклад"
                                , "it" : "https://it.wikipedia.org/w/index.php?title=Speciale:Contributi"
                                , "zh" : "https://zh.wikipedia.org/w/index.php?title=Special:用户贡献"}
 
