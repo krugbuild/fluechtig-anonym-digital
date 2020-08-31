@@ -537,7 +537,26 @@ class UserNetwork:
                             node[1][lang] += item.get(lang, 0)
                         else:
                             node[1].update({lang: item.get(lang, 0)})
-                                    
+    
+    def modify_nodename(self, node_old, node_new):
+        """ Ändert die Bezeichnung und damit den Identifikator eines Nodes.
+            Diese Änderung wird in nodes sowie edges durchgeführt.
+            
+            node_old:
+                Eindeutiger Bezeichner des zu modifizierenden Nodes.
+                
+            node_new:
+                Neuer Bezeichner des Nodes.
+        """
+        # node selbst anpassen
+        for node in self._nodes:
+            if node[0] == node_old:
+                node[0] = node_new
+        
+        # Referenzen zu node aktualisieren
+        for edge in self._edges:
+            if edge[1] == node_old:
+                edge[1] = node_new
                             
     def _check_integrity(self, force = False):
         """ Überprüft die Integrität der Daten auf zusammenpassende Edge und 

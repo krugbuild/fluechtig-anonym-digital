@@ -1,0 +1,248 @@
+<?xml version="1.0"?>
+<user><language>zh</language>
+
+
+星枢的用户贡献 - 维基百科，自由的百科全书
+document.documentElement.className="client-js";RLCONF={"wgBreakFrames":!1,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"zh","wgMonthNames":["","1月","2月","3月","4月","5月","6月","7月","8月","9月","10月","11月","12月"],"wgRequestId":"c5c1afab-6948-4691-bef4-2838ad8307f0","wgCSPNonce":!1,"wgCanonicalNamespace":"Special","wgCanonicalSpecialPageName":"Contributions","wgNamespaceNumber":-1,"wgPageName":"Special:用户贡献","wgTitle":"用户贡献","wgCurRevisionId":0,"wgRevisionId":0,"wgArticleId":0,"wgIsArticle":!1,"wgIsRedirect":!1,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgPageContentLanguage":"zh","wgPageContentModel":"wikitext","wgRelevantPageName":"Special:用户贡献","wgRelevantArticleId":0,"wgUserVariant":"zh","wgIsProbablyEditable":!1,"wgRelevantPageIsProbablyEditable":!1,"wgRelevantUserName":"星枢","wgMediaViewerOnClick":!0,"wgMediaViewerEnabledByDefault":!0,
+"wgPopupsReferencePreviews":!1,"wgPopupsConflictsWithNavPopupGadget":!1,"wgVisualEditor":{"pageLanguageCode":"zh","pageLanguageDir":"ltr","pageVariantFallbacks":["zh-hans","zh-hant","zh-cn","zh-tw","zh-hk","zh-sg","zh-mo","zh-my"]},"wgMFDisplayWikibaseDescriptions":{"search":!0,"nearby":!0,"watchlist":!0,"tagline":!0},"wgWMESchemaEditAttemptStepOversample":!1,"wgULSCurrentAutonym":"中文","wgNoticeProject":"wikipedia","wgCentralAuthMobileDomain":!1,"wgEditSubmitButtonLabelPublish":!0,"wgULSPosition":"interlanguage","oresData":{"61248931":{"damaging":0.015},"61248917":{"damaging":0.029},"61248908":{"damaging":0.029},"61248840":{"damaging":0.03},"61248835":{"damaging":0.02},"61248812":{"damaging":0.032},"61248582":{"damaging":0.045},"61248550":{"damaging":0.022},"61248425":{"damaging":0.031},"61248419":{"damaging":0.013},"61248385":{"damaging":0.024},"61248042":{"damaging":0.016},"61247996":{"damaging":0.038},"61247989":{"damaging":0.043},"61247984":{"damaging":
+0.045},"61174672":{"damaging":0.069},"61174662":{"damaging":0.069},"61174600":{"damaging":0.172},"61167597":{"damaging":0.065},"61167389":{"damaging":0.064},"61166931":{"damaging":0.095},"61166324":{"damaging":0.129},"61165712":{"damaging":0.065},"61165305":{"damaging":0.068},"61165025":{"damaging":0.066},"61165009":{"damaging":0.052},"61164821":{"damaging":0.065},"61164763":{"damaging":0.065},"61164705":{"damaging":0.065},"61132775":{"damaging":0.045},"61132494":{"damaging":0.143},"61132303":{"damaging":0.03},"61129638":{"damaging":0.069},"61129338":{"damaging":0.069},"61129068":{"damaging":0.102},"61128570":{"damaging":0.181},"61127978":{"damaging":0.077},"61127958":{"damaging":0.059},"61127758":{"damaging":0.077},"61127694":{"damaging":0.084},"61127323":{"damaging":0.05},"61126187":{"damaging":0.102},"61113639":{"damaging":0.093},"61111983":{"damaging":0.012},"61111963":{"damaging":0.019},"61111762":{"damaging":0.019},"61111347":{"damaging":0.05},"61111005":{"damaging":0.009},
+"61109356":{"damaging":0.029},"61109327":{"damaging":0.068},"61109001":{"damaging":0.059},"61108630":{"damaging":0.04},"61108623":{"damaging":0.015},"61108588":{"damaging":0.019},"61108526":{"damaging":0.059},"61108510":{"damaging":0.022},"61105053":{"damaging":0.009},"61105025":{"damaging":0.022},"61105020":{"damaging":0.022},"61105012":{"damaging":0.021},"61103497":{"damaging":0.067},"61103460":{"damaging":0.03},"61103221":{"damaging":0.047},"61102990":{"damaging":0.028},"61102449":{"damaging":0.047},"61102309":{"damaging":0.047},"61101801":{"damaging":0.024},"61100828":{"damaging":0.058},"61098265":{"damaging":0.056},"61098165":{"damaging":0.079},"61097946":{"damaging":0.04},"61097888":{"damaging":0.054},"61097643":{"damaging":0.054},"61097476":{"damaging":0.055},"61097132":{"damaging":0.038},"61096899":{"damaging":0.058},"61096617":{"damaging":0.078},"61096211":{"damaging":0.058},"61096088":{"damaging":0.056},"61095666":{"damaging":0.041},"61095535":{"damaging":0.041},"61095443":{
+"damaging":0.054},"61094757":{"damaging":0.062},"61085669":{"damaging":0.016},"61081157":{"damaging":0.053},"61081128":{"damaging":0.068},"61080132":{"damaging":0.053},"61074596":{"damaging":0.053},"61074526":{"damaging":0.053},"61074421":{"damaging":0.053},"61074141":{"damaging":0.055},"61074133":{"damaging":0.028},"61073711":{"damaging":0.064},"61065977":{"damaging":0.054},"61035966":{"damaging":0.016},"61035882":{"damaging":0.078},"61035684":{"damaging":0.124},"61005924":{"damaging":0.053},"61005737":{"damaging":0.053},"61005633":{"damaging":0.057},"61005548":{"damaging":0.059},"61004392":{"damaging":0.071},"61004214":{"damaging":0.061}},"oresThresholds":{"damaging":{"maybebad":0.036,"likelybad":0.432}}};RLSTATE={"ext.gadget.hideConversionTab":"ready","ext.gadget.large-font":"ready","ext.globalCssJs.user.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","jquery.makeCollapsible.styles"
+:"ready","mediawiki.interface.helpers.styles":"ready","mediawiki.special":"ready","mediawiki.special.changeslist":"ready","mediawiki.helplink":"ready","mediawiki.widgets.DateInputWidget.styles":"ready","oojs-ui-core.styles":"ready","oojs-ui.styles.indicators":"ready","mediawiki.widgets.styles":"ready","oojs-ui-core.icons":"ready","mediawiki.htmlform.ooui.styles":"ready","mediawiki.htmlform.styles":"ready","skins.vector.styles.legacy":"ready","mediawiki.feedlink":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","ext.ores.styles":"ready"};RLPAGEMODULES=["mediawiki.special.recentchanges","mediawiki.page.ready","mediawiki.special.contributions","mediawiki.htmlform","mediawiki.htmlform.ooui","mediawiki.widgets.UserInputWidget","mediawiki.widgets","oojs-ui-widgets","mediawiki.widgets.DateInputWidget","site","jquery.makeCollapsible","skins.vector.legacy.js","ext.gadget.edit0","ext.gadget.Edittools-refToolbar",
+"ext.gadget.WikiMiniAtlas","ext.gadget.ReferenceTooltips","ext.gadget.UnihanTooltips","ext.gadget.variant-link-fix","ext.gadget.FixedTopBottomLink","ext.gadget.confirm-logout","ext.gadget.shortURL","ext.gadget.AdvancedSiteNotices","ext.gadget.internalLinkHelper-altcolor","ext.gadget.noteTA","ext.gadget.noteTAvector","ext.gadget.NavFrame","ext.gadget.collapsibleTables","ext.gadget.notifyConversion","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.uls.compactlinks","ext.uls.interface","ext.cx.eventlogging.campaigns","ext.centralNotice.geoIP"];
+(RLQ=window.RLQ||[]).push(function(){mw.loader.implement("user.options@1hzgi",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<name>%E6%98%9F%E6%9E%A2</name>
+
+
+
+
+
+	
+	
+	
+	帮助
+	
+	用户贡献
+	
+		
+		星枢 讨论 封禁日志 上传 日志 过滤器日志
+		
+		
+		
+		跳到导航
+		跳到搜索
+		搜索贡献记录展开折叠⧼contribs-top⧽IP地址或用户名：名字空间：所有条目TalkUserUser talk维基百科维基百科讨论FileFile talkMediaWikiMediaWiki talkTemplateTemplate talkHelpHelp talkCategoryCategory talk主题主题讨论草稿草稿讨论模組模組討論GadgetGadget talkGadget definitionGadget definition talkTopic反向选择关联的名字空间标签过滤器：仅显示最后版本的编辑仅显示创建页面的编辑隐藏小编辑⧼contribs-date⧽起始日：截止日：
+隐藏可能良好编辑
+
+
+搜索
+<versions><version><id>61248931</id><timestamp>2020年8月20日 (四) 02:07</timestamp><title>User:星枢/草稿01</title><comment/></version><version><id>61248917</id><timestamp>2020年8月20日 (四) 02:05</timestamp><title>User:星枢/草稿01</title><comment/></version><version><id>61248908</id><timestamp>2020年8月20日 (四) 02:04</timestamp><title>User:星枢/草稿01</title><comment/></version><version><id>61248840</id><timestamp>2020年8月20日 (四) 01:56</timestamp><title>User:星枢/草稿01</title><comment/></version><version><id>61248835</id><timestamp>2020年8月20日 (四) 01:56</timestamp><title>User:星枢/草稿01</title><comment/></version><version><id>61248812</id><timestamp>2020年8月20日 (四) 01:53</timestamp><title>User:星枢/草稿01</title><comment/></version><version><id>61248582</id><timestamp>2020年8月20日 (四) 01:29</timestamp><title>User:星枢/草稿01</title><comment/></version><version><id>61248550</id><timestamp>2020年8月20日 (四) 01:25</timestamp><title>User:星枢/草稿01</title><comment/></version><version><id>61248425</id><timestamp>2020年8月20日 (四) 01:11</timestamp><title>User:星枢/草稿01</title><comment/></version><version><id>61248419</id><timestamp>2020年8月20日 (四) 01:10</timestamp><title>User:星枢/草稿01</title><comment/></version><version><id>61248385</id><timestamp>2020年8月20日 (四) 01:07</timestamp><title>User:星枢/草稿01</title><comment/></version><version><id>61248042</id><timestamp>2020年8月20日 (四) 00:30</timestamp><title>User:星枢/草稿01</title><comment/></version><version><id>61247996</id><timestamp>2020年8月20日 (四) 00:27</timestamp><title>User:星枢/草稿01</title><comment/></version><version><id>61247989</id><timestamp>2020年8月20日 (四) 00:26</timestamp><title>User:星枢/草稿01</title><comment/></version><version><id>61247984</id><timestamp>2020年8月20日 (四) 00:26</timestamp><title>User:星枢/草稿01</title><comment/></version><version><id>61174672</id><timestamp>2020年8月15日 (六) 04:17</timestamp><title>地域歧视</title><comment/></version><version><id>61174662</id><timestamp>2020年8月15日 (六) 04:16</timestamp><title>地域歧视</title><comment/></version><version><id>61174600</id><timestamp>2020年8月15日 (六) 04:11</timestamp><title>地域歧视</title><comment/></version><version><id>61167597</id><timestamp>2020年8月14日 (五) 14:04</timestamp><title>中華民國</title><comment/></version><version><id>61167389</id><timestamp>2020年8月14日 (五) 13:53</timestamp><title>中華民國</title><comment/></version><version><id>61166931</id><timestamp>2020年8月14日 (五) 13:23</timestamp><title>黄桥战役</title><comment/></version><version><id>61166324</id><timestamp>2020年8月14日 (五) 12:42</timestamp><title>平型关战役</title><comment/></version><version><id>61165712</id><timestamp>2020年8月14日 (五) 11:48</timestamp><title>中華民國</title><comment/></version><version><id>61165305</id><timestamp>2020年8月14日 (五) 11:27</timestamp><title>珍宝岛事件</title><comment/></version><version><id>61165025</id><timestamp>2020年8月14日 (五) 11:01</timestamp><title>长征</title><comment/></version><version><id>61165009</id><timestamp>2020年8月14日 (五) 10:59</timestamp><title>长征</title><comment/></version><version><id>61164821</id><timestamp>2020年8月14日 (五) 10:44</timestamp><title>中華民國</title><comment/></version><version><id>61164763</id><timestamp>2020年8月14日 (五) 10:39</timestamp><title>中華民國</title><comment/></version><version><id>61164705</id><timestamp>2020年8月14日 (五) 10:35</timestamp><title>中華民國</title><comment/></version><version><id>61132775</id><timestamp>2020年8月12日 (三) 13:37</timestamp><title>刘晓波</title><comment/></version><version><id>61132494</id><timestamp>2020年8月12日 (三) 13:19</timestamp><title>刘晓波</title><comment/></version><version><id>61132303</id><timestamp>2020年8月12日 (三) 13:06</timestamp><title>刘晓波</title><comment/></version><version><id>61129638</id><timestamp>2020年8月12日 (三) 09:31</timestamp><title>2019冠状病毒病疫情</title><comment/></version><version><id>61129338</id><timestamp>2020年8月12日 (三) 09:09</timestamp><title>2019冠状病毒病疫情</title><comment/></version><version><id>61129068</id><timestamp>2020年8月12日 (三) 08:51</timestamp><title>黎智英</title><comment/></version><version><id>61128570</id><timestamp>2020年8月12日 (三) 08:14</timestamp><title>黎智英</title><comment/></version><version><id>61127978</id><timestamp>2020年8月12日 (三) 07:25</timestamp><title>亞洲金融風暴</title><comment/></version><version><id>61127958</id><timestamp>2020年8月12日 (三) 07:24</timestamp><title>亞洲金融風暴</title><comment/></version><version><id>61127758</id><timestamp>2020年8月12日 (三) 07:08</timestamp><title>亞洲金融風暴</title><comment/></version><version><id>61127694</id><timestamp>2020年8月12日 (三) 07:03</timestamp><title>亞洲金融風暴</title><comment/></version><version><id>61127323</id><timestamp>2020年8月12日 (三) 06:45</timestamp><title>六四事件</title><comment/></version><version><id>61126187</id><timestamp>2020年8月12日 (三) 05:27</timestamp><title>黎智英</title><comment/></version><version><id>61113639</id><timestamp>2020年8月11日 (二) 08:53</timestamp><title>中華民國憲法</title><comment/></version><version><id>61111983</id><timestamp>2020年8月11日 (二) 06:52</timestamp><title>User:星枢/草稿01</title><comment/></version><version><id>61111963</id><timestamp>2020年8月11日 (二) 06:50</timestamp><title>User:星枢/草稿01</title><comment/></version><version><id>61111762</id><timestamp>2020年8月11日 (二) 06:33</timestamp><title>Wikipedia talk:上传</title><comment/></version><version><id>61111347</id><timestamp>2020年8月11日 (二) 06:04</timestamp><title>User:星枢/草稿01</title><comment/></version><version><id>61111005</id><timestamp>2020年8月11日 (二) 05:39</timestamp><title>User:星枢/草稿01</title><comment/></version><version><id>61109356</id><timestamp>2020年8月11日 (二) 03:24</timestamp><title>邁爾斯-布里格斯性格分類法</title><comment/></version><version><id>61109327</id><timestamp>2020年8月11日 (二) 03:22</timestamp><title>邁爾斯-布里格斯性格分類法</title><comment/></version><version><id>61109001</id><timestamp>2020年8月11日 (二) 02:59</timestamp><title>Wikipedia:格式手冊/章節標題</title><comment/></version><version><id>61108630</id><timestamp>2020年8月11日 (二) 02:29</timestamp><title>Ω-6脂肪酸</title><comment/></version><version><id>61108623</id><timestamp>2020年8月11日 (二) 02:29</timestamp><title>Ω-9脂肪酸</title><comment/></version><version><id>61108588</id><timestamp>2020年8月11日 (二) 02:27</timestamp><title>Ω-6脂肪酸</title><comment/></version><version><id>61108526</id><timestamp>2020年8月11日 (二) 02:23</timestamp><title>Ω–3脂肪酸</title><comment/></version><version><id>61108510</id><timestamp>2020年8月11日 (二) 02:21</timestamp><title>Ω–3脂肪酸</title><comment/></version><version><id>61105053</id><timestamp>2020年8月10日 (一) 17:41</timestamp><title>User talk:星枢/TWA</title><comment/></version><version><id>61105025</id><timestamp>2020年8月10日 (一) 17:39</timestamp><title>User talk:星枢</title><comment/></version><version><id>61105020</id><timestamp>2020年8月10日 (一) 17:38</timestamp><title>User talk:星枢</title><comment/></version><version><id>61105012</id><timestamp>2020年8月10日 (一) 17:38</timestamp><title>User talk:星枢</title><comment/></version><version><id>61103497</id><timestamp>2020年8月10日 (一) 15:17</timestamp><title>邁爾斯-布里格斯性格分類法</title><comment/></version><version><id>61103460</id><timestamp>2020年8月10日 (一) 15:15</timestamp><title>五大性格特质</title><comment/></version><version><id>61103221</id><timestamp>2020年8月10日 (一) 14:56</timestamp><title>邁爾斯-布里格斯性格分類法</title><comment/></version><version><id>61102990</id><timestamp>2020年8月10日 (一) 14:40</timestamp><title>五大性格特质</title><comment/></version><version><id>61102449</id><timestamp>2020年8月10日 (一) 14:11</timestamp><title>邁爾斯-布里格斯性格分類法</title><comment/></version><version><id>61102309</id><timestamp>2020年8月10日 (一) 14:03</timestamp><title>邁爾斯-布里格斯性格分類法</title><comment/></version><version><id>61101801</id><timestamp>2020年8月10日 (一) 13:34</timestamp><title>邁爾斯-布里格斯性格分類法</title><comment/></version><version><id>61100828</id><timestamp>2020年8月10日 (一) 12:25</timestamp><title>五大性格特质</title><comment/></version><version><id>61098265</id><timestamp>2020年8月10日 (一) 09:27</timestamp><title>朝鲜民主主义人民共和国</title><comment/></version><version><id>61098165</id><timestamp>2020年8月10日 (一) 09:21</timestamp><title>朝鲜民主主义人民共和国</title><comment/></version><version><id>61097946</id><timestamp>2020年8月10日 (一) 09:09</timestamp><title>朝鲜民主主义人民共和国</title><comment/></version><version><id>61097888</id><timestamp>2020年8月10日 (一) 09:05</timestamp><title>朝鲜民主主义人民共和国</title><comment/></version><version><id>61097643</id><timestamp>2020年8月10日 (一) 08:50</timestamp><title>菱鎂礦</title><comment/></version><version><id>61097476</id><timestamp>2020年8月10日 (一) 08:42</timestamp><title>朝鲜民主主义人民共和国</title><comment/></version><version><id>61097132</id><timestamp>2020年8月10日 (一) 08:20</timestamp><title>朝鲜民主主义人民共和国</title><comment/></version><version><id>61096899</id><timestamp>2020年8月10日 (一) 08:07</timestamp><title>朝鲜民主主义人民共和国</title><comment/></version><version><id>61096617</id><timestamp>2020年8月10日 (一) 07:50</timestamp><title>武亭</title><comment/></version><version><id>61096211</id><timestamp>2020年8月10日 (一) 07:18</timestamp><title>朝鲜民主主义人民共和国</title><comment/></version><version><id>61096088</id><timestamp>2020年8月10日 (一) 07:09</timestamp><title>苏联</title><comment/></version><version><id>61095666</id><timestamp>2020年8月10日 (一) 06:41</timestamp><title>苏联</title><comment/></version><version><id>61095535</id><timestamp>2020年8月10日 (一) 06:34</timestamp><title>苏联</title><comment/></version><version><id>61095443</id><timestamp>2020年8月10日 (一) 06:26</timestamp><title>苏联</title><comment/></version><version><id>61094757</id><timestamp>2020年8月10日 (一) 05:45</timestamp><title>西三角经济圈</title><comment/></version><version><id>61085669</id><timestamp>2020年8月9日 (日) 14:24</timestamp><title>User talk:星枢</title><comment/></version><version><id>61081157</id><timestamp>2020年8月9日 (日) 09:26</timestamp><title>注意力不足過動症</title><comment/></version><version><id>61081128</id><timestamp>2020年8月9日 (日) 09:24</timestamp><title>注意力不足過動症</title><comment/></version><version><id>61080132</id><timestamp>2020年8月9日 (日) 08:27</timestamp><title>注意力不足過動症</title><comment/></version><version><id>61074596</id><timestamp>2020年8月9日 (日) 02:21</timestamp><title>注意力不足過動症</title><comment/></version><version><id>61074526</id><timestamp>2020年8月9日 (日) 02:15</timestamp><title>注意力不足過動症</title><comment/></version><version><id>61074421</id><timestamp>2020年8月9日 (日) 02:04</timestamp><title>注意力不足過動症</title><comment/></version><version><id>61074141</id><timestamp>2020年8月9日 (日) 01:27</timestamp><title>注意力不足過動症</title><comment/></version><version><id>61074133</id><timestamp>2020年8月9日 (日) 01:26</timestamp><title>注意力不足過動症</title><comment/></version><version><id>61073711</id><timestamp>2020年8月9日 (日) 00:32</timestamp><title>黑洞</title><comment/></version><version><id>61065977</id><timestamp>2020年8月8日 (六) 15:23</timestamp><title>注意力不足過動症</title><comment/></version><version><id>61035966</id><timestamp>2020年8月7日 (五) 09:09</timestamp><title>User talk:星枢</title><comment/></version><version><id>61035882</id><timestamp>2020年8月7日 (五) 09:03</timestamp><title>質能等價</title><comment/></version><version><id>61035684</id><timestamp>2020年8月7日 (五) 08:51</timestamp><title>質能等價</title><comment/></version><version><id>61005924</id><timestamp>2020年8月6日 (四) 12:05</timestamp><title>注意力不足過動症</title><comment/></version><version><id>61005737</id><timestamp>2020年8月6日 (四) 11:51</timestamp><title>注意力不足過動症</title><comment/></version><version><id>61005633</id><timestamp>2020年8月6日 (四) 11:41</timestamp><title>注意力不足過動症</title><comment/></version><version><id>61005548</id><timestamp>2020年8月6日 (四) 11:34</timestamp><title>注意力不足過動症</title><comment/></version><version><id>61004392</id><timestamp>2020年8月6日 (四) 10:04</timestamp><title>注意力不足過動症</title><comment/></version><version><id>61004214</id><timestamp>2020年8月6日 (四) 09:49</timestamp><title>變調</title><comment/></version><version><id>60589777</id><timestamp>2020年7月14日 (二) 10:43</timestamp><title>質能等價</title><comment/></version><version><id>60589643</id><timestamp>2020年7月14日 (二) 10:34</timestamp><title>冠状病毒</title><comment/></version><version><id>60588245</id><timestamp>2020年7月14日 (二) 09:15</timestamp><title>中印边境战争</title><comment/></version><version><id>60587926</id><timestamp>2020年7月14日 (二) 08:59</timestamp><title>中印边境战争</title><comment/></version><version><id>60587909</id><timestamp>2020年7月14日 (二) 08:57</timestamp><title>中印边境战争</title><comment/></version><version><id>60587887</id><timestamp>2020年7月14日 (二) 08:56</timestamp><title>中印边境战争</title><comment/></version></versions>
+
+星枢： 檢視子頁面 · 用户權限 · 編輯次數 ·  贡献报告 · 上傳的檔案（共享）·  所創條目 ·  跨語言活動 ·  SUL / 帐号 
+
+取自“https://zh.wikipedia.org/wiki/Special:用户贡献”
+		
+	
+
+
+	
+
+
+
+	导航菜单
+	
+		
+
+	
+		个人工具
+	
+	
+	
+		
+		没有登录讨论贡献创建账户登录
+		
+	
+
+
+		
+			
+
+	
+		名字空间
+	
+	
+	
+		
+		特殊页面
+		
+	
+
+
+			
+
+	
+	
+		变种
+	
+	
+	
+		
+		
+		
+	
+
+
+		
+		
+			
+
+	
+		视图
+	
+	
+	
+		
+		
+		
+	
+
+
+			
+
+	
+	
+		更多
+	
+	
+	
+		
+		
+		
+	
+
+
+			
+	
+		搜索
+	
+	
+		
+			
+			
+			
+			
+		
+	
+
+
+		
+	
+	
+
+	
+		
+	
+	
+
+	
+		导航
+	
+	
+	
+		
+		首页分类索引特色内容新闻动态最近更改随机条目资助维基百科
+		
+	
+
+
+	
+
+	
+		帮助
+	
+	
+	
+		
+		帮助维基社群方针与指引互助客栈知识问答字词转换IRC即时聊天联络我们关于维基百科
+		
+	
+
+
+
+	
+		工具
+	
+	
+	
+		
+		Atom用户贡献日志查看用户组上传文件特殊页面打印页面
+		
+	
+
+
+	
+
+	
+		其他语言
+	
+	
+	
+		
+		
+		
+	
+
+
+
+
+
+
+	
+	
+	
+		隐私政策
+		关于维基百科
+		免责声明
+		手机版视图
+		开发者
+		统计
+		Cookie声明
+	
+	
+		
+		
+	
+	
+
+
+
+(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":1041,"wgHostname":"mw1351"});});
+</user>

@@ -31,7 +31,10 @@ def create_pyvis_network(nodes, edges, highlight = ""):
         if node[2] == "user":
             netGraph.add_node(node[0], shape="dot", size=75)#, color = langColor(node[1]))
         elif node[2] == "article":
-            netGraph.add_node(node[0], shape="star", size=100, title = node[0])#, color = langColor(node[1]))
+            if node[0] == highlight:
+                netGraph.add_node(node[0], shape="star", size=100, title = node[0], color ="red")
+            else:
+                netGraph.add_node(node[0], shape="star", size=100, title = node[0])#, color = langColor(node[1]))
         elif node[2] == "language":
             if node[0] == highlight:
                 netGraph.add_node(node[0], shape="square", size=100, mass=30, title = node[0], color ="red")
@@ -89,42 +92,75 @@ def plot_stuff():
 
 #plot_stuff()
 
-usrntwrk_zh = UserNetwork()
-usrntwrk_en = UserNetwork()
+#usrntwrk_zh1 = UserNetwork()
+#usrntwrk_zh2 = UserNetwork()
 ##usrntwrk = UserNetwork()
 ##usrntwrk.add_usercontributions(depth="500", users = ['Robertiki', 'Rayukk'])
 #
 ## tiananmen massaker
-usrntwrk_zh.add_article_data("https://zh.wikipedia.org/w/index.php?title=六四事件&action=history&limit=6576")
-usrntwrk_en.add_article_data("https://en.wikipedia.org/w/index.php?title=1989_Tiananmen_Square_protests&action=history&limit=9452")
+#usrntwrk_zh.add_article_data("https://zh.wikipedia.org/w/index.php?title=六四事件&action=history&limit=6577")
+#usrntwrk_en.add_article_data("https://en.wikipedia.org/w/index.php?title=1989_Tiananmen_Square_protests&action=history&limit=9452")
 #
-usrntwrk_zh.add_usercontributions("10")
-usrntwrk_en.add_usercontributions("10")
+#usrntwrk_zh.add_usercontributions("10")
+#usrntwrk_en.add_usercontributions("10")
 
-usrntwrk_zh.write_csv("_zh0_6576_cont10")
-usrntwrk_en.write_csv("_en0_9452_cont10")
+#usrntwrk_zh.write_csv("_zh0_6576_cont10")
+
+usrntwrk_zh1 = UserNetwork()
+usrntwrk_zh2 = UserNetwork()
+usrntwrk_case2 = UserNetwork()
+usrntwrk_zh1.add_article_data("https://zh.wikipedia.org/w/index.php?title=六四事件&action=history&limit=6577")
+usrntwrk_zh1.add_usercontributions("10000")
+usrntwrk_zh1.write_csv("_zh0_6577_cont10k")
+#usrntwrk_zh2.read_csv("_zh0_6577_cont10k")
+#usrntwrk_zh1.modify_nodename("“六四事件”的版本历史 - 维基百科，自由的百科全书", "zh1")
+#usrntwrk_zh2.modify_nodename("“六四事件”的版本历史 - 维基百科，自由的百科全书", "zh2")
+#zh1 = usrntwrk_zh1.return_interval(datetime(2011, 3, 1), datetime(2014, 10, 31))
+#zh2 = usrntwrk_zh2.return_interval(datetime(2015, 5, 1), datetime(2020, 8, 31))
+#usrntwrk_case2.nodes = zh1[0]
+#usrntwrk_case2.edges = zh1[1]
+#usrntwrk_case2.nodes = zh2[0]
+#usrntwrk_case2.edges = zh2[1]
+#usrntwrk_case2.write_csv("_Fall2b_zh1_zh2")
+#create_pyvis_network(usrntwrk_case2.nodes, usrntwrk_case2.edges, "zh1")
+
+#usrntwrk_zh1.read_csv("_zh0_6576")
+#usrntwrk_zh2.read_csv("_zh0_6576")
+
+#usrntwrk_zh1.modify_nodename("“六四事件”的版本历史 - 维基百科，自由的百科全书", "zh1")
+#usrntwrk_zh2.modify_nodename("“六四事件”的版本历史 - 维基百科，自由的百科全书", "zh2")
+
+#2010-2014
+#zh1 = usrntwrk_zh.return_interval(datetime(2010, 1, 1), datetime(2014,12,31))
+#2016-2020
+
+
+#usrntwrk_en.write_csv("_en0_9452_cont10")
+#usrntwrk_en.read_csv("_zh0_6576")
 
 #interval = usrntwrk_tiananmen.return_interval(datetime(2010,1,1), datetime(2015,1,1))
 
-usrntwrk_combined = UserNetwork()
+#usrntwrk_combined = UserNetwork()
 
-usrntwrk_combined.nodes = usrntwrk_zh.nodes
-usrntwrk_combined.nodes = usrntwrk_en.nodes
+#usrntwrk_combined.nodes = usrntwrk_zh.nodes
 
-usrntwrk_combined.edges = usrntwrk_zh.edges
-usrntwrk_combined.edges = usrntwrk_en.edges
+#usrntwrk_combined.edges = usrntwrk_zh.edges
 
-usrntwrk_combined.delete_nodes_by_count(edgeCount = 2, user = False)
-usrntwrk_combined.condense_edges()
-usrntwrk_combined.compute_language()
-usrntwrk_combined.create_language_network()
+#usrntwrk_combined.delete_nodes_by_count(edgeCount = 2, user = False)
+#usrntwrk_combined.condense_edges()
+#usrntwrk_combined.compute_language()
+#usrntwrk_combined.create_language_network()
 
 
 #
-usrntwrk_combined.write_csv("_Fall1b_en0_zh0_16028_cont10")
-#usrntwrk_combined.read_csv("_Fall1_en0_zh0_16028")
+#usrntwrk_combined.write_csv("_Fall2_zh1_zh2_16028_cont2")
+#usrntwrk_combined.read_csv("_Fall1b_en0_zh0_16028_cont10")
+#usrntwrk_combined.delete_nodes_by_count(edgeCount = 10, user = False)
+#usrntwrk_combined.condense_edges()
+#usrntwrk_combined.compute_language()
+#usrntwrk_combined.create_language_network()
 #
-create_pyvis_network(usrntwrk_combined.nodes, usrntwrk_combined.edges, "zh")
+#create_pyvis_network(usrntwrk_combined.nodes, usrntwrk_combined.edges, "zh")
 
 #create_pyvis_network(usrntwrk.nodes, usrntwrk.edges)
 
