@@ -16,8 +16,8 @@ from urllib.parse import urlparse
 from urllib.parse import unquote
 
 class UserNetwork:
-    """ Klasse zur Datenerhebung- und -verarbeitung von Usernetzwerken in 
-        Wikipedia. Dient als Grundlage für Netzwerkanalysen.
+    """ Klasse zur Datenerhebung- und -verarbeitung von Usernetzwerken in der
+        Wikipedia. Dient als Grundlage für Netzwerkvisualisierungen und -analysen.
         
         Exemplarischer Aufruf:
             
@@ -27,19 +27,26 @@ class UserNetwork:
             >>> usrntwrk.add_article_data("https://en.wikipedia.org/w/index.php?
             title=Coronavirus_disease_2019&offset=&limit=500&action=history")
             
+            Sicherung der Ergebnismenge als .csv unter Angabe von Titel und Tiefe.
+            
+            >>> usrntwrk.write_csv("_corona_500")
+            
             Abruf der letzten 50 Edits für jeden User der abgerufenen Historie
             in allen definierten Sprachen (self.cont_languages). Zuordnung von
-            Sprachen zu Nutzern und Erweiterung des Netzwerkes um Sprachknoten.
+            Sprachen zu Nutzern gemäß Usercontributions.
             
             >>> usrntwrk.add_usercontributions("50")
             >>> usrntwrk.compute_language()
-            >>> usrntwrk.create_language_network()
             
-            Entfernen aller Artikel mit weniger als 5 referenzierten Usern.
+            Entfernen aller Artikel mit weniger als 5 referenzierten Versionen.
             Zusammenfassen von gleichartigen Edges (selbe Relation).
             
-            >>> usrntwrk.delete_articles_by_count(userCount = 5)
+            >>> usrntwrk.delete_articles_by_count(edgeCount = 5)
             >>> usrntwrk.condense_edges()                 
+            
+            Visualisierung der Sprachverteilung mittels Sprachknoten.
+            
+            >>> usrntwrk.create_language_network()
     """
     
     def __init__(self):
@@ -299,6 +306,7 @@ class UserNetwork:
 # =============================================================================
 # HTML request & XML
 # =============================================================================
+    
     def _get_xml_data(self, url, stylesheet):
         """ Ruft eine Seite ab und transformiert diese nach XML.
             url = parametrisierte URL der Artikelhistorie oder User contributions
@@ -331,6 +339,7 @@ class UserNetwork:
 # =============================================================================    
 # CSV: read & write
 # =============================================================================                
+    
     def _write_data_csv(self, data, path, header):
         """ Schreibt die Inhalte aus data in eine CSV mit definiertem header.
             NB: Condensed Edges werden autom. aufgespalten geschrieben, gleichen
@@ -424,6 +433,7 @@ class UserNetwork:
         """
         # article XML beziehen bzw. lokale Kopie laden
         article = self._get_xml_data(url, "history.xsl")
+        
         # article Sprache ermitteln
         article_lang = article.xpath('/article/language')[0].text
         # article-node zusammenstellen
@@ -453,6 +463,7 @@ class UserNetwork:
         """
         # article beziehen bzw. lokale Kopie laden
         user = self._get_xml_data(url, "user.xsl")
+        
         # article Sprache ermitteln
         article_lang = user.xpath('/user/language')[0].text
         # user-node zusammenstellen
@@ -475,7 +486,7 @@ class UserNetwork:
                                   article_lang)
     
  
-    def add_usercontributions(self, depth = "100", users = None):
+    def add_usercontributions(self, depth = "100", offset = "", users = None):
         """ Fügt für alle User des aktuellen Netzwerkes für alle definierten 
             Sprachen (self._cont_languages) die User-Contributions als Nodes 
             hinzu und verknüpft diese mit dem User.
@@ -485,6 +496,10 @@ class UserNetwork:
             depth:
                 Int. Default = 100. Anzahl an Einträgen je Contribution die geladen 
                 werden soll.
+                
+            offset:
+                Str. Datum im Format YYYYMMDDhhmmss. Zeitpunkt ab dem
+                antichronologisch die Contributions ermittelt werden.
                 
             users:
                 List. Default = None. Ermittelt die Contributions für die direkt
@@ -503,7 +518,7 @@ class UserNetwork:
             for cont in self._cont_languages.items():
                 # Aufruf je Sprachversion, NB &target=USERNAME muss als letztes 
                 # .. Element notiert sein (sonst liefert das Schema nichts)
-                self.add_user_data(cont[1] + '&limit=' + str(depth) + '&target=' + user)
+                self.add_user_data(cont[1] + '&offset=' + str(offset) + '&limit=' + str(depth) + '&target=' + user)
     
 # =============================================================================    
 # Nodes & Edges: Datenmanipulation         
@@ -513,8 +528,7 @@ class UserNetwork:
         """ Ermittelt über die User Contributions die Sprachen und deren
             absolute Häufigkeit je User.
             
-            potentieller Parameter: unique 
-                -> nur unteschiedl. Artikel zählen
+            NB: Vor condense_edges() und delete_nodes_by_count() ausführen.
         """
         # aus nodes[] _alle_ Artikel und deren Sprache (z.B. {"en":1}) auflisten
         articles = [[name, lang] for [name, lang, type] in self.nodes if type == 'article']
@@ -538,6 +552,7 @@ class UserNetwork:
                         else:
                             node[1].update({lang: item.get(lang, 0)})
     
+    
     def modify_nodename(self, node_old, node_new):
         """ Ändert die Bezeichnung und damit den Identifikator eines Nodes.
             Diese Änderung wird in nodes sowie edges durchgeführt.
@@ -557,13 +572,14 @@ class UserNetwork:
         for edge in self._edges:
             if edge[1] == node_old:
                 edge[1] = node_new
-                            
+      
+                      
     def _check_integrity(self, force = False):
         """ Überprüft die Integrität der Daten auf zusammenpassende Edge und 
             Nodes Listen. 
             
             force:
-                Entfernt 
+                Entfernt verwaiste Elemente aus dem Datensatz.
         """
         edges_reduced = self._edges.copy()
         
@@ -593,7 +609,9 @@ class UserNetwork:
             artcl_aslo
                 Auch Artikel mit Sprachen verknüpfen. Default False.
             
-            NB: Nach compute_language() ausführen, um ein besseres Ergebnis zu erhalten.
+            NB: Nach compute_language() ausführen, um ein besseres Ergebnis zu
+                erhalten. Vor delete_nodes_by_count() ausführen, um Datenverlust
+                zu vermeiden.
         """
         # language Nodes anlegen
         for lang in self._cont_languages.keys():
@@ -610,22 +628,17 @@ class UserNetwork:
                     
     def delete_nodes_by_count(self, edgeCount = 2, user = False):
         """ Entfernt sämtliche Article-Nodes mit weniger als n Versionen gesamt
-            (versionCount) oder mit weniger als n zugeordneten Benutzern (userCount).
-            Optional werden auch Usernodes entfernt (user).
+            (edgeCount). Optional werden auch Usernodes entfernt (user).
             
-            versionCount:
+            edgeCount:
                 Anzahl an Versionen (edges) unter der ein Artikel gelöscht wird.
                 Optional, default = 2
-            
-            userCount:
-                Anzahl an Usern, die einem Artikel zugeordnet sein müssen.
-                Unterschreitung -> Löschung. Optional, default = 2
             
             user:
                 Bool. Default = False. Wenn gesetzt, werden User analog zu Artikeln
                 entfernt.
                 
-            NB: Vor condenseEdges ausführen!
+            NB: Vor condense_edges() ausführen.
         """
         # lokale Kopie zur Manipulation
         nodes_reduced = self.nodes.copy()
