@@ -31,7 +31,7 @@ Stefan Krug, 02.03.2021.
 
 ### Dokument
 
-Die Kapitel der Arbeit sind in separaten Markdown-Dateien untergebracht. Die Sprungmarken führen zu den jeweiligen Unterkapiteln, die Dokumente werden dabei in der Leseansicht gerendert. Alternativ finden Sie hier die [Arbeit als .pdf](Krug_2020_FluechtigAnonymDigital.pdf).
+Die Kapitel der Arbeit sind in separaten Markdown-Dateien untergebracht. Die Sprungmarken führen zu den jeweiligen Unterkapiteln, die Dokumente werden dabei in der Leseansicht gerendert. Alternativ finden Sie hier die [Arbeit als .pdf](.//Dokumente/Krug_2020_FluechtigAnonymDigital.pdf).
 
 - [**Einleitung**]()
 
