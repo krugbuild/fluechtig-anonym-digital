@@ -28,7 +28,15 @@ Textbasis bildet die ursprüngliche Fassung vom 20.09.2020.
 
 - [**Einleitung**](./Kapitel_0.md)
 
+<<<<<<< HEAD
 - [**Kapitel 1 - Digital History und Wikipedistik – Diskurse und Fehlstellen**](./Kapitel_1.md)
+=======
+Die Kapitel der Arbeit sind in separaten Markdown-Dateien untergebracht. Die Sprungmarken führen zu den jeweiligen Unterkapiteln, die Dokumente werden dabei in der Leseansicht gerendert. Alternativ finden Sie hier die [Arbeit als .pdf](.//Dokumente/Krug_2020_FluechtigAnonymDigital.pdf).
+
+- [**Einleitung**]()
+
+- [**Kapitel 1 - Digital History und Wikipedistik – Diskurse und Fehlstellen**]()
+>>>>>>> 127436298d8f46359ca6d237be3db4c4e62dd2a0
 	
 	- [1.1 Historische Grundwissenschaften und die digitale Herausforderung](./Kapitel_1.md)
 	- [1.2 Wikipedistik und genuin digitale Korpora](./Kapitel_1.md)
