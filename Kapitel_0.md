@@ -13,7 +13,7 @@ Die vorliegende Arbeit ist, neben Einleitung und Fazit, dreigeteilt. Das erste K
 
 ---
 
-[[nächstes Kapitel]]()
+[[nächstes Kapitel]](./Kapitel_1.md)
 
 ---
 
