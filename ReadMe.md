@@ -15,16 +15,9 @@ Stefan Krug, 02.03.2021.
 
 ### Abstract
 
-
-### Projektstruktur
-
-- Im Unterordner [Dokumente](./Dokumente) befinden sich sämtliche Dokumente, die nicht direkt der Datenauswertung zuzuordnen sind.
-- Im folgenden Unterkapitel finden sich die Sprungmarken zu den einzelnen Kapiteln der Arbeit. Alternativ finden Sie hier die [Arbeit als .pdf](.//Dokumente/Krug_2020_FluechtigAnonymDigital.pdf). 
-
 ### Flüchtig, Anonym & Digital
 
-Um einen niederschwelligen Einblick in die Arbeit zu gewährleisten, wurde der Text mittels mark down ausgezeichent und um intermediale Referenzen erweitert. Die Kapitel der Arbeit wurden hierbei in eigenen Dateien untergebracht. Über die folgenden Sprungmarken können die gewünschten Kapitel direkt in einer Leseansicht aufgerufen werden. Die Roh-Dateien finden sich im root des Repositoriums.
-Textbasis bildet die ursprüngliche Fassung vom 20.09.2020.
+Um einen niederschwelligen Einblick in die Arbeit zu gewährleisten, wurde der Text mittels mark down ausgezeichent und um intermediale Referenzen erweitert. Die Kapitel der Arbeit wurden hierbei in eigenen Dateien untergebracht. Über die folgenden Sprungmarken können die gewünschten Kapitel direkt in einer Leseansicht aufgerufen werden. Die Roh-Dateien finden sich im root des Repositoriums. Eine Erläuterung der Ordnerstruktur findet sich weiter unten. Textbasis bildet die ursprüngliche Fassung vom 20.09.2020. ([Arbeit als .pdf](.//Dokumente/Krug_2020_FluechtigAnonymDigital.pdf) )
 
 - [**Einleitung**](https://krugbuild.github.io/fluechtig-anonym-digital/Kapitel_0.html)
 - [**Kapitel 1 - Digital History und Wikipedistik – Diskurse und Fehlstellen**](https://krugbuild.github.io/fluechtig-anonym-digital/Kapitel_1.html)
@@ -34,7 +27,6 @@ Textbasis bildet die ursprüngliche Fassung vom 20.09.2020.
 		- [1.2.2 Schwerpunkt: Sprachversionen](https://krugbuild.github.io/fluechtig-anonym-digital/Kapitel_1.html#122-schwerpunkt-sprachversionen)
 		- [1.2.3 Schwerpunkt: Akteure](https://krugbuild.github.io/fluechtig-anonym-digital/Kapitel_1.html#123-schwerpunkt-akteure)
 		- [1.2.4 Digitale Werkzeuge](https://krugbuild.github.io/fluechtig-anonym-digital/Kapitel_1.html#124-digitale-werkzeuge)
-	
 - ~~[**Kapitel 2 - Ansätze einer digitalen Quellenkritik**]()~~
 	- ~~[2.1 Zur Struktur des digitalen Objekts Artikel]()~~
 	- ~~[2.2 Kritik digitaler Prozesse]()~~
@@ -44,7 +36,6 @@ Textbasis bildet die ursprüngliche Fassung vom 20.09.2020.
 		- ~~[2.4.2 Identität, Pseudonymität und Algorithmen]()~~
 		- ~~[2.4.3 Relationen]()~~
 		- ~~[2.5 - Konsequenz]()~~
-	
 - ~~[**Kapitel 3 - Fallbeispiel: 1989 Tiananmen Square protests**]()~~
 	- ~~[3.1 Heuristik]()~~
 	- ~~[3.2 Äußere Kritik: Validierung der digitalen Objekte]()~~
@@ -55,10 +46,16 @@ Textbasis bildet die ursprüngliche Fassung vom 20.09.2020.
 		- ~~[3.4.3 Fall 3: Kleingruppenanalyse zh1b]()~~
 		- ~~[3.4.4 Fall 4: Gruppenvergleich en1, en2 und en3 mit zh1 und zh2 – Jahrestage der Tiananmenproteste]()~~
 	- ~~[3.5 Zusammenfassung und Interpretation der Ergebnisse]()~~
-	
 - ~~[**Fazit und Ausblick**]()~~
-
 - ~~[Literatur]()~~
+
+---
+
+### Projektstruktur
+
+
+- Im Unterordner [Dokumente](./Dokumente/ReadMe.md) befinden sich sämtliche Dokumente, die nicht direkt der Datenauswertung zuzuordnen sind.
+- Fragen und Anmerkungen haben unter [Discussions](./discussions) Platz. 
 
 ---
 
