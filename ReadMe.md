@@ -19,7 +19,7 @@ Stefan Krug, 02.03.2021.
 ### Projektstruktur
 
 - Im Unterordner [Dokumente](./Dokumente) befinden sich sämtliche Dokumente, die nicht direkt der Datenauswertung zuzuordnen sind.
-- Im folgenden Unterkapitel finden sich die Sprungmarken zu den einzelnen Kapiteln der Arbeit. Alternativ 
+- Im folgenden Unterkapitel finden sich die Sprungmarken zu den einzelnen Kapiteln der Arbeit. Alternativ finden Sie hier die [Arbeit als .pdf](.//Dokumente/Krug_2020_FluechtigAnonymDigital.pdf). 
 
 ### Flüchtig, Anonym & Digital
 
@@ -27,17 +27,7 @@ Um einen niederschwelligen Einblick in die Arbeit zu gewährleisten, wurde der T
 Textbasis bildet die ursprüngliche Fassung vom 20.09.2020.
 
 - [**Einleitung**](./Kapitel_0.md)
-
-<<<<<<< HEAD
 - [**Kapitel 1 - Digital History und Wikipedistik – Diskurse und Fehlstellen**](./Kapitel_1.md)
-=======
-Die Kapitel der Arbeit sind in separaten Markdown-Dateien untergebracht. Die Sprungmarken führen zu den jeweiligen Unterkapiteln, die Dokumente werden dabei in der Leseansicht gerendert. Alternativ finden Sie hier die [Arbeit als .pdf](.//Dokumente/Krug_2020_FluechtigAnonymDigital.pdf).
-
-- [**Einleitung**]()
-
-- [**Kapitel 1 - Digital History und Wikipedistik – Diskurse und Fehlstellen**]()
->>>>>>> 127436298d8f46359ca6d237be3db4c4e62dd2a0
-	
 	- [1.1 Historische Grundwissenschaften und die digitale Herausforderung](./Kapitel_1.md)
 	- [1.2 Wikipedistik und genuin digitale Korpora](./Kapitel_1.md)
 		- [1.2.1 Technische Zugänge](./Kapitel_1.md)
@@ -46,7 +36,6 @@ Die Kapitel der Arbeit sind in separaten Markdown-Dateien untergebracht. Die Spr
 		- [1.2.4 Digitale Werkzeuge](./Kapitel_1.md)
 	
 - ~~[**Kapitel 2 - Ansätze einer digitalen Quellenkritik**]()~~
-		
 	- ~~[2.1 Zur Struktur des digitalen Objekts Artikel]()~~
 	- ~~[2.2 Kritik digitaler Prozesse]()~~
 	- ~~[2.3 Quellensicherung]()~~
