@@ -80,48 +80,93 @@ Der Nutzen der einzelnen Werkzeuge ist je nach Forschungsabsicht natürlich sehr
 ---
 
 [^3]: Siehe Historische Fachinformatik, in: Wikipedia, 05.09.2018. Online: <https://de.wikipedia.org/w/index.php?title=Historische_Fachinformatik&oldid=180649364>; sowie Digital history, in: Wikipedia, 27.04.2020. Online:<https://en.wikipedia.org/w/index.php?title=Digital_history&oldid=953529232>. Beiden Artikeln mangelt eszudem an Belegen und Aktivität. Der englische Artikel wurde seit 2008 kaum 350 Änderungen unterzogen,während der bereits 2003 angelegte deutsche Artikel auf nicht einmal 50 Änderungen kommt. Siehe Digital history - Page History - XTools, <https://xtools.wmflabs.org/articleinfo/en.wikipedia.org/Digital_history>, Stand: 06.08.2020; sowie Historische Fachinformatik - Page History - XTools, <https://xtools.wmflabs.org/articleinfo/de.wikipedia.org/Historische_Fachinformatik>, Stand: 06.08.2020.
+
 [^4]: Vgl. Dogunke, Swantje: Was heißt »Digital Humanities«?, Blog | Klassik Stiftung Weimar, 17.06.2015, <https://blog.klassik-stiftung.de/digital-humanities/>, Stand: 06.08.2020.
+
 [^5]: Vgl. Prinz, Claudia; Schlotheuber, Eva; Hohls, Rüdiger: Vorwort der Redaktion, in: Historische Grundwissenschaften und die digitale Herausforderung, Bd. 18, 2016 (Historisches Forum), S. 4 f.
+
 [^6]: Vgl. Rehbein, Malte: Digitalisierung braucht Historiker/innen, die sie beherrschen, nicht beherrscht, in: Historische Grundwissenschaften und die digitale Herausforderung, Bd. 18, 2016 (Historisches Forum), S. 45–51.
+
 [^7]: Vgl. Krajewski, Markus: Programmieren als Kulturtechnik, in: Historische Grundwissenschaften und die digitale Herausforderung, Bd. 18, 2016 (Historisches Forum), S. 37–40.
+
 [^8]: Vgl. Hiltmann, Torsten: Hilfswissenschaften in Zeiten der Digitalisierung, in: Historische Grundwissenschaften und die digitale Herausforderung, Bd. 18, 2016 (Historisches Forum), S. 79–83.
+
 [^9]: Keupp, Jan: Die digitale Herausforderung: Kein Reservat der Hilfswissenschaften, in: Historische Grundwissenschaften und die digitale Herausforderung, Bd. 18, 2016 (Historisches Forum), S. 89–92.
+
 [^10]: Vgl. Schmale, Wolfgang: Historische Grundwissenschaften international, in: Historische Grundwissenschaften und die digitale Herausforderung, Bd. 18, 2016 (Historisches Forum), S. 23–25.
+
 [^11]: Hafner, Urs: Der Irrtum der Zeitmaschinisten | NZZ, Neue Zürcher Zeitung, 27.05.2016, <https://www.nzz.ch/feuilleton/zeitgeschehen/digital-history-historiografie-des-zeitpfeils-ld.85000>, Stand: 13.06.2020.
+
 [^12]: Vgl. Schmale: Historische Grundwissenschaften international, 2016, S. 25.
+
 [^13]: Sahle, Patrick; Henny, Ulrike: Klios Algorithmen: Automatisierte Auswertung von Wikipedia-Inhalten als Faktenbasis und Diskursraum, in: Wozniak, Thomas; Nemitz, Jürgen; Rohwedder, Uwe (Hg.): Wikipedia und Geschichtswissenschaft, Berlin/Boston 2015, S. 120.
+
 [^14]: Vgl. ebd.
+
 [^15]: Siehe Wozniak, Thomas; Nemitz, Jürgen; Rohwedder, Uwe (Hg.): Wikipedia und Geschichtswissenschaft, Berlin/Boston 2015, S. 257–299. Online: <https://doi.org/10.1515/9783110376357>.
+
 [^16]: Vgl. Wozniak, Thomas: Wikipedia in Forschung und Lehre – eine Übersicht, in: Wozniak, Thomas; Nemitz, Jürgen; Rohwedder, Uwe (Hg.): Wikipedia und Geschichtswissenschaft, Berlin/Boston 2015, S. 41 f.
+
 [^17]: So zum Beispiel die Bibliografie des deutschen Wikipedistik-Projekts, siehe Wikipedia:Wikipedistik/Arbeiten, in: Wikipedia, 19.06.2020. Online: <https://de.wikipedia.org/w/index.php?title=Wikipedia:Wikipedistik/Arbeiten&oldid=201125088>.
+
 [^18]: Siehe Research:Index - Meta, <https://meta.wikimedia.org/wiki/Research:Index>, Stand: 06.07.2020.
+
 [^19]: Research:Projects - Meta, <https://meta.wikimedia.org/w/index.php?title=Research:Projects&oldid=19872838>, Stand: 05.07.2020.
+
 [^20]: Siehe zum Beispiel Wikipedia:Academic studies of Wikipedia, in: Wikipedia, 03.07.2020. Online: <https://en.wikipedia.org/w/index.php?title=Wikipedia:Academic_studies_of_Wikipedia&oldid=965824064>.
+
 [^21]: Siehe zum Beispiel Wikipedia:Wikipedia as an academic source, in: Wikipedia, 28.11.2018. Online:<https://en.wikipedia.org/w/index.php?title=Wikipedia:Wikipedia_as_an_academic_source&oldid=871051852>.
+
 [^22]: Siehe Wikipedia:Wikipedistik/Arbeiten, in: Wikipedia, 19.06.2020. Online: <https://de.wikipedia.org/w/index.php?title=Wikipedia:Wikipedistik/Arbeiten&oldid=201125088>.
+
 [^23]: Siehe Wikipedia Diskussion:Wikipedistik/Arbeiten, in: Wikipedia, 27.02.2019. Online: <https://de.wikipedia.org/w/index.php?title=Wikipedia_Diskussion:Wikipedistik/Arbeiten&oldid=186086510>.
+
 [^24]: Vgl. Wozniak: Wikipedia in Forschung und Lehre – eine Übersicht, 2015, S. 41 f.
+
 [^25]: Siehe auch Fußnoten [^20] und [^21].
+
 [^26]: Vgl. Sahle; Henny: Klios Algorithmen: Automatisierte Auswertung von Wikipedia-Inhalten als Faktenbasis und Diskursraum, 2015.
+
 [^27]: Beispielsweise lassen sich durch widerstreitende Löschungen und Einfügungen Rückschlüsse auf einem Artikel zu Grunde liegenden Diskurs ziehen. Diese Methode funktioniert dank der sprachunabhängigen Aussagekraft von Bildern selbst in fremdsprachigen Korpora. Vgl. Krug, Stefan: Zensur in Bildern. Verlauf der Zensur der chinesischen Wikipedia in den 2010er Jahren in Bildern, in, 28.02.2020. Online:<https://github.com/krugbuild/zensur-in-bildern>, Stand: 15.03.2020.
+
 [^28]: Vgl. Sahle; Henny: Klios Algorithmen: Automatisierte Auswertung von Wikipedia-Inhalten als Faktenbasis und Diskursraum, 2015, S. 116 f.
+
 [^29]: Vgl. ebd., S. 122–136.
+
 [^30]: Vgl. ebd., S. 136–145.
+
 [^31]: Vgl. ebd., S. 148.
+
 [^32]: Die technischen Details der Strukturen Sprachversion und Artikel werden im Kapitel [2.1 Zur Struktur des digitalen Objekts Artikel]() erläutert. <!-- TODO -->
+
 [^33]: Vgl. Wozniak: Wikipedia in Forschung und Lehre – eine Übersicht, 2015, S. 42.
+
 [^34]: Vgl. Hecht, Brent; Gergle, Darren: The tower of Babel meets web 2.0: user-generated content and its applications in a multilingual context, in: Proceedings of the SIGCHI Conference on Human Factors in Computing Systems, Atlanta, Georgia 2010, S. 291–300. Online: <https://doi.org/10.1145/1753326.1753370>.
+
 [^35]: Vgl. Richter, Klaus: Wikipedia als Objekt der Nationalismusforschung – das Beispiel der Stadt Vilnius/Wilno, in: Wozniak, Thomas; Nemitz, Jürgen; Rohwedder, Uwe (Hg.): Wikipedia und Geschichtswissenschaft, Berlin/Boston 2015, S. 149–154.
+
 [^36]: Vgl. Kleinke, Sonja; Schultz, Julia: Ist „Nation“ gleich „nation“? Zwei Wikipedia-Artikel im Sprach- und Kulturvergleich, in: Diskurse – digital 1 (1), 19.02.2019, S. 62–97. Online: <https://doi.org/10.25521/diskurse-digital.2019.61>.
+
 [^37]: Vgl. Ford, Heather: The Missing Wikipedians, in: Lovink, Geert; Tkacz, Nathaniel (Hg.): Critical Point of View: A Wikipedia Reader, Amsterdam 2011, S. 258–268. Online: <https://networkcultures.org/blog/publication/critical-point-of-view-a-wikipedia-reader/>.
+
 [^38]: Vgl. Bilic, Pasko; Bulian, Luka: Lost in Translation: Contexts, Computing, Disputing on Wikipedia, in, Berlin 2014. Online: <https://doi.org/10.9776/14027>.
+
 [^39]: Das Modell besagt, dass Wissen und Erinnern sozial bedingt seien und geteilte Interpretationen der Vergangenheit durch kommunikative Prozesse erreicht werden. Darin wird zwischen der Mirkoebene (persönliche Erfahrungen), der Mesoebene (Kommunikation) und der Makroebene (kulturelles Gedächtnis) unterschieden.<br/>Vgl. Heinrich, Horst-Alfred; Gilowsky, Julia: Wie wird kommunikatives zu kulturellem Gedächtnis? Aushandlungsprozesse auf den Wikipedia-Diskussionsseiten am Beispiel der Weißen Rose, in: Sebald, Gerd; Döbler, Marie-Kristin (Hg.): (Digitale) Medien und soziale Gedächtnisse, Wiesbaden 2018 (Soziales Gedächtnis, Erinnern und Vergessen – Memory Studies), S. 146 f. Online: <https://doi.org/10.1007/978-3-658-19513-7>.
+
 [^40]: Vgl. ebd., S. 145.
+
 [^41]: Vgl. ebd., S. 163 f.
+
 [^42]: Vgl. Yasseri, Taha; Speorri, Anselm; Graham, Mark u. a.: The Most Controversial Topics in Wikipedia. A Multilingual and Geographical Aalysis, in: Global Wikipedia: International and Cross-Cultural Issues in Online Collaboration, Lanham 2014, S. 25–48. Online: <http://arxiv.org/abs/1305.5566>.
+
 [^43]: Vgl. Gredel, Eva: Digitale Diskurse und Wikipedia. Wie das Social Web Interaktion im digitalen Zeitalter verwandelt, Tübingen 2018, S. 77 f.
+
 [^44]: Siehe Wikipedia Cross-lingual Image Analysis, DMI Tools, <https://tools.digitalmethods.net/beta/wikipediaCrosslingualImageAnalysis/>.
+
 [^45]: Siehe Wikibu, <https://www.wikibu.ch/index.php>.
+
 [^46]: Vgl. Gredel: Digitale Diskurse und Wikipedia. Wie das Social Web Interaktion im digitalen Zeitalter verwandelt, 2018, S. 83–85.
+
 [^47]: Siehe XTools, <https://xtools.wmflabs.org/> ; sowie Welcome to XTools! — XTools 3.10.16 documentation, <https://xtools.readthedocs.io/en/stable/>.
+
 [^48]: Siehe Page History - XTools, <https://xtools.wmflabs.org/articleinfo> ; sowie 1.2. Page History — XTools 3.10.16 documentation, <https://xtools.readthedocs.io/en/stable/tools/articleinfo.html#articleinfo>.
