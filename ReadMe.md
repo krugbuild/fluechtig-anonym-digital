@@ -26,14 +26,14 @@ Stefan Krug, 02.03.2021.
 Um einen niederschwelligen Einblick in die Arbeit zu gewährleisten, wurde der Text mittels mark down ausgezeichent und um intermediale Referenzen erweitert. Die Kapitel der Arbeit wurden hierbei in eigenen Dateien untergebracht. Über die folgenden Sprungmarken können die gewünschten Kapitel direkt in einer Leseansicht aufgerufen werden. Die Roh-Dateien finden sich im root des Repositoriums.
 Textbasis bildet die ursprüngliche Fassung vom 20.09.2020.
 
-- [**Einleitung**](./Kapitel_0.md)
-- [**Kapitel 1 - Digital History und Wikipedistik – Diskurse und Fehlstellen**](./Kapitel_1.md)
-	- [1.1 Historische Grundwissenschaften und die digitale Herausforderung](./Kapitel_1.md)
-	- [1.2 Wikipedistik und genuin digitale Korpora](./Kapitel_1.md)
-		- [1.2.1 Technische Zugänge](./Kapitel_1.md)
-		- [1.2.2 Schwerpunkt: Sprachversionen](./Kapitel_1.md)
-		- [1.2.3 Schwerpunkt: Akteure](./Kapitel_1.md)
-		- [1.2.4 Digitale Werkzeuge](./Kapitel_1.md)
+- [**Einleitung**](https://krugbuild.github.io/fluechtig-anonym-digital/Kapitel_0.html)
+- [**Kapitel 1 - Digital History und Wikipedistik – Diskurse und Fehlstellen**](https://krugbuild.github.io/fluechtig-anonym-digital/Kapitel_1.html)
+	- [1.1 Historische Grundwissenschaften und die digitale Herausforderung](https://krugbuild.github.io/fluechtig-anonym-digital/Kapitel_1.html#11-historische-grundwissenschaften-und-die-digitale-herausforderung)
+	- [1.2 Wikipedistik und genuin digitale Korpora](https://krugbuild.github.io/fluechtig-anonym-digital/Kapitel_1.html#12-wikipedistik-und-genuin-digitale-korpora)
+		- [1.2.1 Technische Zugänge](https://krugbuild.github.io/fluechtig-anonym-digital/Kapitel_1.html#121-technische-zug%C3%A4nge)
+		- [1.2.2 Schwerpunkt: Sprachversionen](https://krugbuild.github.io/fluechtig-anonym-digital/Kapitel_1.html#122-schwerpunkt-sprachversionen)
+		- [1.2.3 Schwerpunkt: Akteure](https://krugbuild.github.io/fluechtig-anonym-digital/Kapitel_1.html#123-schwerpunkt-akteure)
+		- [1.2.4 Digitale Werkzeuge](https://krugbuild.github.io/fluechtig-anonym-digital/Kapitel_1.html#124-digitale-werkzeuge)
 	
 - ~~[**Kapitel 2 - Ansätze einer digitalen Quellenkritik**]()~~
 	- ~~[2.1 Zur Struktur des digitalen Objekts Artikel]()~~
