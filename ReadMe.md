@@ -27,15 +27,15 @@ Um einen niederschwelligen Einblick in die Arbeit zu gewährleisten, wurde der T
 		- [1.2.2 Schwerpunkt: Sprachversionen](https://krugbuild.github.io/fluechtig-anonym-digital/Kapitel_1.html#122-schwerpunkt-sprachversionen)
 		- [1.2.3 Schwerpunkt: Akteure](https://krugbuild.github.io/fluechtig-anonym-digital/Kapitel_1.html#123-schwerpunkt-akteure)
 		- [1.2.4 Digitale Werkzeuge](https://krugbuild.github.io/fluechtig-anonym-digital/Kapitel_1.html#124-digitale-werkzeuge)
-- ~~[**Kapitel 2 - Ansätze einer digitalen Quellenkritik**]()~~
-	- ~~[2.1 Zur Struktur des digitalen Objekts Artikel]()~~
-	- ~~[2.2 Kritik digitaler Prozesse]()~~
-	- ~~[2.3 Quellensicherung]()~~
-	- ~~[2.4 Akteure]()~~
-		- ~~[2.4.1 Urheberschaft, Gemeinschaft und Zitierfähigkeit]()~~
-		- ~~[2.4.2 Identität, Pseudonymität und Algorithmen]()~~
-		- ~~[2.4.3 Relationen]()~~
-		- ~~[2.5 - Konsequenz]()~~
+- [**Kapitel 2 - Ansätze einer digitalen Quellenkritik**](https://krugbuild.github.io/fluechtig-anonym-digital/Kapitel_2.html)
+	- [2.1 Zur Struktur des digitalen Objekts Artikel](https://krugbuild.github.io/fluechtig-anonym-digital/blob/master/Kapitel_2.md#21-zur-struktur-des-digitalen-objekts-artikel)
+	- [2.2 Kritik digitaler Prozesse](https://krugbuild.github.io/fluechtig-anonym-digital/blob/master/Kapitel_2.md#22-kritik-digitaler-prozesse)
+	- [2.3 Quellensicherung](https://krugbuild.github.io/fluechtig-anonym-digital/blob/master/Kapitel_2.md#23-quellensicherung)
+	- [2.4 Akteure](https://krugbuild.github.io/fluechtig-anonym-digital/blob/master/Kapitel_2.md#24-akteure)
+		- [2.4.1 Urheberschaft, Gemeinschaft und Zitierfähigkeit](https://krugbuild.github.io/fluechtig-anonym-digital/blob/master/Kapitel_2.md#241-urheberschaft-gemeinschaft-und-zitierf%C3%A4higkeit)
+		- [2.4.2 Identität, Pseudonymität und Algorithmen](https://krugbuild.github.io/fluechtig-anonym-digital/blob/master/Kapitel_2.md#242-identit%C3%A4t-pseudonymit%C3%A4t-und-algorithmen)
+		- [2.4.3 Relationen](https://krugbuild.github.io/fluechtig-anonym-digital/blob/master/Kapitel_2.md#243-relationen)
+		- [2.5 - Konsequenz](https://krugbuild.github.io/fluechtig-anonym-digital/blob/master/Kapitel_2.md#25-konsequenz)
 - ~~[**Kapitel 3 - Fallbeispiel: 1989 Tiananmen Square protests**]()~~
 	- ~~[3.1 Heuristik]()~~
 	- ~~[3.2 Äußere Kritik: Validierung der digitalen Objekte]()~~
