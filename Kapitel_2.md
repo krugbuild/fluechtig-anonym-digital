@@ -24,7 +24,7 @@ Die oberste Ebene eines Wikipedia Artikels bildet die Zugehörigkeit zu einer Sp
 
 Das Objekt Artikel im Kontext Sprachversion selbst ist wiederum zweigeteilt. Zentral für die alltägliche Benutzung ist die Inhaltsseite, die mit dem Reiter Artikel betitelt wird. Die Artikelseite stellt dabei die jeweils aktuelle, bzw. die aktuell freigegebene Artikelversion dar. Neben dem Reiter Artikel führt der Reiter Diskussion auf die zum Artikel gehörende Diskussionsseite. Diese ist mit dem vorangestellten Zusatz ‚Diskussion:‘ vor dem Artikeltitel überschrieben und bietet einen Raum zur Diskussion von geplanten Änderungen oder umstrittenen Aspekten des Artikels. Diese Zweiteilung der Inhaltsseiten ist eine Kernfunktion der MediaWiki-Software und findet sich deshalb auf praktisch allen Inhaltsseiten der Wikipedia. [^60]
 
-![](./Dokumente/Abb1_Titelleiste und Reiter der englischsprachigen Wikipedia.png)
+![Abb1](.//Dokumente/Abb1_TitelleisteundReiterderenglischsprachigenWikipedia.png)
 
 `Abbildung 1: Titelleiste und Reiter der englischsprachigen Wikipedia.`
 
@@ -78,13 +78,13 @@ Horizont und Tendenz des Autors einer Quelle sind auch bei digitalen Objekten ze
 
 Die Herausforderung der Zuordnung von Verantwortlichkeit bei kollaborativ erzeugten Texten findet sich auch im Diskurs im die Zitierfähigkeit der Wikipedia im schulischen oder akademischen Kontext wieder. Die zentralen Probleme sind hierbei die befürchtete Flüchtigkeit der Artikelinhalte, also Änderungen oder Löschungen nach einer Sichtung, sowie die fehlende personelle Verantwortlichkeit für Inhalte.
 
-![](./Dokumente/Abb2_Werkzeugleiste in der deutschsprachigen Wikipedia.png)
+![Abb2](.//Dokumente/Abb2_WerkzeugleisteinderdeutschsprachigenWikipedia.png)
 
 `Abbildung 2: Werkzeugleiste in der deutschsprachigen Wikipedia.`
 
 Der Wunsch nach einem Verweis auf einen unveränderlichen Artikeltext kann hierbei als vorrangig technische Heraus­forderung verstanden werden, die jedoch problemlos mit vorhanden Funktionen zu erfüllen ist. Zwar wird beim Aufruf eines Artikels üblicherweise die jeweils aktuellste, oder ggf. die letzte gesichtete, Version aufgerufen, jedoch kann mittels permanenter Links direkt auf eine bestimmte Artikelversion verwiesen werden. Diese Links enthalten dazu einen eindeutigen Identifikator der anzuzeigenden Artikelversion, wodurch ein manueller Abgleich ermöglicht wird. [^78] Diese Funktion ist von jedem Artikel aus über die Werkzeugleiste auf der linken Seite zugänglich. (Siehe Abbildung 2) Die Funktion Artikel zitieren geht noch einen Schritt weiter und bietet eine vorformatierte Referenz inklusive permanentem Link zum Kopieren an. Eine eindeutige Referenz zu einer unveränderlichen Version des zu zitierenden Artikels anzugeben, sollte somit weder technisch noch methodisch als Hürde betrachtet werden. Die Zitierhilfe des MediaWikis offenbart jedoch das Kernproblem der Zitierfähigkeit von Wikipediaartikeln: die Autorenangabe.
 
-![](./Dokumente/Abb3_Ausschnitt aus der Zitierhilfe zum Artikel Mehrautorenschaft.png)
+![Abb3](.//Dokumente/Abb3_AusschnittausderZitierhilfezumArtikelMehrautorenschaft.png)
 
 `Abbildung 3: Ausschnitt aus der Zitierhilfe zum Artikel "Mehrautorenschaft".`
 
@@ -94,7 +94,7 @@ Inhaltlich ist die Angabe der Gruppe der Wikipedia-Autoren mit Verweis auf die z
 
 Die notwendigen Infor­mationen zu den Autoren und deren Anteil am Artikel können dabei den Metadaten der Artikel direkt entnommen werden, was durch verschiedene Tools der Community erleichtert wird. [^81] Den notwendigen quantitativen Anteil ver­ortet er bei mindestens 83 Prozent für einzelne Haupt­autoren, beziehungsweise 70 und 13 Prozent für Erst- und Zweitautoren. Sollten alle Bedingungen bei einem Artikel erfüllt sein, wäre dieser voll zitierfähig. Wozniak leitet daraus eine Zitierpflicht derartiger Artikel ab und fordert fortan die eingehende Prüfung aller konsultierter Artikel. [^82]
 
-![](./Dokumente/Abb4_Urheberanteile unter einer Artikelüberschrift.png)
+![Abb4](.//Dokumente/Abb4_UrheberanteileuntereinerArtikelüberschrift.png)
 
 `Abbildung 4: Urheberanteile unter einer Artikelüberschrift. (Modul: WikiHistory)`
 
