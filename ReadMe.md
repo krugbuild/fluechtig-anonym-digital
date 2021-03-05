@@ -36,16 +36,16 @@ Um einen niederschwelligen Einblick in die Arbeit zu gewährleisten, wurde der T
 		- [2.4.2 Identität, Pseudonymität und Algorithmen](https://krugbuild.github.io/fluechtig-anonym-digital/blob/master/Kapitel_2.md#242-identit%C3%A4t-pseudonymit%C3%A4t-und-algorithmen)
 		- [2.4.3 Relationen](https://krugbuild.github.io/fluechtig-anonym-digital/blob/master/Kapitel_2.md#243-relationen)
 		- [2.5 - Konsequenz](https://krugbuild.github.io/fluechtig-anonym-digital/blob/master/Kapitel_2.md#25-konsequenz)
-- ~~[**Kapitel 3 - Fallbeispiel: 1989 Tiananmen Square protests**]()~~
-	- ~~[3.1 Heuristik]()~~
-	- ~~[3.2 Äußere Kritik: Validierung der digitalen Objekte]()~~
-	- ~~[3.3 Datenbezug und Sicherung]()~~
-	- ~~[3.4 Innere Quellenkritik - Analyse der Akteure]()~~
-		- ~~[3.4.1 Fall 1: Referenzvergleich en 0 und zh0 – Schnittmengen der untersuchten Artikel und zh 0 und zh0 – Schnittmengen der untersuchten Artikel – Schnittmengen der untersuchten Artikel]()~~
-		- ~~[3.4.2 Fall 2: Gruppenvergleich zh1 und zh2 – zur Sperrung der chinesischen Wikipedia]()~~
-		- ~~[3.4.3 Fall 3: Kleingruppenanalyse zh1b]()~~
-		- ~~[3.4.4 Fall 4: Gruppenvergleich en1, en2 und en3 mit zh1 und zh2 – Jahrestage der Tiananmenproteste]()~~
-	- ~~[3.5 Zusammenfassung und Interpretation der Ergebnisse]()~~
+- [**Kapitel 3 - Fallbeispiel: 1989 Tiananmen Square protests**](https://krugbuild.github.io/fluechtig-anonym-digital/Kapitel_3.html)
+	- [3.1 Heuristik](https://krugbuild.github.io/fluechtig-anonym-digital/blob/master/Kapitel_3.md#31-heuristik)
+	- [3.2 Äußere Kritik: Validierung der digitalen Objekte](https://krugbuild.github.io/fluechtig-anonym-digital/blob/master/Kapitel_3.md#32-%C3%A4u%C3%9Fere-kritik-validierung-der-digitalen-objekte)
+	- [3.3 Datenbezug und Sicherung](https://krugbuild.github.io/fluechtig-anonym-digital/blob/master/Kapitel_3.md#33-datenbezug-und-sicherung)
+	- [3.4 Innere Quellenkritik - Analyse der Akteure](https://krugbuild.github.io/fluechtig-anonym-digital/blob/master/Kapitel_3.md#34-innere-quellenkritik---analyse-der-akteure)
+		- [3.4.1 Fall 1: Referenzvergleich en 0 und zh0 – Schnittmengen der untersuchten Artikel und zh 0 und zh0 – Schnittmengen der untersuchten Artikel – Schnittmengen der untersuchten Artikel](https://krugbuild.github.io/fluechtig-anonym-digital/blob/master/Kapitel_3.md#341-fall-1-referenzvergleich-en-und-zh--schnittmengen-der-untersuchten-artikel)
+		- [3.4.2 Fall 2: Gruppenvergleich zh1 und zh2 – zur Sperrung der chinesischen Wikipedia](https://krugbuild.github.io/fluechtig-anonym-digital/blob/master/Kapitel_3.md#342-fall-2-gruppenvergleich-zh-und-zh--zur-sperrung-der-chinesischen-wikipedia)
+		- [3.4.3 Fall 3: Kleingruppenanalyse zh1b](https://krugbuild.github.io/fluechtig-anonym-digital/blob/master/Kapitel_3.md#343-fall-3-kleingruppenanalyse-zhb)
+		- [3.4.4 Fall 4: Gruppenvergleich en1, en2 und en3 mit zh1 und zh2 – Jahrestage der Tiananmenproteste](https://krugbuild.github.io/fluechtig-anonym-digital/blob/master/Kapitel_3.md#344-fall-4-gruppenvergleich-en-en-und-en-mit-zh-und-zh--jahrestage-der-tiananmenproteste)
+	- [3.5 Zusammenfassung und Interpretation der Ergebnisse](https://krugbuild.github.io/fluechtig-anonym-digital/blob/master/Kapitel_3.md#35-zusammenfassung-und-interpretation-der-ergebnisse)
 - ~~[**Fazit und Ausblick**]()~~
 - ~~[Literatur]()~~
 
