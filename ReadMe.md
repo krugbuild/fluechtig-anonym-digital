@@ -46,7 +46,7 @@ Um einen niederschwelligen Einblick in die Arbeit zu gewährleisten, wurde der T
 		- [3.4.3 Fall 3: Kleingruppenanalyse zh1b](https://krugbuild.github.io/fluechtig-anonym-digital/Kapitel_3.html#343-fall-3-kleingruppenanalyse-zhb)
 		- [3.4.4 Fall 4: Gruppenvergleich en1, en2 und en3 mit zh1 und zh2 – Jahrestage der Tiananmenproteste](https://krugbuild.github.io/fluechtig-anonym-digital/Kapitel_3.html#344-fall-4-gruppenvergleich-en-en-und-en-mit-zh-und-zh--jahrestage-der-tiananmenproteste)
 	- [3.5 Zusammenfassung und Interpretation der Ergebnisse](https://krugbuild.github.io/fluechtig-anonym-digital/Kapitel_3.html#35-zusammenfassung-und-interpretation-der-ergebnisse)
-- ~~[**Fazit und Ausblick**]()~~
+- [**Fazit und Ausblick**](https://krugbuild.github.io/fluechtig-anonym-digital/Kapitel_4.html)
 - ~~[Literatur]()~~
 
 ---
