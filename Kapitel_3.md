@@ -293,7 +293,7 @@ Gleichwohl ist zu beachten, dass die ausgewählten Gruppen jeweils relativ klein
 
 [^141]: Dies ist rein im Sinne der Beteiligung der User zu verstehen. Den Usern aus der Autorengruppe zh0 konnten im Vergleich zu en0 weniger Bearbeitungen in anderen Sprachversionen zugewiesen werden. Weiterhin muss hierbei auch bedacht werden, dass die Auswahl der untersuchten Wikipedia-Sprachversionen durch die Anzahl der jeweils aktiven Bearbeiter getroffen wurde und somit insbesondere die europäischen Sprachversionen in dieser Untersuchung stärker repräsentiert sind. Die explizite Analyse von regional verbreiteten Sprachversionen könnte zu einem etwas veränderten Bild führen.
 
-[^142]: Siehe zh.wikipedia.org is 100% blocked in China | GreatFire Analyzer, <https://en.greatfire.org/zh.wikipedia.org>, Stand: 21.06.2020.
+[^142]: Siehe zh.wikipedia.org is 100% blocked in China - GreatFire Analyzer, <https://en.greatfire.org/zh.wikipedia.org>, Stand: 21.06.2020.
 
 [^143]: Siehe Quelltextdokumentation unter: DEF ADD _ USERCONTRIBUTIONS ( SELF , DEPTH = "100", OFFSET = "", USERS = NONE ).
 
