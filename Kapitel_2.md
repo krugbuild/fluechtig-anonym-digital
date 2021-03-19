@@ -184,7 +184,7 @@ Eine transparente Dokumentation der erhobenen Daten sowie der Verarbeitung derse
 
 [^69]: Vgl. Wurthmann; Schmidt: Digitale Quellenkunde. Zukunftsaufgaben der Historischen Grundwissenschaften, 2020, Abschn. 2.
 
-[^70]: Links zum LibreOffice Quellcode finden sich auf der offiziellen Webseite des Projekts. Siehe Source Code | LibreOffice - Free Office Suite - Based on OpenOffice - Compatible with Microsoft, <https://www.libreoffice.org/about-us/source-code/>, Stand: 25.07.2020.
+[^70]: Links zum LibreOffice Quellcode finden sich auf der offiziellen Webseite des Projekts. Siehe Source Code - LibreOffice - Free Office Suite - Based on OpenOffice - Compatible with Microsoft, <https://www.libreoffice.org/about-us/source-code/>, Stand: 25.07.2020.
 
 [^71]: Siehe LibreOffice Bug List, <https://bugs.documentfoundation.org/buglist.cgi? bug_status=__open__&product=LibreOffice>, Stand: 25.07.2020 ; sowie Wikimedia Phabricator,<https://phabricator.wikimedia.org/>, Stand: 25.07.2020.
 
@@ -198,7 +198,7 @@ Eine transparente Dokumentation der erhobenen Daten sowie der Verarbeitung derse
 
 [^76]: Vgl ebd., S. 164 f.
 
-[^77]: Historical research data | 4Memory/Nationale Forschungsdaten Infrastruktur (NFDI), <https://4memory.de/historical-research-data/>, Stand: 04.08.2020.
+[^77]: Historical research data - 4Memory/Nationale Forschungsdaten Infrastruktur (NFDI), <https://4memory.de/historical-research-data/>, Stand: 04.08.2020.
 
 [^78]: Diese Art des Nachweises ist als technisch robust zu betrachten. Zur Versionierung siehe auch das Kapitel 2.1 <!-- TODO -->
 
