@@ -81,7 +81,7 @@ Der Nutzen der einzelnen Werkzeuge ist je nach Forschungsabsicht natürlich sehr
 
 [^3]: Siehe Historische Fachinformatik, in: Wikipedia, 05.09.2018. Online: <https://de.wikipedia.org/w/index.php?title=Historische_Fachinformatik&oldid=180649364>; sowie Digital history, in: Wikipedia, 27.04.2020. Online:<https://en.wikipedia.org/w/index.php?title=Digital_history&oldid=953529232>. Beiden Artikeln mangelt eszudem an Belegen und Aktivität. Der englische Artikel wurde seit 2008 kaum 350 Änderungen unterzogen,während der bereits 2003 angelegte deutsche Artikel auf nicht einmal 50 Änderungen kommt. Siehe Digital history - Page History - XTools, <https://xtools.wmflabs.org/articleinfo/en.wikipedia.org/Digital_history>, Stand: 06.08.2020; sowie Historische Fachinformatik - Page History - XTools, <https://xtools.wmflabs.org/articleinfo/de.wikipedia.org/Historische_Fachinformatik>, Stand: 06.08.2020.
 
-[^4]: Vgl. Dogunke, Swantje: Was heißt »Digital Humanities«?, Blog | Klassik Stiftung Weimar, 17.06.2015, <https://blog.klassik-stiftung.de/digital-humanities/>, Stand: 06.08.2020.
+[^4]: Vgl. Dogunke, Swantje: Was heißt »Digital Humanities«?, Blog - Klassik Stiftung Weimar, 17.06.2015, <https://blog.klassik-stiftung.de/digital-humanities/>, Stand: 06.08.2020.
 
 [^5]: Vgl. Prinz, Claudia; Schlotheuber, Eva; Hohls, Rüdiger: Vorwort der Redaktion, in: Historische Grundwissenschaften und die digitale Herausforderung, Bd. 18, 2016 (Historisches Forum), S. 4 f.
 
@@ -95,7 +95,7 @@ Der Nutzen der einzelnen Werkzeuge ist je nach Forschungsabsicht natürlich sehr
 
 [^10]: Vgl. Schmale, Wolfgang: Historische Grundwissenschaften international, in: Historische Grundwissenschaften und die digitale Herausforderung, Bd. 18, 2016 (Historisches Forum), S. 23–25.
 
-[^11]: Hafner, Urs: Der Irrtum der Zeitmaschinisten | NZZ, Neue Zürcher Zeitung, 27.05.2016, <https://www.nzz.ch/feuilleton/zeitgeschehen/digital-history-historiografie-des-zeitpfeils-ld.85000>, Stand: 13.06.2020.
+[^11]: Hafner, Urs: Der Irrtum der Zeitmaschinisten - NZZ, Neue Zürcher Zeitung, 27.05.2016, <https://www.nzz.ch/feuilleton/zeitgeschehen/digital-history-historiografie-des-zeitpfeils-ld.85000>, Stand: 13.06.2020.
 
 [^12]: Vgl. Schmale: Historische Grundwissenschaften international, 2016, S. 25.
 
