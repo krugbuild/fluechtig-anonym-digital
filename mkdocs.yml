@@ -1,0 +1,21 @@
+site_name: "Flüchtig, Anonym & Digital"
+docs_dir: Dokumentation
+site_dir: site
+
+markdown_extensions:
+  - footnotes
+
+use_directory_urls: false
+
+nav:
+  - "Einleitung": index.md
+  - "1. Digital History und Wikipedistik – Diskurse und Fehlstellen": Kapitel_1.md
+  - "2. Ansätze einer digitalen Quellenkritik": Kapitel_2.md
+  - "3. Fallbeispiel: 1989 Tiananmen Square protests": Kapitel_3.md
+  - "4. Fazit und Ausblick": Kapitel_4.md
+  - "Anhang: Literatur": Anhang_Literatur.md
+  - "Anhang: Quelltext": Anhang_Quelltext.md
+
+theme: 
+  name: material
+  color_mode: auto
