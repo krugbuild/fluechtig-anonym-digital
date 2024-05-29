@@ -5,6 +5,8 @@
 Alexandra Krug<br/>
 Überarbeitete Fassung der Masterarbeit vom 29.05.2024
 
+[Projekt-Repositorium der Arbeit](https://github.com/krugbuild/fluechtig-anonym-digital)
+
 ### Einleitung
 
 Im vergangenen Jahr berichteten verschiedene Newsportale über voraussichtlich politisch motivierte Eingriffe in Wikipediaartikel. So wurde Taiwan nicht mehr als Inselstaat in Ostasien beschrieben, sondern als Provinz in der Volksrepublik China. In der Beschreibung der Proteste in Hong Kong wechselten sich die Bezeichnungen Demonstranten und Randalierer wiederholt ab und die Tiananmenplatz-Proteste wurden zu konterrevolutionären Aufständen erklärt. [^1]
