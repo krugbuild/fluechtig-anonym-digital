@@ -24,7 +24,7 @@ Zitationsvorschlag:
 - Der Unterordner [Quellcode](/Quellcode) beinhaltet die notwendigen Python-Dateien sowie die verwendeten XSLT-Schemata, um die Ergebnisse reproduzieren zu können.
 - Unter [Quellenabbild](/Quellenabbild/) befinden sich die unveränderten Kopien der untersuchten Quelldokumente.
 - Die aufgearbeiteten Dateien der Quellen, welche schließlich zur eigentlichen Auswertung benutzt wurden, sind unter [Rohdaten](/Rohdaten) abgelegt.
-- Bei Fragen und Anmerkungen zur Arbeit können Sie unter [Discussions](./discussions) hinterlassen oder [mich](https://github.com/krugbuild) direkt kontaktieren. 
+- Bei Fragen und Anmerkungen zur Arbeit können Sie unter [Discussions](https://github.com/krugbuild/fluechtig-anonym-digital/discussions/1) hinterlassen oder [mich](https://github.com/krugbuild) direkt kontaktieren. 
 
 ---
 
