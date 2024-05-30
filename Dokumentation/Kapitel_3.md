@@ -114,6 +114,8 @@ Diese Analyse dient als Referenz und soll das Verhältnis von *en⁰* und *zh⁰
 
 `Illustration 1: Fall 1a. Schnittstellenvergleich von en⁰ und zh⁰.`
 
+* [Zur interaktiven Netzwerkanimation - Fall 1a.](networkmap_1a.html)
+
 Rot markiert und rechts im Bild ist der Knotenpunkt der chinesischen Sprache. [^139] Er ist praktisch deckungsgleich mit dem Knotenpunkt *zh⁰*. Eng um diese Knoten gruppiert sind die Autor\*innen des Artikels. Auf der linken Seite zeigt sich bei *en⁰* und dem englischen Knotenpunkt ein identisches Bild. In der Bildmitte ist eine verhältnismäßig kleine Gruppe an Usern erkennbar, die sowohl an *en⁰* als auch an *zh⁰* beteiligt waren. In dieser Gruppe finden sich unter anderem auch der zu erwartende, global agierende *InternetArchiveBot* wieder. Diese erste Auswertung zeigt, dass unter Einbezug der gesamten Existenz und aller Autor\*innen nur eine Minderheit sowohl am englischen wie auch chinesischen Artikel beteiligt war.
 
 Diese Darstellung umfasst jedoch nur die Sprachversionen der beiden untersuchten Artikel und suggeriert daher eine Homogenität unter den Bearbeitern des englischen beziehungsweise chinesischen Artikels. Dies kann durch die Auswertung der sonstigen Benutzerbeiträge der beteiligten Autor\*innen in weiteren Sprachversionen relativiert werden. [^140] Zur Begrenzung der Menge der auszuwertenden Daten werden je User und Sprachversion maximal zehn Artikel­einträge abgerufen. Der somit erzeugte Datensatz beinhaltet somit eine solide Stichprobe der Sprachfertigkeiten der beteiligten Autor\*innen auf Grundlage ihrer Aktivität in der Wikipedia. Die Begrenzung der Benutzerbeiträge beschränkt diese Auswertung jedoch auf die Analyse der generellen Sprachfertigkeiten der beteiligten User. Rückschlüsse auf individuelle sprachliche Schwerpunkte sind damit nicht möglich. Bei der Betrachtung einzelner User oder kleiner Usergruppen könnten wesentlich mehr Benutzerbeiträge je Benutzer und Sprachversion analysiert und somit eine Unterscheidung zwischen präferierten und nur selten verwendeten Sprachkenntnissen getroffen werden. Trotz dieser Beschränkung umfasst dieser erweiterte Datensatz 2146 Artikel in verschiedenen Sprachversionen, die zum Großteil nur eine einzelne Relation zu einem einzelnen User aufweisen und somit die Lesbarkeit des Netzwerkes beeinträchtigen, ohne einen inhaltlichen Mehrwert beizusteuern. Durch das Ausblenden aller Artikel mit weniger als zehn Relationen wird die Anzahl der anzuzeigenden Artikel auf 43 reduziert und somit die Lesbarkeit verbessert. Diese Artikel repräsentieren weiterhin Schnittstellen zwischen mehreren Benutzern der untersuchten Gruppe.
@@ -121,6 +123,8 @@ Diese Darstellung umfasst jedoch nur die Sprachversionen der beiden untersuchten
 ![Ill2](Ill2_Fall1b.png)
 
 `Illustration 2: Fall 1b. Sprachverteilung zwischen en⁰ und zh⁰.`
+
+* [Zur interaktiven Netzwerkanimation - Fall 1b.](networkmap_1b.html)
 
 Zwar ist die grundlegende Struktur des Falls 1a auch hier noch erkennbar, jedoch ist die scharfe Trennung der drei Autor\*innengruppen einem viel komplexeren Übergang gewichen. Der verwendete Barnes-Hut-Algorithmus weist den Relationen eine gewisse Anziehungskraft zwischen den verbundenen Knotenpunkten zu, welche durch die Häufigkeit der Relation gewichtet wird. Knotenpunkte, die durch viele Relationen verbunden werden, sind dementsprechend nah beieinander positioniert. Daraus ergeben sich Gruppierung von zusammengehörigen Autor\*innen, Artikeln und Sprachversionen. Bei der Gegenüberstellung von *en⁰* und *zh⁰* zeigt sich, dass insbesondere der englische Artikel auch von Autor\*innen verfasst wurde, die in mehr als einer Sprache an der Wikipedia mitschreiben. Am Netzwerk ist das durch die relative Nähe der Knotenpunkte *de*, *fr*, *es* und *it* zu *en* zu erkennen. In dieser Verteilung der Sprachen unter den Autor\*innen der beiden Artikel spiegelt sich weiterhin auch die geografische Herkunft der Sprachversionen wider. So erstaunt es kaum, dass sich bei der Autor\*innengruppe des englischen Artikels vermehrt deutsche, französische, spanische und italienische Einflüsse finden, während den Bearbeitern des chinesischen Artikels insbesondere auch japanische Einflüsse zugerechnet werden können. Der größere Abstand des chinesischen Knotenpunkts zu allen anderen Sprachversionen deutet zudem auf eine geringer ausgeprägte Mehrsprachigkeit unter den Autor\*innen hin. [^141] Der russische Sprachknoten steht weiterhin mit einigem Abstand zwischen den beiden Polen des Netzwerkes.
 
@@ -134,6 +138,8 @@ Die Historie der chinesischen Wikipedia lässt eine Zäsur auch in der Autor\*in
 
 `Illustration 3: Fall 2a. Schnittstellenvergleich von zh¹ und zh². (01.03.2011 – 31.10.2014 und 01.05.2015 - 31.08.2020)`
 
+* [Zur interaktiven Netzwerkanimation - Fall 2a.](networkmap_2a.html)
+
 Das sich ergebende Muster weist starke Ähnlichkeiten zur *Illustration 1* auf. Der Unterschied der Benutzergruppen der Post-Blockade-Wikipedia und der Prä-Blockade-Wikipedia gleicht somit dem Unterschied zwischen dem vollständigen englischen und dem vollständigen chinesischen Artikel. Diese weitgehende Trennung der Autor\*innengruppen stützt vorangegangene Befunde der Sperrung.
 
 Um die Benutzerbeiträge und somit deren Sprachzuordnung auch im Kontext des definierten zeitlichen Rahmens auswerten zu können, musste die Datenabfrage mit einem *offset* versehen werden. [^143] So wurde sichergestellt, dass die erhobenen Daten das Bearbeitungsverhalten der User innerhalb des untersuchten Zeitabschnittes widerspiegeln. Anschließend wurden auf dieser Datenbasis die selben Zwischenschritte wie im Fall 2a durchgeführt und schließlich die Sprachverteilung der Datensätze analog zu Fall 1b ermittelt.
@@ -142,11 +148,15 @@ Um die Benutzerbeiträge und somit deren Sprachzuordnung auch im Kontext des def
 
 `Illustration 4: Fall 2b. Sprachverteilung zwischen zh¹ und zh². (01.03.2011 – 31.10.2014 und 01.05.2015 – 31.08.2020)`
 
+* [Zur interaktiven Netzwerkanimation - Fall 2b.](networkmap_2b.html)
+
 Im Gegensatz zu Illustration 2 lassen sich bei diesem Netzwerk keine eindeutigen Pole mehr erkennen. Trotz der zuvor ermittelten Trennung der Autor\*innengruppen von *zh¹* und *zh²* zeigt sich unter Einbezug der Sprachversionen ein intensiver Einfluss mehrsprachig agierender User bei beiden Datensätzen. Überraschend ist jedoch, dass *zh¹* im direkten Vergleich zu *zh²* eine ausgeprägte relative Nähe zum Cluster der nicht-chinesischen Sprachversionen aufweist. Dadurch ist zu schließen, dass die chinesische Sprachversion des Artikels vor der Sperrung einen größeren internationalen Einfluss hatte, als danach. Die steht zunächst im direkten Kontrast zur angenommenen Dominanz der chinesischen Akteure im Zuge der Informationskontrolle der KPC. Zur weiteren Analyse werden die beiden Vergleichsdatensätze jeweils geteilt und die Teilmengen untereinander auf Übereinstimmung untersucht. Zur Prüfung von *zh¹* entstehen somit zwei jeweils 22 Monate umfassende Datensätze. Dabei beschreibt *zh¹a* den Zeitraum vom 01. März 2011 bis zum 31. Dezember 2012 und *zh¹b* den Zeitraum vom 01. Januar 2013 bis zum 31. Oktober 2014.
 
 ![Ill5](Ill5_Fall2c.png)
 
 `Illustration 5: Fall 2c. Sprachverteilung zwischen zh¹a und zh¹b. (01.03.2011 – 31.12.2012 und 01.01.2013 – 31.10.2014)`
+
+* [Zur interaktiven Netzwerkanimation - Fall 2c.](networkmap_2c.html)
 
 Die Positionierung der Artikelknoten zeigt hier, dass *zh¹b* einem deutlichen Einfluss des Clusters der nicht-chinesischen Sprachen unterliegt, während *zh¹a* klar von einer Gruppe aus nur einer Sprache zugeordneten Usern bestimmt wird. Der bereits in Illustration 4 identifizierte intensive internationale Einfluss ist somit ein Phänomen, dass der zweiten Hälfte des Zeitraums *zh¹* zuzuordnen ist. Die exakte Gestalt dieses Einflusses lässt sich aus diesem Datensatz jedoch nicht ablesen. Vorstellbar sind jedoch zwei Szenarien: Eine Ausweitung des Aktionsraumes des chinesischen Akteure oder eine verstärkte Aktivität nicht-chinesischer Akteure im untersuchten Artikel. In Anbetracht des eingeschränkten Zugangs zu internationalen Webangeboten erscheint der zweite Erklärungsansatz jedoch wahrscheinlicher. Zur Bewertung dieses Phänomens müsste der Fokus der Untersuchung angepasst und das Wirken einzelner Akteure genauer untersucht werden. Diese Analyse wird im [Fall 3: Kleingruppenanalyse zh¹b](Kapitel_3.md#Kapitel343) fortgeführt.
 
@@ -164,11 +174,15 @@ Im Gegensatz zu *zh¹* zeigt sich hier eine Parallelität der beiden Teilmengen.
 
 `Illustration 7: Fall 3a. Detailansicht der Sprachverteilung von zh¹b. (01.01.2013 – 31.10.2014)`
 
+* [Zur interaktiven Netzwerkanimation - Fall 3a.](networkmap_3a.html)
+
 In der Detailansicht des Datensatzes *zh¹b* kann die Gruppe der im besonderen Maße international agierenden Benutzer gut bestimmt und die zugehörigen Benutzernamen ermittelt werden. [^144] Auf dieser Grundlage können die zugehörigen Benutzerbeiträge abgerufen werden. Um eine möglichst belastbare Datenbasis pro User zu erzielen, werden pro Sprache und Benutzer bis zu 500 Einträge erhoben und anschließend der Datensatz auf den durch *zh¹b* definierten Zeitraum eingegrenzt. [^145] Bots wurden von der Auswahl ausgeschlossen, da dieser Fall die weitere Themenauswahl der Autor\*innen behandelt.
 
 ![Ill8](Ill8_Fall3b.png)
 
 `Illustration 8: Fall 3b. Detailansicht der international agierenden Autor\*innengruppe in zh¹b. (01.01.2013 – 31.10.2014)`
+
+* [Zur interaktiven Netzwerkanimation - Fall 3b.](networkmap_3b.html)
 
 Wie erwartet, zeichnet sich die Usergruppe durch eine ausgeprägte Vielsprachigkeit aus, jedoch zeigen sich starke Präferenzen für die englische und chinesische Sprachversion. Der Grenzwert für zu inkludierende Artikel wurde in Anbetracht der geringen Datensatzgröße auf drei Relationen gesetzt. Damit wurden 38 Artikel ermittelt, von denen 16 auffällige Themengebiete betreffen, die in der untenstehenden Tabelle aufgeführt sind. Die sonstigen Artikel sind vorrangig den Wartungs- und Benutzerseiten zuzurechnen.
 
@@ -199,11 +213,15 @@ Diese Zusammensetzung der Artikel ist bemerkenswert, da insbesondere politisch r
 
 `Illustration 9: Fall 4a. Schnittmengenvergleich von en¹, en² und en³ mit zh¹ und zh². (en: 21.05.2009 – 18.06.2009, 21.05.2019 – 18.06.2019 und 21.05.2020 – 18.06.2020 sowie zh: 01.03.2011 – 31.10.2014 und 01.05.2015 – 31.08.2020)`
 
+* [Zur interaktiven Netzwerkanimation - Fall 4a.](networkmap_4a.html)
+
 Die Datensätze *zh¹* und *zh²* bezeichnen wieder die Autor\*innengruppen des chinesischen Artikels zu den Tiananmenplatz-Protesten jeweils vor und nach der Sperrung der chinesischen Wikipedia. Dem gegenübergestellt sind *en¹*, *en²* und *en³*, die jeweils einen Zeitraum von vier Wochen um die Jahrestage der Proteste in den Jahren 2009, 2019 sowie 2020 repräsentieren. Der Vergleich der einzelnen Autor\*innengruppen zeigt, dass praktisch keine Schnittmengen zwischen den ermittelten Datensätzen existieren. Eine Beteiligung der Autor\*innen des chinesischen Artikels ist somit zumindest auf der Ebene der Accounts auszuschließen.
 
 ![Ill10](Ill10_Fall4b.png)
 
 `Illustration 10: Fall 4b. Sprachverteilung zwischen en¹, en² und en³. (21.05.2009 – 18.06.2009, 21.05.2019 – 18.06.2019 und 21.05.2020 – 18.06.2020)`
+
+* [Zur interaktiven Netzwerkanimation - Fall 4b.](networkmap_4b.html)
 
 Die Visualisierung der Sprachverteilung zeigt das Englische klar als zentralen Sprachknoten unter geringerer Beteiligung der deutschen und italienischen Knotenpunkte. Die restlichen Sprachen sind jeweils mit einer bis drei Relationen vertreten, darunter auch das Chinesische. Von den drei Usern mit chinesischen Relationen war *CentreLeftRight* an *en³* und *Wwbread* und die IP *202.40.139.164* an *en¹* beteiligt. Die Änderungen der benannten User beschränkten sich auf Details und sprachliche Korrekturen, wohingegen der anonyme User eine unbelegte und dementsprechend zuvor gekennzeichnete Behauptung zur Höhe der Opfer entfernte. [^147] Weder mittels der Schnittmengenanalyse, noch der Auswertung der Sprachverteilung konnten somit Auffälligkeiten innerhalb der Autor\*innengruppen zum Zeitpunkt der Jahrestage der Tiananmenplatz-Proteste identifiziert werden.
 

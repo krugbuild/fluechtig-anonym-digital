@@ -26,3 +26,15 @@
 | [Ill 8 Fall 3b. Detailansicht der international agierenden Autorengruppe in zh1 b](Ill8_Fall3b.png) | [Kapitel 3.4.3](Kapitel_3.md#Kapitel343) |
 | [Ill 9 Fall 4a. Schnittmengenvergleich von en1, en2 und en3 mit zh1 und zh2](Ill9_Fall4a.png) | [Kapitel 3.4.4](Kapitel_3.md#Kapitel344) |
 | [Ill 10 Fall 4b. Sprachverteilung zwischen en1, en2 und en3](Ill10_Fall4b.png) | [Kapitel 3.4.4](Kapitel_3.md#Kapitel344) |
+
+| Symlinks zu Rohdaten-Animationen | Verwendung im Text |
+| - | - |
+| [networkmap_1a.html](networkmap_1a.html) | [Kapitel 3.4.1](Kapitel_3.md#Kapitel341) |
+| [networkmap_1b.html](networkmap_1b.html) | [Kapitel 3.4.1](Kapitel_3.md#Kapitel341) |
+| [networkmap_2a.html](networkmap_2a.html) | [Kapitel 3.4.2](Kapitel_3.md#Kapitel342) |
+| [networkmap_2b.html](networkmap_2b.html) | [Kapitel 3.4.2](Kapitel_3.md#Kapitel342) |
+| [networkmap_2c.html](networkmap_2c.html) | [Kapitel 3.4.2](Kapitel_3.md#Kapitel342) |
+| [networkmap_3a.html](networkmap_3a.html) | [Kapitel 3.4.3](Kapitel_3.md#Kapitel343) |
+| [networkmap_3b.html](networkmap_3b.html) | [Kapitel 3.4.3](Kapitel_3.md#Kapitel343) |
+| [networkmap_4a.html](networkmap_4a.html) | [Kapitel 3.4.4](Kapitel_3.md#Kapitel344) |
+| [networkmap_4b.html](networkmap_4b.html) | [Kapitel 3.4.4](Kapitel_3.md#Kapitel344) |

@@ -2,7 +2,7 @@
 
 **Titel:** Flüchtig, Anonym & Digital: _Versuch einer genuin digitalen Quellenkritik am Beispiel von Akteursanalysen in der Wikipedia_<br/>
 **Autorin:** Alexandra Krug<br/>
-**Stand:** 29.05.2024
+**Stand:** 30.05.2024
 
 Zur [**Leseansicht der Arbeit**](https://krugbuild.github.io/fluechtig-anonym-digital/) auf Github Pages.
 
@@ -14,7 +14,7 @@ Dieses Repositorium beinhaltet meine Masterarbeit, die hier im Sinne der Verknü
 
 Zitationsvorschlag:
 
-> Krug, Alexandra: Flüchtig, Anonym & Digital. Versuch einer genuin digitalen Quellenkritik am Beispiel von Akteursanalysen in der Wikipedia, https://github.com/krugbuild/fluechtig-anonym-digital, 20.09.2021.
+> Krug, Alexandra: Flüchtig, Anonym & Digital. Versuch einer genuin digitalen Quellenkritik am Beispiel von Akteursanalysen in der Wikipedia, https://krugbuild.github.io/fluechtig-anonym-digital, 30.05.2024.
 
 <!-- , [doi:10.5281/zenodo.3711513](https://doi.org/10.5281/zenodo.3711513).-->
 
@@ -26,7 +26,11 @@ Zitationsvorschlag:
 - Der Unterordner [Quellcode](/Quellcode) beinhaltet die notwendigen Python-Dateien sowie die verwendeten XSLT-Schemata, um die Ergebnisse reproduzieren zu können.
 - Unter [Quellenabbild](/Quellenabbild/) befinden sich die unveränderten Kopien der untersuchten Quelldokumente.
 - Die aufgearbeiteten Dateien der Quellen, welche schließlich zur eigentlichen Auswertung benutzt wurden, sind unter [Rohdaten](/Rohdaten) abgelegt.
-- Bei Fragen und Anmerkungen zur Arbeit können Sie unter [Discussions](./discussions) hinterlassen oder mich direkt kontaktieren. 
+- Bei Fragen und Anmerkungen zur Arbeit können Sie unter [Discussions](./discussions) hinterlassen oder [mich](https://github.com/krugbuild) direkt kontaktieren. 
+
+---
+
+Die Lesenasicht wurde mit [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) erzeugt und über [GitHub Pages](https://pages.github.com/) publiziert.
 
 ---
 
