@@ -11,7 +11,7 @@ Alexandra Krug<br/>
 
 Zitationsvorschlag:
 
-> Krug, Alexandra: Flüchtig, Anonym & Digital. Versuch einer genuin digitalen Quellenkritik am Beispiel von Akteursanalysen in der Wikipedia, https://krugbuild.github.io/fluechtig-anonym-digital, 30.05.2024.
+> Krug, Alexandra: Flüchtig, Anonym & Digital. Versuch einer genuin digitalen Quellenkritik am Beispiel von Akteursanalysen in der Wikipedia, https://krugbuild.github.io/fluechtig-anonym-digital, 30.05.2024, [doi:10.5281/zenodo.11394422](https://zenodo.org/doi/10.5281/zenodo.11394422).
 
 <!-- , [doi:10.5281/zenodo.3711513](https://doi.org/10.5281/zenodo.3711513).-->
 
