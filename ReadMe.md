@@ -4,9 +4,9 @@
 **Autorin:** Alexandra Krug<br/>
 **Stand:** 30.05.2024
 
-Zur [**Leseansicht der Arbeit**](https://krugbuild.github.io/fluechtig-anonym-digital/) auf Github Pages.
+[![DOI](https://zenodo.org/badge/254326205.svg)](https://zenodo.org/doi/10.5281/zenodo.11394422)
 
-<!-- [![DOI](https://zenodo.org/badge/233598495.svg)](https://zenodo.org/badge/latestdoi/233598495) -->
+Zur [**Leseansicht der Arbeit**](https://krugbuild.github.io/fluechtig-anonym-digital/) auf Github Pages.
 
 Dieses Repositorium beinhaltet meine Masterarbeit, die hier im Sinne der Verknüpfung von multimedialen Inhalten, Forschungsdaten und der schriftlichen Ausarbeitung überarbeitet wurde. Die Abschlussarbeit wurde im Masterstudiengang Geschichtswissenschaften mit Schwerpunkt Digital History an der Humboldt-Universität zu Berlin geschrieben. Die Betreuung übernahmen Prof. Rüdiger Hohls und Prof. Thorsten Hiltmann.
 
@@ -14,9 +14,7 @@ Dieses Repositorium beinhaltet meine Masterarbeit, die hier im Sinne der Verknü
 
 Zitationsvorschlag:
 
-> Krug, Alexandra: Flüchtig, Anonym & Digital. Versuch einer genuin digitalen Quellenkritik am Beispiel von Akteursanalysen in der Wikipedia, https://krugbuild.github.io/fluechtig-anonym-digital, 30.05.2024.
-
-<!-- , [doi:10.5281/zenodo.3711513](https://doi.org/10.5281/zenodo.3711513).-->
+> Krug, Alexandra: Flüchtig, Anonym & Digital. Versuch einer genuin digitalen Quellenkritik am Beispiel von Akteursanalysen in der Wikipedia, https://krugbuild.github.io/fluechtig-anonym-digital, 30.05.2024, [doi:10.5281/zenodo.11394422](https://zenodo.org/doi/10.5281/zenodo.11394422).
 
 ---
 
